@@ -32,7 +32,7 @@ author1:
     email:           <abc@abc.sk>
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
-    # google:          <number>
+    google:          https://hockey.fantasysports.yahoo.com/hockey/
     # vk:              <username>
     # youtube:         <string_string_string>
     # vimeo:           <username>
@@ -78,7 +78,7 @@ author1:
     # xbox:            <gamer-tag>
     # wechat:          https://<url>
     # discord:         <invite-code>
-    mastodon:        https://hockey.fantasysports.yahoo.com/hockey/
+    # mastodon:        https://hockey.fantasysports.yahoo.com/hockey/
     # x:               <username>
 
 # Another author (optional)
