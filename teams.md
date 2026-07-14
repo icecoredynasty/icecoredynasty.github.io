@@ -8,4 +8,4 @@ permalink: /rules/
 
 League rules will be published here.
 
-Coming soon...
+Coming soon...122
