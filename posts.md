@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: News
+title: news
 description: ""
 cover: false
 ---
