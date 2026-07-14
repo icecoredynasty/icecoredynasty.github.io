@@ -428,3 +428,9 @@ jekyll_compose:
       links:
         - title: Project Link
           url: https://example.com
+          
+          sass:
+  style: compressed
+
+include:
+  - assets/css/custom.scss
