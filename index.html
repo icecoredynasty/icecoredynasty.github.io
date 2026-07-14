@@ -4,36 +4,46 @@ title: IceCore Dynasty
 permalink: /
 ---
 
-# IceCore Dynasty
+<div class="hero">
 
-## Yahoo Fantasy Hockey Dynasty League
+    <img src="/assets/img/blog/gm.jpg" alt="IceCore Dynasty GM">
 
-Welcome to **IceCore Dynasty**, a long-term Yahoo Fantasy Hockey Dynasty League focused on strategy, salary cap management and franchise building.
+    <h1>IceCore Dynasty</h1>
 
-Build your franchise. Draft the future. Create your legacy.
+    <p class="subtitle">
+        Yahoo Fantasy Hockey Dynasty League
+    </p>
 
-<a class="btn btn-primary" href="/about/">Join Us</a>
-<a class="btn" href="/rules/">League Rules</a>
+    <p class="intro">
+        A competitive dynasty league built for General Managers who enjoy long-term strategy,
+        salary cap management, prospect development and franchise building.
+    </p>
 
----
+</div>
 
-## Latest News
+<hr>
+
+<h2>League News</h2>
+
+<div class="news-grid">
 
 {% assign posts = site.posts | slice: 0,4 %}
 
-<div class="post-grid">
-
 {% for post in posts %}
 
-<div class="post-card">
+<div class="news-card">
+
+<a href="{{ post.url }}">
 
 {% if post.image %}
 <img src="{{ post.image.path }}" alt="{{ post.title }}">
 {% endif %}
 
-### [{{ post.title }}]({{ post.url }})
+<h3>{{ post.title }}</h3>
 
-{{ post.excerpt | strip_html | truncate:120 }}
+<p>{{ post.excerpt | strip_html | truncate:110 }}</p>
+
+</a>
 
 </div>
 
@@ -41,13 +51,42 @@ Build your franchise. Draft the future. Create your legacy.
 
 </div>
 
----
+<hr>
 
-## Upcoming Events
+<h2>Upcoming Events</h2>
 
-| Date | Event |
-|------|------|
-|20 Aug|GM Applications Open|
-|31 Aug|Keeper Deadline|
-|5 Sep|Offline Free Agency|
-|12 Sep|Live Draft|
+<div class="events">
+
+<div class="event">
+<div class="date">20 Aug</div>
+<div>
+<strong>GM Applications Open</strong><br>
+20:00 CET
+</div>
+</div>
+
+<div class="event">
+<div class="date">31 Aug</div>
+<div>
+<strong>Keeper Deadline</strong><br>
+23:59 CET
+</div>
+</div>
+
+<div class="event">
+<div class="date">5 Sep</div>
+<div>
+<strong>Offline Free Agency</strong><br>
+19:00 CET
+</div>
+</div>
+
+<div class="event">
+<div class="date">12 Sep</div>
+<div>
+<strong>Live Draft</strong><br>
+20:00 CET
+</div>
+</div>
+
+</div>
