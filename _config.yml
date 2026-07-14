@@ -25,8 +25,8 @@ title:                 IceCore Dynasty
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  IceCore Dynasty is a competitive Yahoo Fantasy Hockey Dynasty League
+  focused on long-term team building, strategy and community.
 
 # A shorter description for the sidebar.
 tagline:               Yahoo Fantasy Hockey Dynasty League
@@ -49,22 +49,32 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             News
-    url:               /example/
-  - title:             Rules
-    url:               /docs/
-  - title:             Teams
-    url:               /about/
+  - title: News
+    url: /blog/
+
+  - title: Rules
+    url: /rules/
+
+  - title: Teams
+    url: /teams/
+
+  - title: Hall of Fame
+    url: /hall-of-fame/
+
+  - title: About
+    url: /about/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 legal:
-  - title:             LICENSE
-    url:               /LICENSE/
-  - title:             NOTICE
-    url:               /NOTICE/
-  - title:             CHANGELOG
-    url:               /CHANGELOG/
+  - title: Yahoo League
+    url: https://hockey.fantasysports.yahoo.com/
+
+  - title: Email
+    url: mailto:commissioner@icecoredynasty.com
+
+  - title: Reddit
+    url: https://reddit.com/r/YahooFantasy
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             © 2024. All rights reserved.
