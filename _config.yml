@@ -49,11 +49,15 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             ABCABC
+  - title:             News
     url:               /example/
-  - title:             Documentation
+  - title:             Rules
     url:               /docs/
-  - title:             About
+  - title:             Teams
+    url:               /about/
+  - title:             Hall Of Fame
+    url:               /about/
+    - title:           About
     url:               /about/
 
 # Add links to the footer.
