@@ -1,11 +1,53 @@
 ---
-layout: home
+layout: page
 title: IceCore Dynasty
-description: >
-  Official website of the IceCore Dynasty Yahoo Fantasy Hockey League.
-last_modified_at: 2018-08-03
-no_link_title: false 
-no_excerpt: false 
-hide_image: false
-cover: false
+permalink: /
 ---
+
+# IceCore Dynasty
+
+## Yahoo Fantasy Hockey Dynasty League
+
+Welcome to **IceCore Dynasty**, a long-term Yahoo Fantasy Hockey Dynasty League focused on strategy, salary cap management and franchise building.
+
+Build your franchise. Draft the future. Create your legacy.
+
+<a class="btn btn-primary" href="/about/">Join Us</a>
+<a class="btn" href="/rules/">League Rules</a>
+
+---
+
+## Latest News
+
+{% assign posts = site.posts | slice: 0,4 %}
+
+<div class="post-grid">
+
+{% for post in posts %}
+
+<div class="post-card">
+
+{% if post.image %}
+<img src="{{ post.image.path }}" alt="{{ post.title }}">
+{% endif %}
+
+### [{{ post.title }}]({{ post.url }})
+
+{{ post.excerpt | strip_html | truncate:120 }}
+
+</div>
+
+{% endfor %}
+
+</div>
+
+---
+
+## Upcoming Events
+
+| Date | Event |
+|------|------|
+|20 Aug|GM Applications Open|
+|31 Aug|Keeper Deadline|
+|5 Sep|Offline Free Agency|
+|12 Sep|Live Draft|
