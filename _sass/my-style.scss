@@ -282,3 +282,19 @@ text-align:left !important;
 .page__divider{
     display:none !important;
 }
+/* Footer */
+
+.custom-footer{
+    margin-top:2rem !important;
+    margin-bottom:.5rem !important;
+    padding-bottom:.5rem !important;
+    text-align:center;
+}
+
+.custom-footer hr{
+    margin-bottom:1rem;
+}
+
+.custom-footer p{
+    margin:.4rem 0;
+}
