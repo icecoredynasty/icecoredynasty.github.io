@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Rules
-permalink: /rules/
+title: Teams
+permalink: /teams/
 ---
 
 # League Rules
