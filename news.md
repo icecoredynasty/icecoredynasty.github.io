@@ -1,6 +1,7 @@
 ---
 layout: blog
-title: news
+title: News
+permalink: /news/
 description: ""
 cover: false
 ---
