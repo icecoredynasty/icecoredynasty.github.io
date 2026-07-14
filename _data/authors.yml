@@ -29,7 +29,7 @@ author1:
   social:
     # twitter:         <username>
     # github:          <username>
-    email:           <mail@domain.tld>
+    email:           <abc@abc.sk>
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
@@ -42,14 +42,14 @@ author1:
     # lastfm:          <username>
     # instagram:       <username>
     # flickr:          <string@string>
-    500px:           <username>
+    # 500px:           <username>
     # dribbble:        <username>
     # behance:         <username>
     # deviantart:      <username>
     # ello:            <username>
     # twitch:          <username>
     # steam:           <number>
-    reddit:          <username>
+    reddit:          https://www.reddit.com/
     # tumblr:          <username>
     # pinterest:       <username>
     # foursquare:      <number>
@@ -78,7 +78,7 @@ author1:
     # xbox:            <gamer-tag>
     # wechat:          https://<url>
     # discord:         <invite-code>
-    # mastodon:        https://<url>
+    mastodon:        https://hockey.fantasysports.yahoo.com/hockey/
     # x:               <username>
 
 # Another author (optional)
