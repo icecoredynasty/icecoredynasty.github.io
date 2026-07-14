@@ -1,0 +1,92 @@
+---
+layout: page
+title: Build Your Franchise.
+permalink: /
+---
+
+<div class="hero">
+
+    <img src="/assets/img/blog/gm.jpg" alt="IceCore Dynasty GM">
+
+    <h1></h1>
+
+    <p class="subtitle">
+        Yahoo Fantasy Hockey Dynasty League
+    </p>
+
+    <p class="intro">
+        A competitive dynasty league built for General Managers who enjoy long-term strategy,
+        salary cap management, prospect development and franchise building.
+    </p>
+
+</div>
+
+<hr>
+
+<h2>League News</h2>
+
+<div class="news-grid">
+
+{% assign posts = site.posts | slice: 0,4 %}
+
+{% for post in posts %}
+
+<div class="news-card">
+
+<a href="{{ post.url }}">
+
+{% if post.image %}
+<img src="{{ post.image.path }}" alt="{{ post.title }}">
+{% endif %}
+
+<h3>{{ post.title }}</h3>
+
+<p>{{ post.excerpt | strip_html | truncate:110 }}</p>
+
+</a>
+
+</div>
+
+{% endfor %}
+
+</div>
+
+<hr>
+
+<h2>Upcoming Events</h2>
+
+<div class="events">
+
+<div class="event">
+<div class="date">20 Aug</div>
+<div>
+<strong>GM Applications Open</strong><br>
+20:00 CET
+</div>
+</div>
+
+<div class="event">
+<div class="date">31 Aug</div>
+<div>
+<strong>Keeper Deadline</strong><br>
+23:59 CET
+</div>
+</div>
+
+<div class="event">
+<div class="date">5 Sep</div>
+<div>
+<strong>Offline Free Agency</strong><br>
+19:00 CET
+</div>
+</div>
+
+<div class="event">
+<div class="date">12 Sep</div>
+<div>
+<strong>Live Draft</strong><br>
+20:00 CET
+</div>
+</div>
+
+</div>
