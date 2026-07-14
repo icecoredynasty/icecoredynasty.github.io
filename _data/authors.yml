@@ -27,9 +27,9 @@ author1:
   # Rearrange to change the order in which they appear
   # You can also provide an absolute URL (starting with https://) instead of usernames
   social:
-    twitter:         <username>
-    github:          <username>
-    # email:           <mail@domain.tld>
+    # twitter:         <username>
+    # github:          <username>
+    email:           <mail@domain.tld>
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
@@ -42,14 +42,14 @@ author1:
     # lastfm:          <username>
     # instagram:       <username>
     # flickr:          <string@string>
-    # 500px:           <username>
+    500px:           <username>
     # dribbble:        <username>
     # behance:         <username>
     # deviantart:      <username>
     # ello:            <username>
     # twitch:          <username>
     # steam:           <number>
-    # reddit:          <username>
+    reddit:          <username>
     # tumblr:          <username>
     # pinterest:       <username>
     # foursquare:      <number>
