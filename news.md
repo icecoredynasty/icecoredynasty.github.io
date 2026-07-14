@@ -4,7 +4,7 @@ title: ""
 hide_title: true
 permalink: /news/
 ---
-<div class="hero">
+<section class="homepage-intro">
 
 <h1>League News</h1>
 
