@@ -229,3 +229,20 @@ text-align:left !important;
 }
 
 }
+/* Homepage alignment */
+
+.page__content{
+    text-align:left !important;
+}
+
+.page__content .hero{
+    text-align:left !important;
+}
+
+.page__content .hero *{
+    text-align:left !important;
+}
+
+.hero img{
+    margin:1rem 0 !important;
+}
