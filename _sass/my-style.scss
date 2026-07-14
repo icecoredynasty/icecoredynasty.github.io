@@ -246,3 +246,35 @@ text-align:left !important;
 .hero img{
     margin:1rem 0 !important;
 }
+/* Homepage spacing */
+
+.page__content{
+    padding-top:0 !important;
+}
+
+.hero{
+    margin-top:0 !important;
+    margin-bottom:1rem !important;
+}
+
+.hero + h2{
+    margin-top:1rem !important;
+}
+
+.page__content h2{
+    margin-top:1rem !important;
+    margin-bottom:.6rem !important;
+}
+
+.news-grid{
+    margin-top:1rem !important;
+    margin-bottom:1.5rem !important;
+}
+
+.events{
+    margin-top:.5rem !important;
+}
+
+.event{
+    padding:10px 0 !important;
+}
