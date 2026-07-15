@@ -49,8 +49,8 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title: News
-    url: /news/
+  - title: Magazine
+    url: /magazine/
 
   - title: Rules
     url: /rules/
