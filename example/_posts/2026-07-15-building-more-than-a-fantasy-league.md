@@ -3,6 +3,8 @@ layout: post
 title: Building More Than a Fantasy League
 date: 2026-07-15
 
+author: Commissioner
+
 categories:
   - magazine
   - league-news
