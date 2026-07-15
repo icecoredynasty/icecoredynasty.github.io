@@ -3,7 +3,7 @@ layout: post
 title: Why We Chose Yahoo Fantasy
 author: author1
 
-date: 2026-07-16
+date: 2026-07-15
 
 categories:
   - magazine
