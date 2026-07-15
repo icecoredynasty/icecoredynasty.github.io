@@ -109,13 +109,12 @@ IceCore rewards both.
 
 Welcome to the next generation of fantasy franchise building.
 
-<blockquote>
-
-<strong>Why Yahoo?</strong><br><br>
-
-✔ Fast and familiar interface<br>
-✔ Easy to use on desktop and mobile<br>
-✔ No unnecessary complexity<br>
-✔ More time enjoying hockey, less time configuring settings
-
-</blockquote>
+> ### Why Yahoo?
+>
+> ✔ Fast and familiar interface
+>
+> ✔ Easy to use on desktop and mobile
+>
+> ✔ No unnecessary complexity
+>
+> ✔ More time enjoying hockey, less time configuring settings
