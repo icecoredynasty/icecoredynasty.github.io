@@ -2,11 +2,11 @@
 layout: page
 title: ""
 hide_title: true
-permalink: /news/
+permalink: /magazine/
 ---
 <section class="homepage-intro">
 
-<h1>League News</h1>
+<h1>League Magazine</h1>
 
 <p class="intro">
 Official announcements, league updates, keeper deadlines, trade news,
