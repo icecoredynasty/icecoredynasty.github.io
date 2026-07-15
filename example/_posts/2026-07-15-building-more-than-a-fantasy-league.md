@@ -5,7 +5,9 @@ description: Why IceCore Dynasty was created and what makes it different from or
 date: 2026-07-15
 
 image:
-  path: /assets/img/blog/gm.jpg
+  path: /assets/img/blog/building-more-than-a-fantasy-league.jpg
+
+accent_image: /assets/img/blog/building-more-than-a-fantasy-league.jpg
 
 excerpt_separator: <!--more-->
 ---
