@@ -4,16 +4,22 @@ title: Frozen Wolves
 permalink: /teams/frozen-wolves/
 description: Frozen Wolves Franchise
 ---
+
 <div class="franchise-header">
 
-<img src="/assets/img/teams/frozen-wolves.png">
+<img src="/assets/img/teams/frozen-wolves.png" alt="Frozen Wolves">
 
 <div>
 
-<h1>Frozen Wolves</h1>
+# Frozen Wolves
 
-<p class="motto">
-Built on loyalty, teamwork and relentless pursuit of victory.
+> *Built on loyalty, teamwork and relentless pursuit of victory.*
+
+<p>
+The Frozen Wolves believe championships are never won alone. Built around trust,
+discipline and resilience, the franchise values long-term success over short-term
+glory. Every decision is made with one goal in mind: building a dynasty that can
+compete season after season.
 </p>
 
 </div>
@@ -24,41 +30,35 @@ Built on loyalty, teamwork and relentless pursuit of victory.
 
 ## General Manager
 
-Available
+**Available**
 
 ---
 
 ## Franchise Philosophy
 
-United by loyalty and teamwork, the Wolves succeed through patience,
-discipline and relentless determination.
+The Frozen Wolves embrace teamwork above individual success. Every roster move,
+trade and draft pick is part of a long-term vision built around chemistry,
+consistency and sustainable success.
 
 ---
 
-## Franchise Information
+## Franchise Roster
 
-Founded: 2026
+<div style="text-align:center; margin:30px 0;">
 
-Division: Northern
+<!-- Replace YOUR_GOOGLE_SHEET_ID with your published Google Sheet -->
 
-Salary Cap: $220
+<iframe
+src="https://docs.google.com/spreadsheets/d/e/YOUR_GOOGLE_SHEET_ID/pubhtml?widget=true&amp;headers=false"
+width="100%"
+height="650"
+style="border:none;border-radius:10px;">
+</iframe>
 
-Keeper Limit: 3+1
-
----
-
-## Championships
-
-None
-
----
-
-## Franchise Records
-
-Coming Soon
+</div>
 
 ---
 
-## Hall of Fame
+## Franchise History
 
-Coming Soon
+Coming Soon...
