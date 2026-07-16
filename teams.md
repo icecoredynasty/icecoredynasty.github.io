@@ -31,9 +31,6 @@ Built on loyalty, teamwork and relentless pursuit of victory.
 <span class="gm-name">Vacant</span>
 </div>
 
-<div class="team-link">
-View Franchise →
-</div>
 
 </div>
 
@@ -56,9 +53,6 @@ Where intelligence, creativity and bold thinking lead the way.
 <span class="gm-name">Vacant</span>
 </div>
 
-<div class="team-link">
-View Franchise →
-</div>
 
 </div>
 
@@ -81,9 +75,6 @@ Built to dominate through confidence, speed and precision.
 <span class="gm-name">Vacant</span>
 </div>
 
-<div class="team-link">
-View Franchise →
-</div>
 
 </div>
 
@@ -106,9 +97,6 @@ Where preparation, patience and wisdom create lasting success.
 <span class="gm-name">Vacant</span>
 </div>
 
-<div class="team-link">
-View Franchise →
-</div>
 
 </div>
 
@@ -131,9 +119,6 @@ Fueled by fearless determination and relentless intensity.
 <span class="gm-name">Vacant</span>
 </div>
 
-<div class="team-link">
-View Franchise →
-</div>
 
 </div>
 
@@ -156,9 +141,6 @@ A franchise that values patience, resilience and success built to endure.
 <span class="gm-name">Vacant</span>
 </div>
 
-<div class="team-link">
-View Franchise →
-</div>
 
 </div>
 
@@ -180,9 +162,6 @@ Defined by resilience, discipline and unwavering resolve.
 <span class="gm-name">Vacant</span>
 </div>
 
-<div class="team-link">
-View Franchise →
-</div>
 
 </div>
 
@@ -205,9 +184,6 @@ Precision, discipline and complete control define every decision.
 <span class="gm-name">Vacant</span>
 </div>
 
-<div class="team-link">
-View Franchise →
-</div>
 
 </div>
 
@@ -230,9 +206,6 @@ United by loyalty, courage and an unbreakable team spirit.
 <span class="gm-name">Vacant</span>
 </div>
 
-<div class="team-link">
-View Franchise →
-</div>
 
 </div>
 
@@ -255,9 +228,6 @@ A legacy built through actions, not words.
 <span class="gm-name">Vacant</span>
 </div>
 
-<div class="team-link">
-View Franchise →
-</div>
 
 </div>
 
@@ -280,9 +250,6 @@ Driven by instinct, speed and fearless attacking hockey.
 <span class="gm-name">Vacant</span>
 </div>
 
-<div class="team-link">
-View Franchise →
-</div>
 
 </div>
 
@@ -305,9 +272,6 @@ Strategy, mystery and intelligence become a competitive edge.
 <span class="gm-name">Vacant</span>
 </div>
 
-<div class="team-link">
-View Franchise →
-</div>
 
 </div>
 
@@ -330,9 +294,6 @@ Quiet confidence, inner strength and unwavering composure.
 <span class="gm-name">Vacant</span>
 </div>
 
-<div class="team-link">
-View Franchise →
-</div>
 
 </div>
 
@@ -354,9 +315,6 @@ Relentless endurance through every season and every challenge.
 <span class="gm-name">Vacant</span>
 </div>
 
-<div class="team-link">
-View Franchise →
-</div>
 
 </div>
 
@@ -379,9 +337,6 @@ Unity, trust and teamwork create unstoppable momentum.
 <span class="gm-name">Vacant</span>
 </div>
 
-<div class="team-link">
-View Franchise →
-</div>
 
 </div>
 
@@ -404,9 +359,6 @@ Built on honor, leadership and respect earned over time.
 <span class="gm-name">Vacant</span>
 </div>
 
-<div class="team-link">
-View Franchise →
-</div>
 
 </div>
 
@@ -429,9 +381,6 @@ Fueled by instinct, aggression and an uncompromising will to win.
 <span class="gm-name">Vacant</span>
 </div>
 
-<div class="team-link">
-View Franchise →
-</div>
 
 </div>
 
@@ -454,9 +403,6 @@ Freedom, vision and complete control from above.
 <span class="gm-name">Vacant</span>
 </div>
 
-<div class="team-link">
-View Franchise →
-</div>
 
 </div>
 
@@ -479,9 +425,6 @@ Forged by the wilderness and strengthened through every challenge.
 <span class="gm-name">Vacant</span>
 </div>
 
-<div class="team-link">
-View Franchise →
-</div>
 
 </div>
 
