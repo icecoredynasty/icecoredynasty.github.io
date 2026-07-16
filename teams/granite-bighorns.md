@@ -61,3 +61,4 @@ style="border:none;border-radius:12px;">
 **The story of this franchise has yet to be written.**
 
 The inaugural General Manager will shape the identity, achievements and legacy of this franchise. Every draft pick, every trade and every championship run will become part of IceCore Dynasty history.
+
