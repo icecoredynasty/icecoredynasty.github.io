@@ -1,128 +1,136 @@
----
-layout: page
-title: Teams
-permalink: /teams/
----
+<div class="team-grid">
 
-<h1>League Franchises</h1>
-
-<p>
-Meet the founding franchises of IceCore Dynasty. Click any team to view its
-General Manager, roster, keepers, salary cap, draft picks and franchise history.
-</p>
-
-<div class="team-list">
-
-<a class="team-row" href="/teams/frozen-wolves/">
+<a class="team-card" href="/teams/frozen-wolves/">
     <img src="/assets/img/teams/frozen-wolves.png" alt="Frozen Wolves">
-    <div>
-        <h3>Frozen Wolves</h3>
-        <p>General Manager: Available</p>
-    </div>
+    <h3>Frozen Wolves</h3>
+    <p>General Manager</p>
+    <span>Available</span>
 </a>
 
-<a class="team-row" href="/teams/ice-titans/">
-    <img src="/assets/img/teams/ice-titans.png" alt="Ice Titans">
-    <div>
-        <h3>Ice Titans</h3>
-        <p>General Manager: Available</p>
-    </div>
+<a class="team-card" href="/teams/aurora-foxes/">
+    <img src="/assets/img/teams/aurora-foxes.png" alt="Aurora Foxes">
+    <h3>Aurora Foxes</h3>
+    <p>General Manager</p>
+    <span>Available</span>
 </a>
 
-<a class="team-row" href="/teams/arctic-kings/">
-    <img src="/assets/img/teams/arctic-kings.png" alt="Arctic Kings">
-    <div>
-        <h3>Arctic Kings</h3>
-        <p>General Manager: Available</p>
-    </div>
+<a class="team-card" href="/teams/blizzard-eagles/">
+    <img src="/assets/img/teams/blizzard-eagles.png" alt="Blizzard Eagles">
+    <h3>Blizzard Eagles</h3>
+    <p>General Manager</p>
+    <span>Available</span>
 </a>
 
-<a class="team-row" href="/teams/polar-bears/">
-    <img src="/assets/img/teams/polar-bears.png" alt="Polar Bears">
-    <div>
-        <h3>Polar Bears</h3>
-        <p>General Manager: Available</p>
-    </div>
+<a class="team-card" href="/teams/northern-owls/">
+    <img src="/assets/img/teams/northern-owls.png" alt="Northern Owls">
+    <h3>Northern Owls</h3>
+    <p>General Manager</p>
+    <span>Available</span>
 </a>
 
-<a class="team-row" href="/teams/glacier-foxes/">
-    <img src="/assets/img/teams/glacier-foxes.png" alt="Glacier Foxes">
-    <div>
-        <h3>Glacier Foxes</h3>
-        <p>General Manager: Available</p>
-    </div>
+<a class="team-card" href="/teams/wild-wolverines/">
+    <img src="/assets/img/teams/wild-wolverines.png" alt="Wild Wolverines">
+    <h3>Wild Wolverines</h3>
+    <p>General Manager</p>
+    <span>Available</span>
 </a>
 
-<a class="team-row" href="/teams/blizzard-hawks/">
-    <img src="/assets/img/teams/blizzard-hawks.png" alt="Blizzard Hawks">
-    <div>
-        <h3>Blizzard Hawks</h3>
-        <p>General Manager: Available</p>
-    </div>
+<a class="team-card" href="/teams/ancient-mammoths/">
+    <img src="/assets/img/teams/ancient-mammoths.png" alt="Ancient Mammoths">
+    <h3>Ancient Mammoths</h3>
+    <p>General Manager</p>
+    <span>Available</span>
 </a>
 
-<a class="team-row" href="/teams/ice-guardians/">
-    <img src="/assets/img/teams/ice-guardians.png" alt="Ice Guardians">
-    <div>
-        <h3>Ice Guardians</h3>
-        <p>General Manager: Available</p>
-    </div>
+<a class="team-card" href="/teams/granite-bighorns/">
+    <img src="/assets/img/teams/granite-bighorns.png" alt="Granite Bighorns">
+    <h3>Granite Bighorns</h3>
+    <p>General Manager</p>
+    <span>Available</span>
 </a>
 
-<a class="team-row" href="/teams/white-comets/">
-    <img src="/assets/img/teams/white-comets.png" alt="White Comets">
-    <div>
-        <h3>White Comets</h3>
-        <p>General Manager: Available</p>
-    </div>
+<a class="team-card" href="/teams/shadow-falcons/">
+    <img src="/assets/img/teams/shadow-falcons.png" alt="Shadow Falcons">
+    <h3>Shadow Falcons</h3>
+    <p>General Manager</p>
+    <span>Available</span>
 </a>
 
-<a class="team-row" href="/teams/frost-giants/">
-    <img src="/assets/img/teams/frost-giants.png" alt="Frost Giants">
-    <div>
-        <h3>Frost Giants</h3>
-        <p>General Manager: Available</p>
-    </div>
+<a class="team-card" href="/teams/arctic-huskies/">
+    <img src="/assets/img/teams/arctic-huskies.png" alt="Arctic Huskies">
+    <h3>Arctic Huskies</h3>
+    <p>General Manager</p>
+    <span>Available</span>
 </a>
 
-<a class="team-row" href="/teams/northern-storm/">
-    <img src="/assets/img/teams/northern-storm.png" alt="Northern Storm">
-    <div>
-        <h3>Northern Storm</h3>
-        <p>General Manager: Available</p>
-    </div>
+<a class="team-card" href="/teams/silent-yetis/">
+    <img src="/assets/img/teams/silent-yetis.png" alt="Silent Yetis">
+    <h3>Silent Yetis</h3>
+    <p>General Manager</p>
+    <span>Available</span>
 </a>
 
-<a class="team-row" href="/teams/avalanche-falcons/">
-    <img src="/assets/img/teams/avalanche-falcons.png" alt="Avalanche Falcons">
-    <div>
-        <h3>Avalanche Falcons</h3>
-        <p>General Manager: Available</p>
-    </div>
+<a class="team-card" href="/teams/savage-barracudas/">
+    <img src="/assets/img/teams/savage-barracudas.png" alt="Savage Barracudas">
+    <h3>Savage Barracudas</h3>
+    <p>General Manager</p>
+    <span>Available</span>
 </a>
 
-<a class="team-row" href="/teams/winter-wolves/">
-    <img src="/assets/img/teams/winter-wolves.png" alt="Winter Wolves">
-    <div>
-        <h3>Winter Wolves</h3>
-        <p>General Manager: Available</p>
-    </div>
+<a class="team-card" href="/teams/phantom-ravens/">
+    <img src="/assets/img/teams/phantom-ravens.png" alt="Phantom Ravens">
+    <h3>Phantom Ravens</h3>
+    <p>General Manager</p>
+    <span>Available</span>
 </a>
 
-<a class="team-row" href="/teams/icy-phantoms/">
-    <img src="/assets/img/teams/icy-phantoms.png" alt="Icy Phantoms">
-    <div>
-        <h3>Icy Phantoms</h3>
-        <p>General Manager: Available</p>
-    </div>
+<a class="team-card" href="/teams/midnight-moose/">
+    <img src="/assets/img/teams/midnight-moose.png" alt="Midnight Moose">
+    <h3>Midnight Moose</h3>
+    <p>General Manager</p>
+    <span>Available</span>
 </a>
 
-<a class="team-row" href="/teams/crystal-orcas/">
-    <img src="/assets/img/teams/crystal-orcas.png" alt="Crystal Orcas">
-    <div>
-        <h3>Crystal Orcas</h3>
-        <p>General Manager: Available</p>
-    </div>
+<a class="team-card" href="/teams/tundra-bison/">
+    <img src="/assets/img/teams/tundra-bison.png" alt="Tundra Bison">
+    <h3>Tundra Bison</h3>
+    <p>General Manager</p>
+    <span>Available</span>
+</a>
+
+<a class="team-card" href="/teams/united-orcas/">
+    <img src="/assets/img/teams/united-orcas.png" alt="United Orcas">
+    <h3>United Orcas</h3>
+    <p>General Manager</p>
+    <span>Available</span>
+</a>
+
+<a class="team-card" href="/teams/crowned-elk/">
+    <img src="/assets/img/teams/crowned-elk.png" alt="Crowned Elk">
+    <h3>Crowned Elk</h3>
+    <p>General Manager</p>
+    <span>Available</span>
+</a>
+
+<a class="team-card" href="/teams/primal-sabertooths/">
+    <img src="/assets/img/teams/primal-sabertooths.png" alt="Primal Sabertooths">
+    <h3>Primal Sabertooths</h3>
+    <p>General Manager</p>
+    <span>Available</span>
+</a>
+
+<a class="team-card" href="/teams/sky-condors/">
+    <img src="/assets/img/teams/sky-condors.png" alt="Sky Condors">
+    <h3>Sky Condors</h3>
+    <p>General Manager</p>
+    <span>Available</span>
+</a>
+
+<a class="team-card" href="/teams/roaming-grizzlies/">
+    <img src="/assets/img/teams/roaming-grizzlies.png" alt="Roaming Grizzlies">
+    <h3>Roaming Grizzlies</h3>
+    <p>General Manager</p>
+    <span>Available</span>
 </a>
 
 </div>
