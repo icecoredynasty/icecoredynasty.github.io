@@ -1,117 +1,53 @@
 <div class="team-grid">
 
-<a class="team-card" href="/teams/frozen-wolves/">
-<img src="/assets/img/teams/frozen-wolves.png" alt="Frozen Wolves">
-<h3>Frozen Wolves</h3>
-<p>A franchise built on loyalty, teamwork and relentless pursuit of victory.</p>
-</a>
+  <a class="team-card" href="/teams/frozen-wolves/">
+      <img src="/assets/img/teams/frozen-wolves.png" alt="Frozen Wolves">
+      <h3>Frozen Wolves</h3>
+      <p>
+        A franchise built on loyalty, teamwork and relentless pursuit of victory.
+      </p>
+  </a>
 
-<a class="team-card" href="/teams/aurora-foxes/">
-<img src="/assets/img/teams/aurora-foxes.png" alt="Aurora Foxes">
-<h3>Aurora Foxes</h3>
-<p>A franchise where intelligence, creativity and bold thinking lead the way.</p>
-</a>
+  <a class="team-card" href="/teams/arctic-foxes/">
+      <img src="/assets/img/teams/arctic-foxes.png" alt="Arctic Foxes">
+      <h3>Arctic Foxes</h3>
+      <p>
+        A franchise where intelligence, creativity and bold decisions shape every season.
+      </p>
+  </a>
 
-<a class="team-card" href="/teams/blizzard-eagles/">
-<img src="/assets/img/teams/blizzard-eagles.png" alt="Blizzard Eagles">
-<h3>Blizzard Eagles</h3>
-<p>A franchise built to dominate through confidence, speed and precision.</p>
-</a>
+  <a class="team-card" href="/teams/ancient-mammoths/">
+      <img src="/assets/img/teams/ancient-mammoths.png" alt="Ancient Mammoths">
+      <h3>Ancient Mammoths</h3>
+      <p>
+        Built for managers who believe patience, consistency and long-term vision create champions.
+      </p>
+  </a>
 
-<a class="team-card" href="/teams/northern-owls/">
-<img src="/assets/img/teams/northern-owls.png" alt="Northern Owls">
-<h3>Northern Owls</h3>
-<p>A franchise where preparation, patience and wisdom create lasting success.</p>
-</a>
+  <a class="team-card" href="/teams/yeti/">
+      <img src="/assets/img/teams/yeti.png" alt="Yeti">
+      <h3>Yeti</h3>
+      <p>
+        An elusive franchise that embraces mystery, confidence and quiet dominance.
+      </p>
+  </a>
 
-<a class="team-card" href="/teams/wild-wolverines/">
-<img src="/assets/img/teams/wild-wolverines.png" alt="Wild Wolverines">
-<h3>Wild Wolverines</h3>
-<p>A franchise fueled by fearless determination and relentless intensity.</p>
-</a>
+  <a class="team-card" href="/teams/raven/">
+      <img src="/assets/img/teams/raven.png" alt="Raven">
+      <h3>Raven</h3>
+      <p>
+        Every move is calculated. Every victory is earned through intelligence and precision.
+      </p>
+  </a>
 
-<a class="team-card" href="/teams/ancient-mammoths/">
-<img src="/assets/img/teams/ancient-mammoths.png" alt="Ancient Mammoths">
-<h3>Ancient Mammoths</h3>
-<p>A franchise that values patience, resilience and success built to endure.</p>
-</a>
+  <a class="team-card" href="/teams/polar-bears/">
+      <img src="/assets/img/teams/polar-bears.png" alt="Polar Bears">
+      <h3>Polar Bears</h3>
+      <p>
+        Calm under pressure and powerful when it matters most.
+      </p>
+  </a>
 
-<a class="team-card" href="/teams/granite-bighorns/">
-<img src="/assets/img/teams/granite-bighorns.png" alt="Granite Bighorns">
-<h3>Granite Bighorns</h3>
-<p>A franchise defined by resilience, discipline and unwavering resolve.</p>
-</a>
-
-<a class="team-card" href="/teams/shadow-falcons/">
-<img src="/assets/img/teams/shadow-falcons.png" alt="Shadow Falcons">
-<h3>Shadow Falcons</h3>
-<p>A franchise that strikes with precision, discipline and absolute focus.</p>
-</a>
-
-<a class="team-card" href="/teams/arctic-huskies/">
-<img src="/assets/img/teams/arctic-huskies.png" alt="Arctic Huskies">
-<h3>Arctic Huskies</h3>
-<p>A franchise united by loyalty, courage and an unbreakable team spirit.</p>
-</a>
-
-<a class="team-card" href="/teams/silent-yetis/">
-<img src="/assets/img/teams/silent-yetis.png" alt="Silent Yetis">
-<h3>Silent Yetis</h3>
-<p>A franchise that lets actions build its legacy while others chase attention.</p>
-</a>
-
-<a class="team-card" href="/teams/savage-barracudas/">
-<img src="/assets/img/teams/savage-barracudas.png" alt="Savage Barracudas">
-<h3>Savage Barracudas</h3>
-<p>A franchise driven by instinct, speed and fearless attacking hockey.</p>
-</a>
-
-<a class="team-card" href="/teams/phantom-ravens/">
-<img src="/assets/img/teams/phantom-ravens.png" alt="Phantom Ravens">
-<h3>Phantom Ravens</h3>
-<p>A franchise where strategy, mystery and intelligence become a competitive edge.</p>
-</a>
-
-<a class="team-card" href="/teams/midnight-moose/">
-<img src="/assets/img/teams/midnight-moose.png" alt="Midnight Moose">
-<h3>Midnight Moose</h3>
-<p>A franchise built on quiet confidence, inner strength and unwavering composure.</p>
-</a>
-
-<a class="team-card" href="/teams/tundra-bison/">
-<img src="/assets/img/teams/tundra-bison.png" alt="Tundra Bison">
-<h3>Tundra Bison</h3>
-<p>A franchise that never stops moving forward, no matter the conditions.</p>
-</a>
-
-<a class="team-card" href="/teams/united-orcas/">
-<img src="/assets/img/teams/united-orcas.png" alt="United Orcas">
-<h3>United Orcas</h3>
-<p>A franchise where unity, trust and teamwork create unstoppable momentum.</p>
-</a>
-
-<a class="team-card" href="/teams/crowned-elk/">
-<img src="/assets/img/teams/crowned-elk.png" alt="Crowned Elk">
-<h3>Crowned Elk</h3>
-<p>A franchise built on honor, leadership and respect earned over time.</p>
-</a>
-
-<a class="team-card" href="/teams/primal-sabertooths/">
-<img src="/assets/img/teams/primal-sabertooths.png" alt="Primal Sabertooths">
-<h3>Primal Sabertooths</h3>
-<p>A franchise fueled by instinct, aggression and an uncompromising will to win.</p>
-</a>
-
-<a class="team-card" href="/teams/sky-condors/">
-<img src="/assets/img/teams/sky-condors.png" alt="Sky Condors">
-<h3>Sky Condors</h3>
-<p>A franchise that thrives on freedom, vision and complete control from above.</p>
-</a>
-
-<a class="team-card" href="/teams/roaming-grizzlies/">
-<img src="/assets/img/teams/roaming-grizzlies.png" alt="Roaming Grizzlies">
-<h3>Roaming Grizzlies</h3>
-<p>A franchise forged by the wilderness and strengthened through every challenge.</p>
-</a>
+  <!-- pokračujú všetky ostatné tímy -->
 
 </div>
