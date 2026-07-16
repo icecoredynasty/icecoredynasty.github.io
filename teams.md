@@ -51,3 +51,4 @@
   <!-- pokračujú všetky ostatné tímy -->
 
 </div>
+
