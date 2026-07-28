@@ -15,8 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: IceCore Dynasty
 email:
-description: Building hockey franchises differently.
-  Write an awesome description for your new site here.
+description: "Building hockey franchises differently."
+
 twitter_username: username
 github_username: icecoredynasty
 
