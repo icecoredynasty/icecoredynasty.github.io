@@ -128,7 +128,7 @@ footer:
 
     - label: Legal
       icon: fas fa-scale-balanced
-      url: /test/legal/
+      url: /legal/
 
 collections:
 
