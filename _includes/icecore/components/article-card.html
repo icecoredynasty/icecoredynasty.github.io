@@ -1,0 +1,43 @@
+<article class="article-card">
+
+    <a class="article-card__image" href="{{ include.url | default:'#' }}">
+
+        <img src="{{ include.image }}" alt="{{ include.title }}">
+
+    </a>
+
+    <div class="article-card__content">
+
+        {% if include.category %}
+
+        <span class="article-card__category">
+
+            {{ include.category }}
+
+        </span>
+
+        {% endif %}
+
+        <h3>
+
+            <a href="{{ include.url | default:'#' }}">
+
+                {{ include.title }}
+
+            </a>
+
+        </h3>
+
+        {% if include.meta %}
+
+        <div class="article-card__meta">
+
+            {{ include.meta }}
+
+        </div>
+
+        {% endif %}
+
+    </div>
+
+</article>

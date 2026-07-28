@@ -1,0 +1,15 @@
+<article class="news-item">
+
+    <span class="news-date">
+
+        {{ include.date }}
+
+    </span>
+
+    <a href="{{ include.url | default:'#' }}">
+
+        {{ include.title }}
+
+    </a>
+
+</article>

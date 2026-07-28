@@ -1,0 +1,180 @@
+{% assign league_one = site.teams | where: "league", 1 %}
+{% assign active_teams = league_one | where: "status", "active" | sort: "title" %}
+{% assign available_teams = league_one | where: "status", "available" | sort: "title" %}
+
+{% assign active_count = active_teams | size %}
+
+
+{% if active_count < 20 %}
+
+  {% if available_teams.size > 0 %}
+
+    <div class="teams-group"
+         data-status="available">
+
+      <div class="teams-group__heading">
+        <span>AVAILABLE FRANCHISES</span>
+        <div class="teams-section-line"></div>
+      </div>
+
+      <div class="team-grid">
+
+        {% for team in available_teams %}
+
+          <a
+            href="{{ team.url | relative_url }}"
+            class="team-card"
+            data-league="{{ team.league }}"
+            data-conference="{{ team.conference | downcase }}"
+            data-status="available">
+
+            <div class="team-card__logo">
+              <img
+                src="{{ team.logo | relative_url }}"
+                alt="{{ team.title }}"
+                loading="lazy">
+            </div>
+
+            <div class="team-card__name">
+              {{ team.title }}
+            </div>
+
+          </a>
+
+        {% endfor %}
+
+      </div>
+
+    </div>
+
+  {% endif %}
+
+
+  {% if active_teams.size > 0 %}
+
+    <div class="teams-group"
+         data-status="active">
+
+      <div class="teams-group__heading">
+        <span>ACTIVE FRANCHISES</span>
+        <div class="teams-section-line"></div>
+      </div>
+
+      <div class="team-grid">
+
+        {% for team in active_teams %}
+
+          <a
+            href="{{ team.url | relative_url }}"
+            class="team-card"
+            data-league="{{ team.league }}"
+            data-conference="{{ team.conference | downcase }}"
+            data-status="active">
+
+            <div class="team-card__logo">
+              <img
+                src="{{ team.logo | relative_url }}"
+                alt="{{ team.title }}"
+                loading="lazy">
+            </div>
+
+            <div class="team-card__name">
+              {{ team.title }}
+            </div>
+
+          </a>
+
+        {% endfor %}
+
+      </div>
+
+    </div>
+
+  {% endif %}
+
+
+{% else %}
+
+
+  <div class="teams-group"
+       data-status="active">
+
+    <div class="teams-group__heading">
+      <span>ACTIVE FRANCHISES</span>
+      <div class="teams-section-line"></div>
+    </div>
+
+    <div class="team-grid">
+
+      {% for team in active_teams %}
+
+        <a
+          href="{{ team.url | relative_url }}"
+          class="team-card"
+          data-league="{{ team.league }}"
+          data-conference="{{ team.conference | downcase }}"
+          data-status="active">
+
+          <div class="team-card__logo">
+            <img
+              src="{{ team.logo | relative_url }}"
+              alt="{{ team.title }}"
+              loading="lazy">
+          </div>
+
+          <div class="team-card__name">
+            {{ team.title }}
+          </div>
+
+        </a>
+
+      {% endfor %}
+
+    </div>
+
+  </div>
+
+
+  {% if available_teams.size > 0 %}
+
+    <div class="teams-group"
+         data-status="expansion">
+
+      <div class="teams-group__heading">
+        <span>EXPANSION FRANCHISES</span>
+        <div class="teams-section-line"></div>
+      </div>
+
+      <div class="team-grid">
+
+        {% for team in available_teams %}
+
+          <a
+            href="{{ team.url | relative_url }}"
+            class="team-card"
+            data-league="{{ team.league }}"
+            data-conference="{{ team.conference | downcase }}"
+            data-status="expansion">
+
+            <div class="team-card__logo">
+              <img
+                src="{{ team.logo | relative_url }}"
+                alt="{{ team.title }}"
+                loading="lazy">
+            </div>
+
+            <div class="team-card__name">
+              {{ team.title }}
+            </div>
+
+          </a>
+
+        {% endfor %}
+
+      </div>
+
+    </div>
+
+  {% endif %}
+
+{% endif %}

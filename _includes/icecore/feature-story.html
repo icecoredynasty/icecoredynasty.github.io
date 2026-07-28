@@ -1,0 +1,40 @@
+{% assign features = site.posts | where: "featured", true | sort: "date" | reverse %}
+{% assign feature = features.first %}
+
+<div class="section-heading">
+  <h3>Feature Story</h3>
+</div>
+
+{% if feature %}
+
+<a class="feature-card" href="{{ feature.url | relative_url }}">
+
+  <div class="feature-image">
+
+    {% if feature.image %}
+      <img
+        src="{{ feature.image | relative_url }}"
+        alt="{{ feature.title | escape }}"
+      >
+    {% endif %}
+
+  </div>
+
+  <div class="feature-overlay">
+
+    <div class="feature-date">
+      {{ feature.date | date: "%b %d" | upcase }}
+    </div>
+
+    <h2>{{ feature.title }}</h2>
+
+    {% if feature.excerpt %}
+      <p>{{ feature.excerpt | strip_html | truncate: 160 }}</p>
+    {% endif %}
+
+  </div>
+
+</a>
+
+{% endif %}
+

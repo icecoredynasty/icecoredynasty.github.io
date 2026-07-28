@@ -1,0 +1,16 @@
+main:
+
+  - title: League
+    url: /league/
+
+  - title: Teams
+    url: /teams/
+
+  - title: Rules
+    url: /rules/
+
+  - title: Journal
+    url: /journal/
+
+  - title: Awards
+    url: /awards/

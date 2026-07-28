@@ -1,0 +1,57 @@
+<section class="editors-pick">
+
+  <div class="section-heading">
+    <h3>Featured Guide</h3>
+  </div>
+
+{% assign guides = site.posts | where: "featured_guide", true | sort: "date" | reverse %}
+{% assign guide = guides.first %}
+
+  {% if guide %}
+
+    <a class="feature-card feature-card-guide"
+       href="{{ guide.url | relative_url }}">
+
+      <div class="feature-image">
+
+        {% if guide.image %}
+          <img
+            src="{{ guide.image | relative_url }}"
+            alt="{{ guide.title | escape }}"
+          >
+        {% endif %}
+
+      </div>
+
+      <div class="feature-overlay">
+
+        <div class="feature-date">
+          {{ guide.date | date: "%b %d" | upcase }}
+        </div>
+
+        <h2>
+          {{ guide.title }}
+        </h2>
+
+        {% if guide.excerpt %}
+          <p>
+            {{ guide.excerpt | strip_html | truncate: 120 }}
+          </p>
+        {% endif %}
+
+      </div>
+
+    </a>
+
+  {% else %}
+
+    <div class="feature-card feature-card-guide">
+      <div class="feature-overlay">
+        <h2>Guide coming soon.</h2>
+      </div>
+    </div>
+
+  {% endif %}
+
+</section>
+

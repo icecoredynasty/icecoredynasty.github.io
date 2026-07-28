@@ -1,0 +1,149 @@
+<section class="calendar">
+
+  <div class="section-heading">
+    <h3>Upcoming Events</h3>
+  </div>
+
+
+  <article class="calendar-event">
+
+    <div class="calendar-date">
+      <span>SEP</span>
+      <strong>19</strong>
+    </div>
+
+    <div class="calendar-info">
+      <h4>
+        <a href="{{ '/league/#join' | relative_url }}">
+          Recruitment Deadline
+        </a>
+      </h4>
+      <p>21:00 CEST</p>
+    </div>
+
+  </article>
+
+
+  <article class="calendar-event">
+
+    <div class="calendar-date">
+      <span>SEP</span>
+      <strong>20</strong>
+    </div>
+
+    <div class="calendar-info">
+      <h4>
+        <a href="{{ '/rules/#salary-cap-draft' | relative_url }}">
+          Salary Cap Draft
+        </a>
+      </h4>
+      <p>21:00 CEST</p>
+    </div>
+
+  </article>
+
+
+  <article class="calendar-event">
+
+    <div class="calendar-date">
+      <span>SEP</span>
+      <strong>29</strong>
+    </div>
+
+    <div class="calendar-info">
+      <h4>Opening Night</h4>
+      <p>2026–27 Season</p>
+    </div>
+
+  </article>
+
+
+  <div class="calendar-hidden" id="calendar-hidden">
+
+    <article class="calendar-event">
+
+      <div class="calendar-date">
+        <span>TBD</span>
+        <strong>—</strong>
+      </div>
+
+      <div class="calendar-info">
+        <h4>
+          <a href="{{ '/rules/#keepers' | relative_url }}">
+            Keeper Deadline
+          </a>
+        </h4>
+        <p>2027 Offseason</p>
+      </div>
+
+    </article>
+
+
+    <article class="calendar-event">
+
+      <div class="calendar-date">
+        <span>TBD</span>
+        <strong>—</strong>
+      </div>
+
+      <div class="calendar-info">
+        <h4>
+          <a href="{{ '/rules/#entry-draft' | relative_url }}">
+            Entry Draft
+          </a>
+        </h4>
+        <p>2027 Offseason</p>
+      </div>
+
+    </article>
+
+
+    <article class="calendar-event">
+
+      <div class="calendar-date">
+        <span>TBD</span>
+        <strong>—</strong>
+      </div>
+
+      <div class="calendar-info">
+        <h4>Salary Cap Draft</h4>
+        <p>2027 Offseason</p>
+      </div>
+
+    </article>
+
+  </div>
+
+
+  <div class="calendar-more">
+    <a href="#" id="calendar-toggle">
+      Show Full Schedule ▼
+    </a>
+  </div>
+
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+      const toggle = document.getElementById("calendar-toggle");
+      const hidden = document.getElementById("calendar-hidden");
+
+      if (!toggle || !hidden) return;
+
+      hidden.style.display = "none";
+
+      toggle.addEventListener("click", function (e) {
+        e.preventDefault();
+
+        const isHidden = hidden.style.display === "none";
+
+        hidden.style.display = isHidden ? "block" : "none";
+        toggle.innerHTML = isHidden
+          ? "Hide Schedule ▲"
+          : "Show Full Schedule ▼";
+      });
+
+    });
+  </script>
+
+</section>
