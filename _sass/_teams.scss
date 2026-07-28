@@ -1,0 +1,1422 @@
+/* =========================================================
+   TEAMS HERO
+   ========================================================= */
+
+.teams-hero {
+  position: relative;
+  min-height: 220px;
+  overflow: hidden;
+
+  background: #eef4fb;
+  border-bottom: 1px solid #e5e9ef;
+}
+
+/* actual image */
+.teams-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background-image: url("/test/assets/images/heroes/teams-hero.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  opacity: .92;
+
+  z-index: 0;
+}
+
+/* white fade like homepage */
+.teams-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background: linear-gradient(
+    90deg,
+    rgba(255,255,255,.96) 0%,
+    rgba(255,255,255,.90) 30%,
+    rgba(255,255,255,.52) 55%,
+    rgba(255,255,255,.12) 100%
+  );
+
+  z-index: 1;
+}
+
+.teams-hero__inner {
+  position: relative;
+  z-index: 2;
+
+  max-width: 1440px;
+  min-height: 220px;
+
+  margin: 0 auto;
+  padding: 28px 7%;
+
+  display: flex;
+  align-items: center;
+}
+
+.teams-hero__copy {
+  max-width: 600px;
+}
+
+.teams-hero__eyebrow {
+  display: block;
+
+  margin-bottom: 10px;
+
+  color: #0d5be1;
+
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .08em;
+}
+
+.teams-hero h1 {
+  margin: 0;
+
+  color: #080b10;
+
+  font-size: 48px;
+  font-weight: 900;
+  line-height: .94;
+  letter-spacing: -2px;
+}
+
+.teams-hero h1 span {
+  color: #0d5be1;
+}
+
+.teams-hero__line {
+  width: 55px;
+  height: 3px;
+
+  margin: 14px 0 13px;
+
+  background: #0d5be1;
+}
+
+.teams-hero p {
+  margin: 0;
+
+  color: #4b4b4b;
+
+  font-size: 16px;
+  line-height: 1.45;
+}
+
+/* DIRECTORY
+   ========================================================= */
+
+/* DIRECTORY
+   ========================================================= */
+
+.teams-directory {
+  background: #f7f8fa;
+}
+
+.teams-directory__inner {
+  max-width: 1440px;
+
+  margin: 0 auto;
+  padding: 16px 32px 55px;
+}
+
+
+/* Header + filters */
+
+.teams-directory__top {
+  margin-bottom: 14px;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  gap: 30px;
+}
+
+.teams-section-label {
+  display: block;
+
+  color: #111820;
+
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: .04em;
+}
+
+.teams-section-line {
+  width: 26px;
+  height: 3px;
+
+  margin-top: 6px;
+
+  background: #075be8;
+}
+
+
+/* FILTERS
+   ========================================================= */
+
+.teams-filters {
+  display: flex;
+  align-items: flex-end;
+
+  gap: 12px;
+}
+
+.teams-filter {
+  display: flex;
+  flex-direction: column;
+
+  gap: 4px;
+}
+
+.teams-filter span {
+  color: #697485;
+
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.teams-filter select {
+  min-width: 155px;
+  height: 38px;
+
+  padding: 0 34px 0 12px;
+
+  border: 1px solid #d7dce3;
+  border-radius: 5px;
+
+  background: #fff;
+
+  color: #202936;
+
+  font: inherit;
+  font-size: 13px;
+  font-weight: 700;
+
+  cursor: pointer;
+}
+
+
+/* GRID
+   ========================================================= */
+
+.team-grid {
+  display: grid;
+
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+
+  gap: 12px;
+}
+
+
+/* CARD
+   ========================================================= */
+
+.team-card {
+  position: relative;
+
+  min-width: 0;
+  min-height: 150px;
+
+  padding: 15px 12px 13px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background: #fff;
+
+  border: 1px solid #e2e5e9;
+  border-radius: 6px;
+
+  box-shadow:
+    0 2px 6px rgba(18, 31, 48, .04);
+
+  text-decoration: none !important;
+
+  transition:
+    transform .18s ease,
+    box-shadow .18s ease,
+    border-color .18s ease;
+}
+
+.team-card::before {
+  content: "";
+
+  position: absolute;
+
+  top: -1px;
+  left: 50%;
+
+  width: 0;
+  height: 3px;
+
+  transform: translateX(-50%);
+
+  background: #075be8;
+
+  transition: width .18s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-3px);
+
+  border-color: #ccd3dc;
+
+  box-shadow:
+    0 9px 22px rgba(18, 31, 48, .10);
+
+  text-decoration: none;
+}
+
+.team-card:hover::before {
+  width: 100%;
+}
+
+
+/* Logo */
+
+.team-card__logo {
+  width: 82px;
+  height: 82px;
+
+  margin-bottom: 8px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-card__logo img {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: contain;
+}
+
+
+/* Name */
+
+.team-card__name {
+  width: 100%;
+
+  color: #101722;
+
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: .035em;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  overflow-wrap: normal;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+
+/* Normal desktop */
+
+@media (max-width: 1250px) {
+
+  .team-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+}
+
+
+/* Tablet landscape */
+
+@media (max-width: 1000px) {
+
+  .teams-hero__inner {
+    min-height: 290px;
+    padding: 38px 32px;
+  }
+
+  .teams-directory__inner {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .teams-hero__mark {
+    right: 1%;
+    font-size: 190px;
+  }
+
+  .team-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+}
+
+
+/* Tablet / large mobile */
+
+@media (max-width: 760px) {
+
+  .teams-hero__inner {
+    min-height: 260px;
+    padding: 30px 22px;
+  }
+
+  .teams-hero__mark {
+    right: -7%;
+    font-size: 160px;
+  }
+
+  .teams-directory__inner {
+    padding: 24px 18px 50px;
+  }
+
+  .teams-directory__top {
+    align-items: stretch;
+    flex-direction: column;
+
+    gap: 18px;
+  }
+
+  .teams-filters {
+    width: 100%;
+  }
+
+  .teams-filter {
+    flex: 1;
+  }
+
+  .teams-filter select {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .team-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+}
+
+
+/* Small mobile */
+
+@media (max-width: 430px) {
+
+  .teams-hero__mark {
+    display: none;
+  }
+
+  .teams-filters {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .team-card {
+    height: 135px;
+  }
+
+  .team-card__logo {
+    width: 70px;
+    height: 70px;
+  }
+
+}
+
+.teams-group {
+  margin-top: 28px;
+}
+
+.teams-group:first-child {
+  margin-top: 0;
+}
+
+.teams-group__heading {
+  margin-bottom: 14px;
+}
+
+.teams-group__heading span {
+  display: block;
+
+  color: #111820;
+
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: .04em;
+}
+
+/* =========================================================
+   COMPACT FRANCHISE CARDS
+   ========================================================= */
+
+.teams-directory {
+  background: #f7f8fa;
+}
+
+.teams-directory__inner {
+  max-width: 1320px;
+  margin: 0 auto;
+
+  padding: 22px 32px 55px;
+}
+
+.teams-group {
+  margin-top: 26px;
+}
+
+.teams-group:first-child {
+  margin-top: 0;
+}
+
+.teams-group__heading {
+  margin-bottom: 10px;
+}
+
+.teams-group__heading span {
+  color: #151a22;
+
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .07em;
+}
+
+.team-grid {
+  display: grid;
+
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+
+  gap: 10px;
+}
+
+.team-card {
+  position: relative;
+
+  width: auto;
+  min-width: 0;
+  min-height: 0;
+  height: 128px;
+
+  margin: 0;
+  padding: 12px 10px 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background: #fff !important;
+
+  border: 1px solid #e1e5ea;
+  border-radius: 5px;
+
+  box-shadow: 0 2px 5px rgba(20,30,45,.04);
+
+  text-decoration: none !important;
+
+  transition:
+    transform .18s ease,
+    box-shadow .18s ease,
+    border-color .18s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-2px);
+
+  background: #fff !important;
+
+  border-color: #cbd2db;
+
+  box-shadow: 0 6px 14px rgba(20,30,45,.09);
+}
+
+.team-card__logo {
+  width: 76px;
+  height: 76px;
+
+  margin: 0 0 6px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: transparent;
+}
+
+.team-card__logo img {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: contain;
+}
+
+.team-card__name {
+  margin: 0;
+
+  color: #151a22 !important;
+
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: .035em;
+
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+/* 4 columns */
+
+@media (max-width: 1100px) {
+
+  .team-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+}
+
+
+/* 3 columns */
+
+@media (max-width: 850px) {
+
+  .team-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+}
+
+
+/* 2 columns */
+
+@media (max-width: 600px) {
+
+  .teams-directory__inner {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .team-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .team-card {
+    height: 120px;
+  }
+
+  .team-card__logo {
+    width: 68px;
+    height: 68px;
+  }
+
+}
+/* Compact filters */
+
+.teams-directory__top {
+  margin-bottom: 16px;
+}
+
+.teams-filters {
+  gap: 8px;
+}
+
+.teams-filter {
+  gap: 3px;
+}
+
+.teams-filter span {
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: .06em;
+
+  color: #8a929e;
+}
+
+.teams-filter select {
+  width: auto;
+  min-width: 125px;
+  height: 30px;
+
+  padding: 0 28px 0 9px;
+
+  border: 1px solid #dfe3e8;
+  border-radius: 4px;
+
+  background: #fff;
+
+  color: #59616d;
+
+  font-size: 11px;
+  font-weight: 600;
+}
+
+/* =========================================================
+   FRANCHISE PAGE
+   ========================================================= */
+
+.franchise-page {
+  background: #f7f8fa;
+}
+
+
+/* HEADER */
+
+.franchise-header {
+  background: #fff;
+
+  border-bottom: 1px solid #e4e8ed;
+}
+
+.franchise-header__inner {
+  max-width: 1180px;
+  min-height: 310px;
+
+  margin: 0 auto;
+  padding: 42px 32px;
+
+  display: flex;
+  align-items: center;
+
+  gap: 55px;
+}
+
+
+/* LOGO */
+
+.franchise-header__logo {
+  width: 220px;
+  height: 220px;
+
+  flex: 0 0 220px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.franchise-header__logo img {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: contain;
+}
+
+
+/* TEXT */
+
+.franchise-header__content {
+  max-width: 650px;
+}
+
+.franchise-header__eyebrow {
+  display: block;
+
+  margin-bottom: 8px;
+
+  color: #0d5be1;
+
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .10em;
+
+  text-transform: uppercase;
+}
+
+.franchise-header h1 {
+  margin: 0;
+
+  color: #10151c;
+
+  font-size: 46px;
+  font-weight: 900;
+  line-height: 1;
+
+  letter-spacing: -1.5px;
+}
+
+.franchise-header__motto {
+  margin: 14px 0 7px;
+
+  color: #28313d;
+
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.franchise-header__description {
+  max-width: 580px;
+
+  margin: 0;
+
+  color: #737b86;
+
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+
+/* INFORMATION */
+
+.franchise-info__inner {
+  max-width: 1180px;
+
+  margin: 0 auto;
+  padding: 30px 32px 65px;
+}
+
+.franchise-meta {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  background: #fff;
+
+  border: 1px solid #e2e6eb;
+  border-radius: 5px;
+}
+
+.franchise-meta__item {
+  min-width: 0;
+
+  padding: 15px 18px;
+
+  border-right: 1px solid #e7eaee;
+}
+
+.franchise-meta__item:last-child {
+  border-right: 0;
+}
+
+.franchise-meta__item span {
+  display: block;
+
+  margin-bottom: 3px;
+
+  color: #9299a3;
+
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: .08em;
+
+  text-transform: uppercase;
+}
+
+.franchise-meta__item strong {
+  display: block;
+
+  color: #252c35;
+
+  font-size: 13px;
+  font-weight: 700;
+}
+
+
+/* PAGE CONTENT */
+
+.franchise-content {
+  margin-top: 30px;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 800px) {
+
+  .franchise-header__inner {
+    min-height: auto;
+
+    padding: 32px 22px;
+
+    gap: 28px;
+  }
+
+  .franchise-header__logo {
+    width: 150px;
+    height: 150px;
+
+    flex-basis: 150px;
+  }
+
+  .franchise-header h1 {
+    font-size: 36px;
+  }
+
+  .franchise-meta {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .franchise-meta__item:nth-child(2) {
+    border-right: 0;
+  }
+
+  .franchise-meta__item:nth-child(-n+2) {
+    border-bottom: 1px solid #e7eaee;
+  }
+
+}
+
+
+@media (max-width: 520px) {
+
+  .franchise-header__inner {
+    flex-direction: column;
+
+    text-align: center;
+  }
+
+  .franchise-header__logo {
+    width: 135px;
+    height: 135px;
+
+    flex-basis: 135px;
+  }
+
+  .franchise-header h1 {
+    font-size: 32px;
+  }
+
+  .franchise-info__inner {
+    padding: 22px 16px 45px;
+  }
+
+}
+
+/* =========================================================
+   BROWSE FRANCHISES
+   ========================================================= */
+
+.teams-browse {
+  margin-top: 28px;
+  padding-top: 14px;
+
+  border-top: 1px solid #e2e6eb;
+}
+
+.teams-browse__title {
+  display: block;
+
+  margin-bottom: 8px;
+
+  color: #9299a3;
+
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: .10em;
+
+  text-transform: uppercase;
+}
+
+.teams-browse .teams-filters {
+  margin: 0;
+
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.teams-browse .teams-filter {
+  gap: 3px;
+}
+
+.teams-browse .teams-filter span {
+  font-size: 8px;
+  color: #9aa1ab;
+}
+
+.teams-browse .teams-filter select {
+  min-width: 125px;
+  height: 28px;
+
+  padding: 0 26px 0 8px;
+
+  font-size: 10px;
+  font-weight: 600;
+
+  color: #68717d;
+}
+
+/* =========================================================
+   ICECORE — FRANCHISE PAGE
+   ========================================================= */
+
+.team-page {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 4rem;
+}
+
+
+/* Header
+   --------------------------------------------------------- */
+
+.team-header {
+  padding: 2rem 0 2.25rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.team-header__identity {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.team-header__logo {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  flex: 0 0 auto;
+}
+
+.team-header__eyebrow,
+.team-section__label {
+  display: block;
+  margin-bottom: .45rem;
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: #777;
+}
+
+.team-header h1 {
+  margin: 0;
+  font-size: clamp(2rem, 5vw, 3.6rem);
+  line-height: 1;
+  letter-spacing: -.035em;
+}
+
+.team-header__motto {
+  margin: .85rem 0 0;
+  font-size: 1.05rem;
+  color: #555;
+}
+
+
+/* Meta
+   --------------------------------------------------------- */
+
+.team-meta {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.team-meta__item {
+  padding: 1.1rem 1rem;
+  border-right: 1px solid #e5e5e5;
+}
+
+.team-meta__item:first-child {
+  padding-left: 0;
+}
+
+.team-meta__item:last-child {
+  border-right: 0;
+}
+
+.team-meta__item span,
+.team-facts span,
+.team-roster-summary span,
+.team-budget__details span {
+  display: block;
+  margin-bottom: .2rem;
+  font-size: .68rem;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: #888;
+}
+
+.team-meta__item strong {
+  font-size: .9rem;
+}
+
+
+/* Sections
+   --------------------------------------------------------- */
+
+.team-section {
+  padding: 2.5rem 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.team-section__heading {
+  margin-bottom: 1.5rem;
+}
+
+.team-section__heading h2 {
+  margin: 0;
+  font-size: 1.55rem;
+}
+
+.team-franchise__origin {
+  margin-bottom: 1rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.team-franchise > p {
+  max-width: 720px;
+  line-height: 1.65;
+  color: #555;
+}
+
+
+/* Franchise facts
+   --------------------------------------------------------- */
+
+.team-facts,
+.team-roster-summary,
+.team-slot-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  margin-top: 1.75rem;
+  background: #e5e5e5;
+  border: 1px solid #e5e5e5;
+}
+
+.team-facts > div,
+.team-roster-summary > div,
+.team-slot-grid > div {
+  padding: 1rem;
+  background: #fff;
+}
+
+.team-facts strong {
+  font-size: .9rem;
+}
+
+
+/* Roster construction
+   --------------------------------------------------------- */
+
+.team-roster-summary strong {
+  display: block;
+  font-size: 1.6rem;
+  line-height: 1.1;
+}
+
+.team-roster-summary small {
+  display: block;
+  margin-top: .35rem;
+  color: #999;
+  font-size: .72rem;
+}
+
+
+/* Tables
+   --------------------------------------------------------- */
+
+.team-table-wrap {
+  overflow-x: auto;
+}
+
+.team-table {
+  width: 100%;
+  margin: 0;
+  border-collapse: collapse;
+  font-size: .9rem;
+}
+
+.team-table th {
+  padding: .65rem .75rem;
+  text-align: left;
+  font-size: .66rem;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  color: #777;
+  border-bottom: 2px solid #222;
+}
+
+.team-table td {
+  padding: .72rem .75rem;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.team-table tbody tr:hover {
+  background: #fafafa;
+}
+
+.team-table__salary {
+  width: 90px;
+  text-align: right !important;
+  font-variant-numeric: tabular-nums;
+}
+
+.team-table tfoot td {
+  padding-top: .9rem;
+  font-weight: 700;
+  border-bottom: 0;
+}
+
+
+/* Budget
+   --------------------------------------------------------- */
+
+.team-budget {
+  border: 1px solid #ddd;
+}
+
+.team-budget__main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 1.5rem;
+  background: #111;
+  color: #fff;
+}
+
+.team-budget__main > span {
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+.team-budget__main strong {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.team-budget__main small {
+  font-size: .72rem;
+  font-weight: 400;
+  color: #bbb;
+}
+
+.team-budget__details {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.team-budget__details > div {
+  padding: 1rem;
+  border-right: 1px solid #e5e5e5;
+}
+
+.team-budget__details > div:last-child {
+  border-right: 0;
+}
+
+
+/* Slots
+   --------------------------------------------------------- */
+
+.team-slot-grid {
+  text-align: center;
+}
+
+.team-slot-grid strong {
+  display: block;
+  font-size: 1.75rem;
+}
+
+.team-slot-grid span {
+  display: block;
+  margin-top: .25rem;
+  font-size: .68rem;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  color: #777;
+}
+
+
+/* Tablet
+   --------------------------------------------------------- */
+
+@media (max-width: 800px) {
+
+  .team-meta,
+  .team-facts,
+  .team-roster-summary,
+  .team-budget__details,
+  .team-slot-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .team-meta__item {
+    border-bottom: 1px solid #e5e5e5;
+  }
+
+  .team-header__logo {
+    width: 125px;
+    height: 125px;
+  }
+
+}
+
+
+/* Mobile
+   --------------------------------------------------------- */
+
+@media (max-width: 520px) {
+
+  .team-page {
+    padding: .75rem 1rem 3rem;
+  }
+
+  .team-header__identity {
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .team-header__logo {
+    width: 90px;
+    height: 90px;
+  }
+
+  .team-header h1 {
+    font-size: 2rem;
+  }
+
+  .team-meta {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .team-meta__item,
+  .team-meta__item:first-child {
+    padding: .85rem;
+  }
+
+  .team-section {
+    padding: 2rem 0;
+  }
+
+  .team-roster-summary,
+  .team-budget__details {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .team-budget__main {
+    padding: 1.1rem;
+  }
+
+  .team-budget__main strong {
+    font-size: 1.65rem;
+  }
+
+}
+
+/* =========================================================
+   ICECORE — FRANCHISE PAGE V2
+   ========================================================= */
+
+
+/* Slightly more breathing room */
+
+.team-page {
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
+
+.team-section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+
+/* GM */
+
+.team-meta__gm strong {
+  font-weight: 800;
+}
+
+.team-meta__gm strong:empty::after {
+  content: "Available";
+}
+
+
+/* Section helper text */
+
+.team-section__note {
+  max-width: 680px;
+  margin: -0.75rem 0 1.4rem;
+  font-size: .88rem;
+  line-height: 1.55;
+  color: #777;
+}
+
+
+/* Keeper row numbers */
+
+.team-table__number {
+  width: 42px;
+  color: #aaa;
+  font-size: .75rem;
+  font-variant-numeric: tabular-nums;
+}
+
+
+/* Empty roster cells */
+
+.team-table__empty {
+  color: #bbb;
+}
+
+
+/* Keep empty keeper slots visually present */
+
+.keeper-row {
+  height: 45px;
+}
+
+
+/* Give payroll a little separation */
+
+.team-table tfoot {
+  border-top: 2px solid #222;
+}
+
+
+/* Prospect + rookie tables don't need huge empty areas */
+
+.prospect-row,
+.rookie-row {
+  height: 48px;
+}
+
+
+/* Budget */
+
+.team-budget__main {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+}
+
+
+/* Mobile */
+
+@media (max-width: 520px) {
+
+  .team-page {
+    padding-top: 1rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .team-section {
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
+  }
+
+  .team-table__number {
+    width: 30px;
+  }
+
+}
+

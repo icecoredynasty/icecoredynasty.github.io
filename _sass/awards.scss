@@ -1,0 +1,411 @@
+/* =========================================================
+   ICECORE — AWARDS
+   ========================================================= */
+
+.ic-awards-page {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 1.5rem 1.5rem 6rem;
+}
+
+
+/* HERO */
+
+.ic-awards-hero {
+  padding-bottom: 4rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.ic-awards-hero__image {
+  width: calc(100vw - 4rem);
+  max-width: 1600px;
+  height: clamp(150px, 20vw, 300px);
+
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+
+  margin-bottom: 3rem;
+  overflow: hidden;
+
+  background: #111;
+}
+
+.ic-awards-hero__image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+
+  object-fit: cover;
+  object-position: center;
+}
+
+.ic-awards-eyebrow,
+.ic-awards-heading > span,
+.ic-awards-archive > span {
+  display: block;
+
+  margin-bottom: .8rem;
+
+  font-size: .66rem;
+  font-weight: 800;
+
+  letter-spacing: .16em;
+  text-transform: uppercase;
+
+  color: #777;
+}
+
+.ic-awards-hero h1 {
+  max-width: 900px;
+
+  margin: 0;
+
+  font-size: clamp(3rem, 6vw, 5.5rem);
+  line-height: .92;
+
+  letter-spacing: -.055em;
+}
+
+.ic-awards-hero__content > p {
+  max-width: 670px;
+
+  margin: 1.7rem 0 0;
+
+  font-size: 1.08rem;
+  line-height: 1.65;
+
+  color: #555;
+}
+
+
+/* SECTIONS */
+
+.ic-awards-section {
+  padding: 5rem 0;
+
+  border-bottom: 1px solid #ddd;
+}
+
+.ic-awards-heading {
+  max-width: 720px;
+
+  margin-bottom: 2.7rem;
+}
+
+.ic-awards-heading h2 {
+  margin: 0 0 .9rem;
+
+  font-size: clamp(2.2rem, 4vw, 3.5rem);
+  line-height: 1;
+
+  letter-spacing: -.045em;
+}
+
+.ic-awards-heading p {
+  max-width: 650px;
+
+  margin: 0;
+
+  line-height: 1.7;
+
+  color: #666;
+}
+
+
+/* TROPHIES */
+
+.ic-trophy-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+}
+
+.ic-trophy {
+  min-height: 340px;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 1.7rem;
+
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.ic-trophy__type {
+  font-size: .62rem;
+  font-weight: 800;
+
+  letter-spacing: .13em;
+
+  color: #888;
+}
+
+.ic-trophy__mark {
+  margin: 2.5rem 0 1.6rem;
+
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1;
+
+  letter-spacing: -.06em;
+}
+
+.ic-trophy h3 {
+  margin: 0 0 .8rem;
+
+  font-size: 1.35rem;
+}
+
+.ic-trophy p {
+  max-width: 430px;
+
+  margin: 0;
+
+  font-size: .84rem;
+  line-height: 1.65;
+
+  color: #666;
+}
+
+.ic-trophy footer {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: auto;
+  padding-top: 2rem;
+
+  border-top: 1px solid #e5e5e5;
+
+  font-size: .68rem;
+}
+
+.ic-trophy footer span {
+  color: #888;
+}
+
+.ic-trophy--cup {
+  background: #111;
+  color: #fff;
+}
+
+.ic-trophy--cup p,
+.ic-trophy--cup footer span {
+  color: #aaa;
+}
+
+.ic-trophy--cup footer {
+  border-color: #333;
+}
+
+
+/* MANAGEMENT AWARDS */
+
+.ic-award-list {
+  border-top: 1px solid #ddd;
+}
+
+.ic-award-list article {
+  display: grid;
+  grid-template-columns: 70px minmax(0, 650px);
+
+  gap: 1.5rem;
+
+  padding: 2rem 0;
+
+  border-bottom: 1px solid #ddd;
+}
+
+.ic-award-list__number {
+  font-size: .65rem;
+  font-weight: 800;
+
+  color: #aaa;
+}
+
+.ic-award-list h3 {
+  margin: 0;
+
+  font-size: 1.25rem;
+}
+
+.ic-award-list strong {
+  display: block;
+
+  margin: .3rem 0 .8rem;
+
+  font-size: .68rem;
+
+  letter-spacing: .07em;
+  text-transform: uppercase;
+
+  color: #888;
+}
+
+.ic-award-list p {
+  margin: 0;
+
+  font-size: .84rem;
+  line-height: 1.65;
+
+  color: #666;
+}
+
+
+/* MOVES */
+
+.ic-move-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+}
+
+.ic-move-grid article {
+  min-height: 220px;
+
+  padding: 1.3rem;
+
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.ic-move-grid span {
+  display: block;
+
+  margin-bottom: 2rem;
+
+  font-size: .6rem;
+  font-weight: 800;
+
+  letter-spacing: .12em;
+
+  color: #999;
+}
+
+.ic-move-grid h3 {
+  margin: 0 0 .7rem;
+
+  font-size: 1rem;
+}
+
+.ic-move-grid p {
+  margin: 0;
+
+  font-size: .78rem;
+  line-height: 1.6;
+
+  color: #666;
+}
+
+
+/* ARCHIVE */
+
+.ic-awards-archive {
+  max-width: 780px;
+
+  padding: 6rem 0 2rem;
+}
+
+.ic-awards-archive h2 {
+  margin: 0 0 1.5rem;
+
+  font-size: clamp(2.7rem, 5vw, 4.6rem);
+  line-height: .95;
+
+  letter-spacing: -.055em;
+}
+
+.ic-awards-archive p {
+  max-width: 620px;
+
+  line-height: 1.7;
+
+  color: #666;
+}
+
+.ic-awards-season {
+  display: flex;
+  align-items: baseline;
+
+  gap: 1rem;
+
+  margin-top: 3rem;
+  padding-top: 1.2rem;
+
+  border-top: 1px solid #ddd;
+}
+
+.ic-awards-season strong {
+  font-size: 1.7rem;
+}
+
+.ic-awards-season span {
+  font-size: .62rem;
+  font-weight: 800;
+
+  letter-spacing: .12em;
+
+  color: #888;
+}
+
+
+/* TABLET */
+
+@media (max-width: 900px) {
+
+  .ic-move-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+  .ic-awards-page {
+    padding: .8rem 1rem 4rem;
+  }
+
+  .ic-awards-hero__image {
+    width: calc(100vw - 2rem);
+    height: 150px;
+
+    margin-bottom: 2rem;
+  }
+
+  .ic-awards-hero h1 {
+    font-size: 3rem;
+  }
+
+  .ic-awards-section {
+    padding: 3.5rem 0;
+  }
+
+  .ic-trophy-grid,
+  .ic-move-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ic-trophy {
+    min-height: 300px;
+  }
+
+  .ic-award-list article {
+    grid-template-columns: 35px minmax(0, 1fr);
+
+    gap: .7rem;
+  }
+
+  .ic-awards-archive {
+    padding-top: 4rem;
+  }
+
+}

@@ -1,0 +1,157 @@
+/* ===================================
+   ICECORE HEADER
+=================================== */
+
+.masthead{
+
+    position:sticky;
+    top:0;
+    z-index:999;
+
+    background:#fff;
+
+    border:0;
+
+    box-shadow:0 2px 14px rgba(0,0,0,.05);
+
+}
+
+.masthead__inner-wrap{
+
+    max-width:1450px;
+    margin:auto;
+
+    height:80px;
+
+    padding:0 25px;
+
+    display:flex;
+    align-items:center;
+
+}
+
+/* ===================================
+   LOGO
+=================================== */
+
+.site-logo{
+
+    display:flex;
+    align-items:center;
+
+    margin-right:18px;
+
+    flex-shrink:0;
+
+}
+
+.site-logo img{
+
+    display:block;
+
+    width:auto;
+
+    height:58px !important;
+
+    max-height:none !important;
+
+}
+
+/* schovaj text ICECORE DYNASTY od MM */
+
+.site-title{
+
+    display:none !important;
+
+}
+
+/* ===================================
+   MENU
+=================================== */
+
+.greedy-nav{
+
+    flex:1;
+
+    height:80px;
+
+    display:flex;
+    align-items:center;
+
+    background:transparent;
+
+}
+
+.greedy-nav .visible-links{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:34px;
+
+    margin-left:auto;
+
+}
+
+.greedy-nav .visible-links a{
+
+    position:relative;
+
+    font-size:15px;
+
+    font-weight:700;
+
+    letter-spacing:1px;
+
+    text-transform:uppercase;
+
+}
+
+.greedy-nav .visible-links a::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+    bottom:-12px;
+
+    width:0;
+
+    height:3px;
+
+    background:#0d5be1;
+
+    transition:.25s;
+
+}
+
+.greedy-nav .visible-links a:hover::after{
+
+    width:100%;
+
+}
+
+.search__toggle{
+
+    margin-left:18px;
+
+}
+
+.greedy-nav__toggle{
+
+    height:80px;
+
+}
+.masthead__menu{
+
+    width:100%;
+
+}
+
+.greedy-nav{
+
+    justify-content:space-between;
+
+}

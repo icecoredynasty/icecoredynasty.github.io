@@ -1,0 +1,906 @@
+/* =========================================================
+   ICECORE DYNASTY — LEAGUE
+   ========================================================= */
+
+.league-page {
+  --league-max: 1180px;
+  --league-text: #15191d;
+  --league-muted: #68717a;
+  --league-line: #e3e7ea;
+  --league-soft: #f4f6f7;
+  --league-dark: #11161a;
+
+  color: var(--league-text);
+}
+
+
+/* FULL BLEED
+   Escapes the Minimal Mistakes content container.
+   --------------------------------------------------------- */
+
+.league-hero,
+.rules-hero {
+  width: 100vw;
+  max-width: none;
+
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+
+
+/* HERO
+   --------------------------------------------------------- */
+
+.league-hero {
+  position: relative;
+  min-height: 500px;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  background: #11161a;
+}
+
+.league-hero__image {
+  position: absolute;
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+  object-position: center;
+}
+
+.league-hero__overlay {
+  position: absolute;
+  inset: 0;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(8, 12, 15, 0.94) 0%,
+      rgba(8, 12, 15, 0.72) 38%,
+      rgba(8, 12, 15, 0.18) 76%,
+      rgba(8, 12, 15, 0.05) 100%
+    );
+}
+
+.league-hero__content {
+  position: relative;
+  z-index: 2;
+
+  width: min(var(--league-max), calc(100% - 48px));
+  margin: 0 auto;
+  padding: 90px 0 72px;
+
+  color: #fff;
+}
+
+.league-kicker,
+.league-eyebrow {
+  display: block;
+
+  margin-bottom: 18px;
+
+  font-size: 0.72rem;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.league-kicker {
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.league-eyebrow {
+  color: var(--league-muted);
+}
+
+.league-hero h1 {
+  max-width: 780px;
+  margin: 0;
+
+  font-size: clamp(3rem, 6.4vw, 6rem);
+  line-height: 0.94;
+  letter-spacing: -0.055em;
+}
+
+.league-hero__content > p {
+  max-width: 630px;
+
+  margin: 30px 0 0;
+
+  font-size: clamp(1.05rem, 1.8vw, 1.32rem);
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.league-hero__mark {
+  display: flex;
+  align-items: baseline;
+  gap: 18px;
+
+  margin-top: 44px;
+}
+
+.league-hero__mark strong {
+  font-size: 1.8rem;
+  letter-spacing: -0.04em;
+}
+
+.league-hero__mark span {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+
+  color: rgba(255, 255, 255, 0.58);
+}
+
+
+/* INTRO
+   --------------------------------------------------------- */
+
+.league-intro {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 110px 24px 120px;
+}
+
+.league-intro h2 {
+  margin: 0;
+
+  font-size: clamp(2.8rem, 5.5vw, 5.3rem);
+  line-height: 0.98;
+  letter-spacing: -0.055em;
+}
+
+.league-lead {
+  max-width: 760px;
+
+  margin: 38px 0 0;
+
+  font-size: clamp(1.15rem, 2vw, 1.48rem);
+  line-height: 1.7;
+  color: var(--league-muted);
+}
+
+.league-statement {
+  margin: 48px 0 0;
+
+  font-size: clamp(1.4rem, 2.5vw, 2rem);
+  font-weight: 800;
+  line-height: 1.3;
+}
+
+
+/* STANDARD SECTIONS
+   --------------------------------------------------------- */
+
+.league-feature {
+  max-width: var(--league-max);
+
+  margin: 0 auto;
+  padding: 100px 24px;
+
+  border-top: 1px solid var(--league-line);
+}
+
+.league-feature--soft,
+.league-feature--dark {
+  position: relative;
+
+  max-width: none;
+  width: 100vw;
+
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+
+  padding-left: max(24px, calc((100vw - var(--league-max)) / 2));
+  padding-right: max(24px, calc((100vw - var(--league-max)) / 2));
+}
+
+.league-feature--soft {
+  background: var(--league-soft);
+  border-top: 0;
+}
+
+.league-feature--dark {
+  background: var(--league-dark);
+  color: #fff;
+  border-top: 0;
+}
+
+.league-feature--dark .league-eyebrow {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.league-feature__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  margin-bottom: 55px;
+}
+
+.league-number {
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  color: #a1a8ae;
+}
+
+.league-feature__title {
+  max-width: 820px;
+
+  margin: 0 0 60px;
+
+  font-size: clamp(2.4rem, 4.8vw, 4.5rem);
+  line-height: 1;
+  letter-spacing: -0.05em;
+}
+
+
+/* 20 × 20
+   --------------------------------------------------------- */
+
+.league-format {
+  display: grid;
+  grid-template-columns: minmax(300px, 0.85fr) minmax(360px, 1.15fr);
+  gap: 90px;
+  align-items: center;
+
+  max-width: var(--league-max);
+  margin: 0 auto;
+}
+
+.league-format__mark {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+
+  white-space: nowrap;
+}
+
+.league-format__mark span {
+  font-size: clamp(4.8rem, 10vw, 9rem);
+  font-weight: 900;
+  line-height: 0.8;
+  letter-spacing: -0.08em;
+}
+
+.league-format__mark i {
+  font-size: clamp(2rem, 4vw, 4rem);
+  font-weight: 300;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.35);
+}
+
+.league-format__copy h2 {
+  margin: 0 0 28px;
+
+  font-size: clamp(2.2rem, 4vw, 3.8rem);
+  line-height: 1.02;
+  letter-spacing: -0.045em;
+}
+
+.league-format__copy p {
+  max-width: 620px;
+
+  font-size: 1.08rem;
+  line-height: 1.75;
+  color: rgba(255, 255, 255, 0.68);
+}
+
+
+/* SPLIT
+   --------------------------------------------------------- */
+
+.league-split {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(300px, 0.85fr);
+  gap: 100px;
+  align-items: center;
+}
+
+.league-split h2 {
+  margin: 0 0 30px;
+
+  font-size: clamp(2.4rem, 4.5vw, 4.2rem);
+  line-height: 1;
+  letter-spacing: -0.05em;
+}
+
+.league-split p {
+  max-width: 650px;
+
+  font-size: 1.08rem;
+  line-height: 1.75;
+  color: var(--league-muted);
+}
+
+
+/* ROSTER CARD
+   --------------------------------------------------------- */
+
+.league-roster-card {
+  padding: 30px 34px;
+
+  border: 1px solid var(--league-line);
+  background: #fff;
+}
+
+.league-roster-card__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+
+  padding: 14px 0;
+
+  border-bottom: 1px solid var(--league-line);
+}
+
+.league-roster-card__row strong {
+  font-size: 2rem;
+  letter-spacing: -0.04em;
+}
+
+.league-roster-card__row span {
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+}
+
+.league-roster-card__divider {
+  height: 22px;
+}
+
+.league-roster-card__total {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  margin-top: 28px;
+  padding-top: 26px;
+
+  border-top: 3px solid var(--league-text);
+}
+
+.league-roster-card__total span {
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+}
+
+.league-roster-card__total strong {
+  font-size: 3.5rem;
+  line-height: 0.85;
+  letter-spacing: -0.07em;
+}
+
+
+/* PHILOSOPHY
+   --------------------------------------------------------- */
+
+.league-philosophy {
+  max-width: 930px;
+  margin: 0 auto;
+}
+
+.league-philosophy h2 {
+  margin: 0;
+
+  font-size: clamp(2.6rem, 5vw, 4.8rem);
+  line-height: 1;
+  letter-spacing: -0.055em;
+}
+
+.league-philosophy > p {
+  max-width: 760px;
+
+  margin: 28px 0 0;
+
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--league-muted);
+}
+
+.league-philosophy blockquote {
+  max-width: 850px;
+
+  margin: 58px 0;
+  padding: 0;
+
+  border: 0;
+
+  font-size: clamp(1.55rem, 3vw, 2.6rem);
+  font-weight: 750;
+  font-style: normal;
+  line-height: 1.3;
+  letter-spacing: -0.035em;
+}
+
+
+/* PILLARS
+   --------------------------------------------------------- */
+
+.league-pillars {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+
+  background: var(--league-line);
+  border: 1px solid var(--league-line);
+}
+
+.league-pillars article {
+  min-height: 290px;
+  padding: 30px;
+
+  background: #fff;
+}
+
+.league-pillars article > span {
+  display: block;
+
+  margin-bottom: 65px;
+
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  color: #9aa2a9;
+}
+
+.league-pillars h3 {
+  margin: 0 0 18px;
+
+  font-size: 1.5rem;
+  letter-spacing: -0.03em;
+}
+
+.league-pillars p {
+  margin: 0;
+
+  font-size: 0.98rem;
+  line-height: 1.65;
+  color: var(--league-muted);
+}
+
+
+/* CONSEQUENCE
+   --------------------------------------------------------- */
+
+.league-consequence {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.league-consequence h2 {
+  margin: 0 0 40px;
+
+  font-size: clamp(2.8rem, 5.5vw, 5.2rem);
+  line-height: 0.98;
+  letter-spacing: -0.055em;
+}
+
+.league-consequence p {
+  max-width: 720px;
+
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.67);
+}
+
+.league-consequence strong {
+  display: block;
+
+  margin-top: 48px;
+
+  font-size: clamp(1.35rem, 2.5vw, 2rem);
+}
+
+
+/* DYNASTY CARD
+   --------------------------------------------------------- */
+
+.league-dynasty-card {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid var(--league-line);
+}
+
+.league-dynasty-card span {
+  padding: 18px 0;
+
+  border-bottom: 1px solid var(--league-line);
+
+  font-size: clamp(1.4rem, 2.5vw, 2rem);
+  font-weight: 850;
+  letter-spacing: -0.035em;
+}
+
+
+/* END
+   --------------------------------------------------------- */
+
+.league-end {
+  max-width: 900px;
+
+  margin: 0 auto;
+  padding: 130px 24px 150px;
+
+  text-align: center;
+}
+
+.league-end h2 {
+  margin: 0;
+
+  font-size: clamp(3rem, 6vw, 5.6rem);
+  line-height: 0.96;
+  letter-spacing: -0.06em;
+}
+
+.league-end p {
+  max-width: 620px;
+
+  margin: 34px auto 0;
+
+  font-size: 1.12rem;
+  line-height: 1.7;
+  color: var(--league-muted);
+}
+
+.league-end__links {
+  display: flex;
+  justify-content: center;
+  gap: 34px;
+
+  margin-top: 46px;
+}
+
+.league-end__links a {
+  font-size: 0.9rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+
+/* RESPONSIVE
+   --------------------------------------------------------- */
+
+@media (max-width: 900px) {
+
+  .league-format,
+  .league-split {
+    grid-template-columns: 1fr;
+    gap: 55px;
+  }
+
+  .league-pillars {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .league-format__mark {
+    justify-content: flex-start;
+  }
+
+}
+
+
+@media (max-width: 600px) {
+
+  .league-hero {
+    min-height: 560px;
+  }
+
+  .league-hero__content {
+    width: calc(100% - 36px);
+    padding-bottom: 52px;
+  }
+
+  .league-intro,
+  .league-feature {
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+
+  .league-feature--soft,
+  .league-feature--dark {
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+
+  .league-pillars {
+    grid-template-columns: 1fr;
+  }
+
+  .league-pillars article {
+    min-height: auto;
+  }
+
+  .league-pillars article > span {
+    margin-bottom: 35px;
+  }
+
+  .league-end__links {
+    flex-direction: column;
+    gap: 18px;
+  }
+
+}
+
+/* =========================================================
+   JOIN ICECORE
+   ========================================================= */
+
+.league-join {
+  position: relative;
+  padding: clamp(5rem, 9vw, 8rem) clamp(1.5rem, 5vw, 5rem);
+  background: #0b0d10;
+  color: #fff;
+  overflow: hidden;
+}
+
+.league-join::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: clamp(1.5rem, 5vw, 5rem);
+  width: 72px;
+  height: 4px;
+  background: #fff;
+}
+
+.league-join__intro {
+  max-width: 850px;
+  margin-bottom: clamp(3.5rem, 7vw, 6rem);
+}
+
+.league-join .league-eyebrow {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.league-join__intro h2 {
+  margin: 1rem 0 1.5rem;
+  font-size: clamp(3rem, 7vw, 6.5rem);
+  line-height: 0.92;
+  letter-spacing: -0.055em;
+  color: #fff;
+}
+
+.league-join__lead {
+  max-width: 720px;
+  margin: 0;
+  font-size: clamp(1.05rem, 2vw, 1.35rem);
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+
+/* MAIN GRID */
+
+.league-join__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.8fr);
+  gap: clamp(3rem, 7vw, 7rem);
+  align-items: start;
+}
+
+.league-join__copy {
+  max-width: 650px;
+}
+
+.league-join__copy h3 {
+  margin: 0 0 1.5rem;
+  font-size: clamp(1.7rem, 3vw, 2.5rem);
+  line-height: 1.08;
+  letter-spacing: -0.035em;
+  color: #fff;
+}
+
+.league-join__copy p {
+  max-width: 600px;
+  margin: 0 0 1.25rem;
+  line-height: 1.75;
+  color: rgba(255, 255, 255, 0.68);
+}
+
+
+/* APPLICATION CARD */
+
+.league-join__card {
+  padding: clamp(2rem, 4vw, 3rem);
+  background: #fff;
+  color: #111;
+}
+
+.league-join__label {
+  display: block;
+  margin-bottom: 1.2rem;
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #737b82;
+}
+
+.league-join__card h3 {
+  margin: 0 0 1rem;
+  font-size: clamp(1.7rem, 3vw, 2.3rem);
+  line-height: 1.05;
+  letter-spacing: -0.035em;
+  color: #111;
+}
+
+.league-join__card p {
+  margin: 0 0 1.25rem;
+  line-height: 1.6;
+  color: #5e666d;
+}
+
+.league-join__card ul {
+  margin: 0 0 2rem;
+  padding-left: 1.2rem;
+}
+
+.league-join__card li {
+  margin: 0.55rem 0;
+  line-height: 1.45;
+  color: #343a40;
+}
+
+
+/* APPLY BUTTON */
+
+.league-join__button {
+  display: flex;
+  width: 100%;
+  min-height: 58px;
+  align-items: center;
+  justify-content: center;
+
+  padding: 1rem 1.4rem;
+
+  background: #111;
+  border: 2px solid #111;
+
+  color: #fff !important;
+  text-decoration: none !important;
+
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  transition:
+    background-color 0.18s ease,
+    color 0.18s ease,
+    transform 0.18s ease;
+}
+
+.league-join__button:visited {
+  color: #fff !important;
+}
+
+.league-join__button:hover,
+.league-join__button:focus {
+  background: transparent;
+  color: #111 !important;
+  transform: translateY(-2px);
+}
+
+.league-join__deadline {
+  display: block;
+  margin-top: 1rem;
+
+  text-align: center;
+
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+
+  color: #81878c;
+}
+
+
+/* NUMBERS */
+
+.league-join__footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  margin-top: clamp(4rem, 8vw, 7rem);
+
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.league-join__footer > div {
+  padding: 2rem 1rem;
+  text-align: center;
+  border-right: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.league-join__footer > div:last-child {
+  border-right: 0;
+}
+
+.league-join__footer strong {
+  display: block;
+
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  line-height: 1;
+  letter-spacing: -0.05em;
+
+  color: #fff;
+}
+
+.league-join__footer span {
+  display: block;
+  margin-top: 0.55rem;
+
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: rgba(255, 255, 255, 0.5);
+}
+
+
+/* BOTTOM LINKS */
+
+.league-join .league-end__links {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 2.5rem;
+}
+
+.league-join .league-end__links a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.league-join .league-end__links a:hover {
+  color: #fff;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 800px) {
+
+  .league-join__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .league-join__footer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .league-join__footer > div:nth-child(2) {
+    border-right: 0;
+  }
+
+  .league-join__footer > div:nth-child(-n+2) {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  }
+
+}
+
+@media (max-width: 500px) {
+
+  .league-join__intro h2 {
+    font-size: 3rem;
+  }
+
+  .league-join__card {
+    padding: 1.6rem;
+  }
+
+}
+
