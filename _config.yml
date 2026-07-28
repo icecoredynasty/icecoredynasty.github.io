@@ -22,7 +22,7 @@ github_username: icecoredynasty
 
 url: "https://icecoredynasty.github.io"
 baseurl: ""
-repository: "icecoredynasty"
+repository: "icecoredynasty/icecoredynasty.github.io"
 
 minimal_mistakes_skin: default
 search: true
