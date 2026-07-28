@@ -21,8 +21,8 @@ twitter_username: username
 github_username: icecoredynasty
 
 url: "https://icecoredynasty.github.io"
-baseurl: "/test"
-repository: "icecoredynasty/test"
+baseurl: ""
+repository: "icecoredynasty"
 
 minimal_mistakes_skin: default
 search: true
