@@ -7,29 +7,34 @@ permalink: /journal/
 <div class="ic-journal">
 
   <!-- HERO -->
-  <section class="ic-journal-hero">
+ <section class="ic-section-hero">
 
-    <div class="ic-journal-hero__image">
-      <img
-        src="{{ '/assets/images/heroes/journal-hero.jpg' | relative_url }}"
-        alt="IceCore Dynasty Journal"
-      >
-    </div>
+  <div class="ic-section-hero__image">
+    <img
+      src="{{ '/assets/images/heroes/journal-hero.jpg' | relative_url }}"
+      alt=""
+    >
+  </div>
 
-    <div class="ic-journal-hero__content">
-      <span class="ic-journal-eyebrow">
-        ICECORE DYNASTY · JOURNAL
-      </span>
+  <div class="ic-section-hero__inner">
 
-      <h1>Stories behind the standings.</h1>
+    <span class="ic-section-hero__eyebrow">
+      ICECORE DYNASTY · JOURNAL
+    </span>
 
-      <p>
-        League news, franchise stories, guides, draft coverage
-        and the decisions shaping IceCore Dynasty.
-      </p>
-    </div>
+    <h1>
+      Stories behind<br>
+      the standings.
+    </h1>
 
-  </section>
+    <p class="ic-section-hero__lead">
+      League news, franchise stories, guides, draft coverage and the decisions
+      shaping IceCore Dynasty.
+    </p>
+
+  </div>
+
+</section>
 
 
   <!-- STORIES -->
