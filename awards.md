@@ -8,35 +8,34 @@ permalink: /awards/
 
   <!-- HERO -->
 
-  <section class="ic-awards-hero">
+  <section class="ic-section-hero">
 
-    <div class="ic-awards-hero__image">
-      <img
-        src="{{ '/assets/images/heroes/awards-hero.jpg' | relative_url }}"
-        alt="IceCore Dynasty honors"
-      >
-    </div>
+  <div class="ic-section-hero__image">
+    <img
+      src="{{ '/assets/images/heroes/awards-hero.jpg' | relative_url }}"
+      alt=""
+    >
+  </div>
 
-    <div class="ic-awards-hero__content">
+  <div class="ic-section-hero__inner">
 
-      <span class="ic-awards-eyebrow">
-        ICECORE DYNASTY · HONORS
-      </span>
+    <span class="ic-section-hero__eyebrow">
+      ICECORE DYNASTY · AWARDS
+    </span>
 
-      <h1>
-        Winning fades.<br>
-        Legacy remains.
-      </h1>
+    <h1>
+      Every season<br>
+      leaves a mark.
+    </h1>
 
-      <p>
-        Championships, great seasons and the decisions that built them.
-        IceCore honors both the franchises that win and the General Managers
-        who shape them.
-      </p>
+    <p class="ic-section-hero__lead">
+      Championships, individual honours and the General Managers
+      who define each era of IceCore Dynasty.
+    </p>
 
-    </div>
+  </div>
 
-  </section>
+</section>
 
 
   <!-- PRIMARY HONORS -->
