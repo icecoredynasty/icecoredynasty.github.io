@@ -10,61 +10,34 @@ permalink: /rules/
        HERO
        ===================================================== -->
 
-  <section class="ic-rules-hero">
+<section class="ic-section-hero">
 
-    <div class="ic-rules-hero__image">
-      <img
-        src="{{ '/assets/images/heroes/rules-hero.jpg' | relative_url }}"
-        alt="IceCore Dynasty league rules"
-      >
-    </div>
+  <div class="ic-section-hero__image">
+    <img
+      src="{{ '/assets/images/heroes/rules-hero.jpg' | relative_url }}"
+      alt=""
+    >
+  </div>
 
-    <div class="ic-rules-hero__content">
+  <div class="ic-section-hero__inner">
 
-      <span class="ic-eyebrow">ICECORE DYNASTY · LEAGUE RULES</span>
+    <span class="ic-section-hero__eyebrow">
+      ICECORE DYNASTY · RULES
+    </span>
 
-      <h1>
-        Clear rules.<br>
-        Long consequences.
-      </h1>
+    <h1>
+      Deep enough to matter.<br>
+      Simple enough to play.
+    </h1>
 
-      <p class="ic-rules-hero__lead">
-        The framework behind twenty permanent franchises,
-        long-term roster construction and one shared league history.
-      </p>
+    <p class="ic-section-hero__lead">
+      The framework behind IceCore Dynasty — built for long-term decisions,
+      competitive balance and a league that stays enjoyable.
+    </p>
 
-      <div class="ic-rules-stats">
+  </div>
 
-        <div>
-          <strong>20 × 20</strong>
-          <span>League Format</span>
-        </div>
-
-        <div>
-          <strong>500</strong>
-          <span>Salary Cap</span>
-        </div>
-
-        <div>
-          <strong>500</strong>
-          <span>FAAB</span>
-        </div>
-
-        <div>
-          <strong>12–16</strong>
-          <span>Keepers</span>
-        </div>
-
-        <div>
-          <strong>1</strong>
-          <span>Rookie / Year</span>
-        </div>
-
-      </div>
-
-    </div>
-
-  </section>
+</section>
 
 
   <!-- =====================================================
