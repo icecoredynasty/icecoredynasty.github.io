@@ -1,0 +1,79 @@
+---
+layout: default
+---
+
+<article class="ic-post">
+
+  <header class="ic-post__header">
+
+    <div class="ic-post__meta">
+
+      <span>
+        {{ page.date | date: "%B %d, %Y" }}
+      </span>
+
+      {% if page.categories %}
+        <span>
+          {{ page.categories | first }}
+        </span>
+      {% endif %}
+
+      {% if page.league %}
+        <span>
+          {{ page.league }}
+        </span>
+      {% endif %}
+
+    </div>
+
+    <h1 class="ic-post__title">
+      {{ page.title }}
+    </h1>
+
+    {% if page.excerpt %}
+      <p class="ic-post__excerpt">
+        {{ page.excerpt | strip_html }}
+      </p>
+    {% endif %}
+
+  </header>
+
+
+  {% if page.header.overlay_image %}
+
+    <div class="ic-post__hero">
+      <img
+        src="{{ page.header.overlay_image | relative_url }}"
+        alt=""
+      >
+    </div>
+
+  {% elsif page.image %}
+
+    <div class="ic-post__hero">
+      <img
+        src="{{ page.image | relative_url }}"
+        alt=""
+      >
+    </div>
+
+  {% endif %}
+
+
+  <div class="ic-post__body">
+    {{ content }}
+  </div>
+
+
+  <footer class="ic-post__footer">
+
+    <a
+      href="{{ '/journal/' | relative_url }}"
+      class="ic-post__back"
+    >
+      ← Back to Journal
+    </a>
+
+  </footer>
+
+</article>
