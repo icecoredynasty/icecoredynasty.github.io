@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: icecore-post
 title: "Inside the IceCore Entry Draft"
 date: 2026-07-27
 categories:
