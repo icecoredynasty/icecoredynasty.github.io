@@ -305,69 +305,79 @@
    HIGHLIGHTS
 ======================================================= */
 
-.highlight-item{
-
-    display:flex;
-    align-items:center;
-    gap:16px;
-    padding:16px 0;
-    border-bottom:1px solid #ececec;
-
+.icecore-highlights-column {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
 }
 
-.highlight-item:last-child{
-
-    border-bottom:none;
-
+.icecore-highlights-column .highlights-list {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
-.highlight-item img{
+.highlight-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
 
-    width:96px;
-    height:72px;
-    object-fit:cover;
-    object-position:center;
-    border-radius:6px;
-    flex-shrink:0;
-    display:block;
+    flex: 1;
 
+    padding: 20px 0;
+    border-bottom: 1px solid #ececec;
 }
 
-.highlight-content{
-
-    flex:1;
-
+.highlight-item:first-child {
+    padding-top: 8px;
 }
 
-.highlight-date{
-
-    margin-bottom:6px;
-    font-size:.72rem;
-    font-weight:600;
-    color:#777;
-
+.highlight-item:last-child {
+    padding-bottom: 8px;
+    border-bottom: none;
 }
 
-.highlight-item h4{
+.highlight-item img {
+    width: 96px;
+    height: 72px;
 
-    margin:0;
-    line-height:1.35;
-    font-size:1rem;
+    object-fit: cover;
+    object-position: center;
 
+    border-radius: 6px;
+    flex-shrink: 0;
+    display: block;
 }
 
-.highlight-item h4 a{
-
-    color:#111;
-    text-decoration:none;
-    transition:color .2s ease;
-
+.highlight-content {
+    flex: 1;
+    min-width: 0;
 }
 
-.highlight-item h4 a:hover{
+.highlight-date {
+    margin-bottom: 6px;
 
-    color:#0d5be1;
+    font-size: .72rem;
+    font-weight: 600;
+    color: #777;
+}
 
+.highlight-item h4 {
+    margin: 0;
+
+    line-height: 1.35;
+    font-size: 1rem;
+}
+
+.highlight-item h4 a {
+    color: #111;
+    text-decoration: none;
+
+    transition: color .2s ease;
+}
+
+.highlight-item h4 a:hover {
+    color: #0d5be1;
 }
 /* =========================================================
    LATEST NEWS
