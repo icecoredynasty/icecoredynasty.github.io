@@ -10,34 +10,34 @@ permalink: /rules/
        HERO
        ===================================================== -->
 
-<section class="ic-section-hero">
+  <section class="ic-section-hero">
 
-  <div class="ic-section-hero__image">
-    <img
-      src="{{ '/assets/images/heroes/rules-hero.jpg' | relative_url }}"
-      alt=""
-    >
-  </div>
+    <div class="ic-section-hero__image">
+      <img
+        src="{{ '/assets/images/heroes/rules-hero.jpg' | relative_url }}"
+        alt=""
+      >
+    </div>
 
-  <div class="ic-section-hero__inner">
+    <div class="ic-section-hero__inner">
 
-    <span class="ic-section-hero__eyebrow">
-      RULEBOOK
-    </span>
+      <span class="ic-section-hero__eyebrow">
+        RULEBOOK
+      </span>
 
-    <h1>
-      Deep enough to matter.<br>
-      Simple enough to play.
-    </h1>
+      <h1>
+        Deep enough to matter.<br>
+        Simple enough to play.
+      </h1>
 
-    <p class="ic-section-hero__lead">
-      The framework behind IceCore Dynasty — built for long-term decisions,
-      competitive balance and a league that stays enjoyable.
-    </p>
+      <p class="ic-section-hero__lead">
+        The framework behind IceCore Dynasty — built for long-term decisions,
+        competitive balance and a league that stays enjoyable.
+      </p>
 
-  </div>
+    </div>
 
-</section>
+  </section>
 
 
   <!-- =====================================================
@@ -91,19 +91,19 @@ permalink: /rules/
 
       <article class="ic-quick-card">
         <span>04</span>
-        <h3>12–16 Keepers</h3>
+        <h3>11–15 Keepers</h3>
         <p>
-          Each franchise chooses how much of its core to retain
-          and how much roster space to reopen to the market.
+          Protect an active core while deciding how much roster space
+          and Salary Cap flexibility to reopen each offseason.
         </p>
       </article>
 
       <article class="ic-quick-card">
         <span>05</span>
-        <h3>Prospects Matter</h3>
+        <h3>1–3 Prospects</h3>
         <p>
-          Every franchise carries one designated NA keeper.
-          Additional prospects can be protected within the regular keeper group.
+          Every franchise protects one to three players from its NA farm.
+          Development matters, but prospect hoarding does not define the league.
         </p>
       </article>
 
@@ -120,7 +120,7 @@ permalink: /rules/
         <span>07</span>
         <h3>Live Salary Draft</h3>
         <p>
-          The remaining 2–6 roster positions are filled through
+          All remaining active roster positions are filled through
           Yahoo's Live Salary Cap Draft.
         </p>
       </article>
@@ -160,7 +160,7 @@ permalink: /rules/
         <span>01</span>
         <strong>Keepers</strong>
         <p>
-          Protect 12–16 regular players and one designated NA player.
+          Protect 11–15 regular players and 1–3 players from the NA farm.
         </p>
       </article>
 
@@ -176,7 +176,7 @@ permalink: /rules/
         <span>03</span>
         <strong>Salary Draft</strong>
         <p>
-          Fill the remaining 2–6 positions with the budget left under 500.
+          Fill the remaining active roster positions with the budget left under 500.
         </p>
       </article>
 
@@ -330,9 +330,9 @@ permalink: /rules/
         </p>
 
         <p>
-          NA space gives development-minded franchises room to build
-          a prospect pipeline without forcing every GM to manage
-          a large external farm system.
+          The five NA positions form each franchise's in-season development
+          space. Players held there may become eligible for offseason
+          Development Keeper protection.
         </p>
 
       </div>
@@ -352,8 +352,19 @@ permalink: /rules/
 
         <p>
           Every franchise protects between
-          <strong>12 and 16 regular keepers</strong>
+          <strong>11 and 15 regular keepers</strong>
           before the new season.
+        </p>
+
+        <p>
+          Regular Keepers may be selected only from players belonging to
+          the franchise's <strong>active roster or IR+</strong> at the end
+          of the previous season.
+        </p>
+
+        <p>
+          Players held in NA positions are not part of the regular keeper group.
+          They are handled separately through Development Keepers.
         </p>
 
         <p>
@@ -385,37 +396,44 @@ permalink: /rules/
 
       <div class="ic-rule__body">
 
-        <h3>NA Players & Prospects</h3>
+        <h3>Development Keepers</h3>
 
         <p>
-          Every franchise must carry
-          <strong>one designated NA-eligible player</strong>
-          into the following season.
+          Every franchise must protect between
+          <strong>one and three players</strong>
+          from its previous-season NA farm.
         </p>
 
         <div class="ic-inline-value">
-          <strong>1</strong>
-          <span>coin · designated NA keeper</span>
+          <strong>1–3</strong>
+          <span>players · from the NA farm</span>
         </div>
 
         <p>
-          Additional NA-eligible players may be protected within the
-          franchise's 12–16 regular keeper group.
+          Development Keeper eligibility is based on the player having been
+          held by the franchise in an NA position at the end of the previous
+          season.
         </p>
 
         <p>
-          NA players protected through the offseason keeper process
-          receive a salary of <strong>1 coin</strong>.
+          A selected Development Keeper remains eligible for protection even
+          if Yahoo changes his NA status before the following season.
+        </p>
+
+        <p>
+          Development Keepers enter the new roster at
+          <strong>1 coin</strong>.
         </p>
 
         <p>
           The five NA slots available during the season provide development
           space. They are not five automatic additional offseason keepers.
+          A maximum of three players from that group may be protected.
         </p>
 
         <p>
-          Any NA player who is not protected is released before the new
-          roster is constructed.
+          Any NA player who is not selected as a Development Keeper is
+          released into the player pool for the following season.
         </p>
 
       </div>
@@ -431,34 +449,34 @@ permalink: /rules/
 
       <div class="ic-rule__body">
 
-<h3>Entry Draft</h3>
+        <h3>Entry Draft</h3>
 
-<p>
-  Beginning with the 2027 offseason, each franchise receives one selection
-  in the annual IceCore Entry Draft.
-</p>
+        <p>
+          Beginning with the 2027 offseason, each franchise receives one selection
+          in the annual IceCore Entry Draft.
+        </p>
 
-<p>
-  Draft order is determined by reverse final standings. There is no lottery,
-  and Entry Draft selections cannot be traded.
-</p>
+        <p>
+          Draft order is determined by reverse final standings. There is no lottery,
+          and Entry Draft selections cannot be traded.
+        </p>
 
-<p>
-  Each General Manager may submit a ranked rookie priority list before the
-  published deadline. When a franchise is on the clock, the highest-ranked
-  available player on that list will be selected.
-</p>
+        <p>
+          Each General Manager may submit a ranked rookie priority list before the
+          published deadline. When a franchise is on the clock, the highest-ranked
+          available player on that list will be selected.
+        </p>
 
-<p>
-  Submitting a priority list is optional. If no list is submitted, the
-  franchise will automatically receive the highest available eligible player
-  according to the real-world NHL Draft order.
-</p>
+        <p>
+          Submitting a priority list is optional. If no list is submitted, the
+          franchise will automatically receive the highest available eligible player
+          according to the real-world NHL Draft order.
+        </p>
 
-<p>
-  Entry Draft selections enter their IceCore franchise at a salary of
-  1 Coin.
-</p>
+        <p>
+          Entry Draft selections enter their IceCore franchise at a salary of
+          <strong>1 Coin</strong>.
+        </p>
 
       </div>
 
@@ -473,10 +491,10 @@ permalink: /rules/
 
       <div class="ic-rule__body">
 
-        <h3>Rookie Lists</h3>
+        <h3>Rookie Lists & Yahoo Availability</h3>
 
         <p>
-          Managers submit their rookie preferences before the announced
+          Managers may submit their rookie preferences before the announced
           Entry Draft deadline.
         </p>
 
@@ -486,10 +504,27 @@ permalink: /rules/
           in the first round of the relevant NHL Draft.
         </p>
 
-<p>
-  Missing the Entry Draft priority-list deadline does not result in a league
-  penalty. The default NHL Draft order will be used automatically.
-</p>
+        <p>
+          Missing the Entry Draft priority-list deadline does not result in a league
+          penalty. The default NHL Draft order will be used automatically.
+        </p>
+
+        <p>
+          If an Entry Draft selection is not yet available in Yahoo when offseason
+          rosters are prepared, the franchise retains exclusive rights to that rookie.
+        </p>
+
+        <p>
+          The Commissioner may temporarily use an eligible player from the
+          franchise's development group as a roster placeholder. Once the selected
+          rookie becomes available in Yahoo, the placeholder is removed and the
+          rookie is assigned to the franchise at his standard 1-coin salary.
+        </p>
+
+        <p>
+          A temporary placeholder does not create additional player rights,
+          salary or keeper protection.
+        </p>
 
       </div>
 
@@ -550,7 +585,7 @@ permalink: /rules/
         <h3>Salary Escalation</h3>
 
         <p>
-          Salaries increase whenever a player is protected for another season.
+          Salaries increase whenever a regular player is protected for another season.
           Exceptional performance and exceptional value accelerate the increase.
         </p>
 
@@ -696,15 +731,15 @@ permalink: /rules/
         <div class="ic-roster-formula">
 
           <div>
-            <strong>12–16</strong>
+            <strong>11–15</strong>
             <span>Keepers</span>
           </div>
 
           <i>+</i>
 
           <div>
-            <strong>1</strong>
-            <span>NA</span>
+            <strong>1–3</strong>
+            <span>Development</span>
           </div>
 
           <i>+</i>
@@ -717,7 +752,7 @@ permalink: /rules/
           <i>+</i>
 
           <div>
-            <strong>2–6</strong>
+            <strong>1–7</strong>
             <span>Live Draft</span>
           </div>
 
@@ -731,9 +766,14 @@ permalink: /rules/
         </div>
 
         <p>
-          A franchise protecting 16 regular keepers has two positions
-          remaining in the live draft.
-          A franchise protecting 12 has six.
+          The exact number of Live Salary Cap Draft positions depends on how many
+          regular and Development Keepers a franchise protects.
+        </p>
+
+        <p>
+          A franchise may therefore preserve most of its organization or reopen
+          a larger part of its roster to the live market while remaining under
+          the same 500-coin Salary Cap.
         </p>
 
         <p>
@@ -758,7 +798,7 @@ permalink: /rules/
         <h3>Live Salary Cap Draft</h3>
 
         <p>
-          After keepers, the designated NA player and Entry Draft rookies
+          After regular keepers, Development Keepers and Entry Draft rookies
           have been assigned, all remaining active roster positions are
           filled through Yahoo's Live Salary Cap Draft.
         </p>
@@ -848,16 +888,21 @@ permalink: /rules/
         </p>
 
         <p>
-          If a valid keeper list is not submitted, the Commissioner will
-          construct the required list using an objective fallback based
-          primarily on fantasy-point performance.
+          If a valid keeper list is not submitted, the GM receives a warning
+          and the Commissioner will construct the franchise's keeper group
+          from its eligible players.
         </p>
 
         <p>
-          If required roster structure cannot be completed from those players,
-          the Commissioner may use eligible reserve players and, where
-          necessary, assign an available NA player at the standard
-          <strong>1-coin NA salary</strong>.
+          The fallback selection begins with the highest-performing eligible
+          players and continues until the required keeper structure is complete,
+          while respecting the franchise's 500-coin Salary Cap.
+        </p>
+
+        <p>
+          Regular Keeper selections are limited to eligible active-roster and
+          IR+ players. Development Keeper selections are limited to players
+          held in the franchise's NA farm at the end of the previous season.
         </p>
 
         <p>
