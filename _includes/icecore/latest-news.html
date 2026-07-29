@@ -22,24 +22,25 @@
           >
 
             <div class="latest-news__meta">
+              <span>{{ post.date | date: "%b %d" | upcase }}</span>
 
-              <span class="latest-news__date">
-                {{ post.date | date: "%b %d" | upcase }}
-              </span>
+              <span class="latest-news__dot">·</span>
 
-              <span class="latest-news__category">
+              <span>
                 {% if post.categories %}
                   {{ post.categories | first | upcase }}
                 {% else %}
                   JOURNAL
                 {% endif %}
               </span>
-
             </div>
 
-            <div class="latest-news__title">
+            <div class="latest-news__row">
+
               <h4>{{ post.title }}</h4>
+
               <span class="latest-news__arrow">→</span>
+
             </div>
 
           </a>
@@ -48,7 +49,7 @@
 
         {% assign latest_count = latest_count | plus: 1 %}
 
-        {% if latest_count == 3 %}
+        {% if latest_count == 4 %}
           {% break %}
         {% endif %}
 
