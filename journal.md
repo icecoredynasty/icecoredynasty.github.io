@@ -19,7 +19,7 @@ permalink: /journal/
   <div class="ic-section-hero__inner">
 
     <span class="ic-section-hero__eyebrow">
-      ICECORE DYNASTY · JOURNAL
+      THE JOURNAL
     </span>
 
     <h1>
