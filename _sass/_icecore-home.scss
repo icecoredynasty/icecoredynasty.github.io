@@ -375,20 +375,31 @@
 
 .latest-news {
   width: 100%;
+  min-width: 0;
+}
+
+.latest-news .section-heading {
+  margin-bottom: 0;
 }
 
 .latest-news__list {
-  border-top: 1px solid #ddd;
+  width: 100%;
+  border-top: 1px solid #e1e4e8;
 }
 
 .latest-news__item {
-  border-bottom: 1px solid #ddd;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+  border-bottom: 1px solid #e1e4e8;
 }
 
 .latest-news__link {
   display: block;
+  width: 100%;
 
-  padding: 1.15rem 0 1.25rem;
+  padding: 1.15rem 0;
 
   color: inherit;
   text-decoration: none;
@@ -397,67 +408,68 @@
 .latest-news__meta {
   display: flex;
   align-items: center;
-  gap: .65rem;
+  gap: .5rem;
 
-  margin-bottom: .55rem;
+  margin: 0 0 .45rem;
 
-  font-size: .58rem;
-  line-height: 1;
+  font-size: .68rem;
+  line-height: 1.2;
   font-weight: 800;
 
-  letter-spacing: .08em;
+  letter-spacing: .07em;
   text-transform: uppercase;
 
-  color: #888;
+  color: #6f7780;
 }
 
-.latest-news__date::after {
-  content: "·";
-
-  margin-left: .65rem;
-
-  color: #bbb;
+.latest-news__dot {
+  color: #a8adb3;
 }
 
-.latest-news__title {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-
+.latest-news__row {
+  display: flex;
   align-items: center;
-  gap: 1rem;
+  justify-content: space-between;
+
+  gap: 1.25rem;
+
+  width: 100%;
 }
 
-.latest-news__title h4 {
+.latest-news__row h4 {
+  flex: 1 1 auto;
+  min-width: 0;
+
   margin: 0;
 
-  font-size: .95rem;
-  line-height: 1.3;
-  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.25;
+  font-weight: 750;
 
   letter-spacing: -.015em;
 }
 
 .latest-news__arrow {
-  font-size: 1rem;
+  flex: 0 0 auto;
+
+  margin-right: .15rem;
+
+  font-size: 1.15rem;
   line-height: 1;
 
-  color: #999;
-
-  transition:
-    transform .18s ease,
-    color .18s ease;
-}
-
-.latest-news__link:hover .latest-news__arrow {
-  transform: translateX(3px);
-
   color: #111;
+
+  transition: transform .18s ease;
 }
 
 .latest-news__link:hover h4 {
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
+}
+
+.latest-news__link:hover .latest-news__arrow {
+  transform: translateX(4px);
 }
 
 
@@ -468,13 +480,20 @@
 @media (max-width: 600px) {
 
   .latest-news__link {
-    padding: 1rem 0 1.1rem;
+    padding: 1rem 0;
   }
 
-  .latest-news__title h4 {
-    font-size: .9rem;
+  .latest-news__row {
+    gap: .75rem;
   }
 
+  .latest-news__row h4 {
+    font-size: .95rem;
+  }
+
+  .latest-news__meta {
+    font-size: .62rem;
+  }
 }
 /* =======================================================
    CALENDAR
