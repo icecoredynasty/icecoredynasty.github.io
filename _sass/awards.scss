@@ -10,38 +10,10 @@
 }
 
 
-/* HERO */
+/* =========================================================
+   SHARED LABELS
+   ========================================================= */
 
-.ic-awards-hero {
-  padding-bottom: 4rem;
-  border-bottom: 1px solid #ddd;
-}
-
-.ic-awards-hero__image {
-  width: calc(100vw - 4rem);
-  max-width: 1600px;
-  height: clamp(150px, 20vw, 300px);
-
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-
-  margin-bottom: 3rem;
-  overflow: hidden;
-
-  background: #111;
-}
-
-.ic-awards-hero__image img {
-  width: 100%;
-  height: 100%;
-  display: block;
-
-  object-fit: cover;
-  object-position: center;
-}
-
-.ic-awards-eyebrow,
 .ic-awards-heading > span,
 .ic-awards-archive > span {
   display: block;
@@ -57,30 +29,10 @@
   color: #777;
 }
 
-.ic-awards-hero h1 {
-  max-width: 900px;
 
-  margin: 0;
-
-  font-size: clamp(3rem, 6vw, 5.5rem);
-  line-height: .92;
-
-  letter-spacing: -.055em;
-}
-
-.ic-awards-hero__content > p {
-  max-width: 670px;
-
-  margin: 1.7rem 0 0;
-
-  font-size: 1.08rem;
-  line-height: 1.65;
-
-  color: #555;
-}
-
-
-/* SECTIONS */
+/* =========================================================
+   SECTIONS
+   ========================================================= */
 
 .ic-awards-section {
   padding: 5rem 0;
@@ -114,7 +66,9 @@
 }
 
 
-/* TROPHIES */
+/* =========================================================
+   TROPHIES
+   ========================================================= */
 
 .ic-trophy-grid {
   display: grid;
@@ -203,7 +157,9 @@
 }
 
 
-/* MANAGEMENT AWARDS */
+/* =========================================================
+   MANAGEMENT AWARDS
+   ========================================================= */
 
 .ic-award-list {
   border-top: 1px solid #ddd;
@@ -256,7 +212,9 @@
 }
 
 
-/* MOVES */
+/* =========================================================
+   MOVES
+   ========================================================= */
 
 .ic-move-grid {
   display: grid;
@@ -304,7 +262,9 @@
 }
 
 
-/* ARCHIVE */
+/* =========================================================
+   ARCHIVE
+   ========================================================= */
 
 .ic-awards-archive {
   max-width: 780px;
@@ -355,7 +315,9 @@
 }
 
 
-/* TABLET */
+/* =========================================================
+   TABLET
+   ========================================================= */
 
 @media (max-width: 900px) {
 
@@ -366,23 +328,14 @@
 }
 
 
-/* MOBILE */
+/* =========================================================
+   MOBILE
+   ========================================================= */
 
 @media (max-width: 600px) {
 
   .ic-awards-page {
     padding: .8rem 1rem 4rem;
-  }
-
-  .ic-awards-hero__image {
-    width: calc(100vw - 2rem);
-    height: 150px;
-
-    margin-bottom: 2rem;
-  }
-
-  .ic-awards-hero h1 {
-    font-size: 3rem;
   }
 
   .ic-awards-section {
