@@ -3,67 +3,58 @@
   <div class="section-heading">
     <h3>Latest from IceCore</h3>
   </div>
-<div class="latest-news__list">
-{% assign latest = site.posts | sort: "date" | reverse %}
-{% assign latest_count = 0 %}
 
-{% for post in latest %}
+  <div class="latest-news__list">
 
-  {% unless post.featured or post.featured_guide or post.highlight %}
+    {% assign latest = site.posts | sort: "date" | reverse %}
+    {% assign latest_count = 0 %}
 
-    <article class="latest-news__item">
+    {% for post in latest %}
 
-      <div class="latest-news__meta">
+      {% unless post.featured or post.featured_guide or post.highlight %}
 
-        <span class="latest-news__date">
-          {{ post.date | date: "%b %d" | upcase }}
-        </span>
+        <article class="latest-news__item">
 
-        <span class="latest-news__category">
-          {% if post.categories %}
-            {{ post.categories | first | upcase }}
-          {% else %}
-            JOURNAL
-          {% endif %}
-        </span>
+          <a
+            class="latest-news__link"
+            href="{{ post.url | relative_url }}"
+            aria-label="Read {{ post.title | escape }}"
+          >
 
-      </div>
+            <div class="latest-news__meta">
 
-      <div class="latest-news__content">
+              <span class="latest-news__date">
+                {{ post.date | date: "%b %d" | upcase }}
+              </span>
 
-        <h4>
-          <a href="{{ post.url | relative_url }}">
-            {{ post.title }}
+              <span class="latest-news__category">
+                {% if post.categories %}
+                  {{ post.categories | first | upcase }}
+                {% else %}
+                  JOURNAL
+                {% endif %}
+              </span>
+
+            </div>
+
+            <div class="latest-news__title">
+              <h4>{{ post.title }}</h4>
+              <span class="latest-news__arrow">→</span>
+            </div>
+
           </a>
-        </h4>
 
-        {% if post.excerpt %}
-          <p>
-            {{ post.excerpt | strip_html | truncate: 115 }}
-          </p>
+        </article>
+
+        {% assign latest_count = latest_count | plus: 1 %}
+
+        {% if latest_count == 3 %}
+          {% break %}
         {% endif %}
 
-      </div>
+      {% endunless %}
 
-      <a
-        class="latest-news__arrow"
-        href="{{ post.url | relative_url }}"
-        aria-label="Read {{ post.title | escape }}"
-      >
-        →
-      </a>
-
-    </article>
-
-    {% assign latest_count = latest_count | plus: 1 %}
-
-    {% if latest_count == 3 %}
-      {% break %}
-    {% endif %}
-
-  {% endunless %}
-
-{% endfor %}
+    {% endfor %}
 
   </div>
 
