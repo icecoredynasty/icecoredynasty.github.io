@@ -20,7 +20,7 @@ permalink: /awards/
   <div class="ic-section-hero__inner">
 
     <span class="ic-section-hero__eyebrow">
-      ICECORE DYNASTY · AWARDS
+      HONOURS & HISTORY
     </span>
 
     <h1>
