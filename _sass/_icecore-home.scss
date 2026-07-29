@@ -414,8 +414,12 @@
 
   padding: 1.15rem 0;
 
-  color: inherit;
+  color: #111;
   text-decoration: none;
+}
+
+.latest-news__link:visited {
+  color: #111;
 }
 
 .latest-news__meta {
@@ -460,6 +464,10 @@
   font-weight: 750;
 
   letter-spacing: -.015em;
+
+  color: #111;
+
+  transition: color .2s ease;
 }
 
 .latest-news__arrow {
@@ -472,16 +480,26 @@
 
   color: #111;
 
-  transition: transform .18s ease;
+  transition:
+    transform .18s ease,
+    color .2s ease;
 }
 
-.latest-news__link:hover h4 {
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 3px;
+.latest-news__link:hover,
+.latest-news__link:focus {
+  color: #0d5be1;
+  text-decoration: none;
 }
 
-.latest-news__link:hover .latest-news__arrow {
+.latest-news__link:hover h4,
+.latest-news__link:focus h4 {
+  color: #0d5be1;
+  text-decoration: none;
+}
+
+.latest-news__link:hover .latest-news__arrow,
+.latest-news__link:focus .latest-news__arrow {
+  color: #0d5be1;
   transform: translateX(4px);
 }
 
