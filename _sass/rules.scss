@@ -57,68 +57,8 @@
 
 
 /* =========================================================
-   HERO
+   RULES STATS
    ========================================================= */
-
-.ic-rules-hero {
-  padding-bottom: 4.5rem;
-  border-bottom: 1px solid #dedede;
-}
-
-
-.ic-rules-hero__image {
-  width: 100%;
-  height: clamp(180px, 25vw, 300px);
-
-  margin-bottom: 3.25rem;
-
-  overflow: hidden;
-
-  background: #111;
-}
-
-
-.ic-rules-hero__image img {
-  display: block;
-
-  width: 100%;
-  height: 100%;
-
-  object-fit: cover;
-  object-position: center 53%;
-}
-
-
-.ic-rules-hero__content {
-  max-width: 1000px;
-}
-
-
-.ic-rules-hero h1 {
-  max-width: 900px;
-
-  margin: 0;
-
-  font-size: clamp(3.3rem, 8vw, 7rem);
-  line-height: .88;
-
-  letter-spacing: -.065em;
-}
-
-
-.ic-rules-hero__lead {
-  max-width: 680px;
-
-  margin: 2rem 0 0;
-
-  font-size: 1.2rem;
-  line-height: 1.6;
-
-  color: #555;
-}
-
-
-/* hero stats */
 
 .ic-rules-stats {
   display: grid;
@@ -161,56 +101,6 @@
   text-transform: uppercase;
 
   color: #777;
-}
-
-.rules-hero {
-  position: relative;
-
-  width: 100vw;
-  max-width: none;
-  min-height: 460px;
-
-  margin-left: calc(50% - 50vw);
-  margin-right: calc(50% - 50vw);
-
-  overflow: hidden;
-  display: flex;
-  align-items: flex-end;
-}
-
-.rules-hero__image {
-  position: absolute;
-  inset: 0;
-
-  width: 100%;
-  height: 100%;
-
-  object-fit: cover;
-  object-position: center;
-}
-
-.rules-hero__overlay {
-  position: absolute;
-  inset: 0;
-
-  background:
-    linear-gradient(
-      90deg,
-      rgba(8, 12, 15, 0.92) 0%,
-      rgba(8, 12, 15, 0.66) 42%,
-      rgba(8, 12, 15, 0.08) 100%
-    );
-}
-
-.rules-hero__content {
-  position: relative;
-  z-index: 2;
-
-  width: min(1180px, calc(100% - 48px));
-  margin: 0 auto;
-  padding: 80px 0 62px;
-
-  color: #fff;
 }
 
 
@@ -688,7 +578,9 @@
 }
 
 
-/* example */
+/* =========================================================
+   EXAMPLE
+   ========================================================= */
 
 .ic-example {
   max-width: 720px;
@@ -1002,39 +894,7 @@
   }
 
 
-  /* hero */
-
-  .ic-rules-hero {
-    padding-bottom: 3.2rem;
-  }
-
-.ic-rules-hero__image {
-  width: calc(100vw - 4rem);
-  max-width: 1600px;
-  height: clamp(150px, 20vw, 300px);
-
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-
-  margin-bottom: 3.25rem;
-
-  overflow: hidden;
-  background: #111;
-}
-
-.ic-rules-hero h1 {
-  max-width: 900px;
-  margin: 0;
-
-  font-size: clamp(3rem, 6vw, 5.5rem);
-  line-height: .92;
-  letter-spacing: -.055em;
-}
-
-  .ic-rules-hero__lead {
-    font-size: 1rem;
-  }
+  /* stats */
 
   .ic-rules-stats {
     grid-template-columns: repeat(2, 1fr);
