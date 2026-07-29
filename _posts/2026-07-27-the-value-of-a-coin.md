@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "The Value of a Coin"
 date: 2026-07-27
 categories:
