@@ -120,6 +120,11 @@ permalink: /league/
           the decision from <em>who should play tonight?</em>
           to <em>who deserves a place on my franchise?</em>
         </p>
+
+        <p>
+          Five NA slots provide room to develop young talent
+          without turning the league into a prospect warehouse.
+        </p>
       </div>
 
       <div class="league-roster-card">
@@ -227,8 +232,8 @@ permalink: /league/
         <span>02</span>
         <h3>Develop</h3>
         <p>
-          Use prospect space to invest in players who may shape
-          the franchise years from now.
+          Use development space to invest in young players who may
+          shape the franchise years from now.
         </p>
       </article>
 
@@ -313,9 +318,16 @@ permalink: /league/
         </p>
 
         <p>
-          A contender may protect most of its core.
-          A rebuilding franchise may open roster space,
-          preserve cap flexibility and start again.
+          Each offseason, franchises protect an eleven-to-fifteen-player
+          core while carrying forward one to three players from their
+          development group. An annual Rookie Draft adds another piece
+          of the future.
+        </p>
+
+        <p>
+          A contender may preserve almost everything it has built.
+          A rebuilding franchise may protect a smaller core, create
+          cap space and attack the market.
         </p>
       </div>
 
@@ -379,17 +391,6 @@ permalink: /league/
     </h2>
 
     <p>
-  <!-- CTA -->
-  <section class="league-end">
-
-    <span class="league-eyebrow">ICECORE DYNASTY</span>
-
-    <h2>
-      Twenty franchises.<br>
-      One history.
-    </h2>
-
-    <p>
       The rules define the framework.
       The General Managers decide what happens next.
     </p>
@@ -398,6 +399,9 @@ permalink: /league/
       <a href="{{ '/teams/' | relative_url }}">Meet the franchises →</a>
       <a href="{{ '/rules/' | relative_url }}">Read the rules →</a>
     </div>
+
+  </section>
+
 
   <!-- JOIN ICECORE -->
   <section class="league-join" id="join">
