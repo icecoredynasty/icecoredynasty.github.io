@@ -17,7 +17,7 @@ permalink: /league/
     <div class="league-hero__overlay"></div>
 
     <div class="league-hero__content">
-      <span class="league-kicker">ICECORE DYNASTY</span>
+      <span class="league-kicker">THE LEAGUE</span>
 
       <h1>
         Build the team.<br>
