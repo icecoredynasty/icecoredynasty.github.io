@@ -9,7 +9,7 @@ tags:
   - general-manager
 excerpt: "IceCore removes one familiar fantasy decision: choosing which of your own players are allowed to score."
 header:
-  teaser: /assets/images/articles/no-bench.jpg
+  teaser: /assets/images/journal/no-bench.jpg
 ---
 
 Fantasy hockey usually asks you to do two jobs.
