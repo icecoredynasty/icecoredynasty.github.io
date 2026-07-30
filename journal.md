@@ -1,35 +1,21 @@
 ---
-layout: default
+layout: page
 title: Journal
 permalink: /journal/
 ---
 
-<div class="ic-journal">
+<section class="journal-hero">
 
-  <!-- HERO -->
- <section class="ic-section-hero">
+  <div class="journal-hero__inner">
 
-  <div class="ic-section-hero__image">
-    <img
-      src="{{ '/assets/images/heroes/journal-hero.jpg' | relative_url }}"
-      alt=""
-    >
-  </div>
+    <div class="journal-hero__eyebrow">
+      ICECORE DYNASTY
+    </div>
 
-  <div class="ic-section-hero__inner">
+    <h1>Journal</h1>
 
-    <span class="ic-section-hero__eyebrow">
-      THE JOURNAL
-    </span>
-
-    <h1>
-      Stories behind<br>
-      the standings.
-    </h1>
-
-    <p class="ic-section-hero__lead">
-      League news, franchise stories, guides, draft coverage and the decisions
-      shaping IceCore Dynasty.
+    <p>
+      League news, strategy, guides and stories from across IceCore Dynasty.
     </p>
 
   </div>
@@ -37,362 +23,236 @@ permalink: /journal/
 </section>
 
 
-  <!-- STORIES -->
-  <section class="ic-journal-section">
+<section class="journal-content">
 
-    <header class="ic-journal-heading">
-      <span>JOURNAL</span>
-      <h2>Latest stories.</h2>
-    </header>
+  <div class="journal-intro">
 
-
-    <!-- FILTERS -->
-    <div class="ic-journal-filters">
-
-      <label>
-        <span>League</span>
-
-        <select id="journalLeague">
-          <option value="all">All Leagues</option>
-          <option value="league-1">League 1</option>
-          <!--
-          <option value="league-2">League 2</option>
-          -->
-        </select>
-      </label>
-
-
-      <label>
-        <span>Category</span>
-
-        <select id="journalCategory">
-          <option value="all">All Categories</option>
-          <option value="league">League News</option>
-          <option value="franchise">Franchises</option>
-          <option value="draft">Draft</option>
-          <option value="guide">Guides</option>
-          <option value="analysis">Analysis</option>
-          <option value="history">History</option>
-        </select>
-      </label>
-
-
-      <label>
-        <span>Season</span>
-
-        <select id="journalSeason">
-          <option value="all">All Seasons</option>
-          <option value="2026-27">2026–27</option>
-        </select>
-      </label>
-
+    <div class="section-heading">
+      <h2>From IceCore</h2>
     </div>
-
-
-    <!-- ARTICLE GRID -->
-    <div class="ic-journal-grid" id="journalArchive">
-
-
-      <!-- FEATURED / NEWEST ARTICLE -->
-      <article
-        class="ic-journal-card ic-journal-card--lead"
-        data-league="league-1"
-        data-category="league"
-        data-season="2026-27"
-      >
-
-        <a
-          class="ic-journal-card__image"
-          href="{{ '/journal/inaugural-season/' | relative_url }}"
-        >
-          <img
-            src="{{ '/assets/images/journal/inaugural-season.jpg' | relative_url }}"
-            alt=""
-          >
-        </a>
-
-        <div class="ic-journal-card__content">
-
-          <div class="ic-journal-card__meta">
-            <span>League 1</span>
-            <span>League News</span>
-            <time>2026</time>
-          </div>
-
-          <h3>
-            <a href="{{ '/journal/inaugural-season/' | relative_url }}">
-              A new dynasty begins.
-            </a>
-          </h3>
-
-          <p>
-            Twenty franchises. Permanent identities. One shared history
-            waiting to be written.
-          </p>
-
-          <a
-            class="ic-journal-card__read"
-            href="{{ '/journal/inaugural-season/' | relative_url }}"
-          >
-            Read story →
-          </a>
-
-        </div>
-
-      </article>
-
-
-      <!-- GM GUIDE -->
-      <article
-        class="ic-journal-card"
-        data-league="all"
-        data-category="guide"
-        data-season="2026-27"
-      >
-
-        <a
-          class="ic-journal-card__image"
-          href="{{ '/journal/gm-guide/' | relative_url }}"
-        >
-          <img
-            src="{{ '/assets/images/journal/gm-guide.jpg' | relative_url }}"
-            alt=""
-          >
-        </a>
-
-        <div class="ic-journal-card__content">
-
-          <div class="ic-journal-card__meta">
-            <span>All Leagues</span>
-            <span>Guide</span>
-            <time>2026</time>
-          </div>
-
-          <h3>
-            <a href="{{ '/journal/gm-guide/' | relative_url }}">
-              The General Manager's Guide to IceCore.
-            </a>
-          </h3>
-
-          <p>
-            The essentials of salaries, keepers, prospects,
-            drafts and long-term franchise management.
-          </p>
-
-          <a
-            class="ic-journal-card__read"
-            href="{{ '/journal/gm-guide/' | relative_url }}"
-          >
-            Read story →
-          </a>
-
-        </div>
-
-      </article>
-
-
-      <!-- ENTRY DRAFT -->
-      <article
-        class="ic-journal-card"
-        data-league="all"
-        data-category="draft"
-        data-season="2026-27"
-      >
-
-        <a
-          class="ic-journal-card__image"
-          href="{{ '/journal/entry-draft-guide/' | relative_url }}"
-        >
-          <img
-            src="{{ '/assets/images/journal/entry-draft-guide.jpg' | relative_url }}"
-            alt=""
-          >
-        </a>
-
-        <div class="ic-journal-card__content">
-
-          <div class="ic-journal-card__meta">
-            <span>All Leagues</span>
-            <span>Draft</span>
-            <time>2026</time>
-          </div>
-
-          <h3>
-            <a href="{{ '/journal/entry-draft-guide/' | relative_url }}">
-              Inside the IceCore Entry Draft.
-            </a>
-          </h3>
-
-          <p>
-            One rookie per franchise, reverse standings and no lottery:
-            the system behind IceCore's annual rookie class.
-          </p>
-
-          <a
-            class="ic-journal-card__read"
-            href="{{ '/journal/entry-draft-guide/' | relative_url }}"
-          >
-            Read story →
-          </a>
-
-        </div>
-
-      </article>
-
-    </div>
-
-
-    <div class="ic-journal-empty" id="journalEmpty">
-      No stories match these filters.
-    </div>
-
-  </section>
-
-
-  <!-- SECTIONS -->
-  <section class="ic-journal-section ic-journal-sections">
-
-    <header class="ic-journal-heading">
-      <span>SECTIONS</span>
-      <h2>Inside the Journal.</h2>
-    </header>
-
-
-    <div class="ic-journal-categories">
-
-      <article>
-        <span>01</span>
-        <h3>League News</h3>
-        <p>
-          Announcements, milestones, expansion and major developments
-          across IceCore.
-        </p>
-      </article>
-
-      <article>
-        <span>02</span>
-        <h3>Franchises</h3>
-        <p>
-          Team stories, rebuilds, rivalries and the people behind
-          IceCore's permanent clubs.
-        </p>
-      </article>
-
-      <article>
-        <span>03</span>
-        <h3>Draft</h3>
-        <p>
-          Rookie classes, Salary Cap Drafts and the decisions shaping
-          the next generation.
-        </p>
-      </article>
-
-      <article>
-        <span>04</span>
-        <h3>Guides</h3>
-        <p>
-          Clear explanations of IceCore systems for new and returning
-          General Managers.
-        </p>
-      </article>
-
-      <article>
-        <span>05</span>
-        <h3>Analysis</h3>
-        <p>
-          Salary value, roster construction, league trends and strategy.
-        </p>
-      </article>
-
-      <article>
-        <span>06</span>
-        <h3>History</h3>
-        <p>
-          Championships, records and defining moments from every
-          IceCore season.
-        </p>
-      </article>
-
-    </div>
-
-  </section>
-
-
-  <!-- CLOSING -->
-  <section class="ic-journal-closing">
-
-    <span>THE ARCHIVE STARTS HERE</span>
-
-    <h2>
-      Today is news.<br>
-      Tomorrow is history.
-    </h2>
 
     <p>
-      Every draft, championship, rebuild and era adds another chapter
-      to the IceCore archive.
+      Follow the league beyond the standings. Explore official announcements,
+      General Manager guides, league philosophy, strategy and stories from
+      across IceCore Dynasty.
     </p>
 
-    <strong>Season One · 2026–27</strong>
-
-  </section>
-
-</div>
+  </div>
 
 
-<script>
-document.addEventListener("DOMContentLoaded", function () {
+  {% assign journal_posts = site.posts | sort: "date" | reverse %}
 
-  const leagueFilter = document.getElementById("journalLeague");
-  const categoryFilter = document.getElementById("journalCategory");
-  const seasonFilter = document.getElementById("journalSeason");
+  {% if journal_posts.size > 0 %}
 
-  const articles = document.querySelectorAll(".ic-journal-card");
-  const emptyState = document.getElementById("journalEmpty");
+    <!-- =====================================================
+         ALL ARTICLES
+    ====================================================== -->
 
-  function filterJournal() {
+    <section class="journal-section">
 
-    const league = leagueFilter.value;
-    const category = categoryFilter.value;
-    const season = seasonFilter.value;
+      <div class="journal-section__heading">
+        <h2>All Stories</h2>
+        <span>{{ journal_posts.size }} articles</span>
+      </div>
 
-    let visible = 0;
+      <div class="journal-grid">
 
-    articles.forEach(function (article) {
+        {% for post in journal_posts %}
 
-      const leagueMatch =
-        league === "all" ||
-        article.dataset.league === "all" ||
-        article.dataset.league === league;
+          <article
+            class="journal-card"
+            data-category="{% if post.categories %}{{ post.categories | join: ' ' | downcase }}{% endif %}"
+          >
 
-      const categoryMatch =
-        category === "all" ||
-        article.dataset.category === category;
+            <a
+              class="journal-card__image"
+              href="{{ post.url | relative_url }}"
+              aria-label="Read {{ post.title | escape }}"
+            >
 
-      const seasonMatch =
-        season === "all" ||
-        article.dataset.season === season;
+              {% if post.image %}
 
-      const show =
-        leagueMatch &&
-        categoryMatch &&
-        seasonMatch;
+                <img
+                  src="{{ post.image | relative_url }}"
+                  alt="{{ post.title | escape }}"
+                  loading="lazy"
+                  decoding="async"
+                >
 
-      article.hidden = !show;
+              {% elsif post.header.teaser %}
 
-      if (show) visible++;
+                <img
+                  src="{{ post.header.teaser | relative_url }}"
+                  alt="{{ post.title | escape }}"
+                  loading="lazy"
+                  decoding="async"
+                >
 
-    });
+              {% endif %}
 
-    emptyState.style.display =
-      visible === 0 ? "block" : "none";
-  }
+            </a>
 
-  leagueFilter.addEventListener("change", filterJournal);
-  categoryFilter.addEventListener("change", filterJournal);
-  seasonFilter.addEventListener("change", filterJournal);
 
-  filterJournal();
+            <div class="journal-card__content">
 
-});
-</script>
+              <div class="journal-card__meta">
+
+                <span>
+                  {{ post.date | date: "%b %d, %Y" | upcase }}
+                </span>
+
+                {% if post.categories and post.categories.size > 0 %}
+
+                  <span class="journal-card__dot">·</span>
+
+                  <span>
+                    {{ post.categories | first | upcase }}
+                  </span>
+
+                {% endif %}
+
+              </div>
+
+
+              <h3 class="journal-card__title">
+
+                <a href="{{ post.url | relative_url }}">
+                  {{ post.title }}
+                </a>
+
+              </h3>
+
+
+              {% if post.excerpt %}
+
+                <p class="journal-card__excerpt">
+                  {{ post.excerpt | strip_html | strip_newlines }}
+                </p>
+
+              {% endif %}
+
+
+              <a
+                class="journal-card__read"
+                href="{{ post.url | relative_url }}"
+              >
+                Read story
+                <span aria-hidden="true">→</span>
+              </a>
+
+            </div>
+
+          </article>
+
+        {% endfor %}
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         STORIES BY CATEGORY
+    ====================================================== -->
+
+    {% assign journal_categories = site.categories | sort %}
+
+    {% if journal_categories.size > 0 %}
+
+      <section class="journal-categories">
+
+        <div class="journal-section__heading">
+          <h2>Browse by Category</h2>
+        </div>
+
+
+        {% for category in journal_categories %}
+
+          {% assign category_name = category[0] %}
+          {% assign category_posts = category[1] | sort: "date" | reverse %}
+
+          <section
+            class="journal-category"
+            id="{{ category_name | slugify }}"
+          >
+
+            <div class="journal-category__heading">
+
+              <div>
+
+                <span class="journal-category__label">
+                  CATEGORY
+                </span>
+
+                <h3>
+                  {{ category_name }}
+                </h3>
+
+              </div>
+
+              <span class="journal-category__count">
+                {{ category_posts.size }}
+                {% if category_posts.size == 1 %}
+                  story
+                {% else %}
+                  stories
+                {% endif %}
+              </span>
+
+            </div>
+
+
+            <div class="journal-category__list">
+
+              {% for post in category_posts %}
+
+                <a
+                  class="journal-category__item"
+                  href="{{ post.url | relative_url }}"
+                >
+
+                  <div class="journal-category__meta">
+
+                    <span>
+                      {{ post.date | date: "%b %d, %Y" | upcase }}
+                    </span>
+
+                  </div>
+
+
+                  <div class="journal-category__title">
+                    {{ post.title }}
+                  </div>
+
+
+                  <span
+                    class="journal-category__arrow"
+                    aria-hidden="true"
+                  >
+                    →
+                  </span>
+
+                </a>
+
+              {% endfor %}
+
+            </div>
+
+          </section>
+
+        {% endfor %}
+
+      </section>
+
+    {% endif %}
+
+  {% else %}
+
+    <div class="journal-empty">
+      <h2>No stories yet.</h2>
+      <p>The IceCore Journal is being prepared for the inaugural season.</p>
+    </div>
+
+  {% endif %}
+
+</section>
