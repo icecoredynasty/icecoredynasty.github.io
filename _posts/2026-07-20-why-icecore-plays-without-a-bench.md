@@ -8,6 +8,7 @@ tags:
   - philosophy
   - general-manager
 excerpt: "IceCore removes one familiar fantasy decision: choosing which of your own players are allowed to score."
+image: /assets/images/journal/no-bench.jpg
 header:
   teaser: /assets/images/journal/no-bench.jpg
 ---
