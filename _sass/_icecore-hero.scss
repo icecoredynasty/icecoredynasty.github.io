@@ -10,7 +10,7 @@
 
     display:flex;
 
-    align-items:center;
+    align-items:flex-start;
 
     overflow:hidden;
 
@@ -67,6 +67,7 @@
     z-index:5;
 
     margin-left:7%;
+    padding-top:30px;
 
     max-width:550px;
 
@@ -102,9 +103,24 @@
 
 }
 
+.icecore-hero__actions{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:.8rem;
+
+    flex-wrap:wrap;
+
+}
+
 .icecore-button{
 
-    display:inline-block;
+    display:inline-flex;
+
+    align-items:center;
+    justify-content:center;
 
     margin-top:4px;
 
@@ -118,11 +134,17 @@
 
     font-size:14px;
 
-    font-weight:700;
+    font-weight:800;
+
+    letter-spacing:.04em;
 
     text-decoration:none;
 
-    transition:.2s;
+    transition:
+        transform .18s ease,
+        background-color .18s ease,
+        border-color .18s ease,
+        color .18s ease;
 
 }
 
@@ -134,53 +156,47 @@
 
 }
 
-.icecore-hero__actions {
-  display: flex;
-  align-items: center;
-  gap: 0.8rem;
-  flex-wrap: wrap;
-}
+.icecore-button--primary{
 
-.icecore-button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+    color:#fff !important;
 
-  text-decoration: none;
-  font-weight: 800;
-  letter-spacing: 0.04em;
-
-  transition:
-    transform 0.18s ease,
-    background-color 0.18s ease,
-    border-color 0.18s ease;
-}
-
-.icecore-button--primary {
-  color: #fff !important;
 }
 
 .icecore-button--primary:visited,
 .icecore-button--primary:hover,
-.icecore-button--primary:focus {
-  color: #fff !important;
+.icecore-button--primary:focus{
+
+    color:#fff !important;
+
 }
 
-.icecore-button--join {
-  background: #fff;
-  color: #111 !important;
-  border: 2px solid #fff;
+.icecore-button--join{
+
+    background:#fff;
+
+    color:#111 !important;
+
+    border:2px solid #fff;
+
 }
 
-.icecore-button--join:visited {
-  color: #111 !important;
+.icecore-button--join:visited{
+
+    color:#111 !important;
+
 }
 
 .icecore-button--join:hover,
-.icecore-button--join:focus {
-  background: transparent;
-  color: #fff !important;
-  transform: translateY(-1px);
+.icecore-button--join:focus{
+
+    background:#f1f1f1;
+
+    border-color:#f1f1f1;
+
+    color:#111 !important;
+
+    transform:translateY(-1px);
+
 }
 
 .hero-line{
@@ -196,16 +212,8 @@
     border-radius:2px;
 
 }
-.icecore-hero__content{
 
-    padding-top:30px;
 
-}
-.icecore-hero{
-
-    align-items:flex-start;
-
-}
 @media (max-width:768px){
 
     .icecore-hero{
