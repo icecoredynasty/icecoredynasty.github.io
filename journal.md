@@ -4,50 +4,24 @@ title: Journal
 permalink: /journal/
 ---
 
-<div class="journal-page">
-
-  <!-- =====================================================
-       HERO
-  ====================================================== -->
-
-  <section class="journal-hero">
-
-    <div class="journal-hero__inner">
-
-      <div class="journal-hero__eyebrow">
-        ICECORE DYNASTY
-      </div>
-
-      <h1>Journal</h1>
-
-      <p>
-        League news, strategy, guides and stories from across IceCore Dynasty.
-      </p>
-
-    </div>
-
-  </section>
+<div class="ic-journal">
 
 
   <!-- =====================================================
-       CONTENT
-  ====================================================== -->
+       ARTICLES
+       ===================================================== -->
 
-  <section class="journal-content">
+  <section class="ic-journal-section">
 
-    <div class="journal-intro">
+    <header class="ic-journal-heading">
 
-      <div class="section-heading">
-        <h2>From IceCore</h2>
-      </div>
+      <span>ICECORE JOURNAL</span>
 
-      <p>
-        Follow the league beyond the standings. Explore official announcements,
-        General Manager guides, league philosophy, strategy and stories from
-        across IceCore Dynasty.
-      </p>
+      <h2>
+        Stories from the league.
+      </h2>
 
-    </div>
+    </header>
 
 
     {% assign journal_posts = site.posts | sort: "date" | reverse %}
@@ -55,243 +29,118 @@ permalink: /journal/
 
     {% if journal_posts.size > 0 %}
 
+      <div class="ic-journal-grid">
 
-      <!-- =====================================================
-           ALL STORIES
-      ====================================================== -->
+        {% for post in journal_posts %}
 
-      <section class="journal-section">
+          <article
+            class="ic-journal-card{% if forloop.first %} ic-journal-card--lead{% endif %}"
+          >
 
-        <div class="journal-section__heading">
-
-          <h2>All Stories</h2>
-
-          <span>
-            {{ journal_posts.size }}
-            {% if journal_posts.size == 1 %}
-              article
-            {% else %}
-              articles
-            {% endif %}
-          </span>
-
-        </div>
-
-
-        <div class="journal-grid">
-
-          {% for post in journal_posts %}
-
-            <article
-              class="journal-card"
-              data-category="{% if post.categories %}{{ post.categories | join: ' ' | downcase }}{% endif %}"
-            >
+            {% if post.image %}
 
               <a
-                class="journal-card__image"
+                class="ic-journal-card__image"
                 href="{{ post.url | relative_url }}"
                 aria-label="Read {{ post.title | escape }}"
               >
 
-                {% if post.image %}
-
-                  <img
-                    src="{{ post.image | relative_url }}"
-                    alt="{{ post.title | escape }}"
-                    loading="lazy"
-                    decoding="async"
-                  >
-
-                {% elsif post.header.teaser %}
-
-                  <img
-                    src="{{ post.header.teaser | relative_url }}"
-                    alt="{{ post.title | escape }}"
-                    loading="lazy"
-                    decoding="async"
-                  >
-
-                {% endif %}
+                <img
+                  src="{{ post.image | relative_url }}"
+                  alt="{{ post.title | escape }}"
+                  loading="lazy"
+                  decoding="async"
+                >
 
               </a>
 
+            {% elsif post.header.teaser %}
 
-              <div class="journal-card__content">
+              <a
+                class="ic-journal-card__image"
+                href="{{ post.url | relative_url }}"
+                aria-label="Read {{ post.title | escape }}"
+              >
 
-                <div class="journal-card__meta">
+                <img
+                  src="{{ post.header.teaser | relative_url }}"
+                  alt="{{ post.title | escape }}"
+                  loading="lazy"
+                  decoding="async"
+                >
+
+              </a>
+
+            {% endif %}
+
+
+            <div class="ic-journal-card__content">
+
+              <div class="ic-journal-card__meta">
+
+                <span>
+                  {{ post.date | date: "%b %d, %Y" }}
+                </span>
+
+                {% if post.categories and post.categories.size > 0 %}
 
                   <span>
-                    {{ post.date | date: "%b %d, %Y" | upcase }}
+                    {{ post.categories | first }}
                   </span>
-
-                  {% if post.categories and post.categories.size > 0 %}
-
-                    <span class="journal-card__dot">·</span>
-
-                    <span>
-                      {{ post.categories | first | upcase }}
-                    </span>
-
-                  {% endif %}
-
-                </div>
-
-
-                <h3 class="journal-card__title">
-
-                  <a href="{{ post.url | relative_url }}">
-                    {{ post.title }}
-                  </a>
-
-                </h3>
-
-
-                {% if post.excerpt %}
-
-                  <p class="journal-card__excerpt">
-                    {{ post.excerpt | strip_html | strip_newlines }}
-                  </p>
 
                 {% endif %}
 
+              </div>
 
-                <a
-                  class="journal-card__read"
-                  href="{{ post.url | relative_url }}"
-                >
-                  Read story
-                  <span aria-hidden="true">→</span>
+
+              <h3>
+
+                <a href="{{ post.url | relative_url }}">
+                  {{ post.title }}
                 </a>
 
-              </div>
-
-            </article>
-
-          {% endfor %}
-
-        </div>
-
-      </section>
+              </h3>
 
 
-      <!-- =====================================================
-           STORIES BY CATEGORY
-      ====================================================== -->
+              {% if post.excerpt %}
 
-      {% assign journal_categories = site.categories | sort %}
+                <p>
+                  {{ post.excerpt | strip_html | strip_newlines }}
+                </p>
 
-
-      {% if journal_categories.size > 0 %}
-
-        <section class="journal-categories">
-
-          <div class="journal-section__heading">
-
-            <h2>Browse by Category</h2>
-
-            <span>
-              {{ journal_categories.size }} categories
-            </span>
-
-          </div>
+              {% endif %}
 
 
-          {% for category in journal_categories %}
+              <a
+                class="ic-journal-card__read"
+                href="{{ post.url | relative_url }}"
+              >
+                Read story →
+              </a>
 
-            {% assign category_name = category[0] %}
-            {% assign category_posts = category[1] | sort: "date" | reverse %}
+            </div>
 
+          </article>
 
-            <section
-              class="journal-category"
-              id="{{ category_name | slugify }}"
-            >
+        {% endfor %}
 
-              <div class="journal-category__heading">
-
-                <div>
-
-                  <span class="journal-category__label">
-                    CATEGORY
-                  </span>
-
-                  <h3>
-                    {{ category_name }}
-                  </h3>
-
-                </div>
+      </div>
 
 
-                <span class="journal-category__count">
-
-                  {{ category_posts.size }}
-
-                  {% if category_posts.size == 1 %}
-                    story
-                  {% else %}
-                    stories
-                  {% endif %}
-
-                </span>
-
-              </div>
-
-
-              <div class="journal-category__list">
-
-                {% for post in category_posts %}
-
-                  <a
-                    class="journal-category__item"
-                    href="{{ post.url | relative_url }}"
-                  >
-
-                    <div class="journal-category__meta">
-
-                      <span>
-                        {{ post.date | date: "%b %d, %Y" | upcase }}
-                      </span>
-
-                    </div>
-
-
-                    <div class="journal-category__title">
-                      {{ post.title }}
-                    </div>
-
-
-                    <span
-                      class="journal-category__arrow"
-                      aria-hidden="true"
-                    >
-                      →
-                    </span>
-
-                  </a>
-
-                {% endfor %}
-
-              </div>
-
-            </section>
-
-          {% endfor %}
-
-        </section>
-
-      {% endif %}
+      <div class="ic-journal-empty">
+        No stories match the selected filters.
+      </div>
 
 
     {% else %}
 
 
-      <div class="journal-empty">
+      <div
+        class="ic-journal-empty"
+        style="display:block;"
+      >
 
-        <h2>No stories yet.</h2>
-
-        <p>
-          The IceCore Journal is being prepared for the inaugural season.
-        </p>
+        No stories yet.
 
       </div>
 
@@ -299,5 +148,142 @@ permalink: /journal/
     {% endif %}
 
   </section>
+
+
+  <!-- =====================================================
+       JOURNAL SECTIONS
+       ===================================================== -->
+
+  <section class="ic-journal-section ic-journal-sections">
+
+    <header class="ic-journal-heading">
+
+      <span>EXPLORE</span>
+
+      <h2>
+        Inside IceCore.
+      </h2>
+
+    </header>
+
+
+    <div class="ic-journal-categories">
+
+
+      <article>
+
+        <span>01</span>
+
+        <h3>League</h3>
+
+        <p>
+          The format, philosophy and systems that define
+          IceCore Dynasty.
+        </p>
+
+      </article>
+
+
+      <article>
+
+        <span>02</span>
+
+        <h3>Strategy</h3>
+
+        <p>
+          Roster construction, salary management,
+          trades, waivers and long-term decisions.
+        </p>
+
+      </article>
+
+
+      <article>
+
+        <span>03</span>
+
+        <h3>Draft</h3>
+
+        <p>
+          Entry Draft strategy, prospects,
+          scouting and the live player market.
+        </p>
+
+      </article>
+
+
+      <article>
+
+        <span>04</span>
+
+        <h3>Scoring</h3>
+
+        <p>
+          The Fibonacci scoring system,
+          player value and how IceCore rewards performance.
+        </p>
+
+      </article>
+
+
+      <article>
+
+        <span>05</span>
+
+        <h3>Franchises</h3>
+
+        <p>
+          Team stories, General Managers,
+          rivalries and the identities behind the league.
+        </p>
+
+      </article>
+
+
+      <article>
+
+        <span>06</span>
+
+        <h3>History</h3>
+
+        <p>
+          Championships, records, awards
+          and the moments that become part of IceCore.
+        </p>
+
+      </article>
+
+
+    </div>
+
+  </section>
+
+
+  <!-- =====================================================
+       CLOSING
+       ===================================================== -->
+
+  <section class="ic-journal-closing">
+
+    <span>THE STORY CONTINUES</span>
+
+    <h2>
+      Every season<br>
+      leaves something behind.
+    </h2>
+
+    <p>
+      Draft picks become stars. Trades reshape franchises.
+      Prospects arrive. Contenders fall. Champions emerge.
+      The Journal records the decisions and moments that build
+      IceCore history.
+    </p>
+
+    <strong>
+      Twenty franchises. One shared history.
+    </strong>
+
+  </section>
+
 
 </div>
