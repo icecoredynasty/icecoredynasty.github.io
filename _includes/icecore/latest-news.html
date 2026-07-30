@@ -7,46 +7,57 @@
   <div class="latest-news__list">
 
     {% assign latest = site.posts | sort: "date" | reverse %}
+    {% assign latest_count = 0 %}
 
-    {% for post in latest limit: 4 %}
+    {% for post in latest %}
 
-      <article class="latest-news__item">
+      {% unless post.featured or post.featured_guide or post.highlight %}
 
-        <a
-          class="latest-news__link"
-          href="{{ post.url | relative_url }}"
-          aria-label="Read {{ post.title | escape }}"
-        >
+        <article class="latest-news__item">
 
-          <div class="latest-news__meta">
+          <a
+            class="latest-news__link"
+            href="{{ post.url | relative_url }}"
+            aria-label="Read {{ post.title | escape }}"
+          >
 
-            <span>
-              {{ post.date | date: "%b %d" | upcase }}
-            </span>
+            <div class="latest-news__meta">
 
-            <span class="latest-news__dot">·</span>
+              <span>
+                {{ post.date | date: "%b %d" | upcase }}
+              </span>
 
-            <span>
-              {% if post.categories %}
-                {{ post.categories | first | upcase }}
-              {% else %}
-                JOURNAL
-              {% endif %}
-            </span>
+              <span class="latest-news__dot">·</span>
 
-          </div>
+              <span>
+                {% if post.categories and post.categories.size > 0 %}
+                  {{ post.categories | first | upcase }}
+                {% else %}
+                  JOURNAL
+                {% endif %}
+              </span>
 
-          <div class="latest-news__row">
+            </div>
 
-            <h4>{{ post.title }}</h4>
+            <div class="latest-news__row">
 
-            <span class="latest-news__arrow">→</span>
+              <h4>{{ post.title }}</h4>
 
-          </div>
+              <span class="latest-news__arrow" aria-hidden="true">→</span>
 
-        </a>
+            </div>
 
-      </article>
+          </a>
+
+        </article>
+
+        {% assign latest_count = latest_count | plus: 1 %}
+
+        {% if latest_count == 4 %}
+          {% break %}
+        {% endif %}
+
+      {% endunless %}
 
     {% endfor %}
 
