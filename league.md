@@ -8,6 +8,7 @@ permalink: /league/
 
   <!-- FULL-WIDTH HERO -->
   <section class="league-hero">
+
     <img
       src="{{ '/assets/images/league-hero.jpg' | relative_url }}"
       alt="IceCore Dynasty"
@@ -17,6 +18,7 @@ permalink: /league/
     <div class="league-hero__overlay"></div>
 
     <div class="league-hero__content">
+
       <span class="league-kicker">THE LEAGUE</span>
 
       <h1>
@@ -33,12 +35,15 @@ permalink: /league/
         <strong>20 × 20</strong>
         <span>One league. One format.</span>
       </div>
+
     </div>
+
   </section>
 
 
   <!-- INTRO -->
   <section class="league-intro">
+
     <span class="league-eyebrow">THE IDEA</span>
 
     <h2>
@@ -55,6 +60,7 @@ permalink: /league/
     <p class="league-statement">
       Once the puck drops, your players play.
     </p>
+
   </section>
 
 
@@ -75,6 +81,7 @@ permalink: /league/
       </div>
 
       <div class="league-format__copy">
+
         <h2>Twenty franchises.<br>Twenty players.</h2>
 
         <p>
@@ -87,6 +94,7 @@ permalink: /league/
           Every eligible rostered player contributes whenever
           his NHL team puts him on the ice.
         </p>
+
       </div>
 
     </div>
@@ -105,6 +113,7 @@ permalink: /league/
     <div class="league-split">
 
       <div>
+
         <h2>
           Build a hockey team.<br>
           Not a fantasy lineup.
@@ -122,10 +131,17 @@ permalink: /league/
         </p>
 
         <p>
-          Five NA slots provide room to develop young talent
-          without turning the league into a prospect warehouse.
+          Three IR+ slots protect roster flexibility through injuries,
+          while five NA slots form each franchise's in-season development farm.
         </p>
+
+        <p>
+          The farm creates room to follow young players and build for the future
+          without turning IceCore into a prospect warehouse.
+        </p>
+
       </div>
+
 
       <div class="league-roster-card">
 
@@ -222,6 +238,7 @@ permalink: /league/
       <article>
         <span>01</span>
         <h3>Draft</h3>
+
         <p>
           Find value, manage your budget and decide which players
           deserve a place in the organization.
@@ -231,8 +248,9 @@ permalink: /league/
       <article>
         <span>02</span>
         <h3>Develop</h3>
+
         <p>
-          Use development space to invest in young players who may
+          Use the NA farm to invest in young players who may
           shape the franchise years from now.
         </p>
       </article>
@@ -240,6 +258,7 @@ permalink: /league/
       <article>
         <span>03</span>
         <h3>Trade</h3>
+
         <p>
           Move talent, salary and risk between franchises as
           contenders emerge and rebuilds begin.
@@ -249,6 +268,7 @@ permalink: /league/
       <article>
         <span>04</span>
         <h3>React</h3>
+
         <p>
           Injuries, waivers, breakouts and bad contracts still demand
           attention. The decisions simply happen at GM level.
@@ -306,6 +326,7 @@ permalink: /league/
     <div class="league-split">
 
       <div>
+
         <h2>
           Every season leaves<br>
           something behind.
@@ -318,10 +339,11 @@ permalink: /league/
         </p>
 
         <p>
-          Each offseason, franchises protect an eleven-to-fifteen-player
-          core while carrying forward one to three players from their
-          development group. An annual Rookie Draft adds another piece
-          of the future.
+          Each offseason, franchises protect an
+          <strong>11–15 player regular core</strong> from their active roster
+          and IR+, while carrying forward <strong>1–3 Development Keepers</strong>
+          from their previous-season NA farm.
+          An annual Entry Draft adds one rookie to every franchise.
         </p>
 
         <p>
@@ -329,6 +351,14 @@ permalink: /league/
           A rebuilding franchise may protect a smaller core, create
           cap space and attack the market.
         </p>
+
+        <p>
+          Every choice affects the next one:
+          who you keep determines what you spend,
+          what you spend determines what you can add,
+          and what you develop may shape the franchise years later.
+        </p>
+
       </div>
 
       <div class="league-dynasty-card">
@@ -343,12 +373,121 @@ permalink: /league/
   </section>
 
 
+  <!-- ECONOMY -->
+  <section class="league-feature league-feature--dark">
+
+    <div class="league-feature__header">
+      <span class="league-eyebrow">THE ECONOMY</span>
+      <span class="league-number">07</span>
+    </div>
+
+    <div class="league-format">
+
+      <div class="league-format__mark">
+        <span>500</span>
+      </div>
+
+      <div class="league-format__copy">
+
+        <h2>
+          One cap.<br>
+          Different possibilities.
+        </h2>
+
+        <p>
+          Every franchise operates under the same
+          <strong>500-coin Salary Cap</strong>.
+          Keeper salaries are committed before the Live Salary Cap Draft,
+          so every offseason begins with decisions made in seasons before it.
+        </p>
+
+        <p>
+          Protect more of your roster and enter the market with less room.
+          Release expensive players and create flexibility.
+          Find a star before everyone else and his value may shape your
+          franchise for years.
+        </p>
+
+        <p>
+          Waivers use a separate <strong>500 FAAB</strong> budget.
+          Winning a waiver claim determines who gets the player —
+          it does not become his salary.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- FIBONACCI -->
+  <section class="league-feature">
+
+    <div class="league-feature__header">
+      <span class="league-eyebrow">THE SCORING</span>
+      <span class="league-number">08</span>
+    </div>
+
+    <div class="league-split">
+
+      <div>
+
+        <h2>
+          Hockey value.<br>
+          Built into the numbers.
+        </h2>
+
+        <p>
+          IceCore uses a Head-to-Head Points system built around
+          six consecutive Fibonacci values:
+          <strong>1 · 2 · 3 · 5 · 8 · 13</strong>.
+        </p>
+
+        <p>
+          Shots, hits and saves form the foundation at 1.
+          Blocks and power-play production rise to 2.
+          Short-handed production sits at 3.
+          Wins and goals against use 5.
+          Goals and assists sit at 8.
+          A shutout reaches 13.
+        </p>
+
+        <p>
+          The sequence creates a clear hierarchy without decimals
+          or arbitrary-looking values. Hockey determines where each
+          category belongs within it.
+        </p>
+
+        <p>
+          Goals and assists share an 8-point base, but a goal also creates
+          a shot on goal. Scorers therefore retain a natural premium without
+          making playmakers secondary.
+        </p>
+
+      </div>
+
+
+      <div class="league-dynasty-card">
+        <span>1 · SOG · HIT · SV</span>
+        <span>2 · BLK · PPP</span>
+        <span>3 · SHP</span>
+        <span>5 · W · −GA</span>
+        <span>8 · G · A</span>
+        <span>13 · SHO</span>
+      </div>
+
+    </div>
+
+  </section>
+
+
   <!-- SIMPLE -->
   <section class="league-feature league-feature--soft">
 
     <div class="league-feature__header">
       <span class="league-eyebrow">THE PRINCIPLE</span>
-      <span class="league-number">07</span>
+      <span class="league-number">09</span>
     </div>
 
     <div class="league-philosophy">
@@ -460,12 +599,13 @@ permalink: /league/
           <li>Name or nickname</li>
           <li>Country / time zone</li>
           <li>Fantasy hockey experience</li>
+          <li>Yahoo Fantasy rating / level, if available</li>
           <li>Why IceCore interests you</li>
           <li>Preferred franchise(s), if any</li>
         </ul>
 
         <a
-          href="mailto:icecoredynasty@gmail.com?subject=IceCore%20Dynasty%20-%20GM%20Application&body=Name%20or%20nickname%3A%0A%0ACountry%20%2F%20time%20zone%3A%0A%0AFantasy%20hockey%20experience%3A%0A%0AWhy%20IceCore%20interests%20me%3A%0A%0APreferred%20franchise(s)%3A%0A%0AAnything%20else%3A%0A"
+          href="mailto:icecoredynasty@gmail.com?subject=IceCore%20Dynasty%20-%20GM%20Application&body=Name%20or%20nickname%3A%0A%0ACountry%20%2F%20time%20zone%3A%0A%0AFantasy%20hockey%20experience%3A%0A%0AYahoo%20Fantasy%20rating%20%2F%20level%20(if%20available)%3A%0A%0AWhy%20IceCore%20interests%20me%3A%0A%0APreferred%20franchise(s)%3A%0A%0AAnything%20else%3A%0A"
           class="league-join__button"
         >
           Apply for a franchise →
