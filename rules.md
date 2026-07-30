@@ -134,6 +134,15 @@ permalink: /rules/
         </p>
       </article>
 
+      <article class="ic-quick-card">
+        <span>09</span>
+        <h3>Fibonacci Scoring</h3>
+        <p>
+          IceCore uses a whole-number scoring scale built around
+          <strong>1 · 2 · 3 · 5 · 8 · 13</strong>.
+        </p>
+      </article>
+
     </div>
 
   </section>
@@ -215,10 +224,10 @@ permalink: /rules/
       <h2>The details.</h2>
 
       <p>
-        These rules define IceCore's dynasty systems.
-        Scoring values, player eligibility, matchup settings,
-        transaction periods, playoff dates and other season-specific
-        platform settings are maintained directly in Yahoo Fantasy.
+        These rules define IceCore's dynasty systems, including the league's
+        scoring framework. Yahoo Fantasy remains the official platform for
+        player eligibility, matchups, standings, transactions, playoff dates
+        and other season-specific platform settings.
       </p>
 
     </header>
@@ -1023,29 +1032,55 @@ permalink: /rules/
 
     <!-- 19 -->
 
-    <article class="ic-rule">
+    <article class="ic-rule ic-rule--feature">
 
       <span class="ic-rule__number">19</span>
 
       <div class="ic-rule__body">
 
-        <h3>Competition</h3>
+        <span class="ic-eyebrow">1 · 2 · 3 · 5 · 8 · 13</span>
+
+        <h3>Fibonacci Scoring</h3>
 
         <p>
-          Yahoo Fantasy is the authoritative source for scoring,
-          matchups, standings, player statistics and playoff qualification.
+          IceCore uses a Head-to-Head Points system built on a clear
+          whole-number hierarchy using six consecutive Fibonacci values:
+          <strong>1 · 2 · 3 · 5 · 8 · 13</strong>.
+        </p>
+
+        <div class="ic-rule-tags">
+          <span>SOG · HIT · SV = 1</span>
+          <span>BLK · PPP = 2</span>
+          <span>SHP = 3</span>
+          <span>W = 5</span>
+          <span>GA = −5</span>
+          <span>G · A = 8</span>
+          <span>SHO = 13</span>
+        </div>
+
+        <p>
+          Goals and assists share the same 8-point base value, but a goal also
+          records a shot on goal. A standard goal therefore produces at least
+          <strong>9 points</strong>, preserving a natural scoring premium without
+          reducing the value of playmaking.
         </p>
 
         <p>
-          IceCore uses a Head-to-Head Points competition format.
-          Detailed scoring values, dates, transaction limits and
-          season-specific settings are maintained in the official
-          Yahoo league settings.
+          Volume events form the base of the scale, defensive and special-teams
+          contributions rise through it, primary production sits at 8, and a
+          shutout occupies the highest level at 13.
         </p>
 
         <p>
-          The winner of the championship playoffs becomes the
-          <strong>IceCore Cup Champion</strong>.
+          Goaltending intentionally combines opportunity and risk:
+          every save adds 1, every goal against subtracts 5, a win adds 5
+          and a shutout adds 13. With no bench, a goaltender decision can
+          materially change a matchup in either direction.
+        </p>
+
+        <p>
+          The sequence provides the scoring scale; hockey determines where
+          each category belongs within it.
         </p>
 
       </div>
@@ -1058,6 +1093,38 @@ permalink: /rules/
     <article class="ic-rule">
 
       <span class="ic-rule__number">20</span>
+
+      <div class="ic-rule__body">
+
+        <h3>Competition</h3>
+
+        <p>
+          Yahoo Fantasy is the authoritative source for scoring,
+          matchups, standings, player statistics and playoff qualification.
+        </p>
+
+        <p>
+          IceCore uses a Head-to-Head Points competition format and the
+          Fibonacci Scoring framework defined above. The official Yahoo league
+          settings implement those values and remain authoritative for dates,
+          transaction limits and other season-specific platform settings.
+        </p>
+
+        <p>
+          The winner of the championship playoffs becomes the
+          <strong>IceCore Cup Champion</strong>.
+        </p>
+
+      </div>
+
+    </article>
+
+
+    <!-- 21 -->
+
+    <article class="ic-rule">
+
+      <span class="ic-rule__number">21</span>
 
       <div class="ic-rule__body">
 
