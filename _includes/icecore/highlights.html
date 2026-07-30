@@ -10,7 +10,7 @@
     | reverse
   %}
 
-  <div class="highlights-list">
+  <div class="highlights__list">
 
     {% for article in highlights limit: 3 %}
 
@@ -21,7 +21,6 @@
             src="{{ article.image | relative_url }}"
             alt="{{ article.title | escape }}"
             loading="lazy"
-            decoding="async"
           >
         {% endif %}
 
