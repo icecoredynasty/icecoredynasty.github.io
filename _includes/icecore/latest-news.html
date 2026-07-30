@@ -6,12 +6,32 @@
 
   <div class="latest-news__list">
 
-    {% assign latest = site.posts | sort: "date" | reverse %}
+    {% assign all_posts = site.posts | sort: "date" | reverse %}
+
+    {% assign current_highlights = site.posts
+      | where: "highlight", true
+      | sort: "date"
+      | reverse
+      | slice: 0, 3
+    %}
+
     {% assign latest_count = 0 %}
 
-    {% for post in latest %}
+    {% for post in all_posts %}
 
-      {% unless post.featured or post.featured_guide or post.highlight %}
+      {% assign skip_post = false %}
+
+      {% if post.featured or post.featured_guide %}
+        {% assign skip_post = true %}
+      {% endif %}
+
+      {% for highlight in current_highlights %}
+        {% if highlight.url == post.url %}
+          {% assign skip_post = true %}
+        {% endif %}
+      {% endfor %}
+
+      {% unless skip_post %}
 
         <article class="latest-news__item">
 
@@ -43,7 +63,10 @@
 
               <h4>{{ post.title }}</h4>
 
-              <span class="latest-news__arrow" aria-hidden="true">→</span>
+              <span
+                class="latest-news__arrow"
+                aria-hidden="true"
+              >→</span>
 
             </div>
 
