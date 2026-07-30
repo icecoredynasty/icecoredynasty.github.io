@@ -696,74 +696,23 @@
    FOOTER
 ======================================================= */
 
-.page__footer{
-
-    background:#f7f7f7;
-    border-top:1px solid #e5e5e5;
-    padding:18px 0;
-
-}
-
-.page__footer-follow{
-
-    text-align:center;
-    font-size:.82rem;
-
-}
-
-.page__footer-follow .social-icons{
-
-    justify-content:center;
-
-}
-
-.page__footer-follow li{
-
-    margin:0 10px;
-
-}
-
-.page__footer-follow a{
-
-    color:#555;
-    text-decoration:none;
-    transition:color .2s ease;
-
-}
-
-.page__footer-follow a:hover{
-
-    color:#0d5be1;
-
-}
-
-.page__footer-copyright{
-
-    margin-top:8px;
-    text-align:center;
-    color:#888;
-    font-size:.8rem;
-
-}
-
-.footer-ic{
-
-    width:16px;
-    height:16px;
-    margin-right:6px;
-    vertical-align:-2px;
-
-}
-
-/* Footer */
-
-.page__footer{
+.page__footer {
 
     margin-top:35px;
 
+    background:#f7f7f7;
+    border-top:1px solid #e5e5e5;
+
+    padding:18px 0;
+
+    color:#111;
+
 }
 
-.page__footer footer{
+
+/* Footer inner */
+
+.page__footer footer {
 
     max-width:1450px;
 
@@ -773,20 +722,104 @@
 
 }
 
-.page__footer-follow{
+
+/* Social links */
+
+.page__footer-follow {
 
     margin-bottom:10px;
 
+    text-align:center;
+    font-size:.82rem;
+
+    color:#111;
+
 }
 
-.page__footer-copyright{
+.page__footer-follow .social-icons {
+
+    justify-content:center;
+
+}
+
+.page__footer-follow li {
+
+    margin:0 10px;
+
+    color:#111;
+
+}
+
+.page__footer-follow a {
+
+    color:#111 !important;
+
+    text-decoration:none;
+
+    transition:color .2s ease;
+
+}
+
+.page__footer-follow a i {
+
+    color:#111 !important;
+
+    transition:color .2s ease;
+
+}
+
+.page__footer-follow a:hover,
+.page__footer-follow a:hover i {
+
+    color:#0d5be1 !important;
+
+}
+
+
+/* Copyright */
+
+.page__footer-copyright {
 
     margin-top:8px;
 
+    text-align:center;
+
+    color:#111;
+
+    font-size:.8rem;
     line-height:1.6;
 
 }
 
+.page__footer-copyright a {
+
+    color:#111 !important;
+
+    text-decoration:none;
+
+    transition:color .2s ease;
+
+}
+
+.page__footer-copyright a:hover {
+
+    color:#0d5be1 !important;
+
+}
+
+
+/* IceCore footer icon */
+
+.footer-ic {
+
+    width:16px;
+    height:16px;
+
+    margin-right:6px;
+
+    vertical-align:-2px;
+
+}
 /* =======================================================
    GLOBAL EFFECTS
 ======================================================= */
