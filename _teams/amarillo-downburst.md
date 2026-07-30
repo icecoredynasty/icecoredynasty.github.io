@@ -26,60 +26,16 @@ gm: "Available"
 arena: "Stormfront Arena"
 
 salary_cap: 500
-roster_size: 18
+roster_size: 20
 ir_slots: 2
 na_slots: 5
 
-keepers:
-  - player:
-    pos:
-    salary:
-  - player:
-    pos:
-    salary:
-  - player:
-    pos:
-    salary:
-  - player:
-    pos:
-    salary:
-  - player:
-    pos:
-    salary:
-  - player:
-    pos:
-    salary:
-  - player:
-    pos:
-    salary:
-  - player:
-    pos:
-    salary:
-  - player:
-    pos:
-    salary:
-  - player:
-    pos:
-    salary:
-  - player:
-    pos:
-    salary:
-  - player:
-    pos:
-    salary:
-  - player:
-    pos:
-    salary:
+keepers: []
 
-prospect:
-  player:
-  pos:
-  salary: 1
+farm_keepers: []
 
 rookie:
-  player:
-  pos:
-  salary: 1
+
 ---
 
 Amarillo Downburst represents the Texas Panhandle — a franchise shaped by open plains, violent skies and the sudden force of a downburst.
