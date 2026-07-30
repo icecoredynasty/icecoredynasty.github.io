@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: icecore-post
 title: "The Fibonacci Scoring System"
 date: 2026-07-25
 categories:
@@ -10,8 +10,6 @@ tags:
   - strategy
 excerpt: "1. 2. 3. 5. 8. 13. IceCore turns one of mathematics' most recognizable sequences into a scoring system built for hockey."
 image: /assets/images/journal/fibonacci-scoring.jpg
-header:
-  teaser: /assets/images/journal/fibonacci-scoring.jpg
 highlight: false
 featured: false
 guide: true
