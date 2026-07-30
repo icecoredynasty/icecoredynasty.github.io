@@ -2,11 +2,17 @@
 layout: post
 title: "The Fibonacci Scoring System"
 date: 2026-07-25
-categories: [Magazine, Guide]
-tags: [Scoring, Rules, Strategy]
-image: /assets/images/journal/fibonacci-scoring.jpg
+categories:
+  - magazine
+tags:
+  - scoring
+  - rules
+  - strategy
 excerpt: "1. 2. 3. 5. 8. 13. IceCore turns one of mathematics' most recognizable sequences into a scoring system built for hockey."
-highlight: true
+image: /assets/images/journal/fibonacci-scoring.jpg
+header:
+  teaser: /assets/images/journal/fibonacci-scoring.jpg
+highlight: false
 featured: false
 guide: true
 ---
