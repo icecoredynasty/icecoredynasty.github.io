@@ -10,6 +10,11 @@
   --league-soft: #f4f6f7;
   --league-dark: #11161a;
 
+  width: 100%;
+  max-width: 100%;
+
+  overflow-x: clip;
+
   color: var(--league-text);
 }
 
