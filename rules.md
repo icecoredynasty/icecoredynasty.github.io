@@ -105,6 +105,11 @@ permalink: /rules/
           Every franchise protects one to three players from its NA farm.
           Development matters, but prospect hoarding does not define the league.
         </p>
+        <p>
+  A player protected as a Development Keeper in consecutive seasons
+  remains at a salary of <strong>1 Coin</strong> for as long as he continues
+  to qualify for and be protected through the Development Keeper system.
+</p>
       </article>
 
       <article class="ic-quick-card">
