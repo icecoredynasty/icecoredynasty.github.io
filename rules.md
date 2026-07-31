@@ -143,6 +143,15 @@ permalink: /rules/
         </p>
       </article>
 
+      <article class="ic-quick-card">
+        <span>10</span>
+        <h3>Balanced Schedule</h3>
+        <p>
+          Nineteen regular-season matchups. Every franchise faces every
+          other franchise exactly once before the 16-team IceCore Cup Playoffs.
+        </p>
+      </article>
+
     </div>
 
   </section>
@@ -717,6 +726,20 @@ permalink: /rules/
           Salary Cap coins determine long-term roster cost.
         </p>
 
+        <p>
+          Each franchise may make a maximum of
+          <strong>4 player acquisitions per matchup period</strong>.
+          This keeps the waiver market active without turning transaction volume
+          into a competitive advantage.
+        </p>
+
+        <p>
+          A player dropped by a franchise cannot be reacquired by that same
+          franchise for <strong>1 day</strong>. This protects the player market
+          from rapid drop-and-reclaim activity and helps prevent deliberate
+          roster manipulation.
+        </p>
+
       </div>
 
     </article>
@@ -868,6 +891,13 @@ permalink: /rules/
 
         <p>
           Entry Draft selections cannot be traded.
+        </p>
+
+        <p>
+          Trades are not subject to league voting. The Commissioner retains
+          veto authority only where a transaction presents a credible concern
+          involving collusion, deliberate competitive manipulation or another
+          material threat to league integrity.
         </p>
 
       </div>
@@ -1090,29 +1120,70 @@ permalink: /rules/
 
     <!-- 20 -->
 
-    <article class="ic-rule">
+    <article class="ic-rule ic-rule--feature">
 
       <span class="ic-rule__number">20</span>
 
       <div class="ic-rule__body">
 
-        <h3>Competition</h3>
+        <span class="ic-eyebrow">BALANCED COMPETITION</span>
+
+        <h3>Regular Season & Playoffs</h3>
 
         <p>
-          Yahoo Fantasy is the authoritative source for scoring,
-          matchups, standings, player statistics and playoff qualification.
+          IceCore uses a Head-to-Head Points format with a balanced
+          <strong>19-matchup regular season</strong>.
+        </p>
+
+        <div class="ic-rule-tags">
+          <span>20 Franchises</span>
+          <span>19 Matchups</span>
+          <span>Top 16 Advance</span>
+          <span>4 Eliminated</span>
+        </div>
+
+        <p>
+          Every franchise faces each of the other 19 franchises
+          <strong>exactly once</strong>. No team receives an additional matchup
+          against a weaker or stronger opponent simply because of scheduling
+          rotation. Every GM competes through the same regular-season path.
         </p>
 
         <p>
-          IceCore uses a Head-to-Head Points competition format and the
-          Fibonacci Scoring framework defined above. The official Yahoo league
-          settings implement those values and remain authoritative for dates,
-          transaction limits and other season-specific platform settings.
+          At the end of the regular season, the <strong>top 16 franchises</strong>
+          qualify for the IceCore Cup Playoffs. The bottom four franchises are
+          eliminated.
         </p>
 
         <p>
-          The winner of the championship playoffs becomes the
-          <strong>IceCore Cup Champion</strong>.
+          The playoffs use a four-round bracket:
+          <strong>16 → 8 → 4 → 2 → Champion</strong>. The winner of the
+          championship matchup becomes the <strong>IceCore Cup Champion</strong>.
+        </p>
+
+        <p>
+          The final NHL fantasy week is intentionally left outside the IceCore
+          Cup Playoffs. NHL clubs may rest established players, manage workloads
+          or give additional opportunities to younger players late in the season.
+        </p>
+
+        <p>
+          By deciding the IceCore Cup before that final week, the championship is
+          less exposed to late-season NHL roster management and more likely to be
+          decided by the franchises that actually earned their way there.
+        </p>
+
+        <blockquote class="ic-rule-quote">
+          Everyone plays everyone once.<br>
+          The championship is decided before the final-week chaos.
+        </blockquote>
+
+        <p>
+          Yahoo Fantasy remains the authoritative source for scoring, matchup
+          results, standings, player statistics and playoff qualification.
+          Official Yahoo league settings implement the Fibonacci Scoring framework
+          and remain authoritative for dates, transaction limits and other
+          season-specific platform settings.
         </p>
 
       </div>
