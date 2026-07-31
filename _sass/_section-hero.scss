@@ -6,8 +6,8 @@
 .ic-section-hero {
   position: relative;
 
-  width: 100%;
-  max-width: none;
+  width: 100dvw;
+  margin-left: calc(50% - 50dvw);
 
   height: clamp(280px, 20vw, 320px);
 
