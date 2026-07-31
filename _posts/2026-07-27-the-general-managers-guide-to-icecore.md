@@ -77,11 +77,15 @@ Salary is not decoration.
 
 It is part of roster construction.
 
+The question is never simply whether a player is good.
+
+The question is whether he is worth what your franchise must spend to keep him.
+
 ## Keep Your Core
 
 Dynasty begins when the season ends.
 
-Each franchise may carry a substantial part of its roster into the following year, allowing successful cores to stay together while still forcing meaningful offseason decisions.
+Each franchise protects **11–15 Regular Keepers** from its active roster and IR+ positions.
 
 You won't automatically keep everyone.
 
@@ -91,53 +95,85 @@ A contender may protect most of its established roster.
 
 A rebuilding franchise may deliberately carry fewer players forward and enter the market with more flexibility.
 
-Both can be legitimate strategies.
+Keeping a player means choosing both the player and the consequences of keeping him.
+
+Sometimes letting a good player return to the market may be the right decision.
+
+Both approaches can be legitimate strategies.
 
 ## Develop the Future
 
-IceCore gives every franchise room to hold young players outside the active roster through NA positions.
+Not every player in your organization has to help you today.
 
-You can ignore deep prospect hunting and keep the system simple.
+IceCore gives every franchise five NA positions for eligible young and inactive players outside the active roster.
 
-Or you can build for years ahead.
+You can keep prospect management simple.
 
-The choice is yours.
+Or you can use those positions to search for tomorrow's core before those players become obvious fantasy assets.
 
-At least one NA player carries forward with the franchise each offseason, ensuring that development remains part of every organization without requiring a separate prospect database.
+Each offseason, every franchise protects **1–3 Development Keepers** from its NA development group.
+
+That creates a small farm system inside the roster itself.
+
+No separate prospect database.
+
+No spreadsheet containing dozens of player rights.
+
+No requirement to know the 14th-best prospect in every NHL organization.
+
+Managers who love scouting still have somewhere to create an advantage.
+
+Managers who don't can still understand exactly what they own.
+
+**The farm is small by design. The decisions don't have to be.**
 
 ## Draft One Rookie
 
-Every offseason brings one new first-round NHL prospect into each IceCore organization through the Entry Draft.
+Every offseason brings one new eligible rookie into each IceCore organization through the Entry Draft.
 
-The order is determined by reverse standings.
+The order rewards franchises that need the most help.
 
 There is no lottery.
 
 There are no traded Entry Draft selections.
 
-The weakest franchise gets the first opportunity to add the next generation of talent.
+Every franchise gets one opportunity to add a new piece of its future.
 
-Every franchise gets one.
+Then the General Manager decides what that opportunity becomes.
 
 ## Enter the Market
 
-After keepers, prospects and rookies are established, the remaining roster positions are filled through the Salary Cap Draft.
+Keeping players creates continuity.
 
-This is where different franchise strategies collide.
+Letting players go creates opportunity.
+
+After keepers, development players and Entry Draft rookies are established, the remaining active roster positions are filled through the live Salary Cap Draft.
+
+This is where twenty franchise plans meet the same market.
 
 One GM may arrive with a nearly complete roster and little cap room.
 
 Another may enter with several vacancies and hundreds of Coins available.
 
+One may need a star.
+
+Another may need six players.
+
+One may be protecting a championship window.
+
+Another may be trying to create one three years from now.
+
 Same cap.
 
-Different decisions.
+Same market.
 
-Different teams.
+Different problems.
+
+That is what makes the draft interesting.
 
 ## Use Waivers
 
-The draft does not finish the job.
+Draft night does not finish the job.
 
 Players emerge.
 
@@ -151,9 +187,15 @@ Mistakes become obvious.
 
 Waivers and FAAB give every General Manager another way to improve the organization throughout the season.
 
+Sometimes the important move is obvious.
+
+Sometimes it is a player nobody cared about two weeks earlier.
+
+And sometimes the difference between finding him and missing him is simply paying attention.
+
 The best move of your year may happen long after draft night.
 
-## Trade
+## Trade With a Purpose
 
 Players can move.
 
@@ -161,9 +203,27 @@ Their salary moves with them.
 
 That means a trade is not only about which player is better.
 
-Age, salary, roster construction, competitive window and future value can all change what an asset is worth to a franchise.
+A 90-point star and a young breakout player may represent completely different things to two franchises.
 
-A great trade should make sense for both organizations for different reasons.
+Age matters.
+
+Salary matters.
+
+Roster construction matters.
+
+Competitive windows matter.
+
+Future value matters.
+
+A contender and a rebuilding franchise do not need to value the same asset in the same way.
+
+That is not a flaw in the market.
+
+That is why the market exists.
+
+A great trade does not need one obvious winner.
+
+It needs two General Managers with different plans.
 
 ## Choose Your Direction
 
@@ -183,9 +243,23 @@ Keep a large core.
 
 Rebuild aggressively.
 
+Change direction when the team tells you that your original plan was wrong.
+
 The systems provide the tools.
 
 The decisions belong to you.
+
+And those decisions accumulate.
+
+One draft becomes a core.
+
+One prospect becomes a star.
+
+One bad salary changes an offseason.
+
+One trade opens a championship window.
+
+That is where dynasty begins to feel like dynasty.
 
 ## Start Simple
 
@@ -199,6 +273,18 @@ Meet league deadlines.
 
 Make decisions.
 
+You will learn the market by participating in it.
+
+You will understand salaries when you have to choose between two players.
+
+You will understand keepers when your first offseason arrives.
+
+You will understand rebuilding when your roster gives you a reason to consider it.
+
 The deeper systems become useful when you need them.
+
+You do not have to master IceCore before taking over a franchise.
+
+You just have to start thinking like its General Manager.
 
 **Build the roster. Manage the future. Let the players play.**
