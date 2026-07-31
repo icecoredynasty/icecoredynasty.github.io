@@ -83,7 +83,19 @@ Building a complete roster means finding scorers, defensemen, goaltenders, physi
 
 The objective is not to collect twenty famous names.
 
-It is to build a hockey team.
+**It is to build a franchise.**
+
+And with twenty General Managers making those decisions independently, depth creates something else: different philosophies.
+
+One franchise may be built around elite scoring.
+
+Another around balance.
+
+Another around young players who may not reach their peak for years.
+
+There is no single blueprint.
+
+That is where franchise identity begins.
 
 ## Dynasty Without the Homework
 
@@ -96,6 +108,16 @@ But every system has to earn its place.
 We don't want complexity simply because dynasty leagues are supposed to be complicated.
 
 The goal is a league where decisions can matter for years without requiring managers to treat fantasy hockey like a second job.
+
+You should have reasons to scout.
+
+Reasons to trade.
+
+Reasons to think about next season.
+
+And reasons to care about decisions made years ago.
+
+But the league should still be something you look forward to opening.
 
 **Deep enough to matter. Simple enough to enjoy.**
 
@@ -113,9 +135,53 @@ Some will chase the future.
 
 Some will discover that the future arrived earlier than expected.
 
-That difference is the point.
+And eventually, every successful franchise will face the same question:
 
-A dynasty becomes interesting when twenty General Managers make twenty different decisions.
+**How long can you keep it together?**
+
+Players change.
+
+Salaries change.
+
+Prospects become stars.
+
+Stars become expensive.
+
+Windows open and close.
+
+That cycle is not a problem to solve.
+
+It is the game.
+
+A dynasty becomes interesting when twenty General Managers make twenty different decisions — and then live with what those decisions become.
+
+## More Than a Standings Page
+
+A league can exist for years and still leave almost nothing behind.
+
+A champion gets crowned.
+
+A trade gets argued about.
+
+Someone finds a ridiculous waiver pickup.
+
+Then the next season starts.
+
+IceCore is built to remember.
+
+Franchises have identities.
+
+Champions become part of the record.
+
+Awards recognize more than the final standings.
+
+Trades, rivalries, milestones and mistakes can become stories instead of disappearing into an old league page.
+
+The goal is not to pretend fantasy hockey is professional hockey.
+
+The goal is to give the decisions we already care about somewhere to live.
+
+Because when twenty people spend years building franchises, the league eventually becomes more than its current season.
 
 ## The History Starts Here
 
