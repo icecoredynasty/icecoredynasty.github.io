@@ -1,0 +1,239 @@
+/* ===================================
+   ICECORE HERO
+=================================== */
+
+.icecore-hero{
+
+    position:relative;
+
+    height:315px;
+
+    display:flex;
+
+    align-items:center;
+
+    overflow:hidden;
+
+    background:#eef4fb;
+
+}
+
+.icecore-hero::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:url("/assets/images/hero.jpg") center center/cover no-repeat;
+
+    opacity:.80;
+
+    filter:contrast(1.1) saturate(1.1) brightness(.90);
+
+}
+
+.icecore-hero::after{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+
+    linear-gradient(
+        90deg,
+        rgba(255,255,255,.62) 0%,
+        rgba(255,255,255,.32) 42%,
+        rgba(255,255,255,0) 78%
+    ),
+
+    linear-gradient(
+        180deg,
+        rgba(255,255,255,.42),
+        rgba(255,255,255,.12),
+        rgba(255,255,255,0)
+    );
+
+}
+
+.icecore-hero__content{
+
+    position:relative;
+
+    z-index:5;
+
+    margin-left:7%;
+
+    max-width:550px;
+
+}
+
+.icecore-hero h1{
+
+    font-size:42px;
+
+    line-height:.92;
+
+    letter-spacing:-2px;
+
+    font-weight:900;
+
+    margin:0;
+
+}
+
+.icecore-hero h1 span{
+
+    color:#0d5be1;
+
+}
+
+.icecore-hero p{
+
+    font-size:18px;
+
+    margin:16px 0 18px;
+
+    color:#4b4b4b;
+
+}
+
+.icecore-button{
+
+    display:inline-block;
+
+    margin-top:4px;
+
+    padding:10px 18px;
+
+    border-radius:4px;
+
+    background:#0d5be1;
+
+    color:#fff;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    text-decoration:none;
+
+    transition:.2s;
+
+}
+
+.icecore-button:hover{
+
+    background:#0040b8;
+
+    color:#fff;
+
+}
+
+.icecore-hero__actions {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+}
+
+.icecore-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  text-decoration: none;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+
+  transition:
+    transform 0.18s ease,
+    background-color 0.18s ease,
+    border-color 0.18s ease;
+}
+
+.icecore-button--primary {
+  color: #fff !important;
+}
+
+.icecore-button--primary:visited,
+.icecore-button--primary:hover,
+.icecore-button--primary:focus {
+  color: #fff !important;
+}
+
+.icecore-button--join {
+  background: #fff;
+  color: #111 !important;
+  border: 2px solid #fff;
+}
+
+.icecore-button--join:visited {
+  color: #111 !important;
+}
+
+.icecore-button--join:hover,
+.icecore-button--join:focus {
+  background: transparent;
+  color: #fff !important;
+  transform: translateY(-1px);
+}
+
+.hero-line{
+
+    width:90px;
+
+    height:4px;
+
+    background:#0d5be1;
+
+    margin:12px 0 14px;
+
+    border-radius:2px;
+
+}
+.icecore-hero__content{
+
+    padding-top:30px;
+
+}
+.icecore-hero{
+
+    align-items:flex-start;
+
+}
+@media (max-width:768px){
+
+    .icecore-hero{
+
+        min-height:340px;
+
+        padding:28px 0;
+
+    }
+
+    .icecore-hero__content{
+
+        margin:0 24px;
+
+        max-width:none;
+
+        padding-top:20px;
+
+    }
+
+    .icecore-hero h1{
+
+        font-size:2.55rem;
+
+        line-height:.92;
+
+        letter-spacing:-1px;
+
+    }
+
+}
