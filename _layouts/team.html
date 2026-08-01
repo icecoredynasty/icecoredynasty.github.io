@@ -133,25 +133,25 @@ layout: default
       <div>
         <span>Regular Keepers</span>
         <strong id="keeper-count">0</strong>
-        <small>10–13</small>
+        <small>11–15 players</small>
       </div>
 
       <div>
-        <span>NA Keeper</span>
-        <strong id="prospect-count">0</strong>
-        <small>1 prospect</small>
+        <span>Development Keepers</span>
+        <strong id="farm-count">0</strong>
+        <small>1–3 players</small>
       </div>
 
       <div>
-        <span>Entry Draft</span>
+        <span>Entry Draft Rookie</span>
         <strong id="rookie-count">0</strong>
-        <small>1 rookie</small>
+        <small>1 player</small>
       </div>
 
       <div>
         <span>Salary Cap Draft</span>
         <strong id="draft-spots">—</strong>
-        <small>remaining spots</small>
+        <small>remaining roster spots</small>
       </div>
 
     </div>
@@ -167,7 +167,7 @@ layout: default
 
     <div class="team-section__heading">
       <span class="team-section__label">Protected Players</span>
-      <h2>Keepers</h2>
+      <h2>Regular keepers</h2>
     </div>
 
     <div class="team-table-wrap">
@@ -244,19 +244,20 @@ layout: default
   </section>
 
 
-  <!-- =====================================================
-       PROSPECT KEEPER
+   <!-- =====================================================
+       DEVELOPMENT KEEPERS
        ===================================================== -->
 
   <section class="team-section">
 
     <div class="team-section__heading">
       <span class="team-section__label">Development</span>
-      <h2>NA Prospect</h2>
+      <h2>Development Keepers</h2>
     </div>
 
     <p class="team-section__note">
-      One returning NA-eligible prospect may be protected separately from the regular keeper core.
+      Up to three players from the previous season's NA farm may be protected.
+      Every Development Keeper enters the new season at a salary of 1 coin.
     </p>
 
     <div class="team-table-wrap">
@@ -264,50 +265,99 @@ layout: default
       <table class="team-table">
 
         <thead>
+
           <tr>
+            <th>#</th>
             <th>Player</th>
             <th>Pos</th>
             <th>Type</th>
             <th class="team-table__salary">Salary</th>
           </tr>
+
         </thead>
 
         <tbody>
 
-          <tr
-            class="prospect-row"
-            data-player="{{ page.prospect.player | default: '' }}"
-            data-salary="{{ page.prospect.salary | default: 1 }}">
+{% for player in page.farm_keepers %}
 
-            <td>
-              {% if page.prospect.player %}
-                {{ page.prospect.player }}
-              {% else %}
-                <span class="team-table__empty">—</span>
-              {% endif %}
-            </td>
+<tr
+class="farm-row"
+data-player="{{ player.player | default: '' }}"
+data-salary="{{ player.salary | default: 1 }}">
 
-            <td>
-              {% if page.prospect.pos %}
-                {{ page.prospect.pos }}
-              {% else %}
-                <span class="team-table__empty">—</span>
-              {% endif %}
-            </td>
+<td class="team-table__number">
 
-            <td>NA Keeper</td>
+{{ forloop.index }}
 
-            <td class="team-table__salary">
-              {% if page.prospect.player %}
-                {{ page.prospect.salary | default: 1 }}
-              {% else %}
-                <span class="team-table__empty">—</span>
-              {% endif %}
-            </td>
+</td>
 
-          </tr>
+<td>
+
+{% if player.player %}
+
+{{ player.player }}
+
+{% else %}
+
+<span class="team-table__empty">—</span>
+
+{% endif %}
+
+</td>
+
+<td>
+
+{% if player.pos %}
+
+{{ player.pos }}
+
+{% else %}
+
+<span class="team-table__empty">—</span>
+
+{% endif %}
+
+</td>
+
+<td>
+
+Development Keeper
+
+</td>
+
+<td class="team-table__salary">
+
+{{ player.salary | default: 1 }}
+
+</td>
+
+</tr>
+
+{% endfor %}
 
         </tbody>
+
+        <tfoot>
+
+<tr>
+
+<td colspan="4">
+
+Development Payroll
+
+</td>
+
+<td
+class="team-table__salary"
+id="farm-payroll">
+
+0
+
+</td>
+
+</tr>
+
+        </tfoot>
 
       </table>
 
@@ -458,7 +508,7 @@ document.addEventListener("DOMContentLoaded", function () {
     Number(budget.dataset.cap) || 500;
 
   const rosterSize =
-    Number(budget.dataset.roster) || 18;
+    Number(budget.dataset.roster) || 20;
 
 
   /* -----------------------------------------
@@ -488,31 +538,31 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
 
-  /* -----------------------------------------
-     RETURNING NA PROSPECT
-     ----------------------------------------- */
+ /* -----------------------------------------
+   DEVELOPMENT KEEPERS
+   ----------------------------------------- */
 
-  const prospectRow =
-    document.querySelector(".prospect-row");
+const farmRows =
+  document.querySelectorAll(".farm-row");
 
-  let prospectCount = 0;
-  let prospectSalary = 0;
+let farmCount = 0;
+let farmPayroll = 0;
 
-  if (prospectRow) {
+farmRows.forEach(function(row){
 
-    const player =
-      (prospectRow.dataset.player || "").trim();
+  const player =
+    (row.dataset.player || "").trim();
 
-    if (player) {
-
-      prospectCount = 1;
-
-      prospectSalary =
-        Number(prospectRow.dataset.salary) || 1;
-
-    }
-
+  if(!player){
+    return;
   }
+
+  farmCount++;
+
+  farmPayroll +=
+    Number(row.dataset.salary) || 1;
+
+});
 
 
   /* -----------------------------------------
@@ -546,10 +596,10 @@ document.addEventListener("DOMContentLoaded", function () {
      TOTALS
      ----------------------------------------- */
 
-  const protectedPlayers =
-    keeperCount +
-    prospectCount +
-    rookieCount;
+const protectedPlayers =
+keeperCount +
+farmCount +
+rookieCount;
 
   const draftSpots =
     Math.max(
@@ -557,10 +607,10 @@ document.addEventListener("DOMContentLoaded", function () {
       rosterSize - protectedPlayers
     );
 
-  const committedSalary =
-    keeperPayroll +
-    prospectSalary +
-    rookieSalary;
+const committedSalary =
+keeperPayroll +
+farmPayroll +
+rookieSalary;
 
   const remainingBudget =
     Math.max(
@@ -576,14 +626,24 @@ document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("keeper-count").textContent =
     keeperCount;
 
-  document.getElementById("prospect-count").textContent =
-    prospectCount;
+document.getElementById("farm-count").textContent =
+farmCount;
 
   document.getElementById("rookie-count").textContent =
     rookieCount;
 
   document.getElementById("keeper-payroll").textContent =
     keeperPayroll;
+
+  const farmPayrollElement =
+document.getElementById("farm-payroll");
+
+if(farmPayrollElement){
+
+  farmPayrollElement.textContent =
+    farmPayroll;
+
+}
 
   document.getElementById("committed-salary").textContent =
     committedSalary;
