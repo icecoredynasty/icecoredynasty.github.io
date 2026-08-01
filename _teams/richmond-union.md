@@ -26,55 +26,34 @@ gm: "Available"
 arena: "Union Hall"
 
 salary_cap: 500
-roster_size: 18
-ir_slots: 2
+roster_size: 20
+ir_slots: 3
 na_slots: 5
 
 keepers:
-  - player:
-    pos:
-    salary:
-  - player:
-    pos:
-    salary:
-  - player:
-    pos:
-    salary:
-  - player:
-    pos:
-    salary:
-  - player:
-    pos:
-    salary:
-  - player:
-    pos:
-    salary:
-  - player:
-    pos:
-    salary:
-  - player:
-    pos:
-    salary:
-  - player:
-    pos:
-    salary:
-  - player:
-    pos:
-    salary:
-  - player:
-    pos:
-    salary:
-  - player:
-    pos:
-    salary:
-  - player:
-    pos:
-    salary:
+  - { player: , pos: , salary: }
+  - { player: , pos: , salary: }
+  - { player: , pos: , salary: }
+  - { player: , pos: , salary: }
+  - { player: , pos: , salary: }
+  - { player: , pos: , salary: }
+  - { player: , pos: , salary: }
+  - { player: , pos: , salary: }
+  - { player: , pos: , salary: }
+  - { player: , pos: , salary: }
+  - { player: , pos: , salary: }
+  - { player: , pos: , salary: }
+  - { player: , pos: , salary: }
+  - { player: , pos: , salary: }
+  - { player: , pos: , salary: }
 
-prospect:
-  player:
-  pos:
-  salary: 1
+farm_keepers:
+
+  - { player: , pos: , salary: 1 }
+
+  - { player: , pos: , salary: 1 }
+
+  - { player: , pos: , salary: 1 }
 
 rookie:
   player:
