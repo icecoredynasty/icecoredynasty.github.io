@@ -4,39 +4,38 @@ title: Awards
 permalink: /awards/
 ---
 
+<!-- HERO -->
+
+<section class="ic-section-hero">
+
+  <div class="ic-section-hero__image">
+    <img
+      src="{{ '/assets/images/heroes/awards-hero.jpg' | relative_url }}"
+      alt=""
+    >
+  </div>
+
+  <div class="ic-section-hero__inner">
+
+    <span class="ic-section-hero__eyebrow">
+      HONOURS & HISTORY
+    </span>
+
+    <h1>
+      Every season<br>
+      leaves a mark.
+    </h1>
+
+    <p class="ic-section-hero__lead">
+      Championships, management honours and the moments
+      that become part of IceCore history.
+    </p>
+
+  </div>
+
+</section>
+
 <div class="ic-awards-page">
-
-  <!-- HERO -->
-
-  <section class="ic-section-hero">
-
-    <div class="ic-section-hero__image">
-      <img
-        src="{{ '/assets/images/heroes/awards-hero.jpg' | relative_url }}"
-        alt=""
-      >
-    </div>
-
-    <div class="ic-section-hero__inner">
-
-      <span class="ic-section-hero__eyebrow">
-        HONOURS & HISTORY
-      </span>
-
-      <h1>
-        Every season<br>
-        leaves a mark.
-      </h1>
-
-      <p class="ic-section-hero__lead">
-        Championships, management honours and the moments
-        that become part of IceCore history.
-      </p>
-
-    </div>
-
-  </section>
-
 
   <!-- PRIMARY HONORS -->
 
