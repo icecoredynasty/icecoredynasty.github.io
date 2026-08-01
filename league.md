@@ -581,7 +581,7 @@ permalink: /league/
 
         <p>
           Learn the format. Build your franchise. Meet the deadlines.
-          Compete your way.
+          Compete your way. IceCore Dynasty is completely free to join.
         </p>
 
       </div>
