@@ -287,3 +287,15 @@ permalink: /journal/
 
 
 </div>
+
+/* =========================================================
+   JOURNAL PAGE
+   ========================================================= */
+
+.layout--default .initial-content {
+  padding-top: 0;
+}
+
+.ic-journal {
+  margin-top: 2rem;
+}
