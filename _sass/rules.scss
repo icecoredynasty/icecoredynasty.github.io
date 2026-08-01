@@ -892,6 +892,59 @@
 
 @media (max-width: 600px) {
 
+     /* =====================================================
+     HERO
+     ===================================================== */
+
+  .ic-section-hero{
+
+    height:260px;
+
+  }
+
+  .ic-section-hero__inner{
+
+    width:calc(100% - 2rem);
+
+  }
+
+  .ic-section-hero__eyebrow{
+
+    font-size:.62rem;
+    letter-spacing:.18em;
+
+  }
+
+  .ic-section-hero h1{
+
+    font-size:clamp(1.9rem,8vw,2.6rem);
+    line-height:1.02;
+    letter-spacing:-.04em;
+
+  }
+
+  .ic-section-hero__lead{
+
+    max-width:340px;
+    margin-top:.75rem;
+
+    font-size:.88rem;
+    line-height:1.45;
+
+  }
+
+  .ic-section-hero::after{
+
+    background:
+      linear-gradient(
+        90deg,
+        rgba(5,8,11,.84) 0%,
+        rgba(5,8,11,.60) 68%,
+        rgba(5,8,11,.22) 100%
+      );
+
+  }
+   
   .ic-rules {
     padding: .8rem 1rem 4rem;
   }
