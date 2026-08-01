@@ -43,6 +43,8 @@ A bad contract can become tomorrow's problem. A young player discovered early ca
 
 Every season leaves something behind.
 
+Free to join.
+
 ## Think Like a General Manager
 
 IceCore is built more around the work of a General Manager than the work of a fantasy coach.
