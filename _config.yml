@@ -102,6 +102,10 @@ footer:
       icon: fab fa-reddit
       url: https://reddit.com/r/...
 
+    - label: Facebook
+      icon: fab fa-facebook-f
+      url: https://www.facebook.com/ICECOREDYNASTY
+
     - label: Contact
       icon: fas fa-envelope
       url: mailto:icecoredynasty@gmail.com
