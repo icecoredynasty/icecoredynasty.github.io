@@ -2,20 +2,17 @@
    ICECORE HERO
 =================================== */
 
-.icecore-hero{
+.ic-section-hero {
+  position: relative;
 
-    position:relative;
+  width: 100dvw;
+  margin-left: calc(50% - 50dvw);
 
-    height:315px;
+  height: clamp(280px, 20vw, 320px);
 
-    display:flex;
-
-    align-items:flex-start;
-
-    overflow:hidden;
-
-    background:#eef4fb;
-
+  overflow: hidden;
+  background: #0b0d10;
+  color: #fff;
 }
 
 .icecore-hero::before{
