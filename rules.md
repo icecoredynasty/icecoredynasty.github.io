@@ -12,32 +12,33 @@ permalink: /rules/
 
   <section class="ic-section-hero">
 
-    <div class="ic-section-hero__image">
-      <img
-        src="{{ '/assets/images/heroes/rules-hero.jpg' | relative_url }}"
-        alt=""
-      >
-    </div>
+  <div class="ic-section-hero__image">
+    <img
+      src="{{ '/assets/images/heroes/rules-hero.jpg' | relative_url }}"
+      alt=""
+    >
+  </div>
 
-    <div class="ic-section-hero__inner">
+  <div class="ic-section-hero__inner">
 
-      <span class="ic-section-hero__eyebrow">
-        RULEBOOK
-      </span>
+    <span class="ic-section-hero__eyebrow">
+      RULEBOOK
+    </span>
 
-      <h1>
-        Deep enough to matter.<br>
-        Simple enough to play.
-      </h1>
+    <h1>
+      Deep enough to matter.<br>
+      Simple enough to master.
+    </h1>
 
-      <p class="ic-section-hero__lead">
-        The framework behind IceCore Dynasty — built for long-term decisions,
-        competitive balance and a league that stays enjoyable.
-      </p>
+    <p class="ic-section-hero__lead">
+      The framework behind IceCore Dynasty —
+      designed for long-term strategy,
+      competitive balance and lasting franchises.
+    </p>
 
-    </div>
+  </div>
 
-  </section>
+</section>
 
 
   <!-- =====================================================
