@@ -29,6 +29,13 @@ permalink: /legal/
     </p>
 
     <p>
+League competition is administered using Yahoo Fantasy Sports.
+IceCore Dynasty is an independent fantasy hockey league and is not
+affiliated with, sponsored by, endorsed by or operated by Yahoo Inc.
+or Yahoo Fantasy Sports.
+</p>
+
+    <p>
       References to real-world hockey players, teams, leagues, statistics,
       competitions and events are used solely in connection with fantasy
       hockey gameplay, commentary and league administration.
