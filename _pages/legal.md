@@ -160,11 +160,11 @@ permalink: /legal/
   <section class="ic-legal__section">
     <h2>Contact</h2>
 
-    <p>
-      Questions concerning IceCore Dynasty, league administration,
-      website content or intellectual property may be submitted through
-      the contact method provided on this website.
-    </p>
+<p>
+Questions concerning IceCore Dynasty, league administration,
+website content or legal matters may be directed to
+<a href="mailto:commissioner@icecoredynasty.com">commissioner@icecoredynasty.com</a>.
+</p>
   </section>
 
 
