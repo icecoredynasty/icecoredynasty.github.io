@@ -4,9 +4,9 @@
 {% assign reserved_teams = league_one | where: "status", "reserved" | sort: "title" %}
 {% assign available_teams = league_one | where: "status", "available" | sort: "title" %}
 
-{% assign active_count = active_teams | size %}
+{% assign occupied_count = active_teams.size | plus: reserved_teams.size %}
 
-{% if active_count < 20 %}
+{% if occupied_count < 20 %}
 
   {% if available_teams.size > 0 %}
 
@@ -185,7 +185,7 @@
   </div>
 
 
-  {% if available_teams.size > 0 %}
+{% if occupied_count >= 20 and available_teams.size > 0 %}
 
     <div class="teams-group"
          data-status="expansion">
