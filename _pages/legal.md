@@ -46,11 +46,11 @@ permalink: /legal/
     or Yahoo Fantasy Sports.
   </p>
 
-  <p>
-    Player data, statistics, eligibility designations, scoring,
-    transactions and other platform functionality are provided and
-    controlled by Yahoo Fantasy Sports.
-  </p>
+<p>
+Player data, statistics, eligibility designations, scoring,
+transactions and other gameplay functionality are provided and
+maintained by Yahoo Fantasy Sports.
+</p>
 </section>
 
 
@@ -161,12 +161,21 @@ permalink: /legal/
     <h2>Contact</h2>
 
 <p>
-Questions concerning IceCore Dynasty, league administration,
+Questions regarding IceCore Dynasty, league administration,
 website content or legal matters may be directed to
 <a href="mailto:commissioner@icecoredynasty.com">commissioner@icecoredynasty.com</a>.
 </p>
   </section>
 
+<section class="ic-legal__section">
+  <h2>Changes to this Notice</h2>
+
+  <p>
+    This Legal & Disclaimer page may be updated from time to time to reflect
+    changes to the website, league operation or applicable services.
+    The revision date shown below indicates the latest update.
+  </p>
+</section>
 
   <footer class="ic-legal__updated">
     Last updated · August 2026
