@@ -597,11 +597,11 @@ permalink: /league/
 
         <ul>
           <li>Name or nickname</li>
-          <li>Country (if you want to write)</li>
+          <li>Country / time zone</li>
           <li>Fantasy hockey experience</li>
-          <li>Yahoo Fantasy rating (if available)</li>
+          <li>Yahoo Fantasy rating or level (if available)</li>
           <li>Why IceCore interests you</li>
-          <li>Preferred franchise (see Teams page)</li>
+          <li>Preferred IceCore franchise (see Teams page)</li>
         </ul>
 
         <a
