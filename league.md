@@ -605,7 +605,7 @@ permalink: /league/
         </ul>
 
         <a
-          href="mailto:commissioner@icecoredynasty.com?subject=IceCore%20Dynasty%20-%20GM%20Application&body=Name%20or%20nickname%3A%0A%0ACountry%20%2F%20time%20zone%3A%0A%0AFantasy%20hockey%20experience%3A%0A%0AYahoo%20Fantasy%20rating%20%2F%20level%20(if%20available)%3A%0A%0AWhy%20IceCore%20interests%20me%3A%0A%0APreferred%20franchise(s)%3A%0A%0AAnything%20else%3A%0A"
+          href="mailto:commissioner@icecoredynasty.com?subject=IceCore%20Dynasty%20-%20GM%20Application&body=Name%20or%20nickname%3A%0A%0ACountry%20%2F%20Time%20Zone%3A%0A%0AFantasy%20Hockey%20Experience%3A%0A%0AYahoo%20Fantasy%20Rating%20or%20Level%20(if%20available)%3A%0A%0APreferred%20IceCore%20Franchise%20(see%20Teams%20page)%3A%0A%0AWhy%20does%20IceCore%20interest%20you%3F%0A%0AAnything%20else%3A%0A"
           class="league-join__button"
         >
           Apply for a franchise →
