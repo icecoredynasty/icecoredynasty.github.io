@@ -131,6 +131,30 @@ permalink: /legal/
     </p>
   </section>
 
+    <section class="ic-legal__section">
+    <h2>Privacy & Analytics</h2>
+
+    <p>
+      IceCore Dynasty uses GoatCounter, a privacy-friendly web analytics
+      service, to collect anonymous and aggregated website usage statistics.
+      The analytics help us understand general visitor activity and improve
+      the website experience.
+    </p>
+
+    <p>
+      GoatCounter does not use tracking cookies, does not build advertising
+      profiles and does not collect personally identifiable information for
+      analytics purposes. All collected statistics are anonymous and used
+      solely for the operation and improvement of this website.
+    </p>
+
+    <p>
+      By using this website, you acknowledge that anonymous usage statistics
+      may be collected for analytical purposes.
+    </p>
+
+  </section>
+
 
   <section class="ic-legal__section">
     <h2>Contact</h2>
