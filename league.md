@@ -601,7 +601,7 @@ permalink: /league/
           <li>Fantasy hockey experience</li>
           <li>Yahoo Fantasy rating (if available)</li>
           <li>Why IceCore interests you</li>
-          <li>Preferred franchise (see Teams page)/li>
+          <li>Preferred franchise (see Teams page)</li>
         </ul>
 
         <a
