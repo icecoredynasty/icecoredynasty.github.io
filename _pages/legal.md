@@ -169,7 +169,7 @@ permalink: /legal/
 
 
   <footer class="ic-legal__updated">
-    Last updated · July 2026
+    Last updated · August 2026
   </footer>
 
 </div>
