@@ -155,3 +155,41 @@
     justify-content:space-between;
 
 }
+
+@media (max-width:768px){
+
+.masthead__inner-wrap{
+
+    padding:0 14px;
+
+}
+
+}
+@media (max-width:768px){
+
+.site-logo img{
+
+    height:50px !important;
+
+}
+
+}
+
+@media (max-width:768px){
+
+.site-logo{
+
+    margin-right:8px;
+
+}
+
+}
+@media (max-width:768px){
+
+.greedy-nav{
+
+    justify-content:flex-end;
+
+}
+
+}
