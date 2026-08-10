@@ -1,3 +1,8 @@
+---
+layout: default
+title: Legal
+permalink: /legal/
+---
 <div class="ic-legal">
 
   <header class="ic-legal__header">
