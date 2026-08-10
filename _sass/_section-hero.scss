@@ -12,6 +12,8 @@
 
   height: clamp(280px, 20vw, 320px);
 
+  box-sizing: border-box;
+
   overflow: hidden;
   background: #0b0d10;
   color: #fff;
