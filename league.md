@@ -50,7 +50,11 @@ permalink: /league/
       Fantasy hockey<br>
       from the GM's chair.
     </h2>
-
+<p class="league-definition">
+  IceCore Dynasty is a 20-team fantasy hockey dynasty league built around
+  permanent franchises, long-term General Manager strategy, a 500-coin
+  salary cap, keepers, prospects and live salary-cap auctions.
+</p>
     <p class="league-lead">
       IceCore Dynasty is built around franchise management rather
       than daily lineup management. Draft the players. Sign them.
