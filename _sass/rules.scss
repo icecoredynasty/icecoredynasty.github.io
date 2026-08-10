@@ -11,7 +11,7 @@
   padding: 0 1.5rem 6rem;
   box-sizing: border-box;
   color: #181818;
-  overflow-x: hidden;
+  overflow-x: visible;
 }
 
 
@@ -926,8 +926,12 @@
    HERO OVERFLOW
    ========================================================= */
 
-.ic-section-hero {
-  max-width: 100%;
+.ic-rules .ic-section-hero {
+  width: 100vw;
+  max-width: none;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  box-sizing: border-box;
   overflow: hidden;
 }
 /* =========================================================
