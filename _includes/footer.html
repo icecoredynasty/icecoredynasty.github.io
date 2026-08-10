@@ -23,24 +23,15 @@
   </ul>
 </div>
 {% endif %}
-<div class="page__footer-description">
-  IceCore Dynasty is an independent fantasy hockey league built around
-  permanent franchises, long-term management, salary-cap strategy,
-  keepers and prospects. League competition is hosted on Yahoo Fantasy Sports.
-</div>
 <div class="page__footer-copyright">
-
-&copy;
-{% assign site_time = site.time | date: '%Y' %}
-{% if site.footer.since and site_time != site.footer.since %}
-  {{ site.footer.since }} -
-{% endif %}
-{{ site_time }}
-
-{{ site.copyright | default: site.title | escape_once | strip }}.
-Built on GitHub, powered by
-<a href="https://jekyllrb.com" rel="nofollow">Jekyll</a>
-&amp;
-<a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">MM</a>.
-
+  &copy;
+  {% assign site_time = site.time | date: '%Y' %}
+  {% if site.footer.since and site_time != site.footer.since %}
+    {{ site.footer.since }} -
+  {% endif %}
+  {{ site_time }}
+  {{ site.copyright | default: site.title | escape_once | strip }}
+  — an independent fantasy hockey league built around permanent franchises,
+  long-term management, salary-cap strategy, keepers and prospects.
+  League competition is hosted on Yahoo Fantasy Sports.
 </div>
