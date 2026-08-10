@@ -7,6 +7,7 @@
   position: relative;
 
   width: 100dvw;
+  max-width: 100vw;
   margin-left: calc(50% - 50dvw);
 
   height: clamp(280px, 20vw, 320px);
