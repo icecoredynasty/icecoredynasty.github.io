@@ -5,9 +5,9 @@
 
 
 .ic-rules {
-  width: 100%;
-  max-width: none;
-  margin: 0;
+  width: min(1180px, calc(100% - 3rem));
+  max-width: 1180px;
+  margin: 0 auto;
   padding: 0 0 6rem;
   box-sizing: border-box;
   color: #181818;
