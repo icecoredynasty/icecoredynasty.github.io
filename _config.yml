@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: IceCore Dynasty
 email:
-description: "Building hockey franchises differently."
+description: "IceCore Dynasty is a free fantasy hockey dynasty league built around permanent franchises, salary-cap management, live auctions, keepers, prospects and long-term franchise building."
 
 github_username: icecoredynasty
 
