@@ -1,185 +1,201 @@
----
-layout: default
-title: Legal
-permalink: /legal/
----
-
 <div class="ic-legal">
 
   <header class="ic-legal__header">
     <span class="ic-legal__eyebrow">ICECORE DYNASTY · LEGAL</span>
 
-    <h1>Legal & Disclaimer</h1>
+<h1>Legal & Disclaimer</h1>
 
-    <p class="ic-legal__lead">
-      IceCore Dynasty is an independent, community-run fantasy hockey league
-      created for recreational competition and long-term franchise management.
-    </p>
+<p class="ic-legal__lead">
+  IceCore Dynasty is an independent, community-run fantasy hockey league
+  created for recreational competition and long-term franchise management.
+</p>
+
   </header>
-
 
   <section class="ic-legal__section">
     <h2>Independent League</h2>
 
-    <p>
-      IceCore Dynasty is an independent fantasy hockey project.
-      It is not affiliated with, sponsored by, endorsed by, or operated by
-      the National Hockey League, any NHL member club, or any other
-      professional hockey organization.
-    </p>
-
-    <p>
-      References to real-world hockey players, teams, leagues, statistics,
-      competitions and events are used solely in connection with fantasy
-      hockey gameplay, commentary and league administration.
-    </p>
-  </section>
-
-
-<section class="ic-legal__section">
-  <h2>Fantasy Platform</h2>
-
-  <p>
-    League competition is administered using Yahoo Fantasy Sports.
-    IceCore Dynasty is an independent fantasy hockey league and is not
-    affiliated with, sponsored by, endorsed by or operated by Yahoo Inc.
-    or Yahoo Fantasy Sports.
-  </p>
+<p>
+  IceCore Dynasty is an independent fantasy hockey project.
+  It is not affiliated with, sponsored by, endorsed by, or operated by
+  the National Hockey League, any NHL member club, or any other
+  professional hockey organization.
+</p>
 
 <p>
-Player data, statistics, eligibility designations, scoring,
-transactions and other gameplay functionality are provided and
-maintained by Yahoo Fantasy Sports.
+  References to real-world hockey players, teams, leagues, statistics,
+  competitions and events are used solely in connection with fantasy
+  hockey gameplay, commentary and league administration.
 </p>
-</section>
 
+  </section>
+
+  <section class="ic-legal__section">
+    <h2>Fantasy Platform</h2>
+
+<p>
+  League competition is administered using Yahoo Fantasy Sports.
+  IceCore Dynasty is not affiliated with, sponsored by, endorsed by,
+  or operated by Yahoo.
+</p>
+
+<p>
+  Player data, statistics, eligibility designations, scoring,
+  transactions and other platform functionality are provided and
+  controlled by the applicable fantasy platform.
+</p>
+
+  </section>
 
   <section class="ic-legal__section">
     <h2>Third-Party Names & Trademarks</h2>
 
-    <p>
-      All third-party names, trademarks, service marks, logos and other
-      intellectual property referenced on this website remain the property
-      of their respective owners.
-    </p>
+<p>
+  All third-party names, trademarks, service marks, logos and other
+  intellectual property referenced on this website remain the property
+  of their respective owners.
+</p>
 
-    <p>
-      Their use or reference does not imply affiliation, sponsorship,
-      approval or endorsement of IceCore Dynasty by their respective owners.
-    </p>
+<p>
+  Their use or reference does not imply affiliation, sponsorship,
+  approval or endorsement of IceCore Dynasty by their respective owners.
+</p>
+
   </section>
-
 
   <section class="ic-legal__section">
     <h2>IceCore Dynasty Content</h2>
 
-    <p>
-      The IceCore Dynasty name, league identity, original franchise
-      identities, original written material, graphics and other original
-      creative assets presented on this website are part of the
-      IceCore Dynasty project, except where otherwise stated.
-    </p>
+<p>
+  The IceCore Dynasty name, league identity, original franchise
+  identities, original written material, graphics and other original
+  creative assets presented on this website are part of the
+  IceCore Dynasty project, except where otherwise stated.
+</p>
 
-    <p>
-      This statement does not claim ownership of third-party trademarks,
-      real-world hockey identities, player information, statistics,
-      platform content or other material belonging to third parties.
-    </p>
+<p>
+  This statement does not claim ownership of third-party trademarks,
+  real-world hockey identities, player information, statistics,
+  platform content or other material belonging to third parties.
+</p>
+
   </section>
-
 
   <section class="ic-legal__section">
     <h2>League Rules & Administration</h2>
 
-    <p>
-      The published IceCore Dynasty rulebook defines the league's
-      long-term competition framework. Season-specific platform settings,
-      schedules, scoring configuration and transaction settings may also
-      govern league play.
-    </p>
+<p>
+  The published IceCore Dynasty rulebook defines the league's
+  long-term competition framework. Season-specific platform settings,
+  schedules, scoring configuration and transaction settings may also
+  govern league play.
+</p>
 
-    <p>
-      Situations not expressly covered by the published rules may be
-      resolved by the Commissioner when necessary to maintain competitive
-      integrity, consistency and the proper operation of the league.
-    </p>
+<p>
+  Situations not expressly covered by the published rules may be
+  resolved by the Commissioner when necessary to maintain competitive
+  integrity, consistency and the proper operation of the league.
+</p>
+
   </section>
-
 
   <section class="ic-legal__section">
     <h2>Non-Commercial Project</h2>
 
-    <p>
-      IceCore Dynasty is operated as a non-commercial recreational
-      fantasy hockey project.
-    </p>
+<p>
+  IceCore Dynasty is operated as a non-commercial recreational
+  fantasy hockey project.
+</p>
 
-    <p>
-      Participation does not constitute employment, investment,
-      gambling, ownership of a professional sports franchise,
-      or ownership of rights in any real-world player or organization.
-    </p>
+<p>
+  Participation does not constitute employment, investment,
+  gambling, ownership of a professional sports franchise,
+  or ownership of rights in any real-world player or organization.
+</p>
+
   </section>
 
+  <section class="ic-legal__section">
+    <h2>Open-Source Software</h2>
+
+<p>
+  This website is built using Jekyll and the Minimal Mistakes Jekyll theme.
+  Jekyll and Minimal Mistakes are open-source software distributed under
+  the MIT License. The original copyright and license notices for
+  third-party software remain with their respective authors.
+</p>
+
+<p>
+  The IceCore Dynasty website is hosted through GitHub Pages.
+  GitHub is a hosting and development platform and is not affiliated with,
+  sponsored by, endorsed by, or operated by IceCore Dynasty.
+</p>
+
+  </section>
+
+  <section class="ic-legal__section">
+    <h2>Website Information</h2>
+
+<p>
+  Website content is provided for general informational and recreational
+  purposes. IceCore Dynasty does not guarantee that all information,
+  availability or third-party services will always be complete, current
+  or uninterrupted.
+</p>
+
+  </section>
 
   <section class="ic-legal__section">
     <h2>External Services & Links</h2>
 
-    <p>
-      This website may contain links to third-party websites and services.
-      IceCore Dynasty does not control those services and is not responsible
-      for their content, availability, policies or operation.
-    </p>
-  </section>
-
-    <section class="ic-legal__section">
-    <h2>Privacy & Analytics</h2>
-
-    <p>
-      IceCore Dynasty uses GoatCounter, a privacy-friendly web analytics
-      service, to collect anonymous and aggregated website usage statistics.
-      The analytics help us understand general visitor activity and improve
-      the website experience.
-    </p>
-
-    <p>
-      GoatCounter does not use tracking cookies, does not build advertising
-      profiles and does not collect personally identifiable information for
-      analytics purposes. All collected statistics are anonymous and used
-      solely for the operation and improvement of this website.
-    </p>
-
-    <p>
-      By using this website, you acknowledge that anonymous usage statistics
-      may be collected for analytical purposes.
-    </p>
+<p>
+  This website may contain links to third-party websites and services.
+  IceCore Dynasty does not control those services and is not responsible
+  for their content, availability, policies or operation.
+</p>
 
   </section>
-
 
   <section class="ic-legal__section">
     <h2>Contact</h2>
 
 <p>
-Questions regarding IceCore Dynasty, league administration,
-website content or legal matters may be directed to
-<a href="mailto:commissioner@icecoredynasty.com">commissioner@icecoredynasty.com</a>.
+  Questions concerning IceCore Dynasty, league administration,
+  website content or intellectual property may be submitted through
+  the contact method provided on this website.
 </p>
+
   </section>
 
-<section class="ic-legal__section">
-  <h2>Changes to this Notice</h2>
-
-  <p>
-    This Legal & Disclaimer page may be updated from time to time to reflect
-    changes to the website, league operation or applicable services.
-    The revision date shown below indicates the latest update.
-  </p>
-</section>
-
   <footer class="ic-legal__updated">
-    Last updated · August 2026
+    Last updated · July 2026
   </footer>
+
+  <section class="ic-legal__section">
+    <h2>Privacy & Analytics</h2>
+
+<p>
+  IceCore Dynasty uses GoatCounter, a privacy-friendly web analytics
+  service, to collect aggregate website usage statistics. The analytics
+  help us understand general visitor activity and improve the website
+  experience.
+</p>
+
+<p>
+  GoatCounter does not use tracking cookies or persistent identifiers.
+  Depending on the site's configuration, analytics may include information
+  such as pages visited, browser and operating system, language, screen
+  width, approximate location and referrer. GoatCounter states that it
+  does not store IP addresses or full User-Agent headers in its database.
+</p>
+
+<p>
+  Analytics data is used for website operation and improvement and is not
+  used by IceCore Dynasty to build advertising profiles or identify
+  individual visitors.
+</p>
+
+  </section>
 
 </div>
 
