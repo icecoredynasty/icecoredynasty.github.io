@@ -299,3 +299,9 @@
 }
 
 </style>
+.page__footer-copyright {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
