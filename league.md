@@ -615,9 +615,12 @@ permalink: /league/
           Apply for a franchise →
         </a>
 
-        <span class="league-join__deadline">
-          Applications close · September 19, 2026
-        </span>
+<span class="league-join__deadline">
+  If Apply doesn't open your email app, contact us at
+  <a href="mailto:commissioner@icecoredynasty.com">
+    commissioner@icecoredynasty.com
+  </a>.
+</span>
 
       </div>
 
