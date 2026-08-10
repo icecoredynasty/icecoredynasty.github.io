@@ -4,13 +4,11 @@ title: Rules
 permalink: /rules/
 ---
 
-<div class="ic-rules">
+<!-- =====================================================
+     HERO
+     ===================================================== -->
 
-  <!-- =====================================================
-       HERO
-       ===================================================== -->
-
-  <section class="ic-section-hero">
+<section class="ic-section-hero">
 
   <div class="ic-section-hero__image">
     <img
@@ -40,6 +38,7 @@ permalink: /rules/
 
 </section>
 
+<div class="ic-rules">
 
   <!-- =====================================================
        QUICK RULES
