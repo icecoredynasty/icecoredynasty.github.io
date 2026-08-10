@@ -1234,14 +1234,23 @@ permalink: /rules/
 
   </section>
 
-<section class="rules-section rules-faq">
+<section class="ic-rules-section">
 
-  <div class="rules-section__header">
-    <span class="rules-eyebrow">FREQUENTLY ASKED QUESTIONS</span>
+  <header class="ic-section-heading">
+
+    <span class="ic-eyebrow">FREQUENTLY ASKED QUESTIONS</span>
+
     <h2>IceCore Dynasty FAQ</h2>
-  </div>
 
-  <div class="rules-faq__items">
+    <p>
+      The answers to the questions General Managers ask most often
+      before joining an IceCore franchise.
+    </p>
+
+  </header>
+
+
+  <div class="ic-faq">
 
     <article>
       <h3>What is IceCore Dynasty?</h3>
@@ -1252,6 +1261,7 @@ permalink: /rules/
       </p>
     </article>
 
+
     <article>
       <h3>How many teams are in IceCore Dynasty?</h3>
       <p>
@@ -1261,49 +1271,56 @@ permalink: /rules/
       </p>
     </article>
 
+
     <article>
       <h3>How does the salary cap work?</h3>
       <p>
-        Every franchise operates under the same 500-coin salary cap.
-        Keeper salaries count against the cap before the annual live
-        salary-cap auction.
+        Every franchise operates under the same 500-coin Salary Cap.
+        Keeper salaries count against the cap before the annual Live Salary
+        Cap Draft.
       </p>
     </article>
+
 
     <article>
       <h3>How does the auction draft work?</h3>
       <p>
         IceCore uses a live salary-cap auction draft. General Managers
-        nominate players and compete with bids, with the final winning bid
-        becoming the player's salary.
+        nominate players and compete with bids. The final winning bid
+        becomes the player's IceCore salary.
       </p>
     </article>
+
 
     <article>
       <h3>How many players are on each roster?</h3>
       <p>
-        Each franchise has a 20-player active roster consisting of 4 LW,
-        4 C, 4 RW, 6 D and 2 G. IceCore has no traditional fantasy bench.
+        Each franchise has a 20-player active roster consisting of
+        4 C, 4 LW, 4 RW, 6 D and 2 G. IceCore uses no traditional
+        fantasy bench.
       </p>
     </article>
+
 
     <article>
       <h3>How does the keeper system work?</h3>
       <p>
-        Each offseason, franchises keep 11–15 players from their active
-        roster and IR+, together with 1–3 Development Keepers from the
-        previous-season NA farm.
+        Each offseason, franchises protect 11–15 regular players from
+        their active roster or IR+, together with 1–3 Development Keepers
+        from the previous-season NA farm.
       </p>
     </article>
+
 
     <article>
       <h3>Does IceCore have a prospect or farm system?</h3>
       <p>
         Yes. Each franchise has five NA slots for developing prospects.
-        Up to three Development Keepers can be carried forward from the
-        previous-season farm.
+        Between one and three players from the previous-season farm may
+        become Development Keepers.
       </p>
     </article>
+
 
     <article>
       <h3>How does FAAB work?</h3>
@@ -1314,20 +1331,22 @@ permalink: /rules/
       </p>
     </article>
 
+
     <article>
       <h3>Does IceCore require daily lineup management?</h3>
       <p>
-        No traditional daily lineup setting is required. IceCore is designed
+        No traditional fantasy bench lineup is used. IceCore is designed
         around franchise construction and General Manager decisions rather
         than deciding which of your own players should sit each night.
       </p>
     </article>
 
+
     <article>
       <h3>What platform does IceCore use?</h3>
       <p>
-        IceCore Dynasty is an independent fantasy hockey league whose league
-        competition is administered using Yahoo Fantasy Sports.
+        IceCore Dynasty is an independent fantasy hockey league whose
+        league competition is administered using Yahoo Fantasy Sports.
       </p>
     </article>
 
