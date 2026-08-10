@@ -801,7 +801,45 @@
   font-weight: 700;
 }
 
+/* =========================================================
+   FAQ
+   ========================================================= */
 
+.ic-faq {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+}
+
+.ic-faq article {
+  padding: 1.7rem 1.5rem;
+
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+
+  background: #fff;
+}
+
+.ic-faq h3 {
+  margin: 0 0 .7rem;
+
+  font-size: .95rem;
+  line-height: 1.3;
+  letter-spacing: -.015em;
+}
+
+.ic-faq p {
+  max-width: 560px;
+
+  margin: 0;
+
+  font-size: .8rem;
+  line-height: 1.7;
+
+  color: #666;
+}
 /* =========================================================
    CLOSING
    ========================================================= */
