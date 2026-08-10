@@ -105,7 +105,6 @@ permalink: /rules/
           Every franchise protects one to three players from its NA farm.
           Development matters, but prospect hoarding does not define the league.
         </p>
-</p>
       </article>
 
       <article class="ic-quick-card">
@@ -152,6 +151,22 @@ permalink: /rules/
           other franchise exactly once before the 16-team IceCore Cup Playoffs.
         </p>
       </article>
+      <article class="ic-quick-card">
+  <span>11</span>
+  <h3>Salary Escalation</h3>
+  <p>
+    Regular keeper salaries increase each offseason,
+    making long-term value and contract decisions matter.
+  </p>
+</article>
+<article class="ic-quick-card">
+  <span>12</span>
+  <h3>Your Dynasty</h3>
+  <p>
+    Every franchise can take a different path.
+    Build around stars, prospects, cap flexibility or a long-term plan.
+  </p>
+</article>
 
     </div>
 
