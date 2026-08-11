@@ -2,6 +2,7 @@
 layout: default
 title: League
 permalink: /league/
+description: "The IceCore Dynasty league structure, franchise model, salary-cap system and the framework behind twenty permanent hockey franchises."
 ---
 
 <div class="league-page">
