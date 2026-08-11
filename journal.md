@@ -49,7 +49,8 @@ description: "The IceCore Dynasty Journal covers league news, franchise stories,
                 <img
                   src="{{ post.image | relative_url }}"
                   alt="{{ post.title | escape }}"
-                  loading="lazy"
+                  loading="eager"
+                  fetchpriority="high"
                   decoding="async"
                 >
 
