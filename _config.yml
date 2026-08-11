@@ -97,10 +97,10 @@ footer:
     - label: Yahoo Fantasy
       icon: fas fa-hockey-puck
       url: https://hockey.fantasysports.yahoo.com/
-
+      
     - label: Reddit
       icon: fab fa-reddit
-      url: https://reddit.com/r/...
+      url: https://reddit.com/
 
     - label: Facebook
       icon: fab fa-facebook-f
