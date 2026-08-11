@@ -15,7 +15,7 @@ permalink: /journal/
 
     <header class="ic-journal-heading">
 
-      <span>LATEST</span>
+      <span>FROM THE LEAGUE</span>
 
       <h2>
         Stories from the league.
