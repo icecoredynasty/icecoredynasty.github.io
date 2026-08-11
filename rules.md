@@ -2,6 +2,7 @@
 layout: default
 title: Rules
 permalink: /rules/
+description: "The complete IceCore Dynasty rulebook covering the 20-team format, 500-coin salary cap, keepers, prospects, drafts, scoring and league administration."
 ---
 
 <!-- =====================================================
