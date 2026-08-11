@@ -2,6 +2,7 @@
 layout: default
 title: Journal
 permalink: /journal/
+description: "The IceCore Dynasty Journal covers league news, franchise stories, strategy, drafts, scoring and the decisions that shape the league."
 ---
 
 <div class="ic-journal">
