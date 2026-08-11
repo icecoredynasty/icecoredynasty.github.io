@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: IceCore Dynasty
+title: IceCore | Fantasy Hockey Dynasty League
 email:
 description: "IceCore Dynasty is a free fantasy hockey dynasty league built around permanent franchises, salary-cap management, live auctions, keepers, prospects and long-term franchise building."
 
