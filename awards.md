@@ -2,6 +2,7 @@
 layout: default
 title: Awards
 permalink: /awards/
+description: "IceCore Dynasty honours the champions, standout performances, records and moments that shape the history of the league."
 ---
 
 <!-- HERO -->
