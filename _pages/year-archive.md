@@ -4,4 +4,5 @@ permalink: /posts/
 layout: posts
 author_profile: true
 robots: noindex
+sitemap: false
 ---
