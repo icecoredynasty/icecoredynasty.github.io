@@ -2,3 +2,7 @@
 
 <script data-goatcounter="https://icecore.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
+
+{% if page.robots %}
+  <meta name="robots" content="{{ page.robots }}">
+{% endif %}
