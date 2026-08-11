@@ -3,6 +3,7 @@ title: Teams
 permalink: /teams/
 layout: icecore-page
 author_profile: false
+description: "Meet the twenty IceCore Dynasty franchises, their identities, cities, histories and the General Managers building them for the long term."
 ---
 
 <section class="teams-hero">
