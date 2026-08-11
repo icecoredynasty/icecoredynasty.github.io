@@ -94,7 +94,7 @@ masthead_title: ""
 
 footer:
   links:
-    - label: League
+    - label: Yahoo Fantasy
       icon: fas fa-hockey-puck
       url: https://hockey.fantasysports.yahoo.com/
 
