@@ -1,7 +1,8 @@
 ---
 title: "A New Dynasty Begins"
 date: 2026-07-27
-category: league
+categories:
+  - league
 section: League News
 league: League 1
 season: "2026–27"
