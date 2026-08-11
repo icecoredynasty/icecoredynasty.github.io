@@ -29,7 +29,6 @@ layout: default
     </section>
 
 
-
     <section class="icecore-home-bottom">
 
         <div class="icecore-calendar-column">
@@ -42,9 +41,50 @@ layout: default
 
             {% include icecore/editors-pick.html %}
 
-        </div>
+            <div class="icecore-home-description">
+                <p>
+                    “IceCore Dynasty is a 20-team fantasy hockey dynasty league
+                    built around permanent franchises, long-term General Manager
+                    strategy, a 500-coin salary cap, keepers, prospects and live
+                    salary-cap auctions.”
+                </p>
+            </div>
 
+        </div>
 
     </section>
 
 </div>
+
+<style>
+
+.icecore-home-description {
+    margin-top: 42px;
+    padding-top: 24px;
+    border-top: 1px solid #e2e6e9;
+}
+
+.icecore-home-description p {
+    max-width: 620px;
+    margin: 0;
+
+    font-size: 0.82rem;
+    line-height: 1.65;
+    font-style: italic;
+    color: #858d93;
+}
+
+@media (max-width: 700px) {
+
+    .icecore-home-description {
+        margin-top: 34px;
+        padding-top: 20px;
+    }
+
+    .icecore-home-description p {
+        font-size: 0.78rem;
+    }
+
+}
+
+</style>
