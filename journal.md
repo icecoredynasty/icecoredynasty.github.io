@@ -17,9 +17,9 @@ permalink: /journal/
 
       <span>FROM THE LEAGUE</span>
 
-      <h2>
+      <h1>
         Stories from the league.
-      </h2>
+      </h1>
 
     </header>
 
