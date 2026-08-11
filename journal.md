@@ -15,7 +15,7 @@ permalink: /journal/
 
     <header class="ic-journal-heading">
 
-      <span>ICECORE JOURNAL</span>
+      <span>LATEST</span>
 
       <h2>
         Stories from the league.
