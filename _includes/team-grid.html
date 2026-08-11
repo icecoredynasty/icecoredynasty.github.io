@@ -91,6 +91,48 @@
 {% endif %}
 
 
+{% if available_teams.size > 0 %}
+
+<section class="teams-group">
+
+  <div class="teams-group__heading">
+    <span>AVAILABLE FOR EXPANSION</span>
+    <div class="teams-section-line"></div>
+  </div>
+
+  <div class="team-grid">
+
+    {% for team in available_teams %}
+
+      <a
+        href="{{ team.url | relative_url }}"
+        class="team-card"
+        data-league="{{ team.league }}"
+        data-conference="{{ team.conference | downcase }}"
+        data-status="{{ team.status }}">
+
+        <div class="team-card__logo">
+          <img
+            src="{{ team.logo | relative_url }}"
+            alt="{{ team.title }}"
+            loading="lazy">
+        </div>
+
+        <div class="team-card__name">
+          {{ team.title }}
+        </div>
+
+      </a>
+
+    {% endfor %}
+
+  </div>
+
+</section>
+
+{% endif %}
+
+
 {% if reserved_1.size > 0 %}
 
 <section class="teams-group">
@@ -145,48 +187,6 @@
   <div class="team-grid">
 
     {% for team in reserved_2 %}
-
-      <a
-        href="{{ team.url | relative_url }}"
-        class="team-card"
-        data-league="{{ team.league }}"
-        data-conference="{{ team.conference | downcase }}"
-        data-status="{{ team.status }}">
-
-        <div class="team-card__logo">
-          <img
-            src="{{ team.logo | relative_url }}"
-            alt="{{ team.title }}"
-            loading="lazy">
-        </div>
-
-        <div class="team-card__name">
-          {{ team.title }}
-        </div>
-
-      </a>
-
-    {% endfor %}
-
-  </div>
-
-</section>
-
-{% endif %}
-
-
-{% if available_teams.size > 0 %}
-
-<section class="teams-group">
-
-  <div class="teams-group__heading">
-    <span>AVAILABLE FOR EXPANSION</span>
-    <div class="teams-section-line"></div>
-  </div>
-
-  <div class="team-grid">
-
-    {% for team in available_teams %}
 
       <a
         href="{{ team.url | relative_url }}"
