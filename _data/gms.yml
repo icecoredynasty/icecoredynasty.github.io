@@ -1,62 +1,67 @@
+# Central GM database
+# Change current_season ONCE when a new IceCore season begins.
 current_season: 2026
 
 gms:
 
-  - id: brian
-    name: Brian
-    flag: "🇺🇸"
+  # =========================================================
+  # ACTIVE GMs
+  # =========================================================
+
+  - id: "001"
+    nick: "Brian"
+    status: active
+    current_team: "amarillo-downburst"
+    country: "US"
     timezone: "EST"
     since: 2026
-    stars: 4
-    quote: "I collect vinyl records."
+    hero: "A vinyl collector who likes simple systems with massive challenges."
     warning: false
     bonus: false
 
     seasons:
       - year: 2026
-        team: new-orleans-soul
-        regular_season: 8
-        playoffs: 5
+        team: "amarillo-downburst"
+        regular_season: 12
+        playoffs: 6
         draft: true
 
-
-  - id: alex
-    name: Alex
-    flag: "🇨🇦"
-    timezone: "PST"
+  - id: "002"
+    nick: "Pete"
+    status: active
+    current_team: "new-orleans-soul"
+    country: "SK"
+    timezone: "CET"
     since: 2026
-    stars: 3
-    quote: "Waiting to show what I can build."
+    hero: "Waiting to show what he got."
     warning: false
     bonus: true
 
     seasons:
       - year: 2026
-        team: amarillo-downburst
-        regular_season: 12
-        playoffs: 10
+        team: "new-orleans-soul"
+        regular_season: 5
+        playoffs: 3
         draft: true
 
+  # =========================================================
+  # RETIRED / HISTORICAL GMs
+  # =========================================================
 
-  - id: pete
-    name: Pete
-    flag: "🇨🇿"
-    timezone: "CET"
+  - id: "003"
+    nick: "Mike"
+    status: retired
+    current_team: ""
+    country: "CA"
+    timezone: "PST"
     since: 2026
-    stars: 5
-    quote: "The long game starts with one good draft."
-    warning: false
+    hero: "A former IceCore GM."
+    warning: true
     bonus: false
 
     seasons:
       - year: 2026
-        team: honolulu-guardians
-        regular_season: 6
-        playoffs: 3
-        draft: true
-
-      - year: 2027
-        team: amarillo-downburst
-        regular_season: 4
-        playoffs: 2
-        draft: true
+        team: "amarillo-downburst"
+        regular_season: 20
+        playoffs: 20
+        draft: false
