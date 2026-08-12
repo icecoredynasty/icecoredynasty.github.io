@@ -4,6 +4,8 @@ title: Amarillo Downburst
 permalink: /teams/amarillo-downburst/
 slug: amarillo-downburst
 
+team_id: amarillo-downburst
+
 city: Amarillo
 state: Texas
 country: USA
@@ -22,7 +24,6 @@ secondary: "#111111"
 motto: "When the sky breaks, we answer."
 founded_on: "Founded on the windswept plains of the Texas Panhandle."
 
-gm: "Available"
 arena: "Stormfront Arena"
 
 salary_cap: 500
