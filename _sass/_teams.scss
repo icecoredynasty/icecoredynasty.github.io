@@ -1420,3 +1420,289 @@
 
 }
 
+
+/* =========================================================
+   ICECORE — GM CARD
+   ========================================================= */
+
+.gm-panel {
+  margin: 0;
+  padding: 2rem 0 0;
+}
+
+
+/* ---------------------------------------------------------
+   GM CARD
+   --------------------------------------------------------- */
+
+.gm-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(260px, .9fr);
+
+  border: 1px solid #e2e5e9;
+  background: #fff;
+}
+
+
+.gm-card__main {
+  padding: 1.5rem 1.75rem;
+}
+
+
+.gm-card__eyebrow {
+  margin-bottom: .55rem;
+
+  color: #888;
+
+  font-size: .66rem;
+  font-weight: 800;
+
+  letter-spacing: .15em;
+  text-transform: uppercase;
+}
+
+
+.gm-card__identity {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+}
+
+
+.gm-card__identity h2 {
+  margin: 0;
+
+  font-size: 1.8rem;
+  line-height: 1;
+
+  letter-spacing: -.025em;
+}
+
+
+.gm-card__flag {
+  font-size: 1.35rem;
+}
+
+
+.gm-card__quote {
+  max-width: 620px;
+
+  margin: .85rem 0 0;
+
+  color: #59616b;
+
+  font-size: .92rem;
+  line-height: 1.5;
+}
+
+
+/* ---------------------------------------------------------
+   GM DETAILS
+   --------------------------------------------------------- */
+
+.gm-card__details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  border-left: 1px solid #e2e5e9;
+}
+
+
+.gm-stat {
+  padding: 1rem 1.1rem;
+
+  border-bottom: 1px solid #e5e7ea;
+}
+
+
+.gm-stat:nth-child(odd) {
+  border-right: 1px solid #e5e7ea;
+}
+
+
+.gm-stat span {
+  display: block;
+
+  margin-bottom: .2rem;
+
+  color: #9299a3;
+
+  font-size: .62rem;
+  font-weight: 700;
+
+  letter-spacing: .09em;
+  text-transform: uppercase;
+}
+
+
+.gm-stat strong {
+  display: block;
+
+  color: #252c35;
+
+  font-size: .88rem;
+}
+
+
+.gm-stars {
+  letter-spacing: .08em;
+  font-size: .85rem !important;
+}
+
+
+/* ---------------------------------------------------------
+   RESULTS
+   --------------------------------------------------------- */
+
+.gm-results {
+  margin-top: 1.5rem;
+}
+
+
+.gm-results__heading {
+  margin-bottom: .8rem;
+}
+
+
+.gm-results__heading span {
+  display: block;
+
+  color: #888;
+
+  font-size: .64rem;
+  font-weight: 800;
+
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+
+
+.gm-results__heading h3 {
+  margin: .25rem 0 0;
+
+  font-size: 1.25rem;
+}
+
+
+.gm-results__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  border: 1px solid #e2e5e9;
+}
+
+
+.gm-season {
+  padding: .9rem 1rem;
+
+  background: #fff;
+
+  border-right: 1px solid #e5e7ea;
+}
+
+
+.gm-season:last-child {
+  border-right: 0;
+}
+
+
+.gm-season > strong {
+  display: block;
+
+  margin-bottom: .55rem;
+
+  font-size: .95rem;
+}
+
+
+.gm-season span {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: .25rem;
+
+  color: #777;
+
+  font-size: .72rem;
+}
+
+
+.gm-season b {
+  color: #252c35;
+}
+
+
+/* ---------------------------------------------------------
+   FRANCHISE HISTORY
+   --------------------------------------------------------- */
+
+.franchise-history {
+  padding: 2.5rem 0;
+
+  border-bottom: 1px solid #e5e5e5;
+}
+
+
+.franchise-history__list {
+  border-top: 1px solid #e5e5e5;
+}
+
+
+.franchise-history__row {
+  display: grid;
+
+  grid-template-columns: 80px 1fr 100px 100px;
+
+  gap: 1rem;
+
+  padding: .75rem 0;
+
+  border-bottom: 1px solid #e8e8e8;
+
+  font-size: .78rem;
+}
+
+
+.franchise-history__row strong {
+  color: #252c35;
+}
+
+
+.franchise-history__row span {
+  color: #777;
+}
+
+
+/* ---------------------------------------------------------
+   MOBILE
+   --------------------------------------------------------- */
+
+@media (max-width: 700px) {
+
+  .gm-card {
+    grid-template-columns: 1fr;
+  }
+
+  .gm-card__details {
+    border-left: 0;
+    border-top: 1px solid #e2e5e9;
+  }
+
+  .gm-results__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gm-season {
+    border-right: 0;
+    border-bottom: 1px solid #e5e7ea;
+  }
+
+  .gm-season:last-child {
+    border-bottom: 0;
+  }
+
+  .franchise-history__row {
+    grid-template-columns: 55px 1fr;
+  }
+
+}
