@@ -1,16 +1,62 @@
-- id: brian
-  name: Brian
-  flag: "🇺🇸"
-  timezone: EST
-  since: 2026
-  quote: "I like the simplicity which also brings a massive challenge."
-  team: new-orleans-soul
-  warning: false
-  bonus: false
+current_season: 2026
 
-  seasons:
-    - year: 2026
-      team: new-orleans-soul
-      regular_season: 0
-      playoffs: 0
-      draft: true
+gms:
+
+  - id: brian
+    name: Brian
+    flag: "🇺🇸"
+    timezone: "EST"
+    since: 2026
+    stars: 4
+    quote: "I collect vinyl records."
+    warning: false
+    bonus: false
+
+    seasons:
+      - year: 2026
+        team: new-orleans-soul
+        regular_season: 8
+        playoffs: 5
+        draft: true
+
+
+  - id: alex
+    name: Alex
+    flag: "🇨🇦"
+    timezone: "PST"
+    since: 2026
+    stars: 3
+    quote: "Waiting to show what I can build."
+    warning: false
+    bonus: true
+
+    seasons:
+      - year: 2026
+        team: amarillo-downburst
+        regular_season: 12
+        playoffs: 10
+        draft: true
+
+
+  - id: pete
+    name: Pete
+    flag: "🇨🇿"
+    timezone: "CET"
+    since: 2026
+    stars: 5
+    quote: "The long game starts with one good draft."
+    warning: false
+    bonus: false
+
+    seasons:
+      - year: 2026
+        team: honolulu-guardians
+        regular_season: 6
+        playoffs: 3
+        draft: true
+
+      - year: 2027
+        team: amarillo-downburst
+        regular_season: 4
+        playoffs: 2
+        draft: true
