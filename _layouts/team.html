@@ -61,10 +61,26 @@ layout: default
       <strong>{{ page.status | capitalize }}</strong>
     </div>
 
-    <div class="team-meta__item team-meta__gm">
-      <span>General Manager</span>
-      <strong>{{ page.gm | default: "Available" }}</strong>
-    </div>
+<div class="team-meta__item team-meta__gm">
+
+  <span>General Manager</span>
+
+  {% assign current_gm = nil %}
+
+  {% for gm in site.data.gms.gms %}
+    {% if gm.status == "active" and gm.current_team == page.team_id %}
+      {% assign current_gm = gm %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+
+  {% if current_gm %}
+    <strong>{{ current_gm.nick }}</strong>
+  {% else %}
+    <strong>Available</strong>
+  {% endif %}
+
+</div>
 
   </section>
 
