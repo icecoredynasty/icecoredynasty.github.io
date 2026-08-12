@@ -71,147 +71,26 @@ layout: default
 
 
 
-  {% assign gm_id = page.gm | default: "" %}
-{% assign gm = site.data.gms.gms | where: "id", gm_id | first %}
-{% assign current_season = site.data.gms.current_season | default: 2026 %}
+{% comment %} TEST VERSION OF THE GM SECTION FOR TEAM PAGES The team page only needs: team_id: "amarillo-downburst" The current GM is NOT stored in the team markdown. It is resolved from site.data.gms.gms using current_team. The active season is controlled once in: _data/gms.yml current_season: 2026 Historical seasons stay attached to the GM, so franchise history can be reconstructed even after a GM changes teams. {% endcomment %} {% assign all_gms = site.data.gms.gms %} {% assign current_season = site.data.gms.current_season %} {% assign current_gm = nil %} {% for candidate in all_gms %} {% if candidate.status == "active" and candidate.current_team == page.team_id %} {% assign current_gm = candidate %} {% break %} {% endif %} {% endfor %} {% if current_gm %} {% assign season_data = nil %} {% for season in current_gm.seasons %} {% if season.year == current_season and season.team == page.team_id %} {% assign season_data = season %} {% break %} {% endif %} {% endfor %} {% assign stars = 2 %} {% if season_data %} {% if season_data.draft %} {% assign stars = stars | plus: 1 %} {% endif %} {% if season_data.playoffs <= 10 %} {% assign stars = stars | plus: 1 %} {% endif %} {% if current_gm.bonus %} {% assign stars = stars | plus: 1 %} {% endif %} {% if current_gm.warning %} {% assign stars = stars | minus: 1 %} {% endif %} {% endif %} {% if stars > 5 %}{% assign stars = 5 %}{% endif %} {% if stars < 1 %}{% assign stars = 1 %}{% endif %}
+GENERAL MANAGER
+{{ current_gm.nick }}
+{{ current_gm.country }} {{ current_gm.timezone }} Since {{ current_gm.since }}
+{% for i in (1..5) %} ★ {% endfor %}
+{% if current_gm.hero %}
 
-{% if gm %}
-
-  {% assign gm_season = gm.seasons | where: "year", current_season | first %}
-
-  <section class="team-gm-card">
-
-    <div class="team-gm-card__top">
-
-      <div class="team-gm-card__identity">
-        <span class="team-gm-card__label">GENERAL MANAGER</span>
-
-        <div class="team-gm-card__name-row">
-          <h2>{{ gm.name }}</h2>
-          <span class="team-gm-card__flag">{{ gm.flag }}</span>
-        </div>
-
-        {% if gm.quote %}
-          <p class="team-gm-card__quote">
-            “{{ gm.quote }}”
-          </p>
-        {% endif %}
-      </div>
-
-
-      <div class="team-gm-card__rating">
-
-        <span class="team-gm-card__stars">
-          {% assign stars = gm.stars | default: 3 | plus: 0 %}
-
-          {% for i in (1..5) %}
-            {% if i <= stars %}
-              ★
-            {% else %}
-              ☆
-            {% endif %}
-          {% endfor %}
-        </span>
-
-        <span class="team-gm-card__rating-label">
-          GM RATING
-        </span>
-
-      </div>
-
-    </div>
-
-
-    <div class="team-gm-card__meta">
-
-      <div>
-        <span>TIME ZONE</span>
-        <strong>{{ gm.timezone }}</strong>
-      </div>
-
-      <div>
-        <span>ICECORE SINCE</span>
-        <strong>{{ gm.since }}</strong>
-      </div>
-
-      {% if gm_season %}
-
-        <div>
-          <span>{{ current_season }} REGULAR SEASON</span>
-          <strong>{{ gm_season.regular_season }}th</strong>
-        </div>
-
-        <div>
-          <span>{{ current_season }} PLAYOFFS</span>
-
-          <strong>
-            {% if gm_season.playoffs %}
-              {{ gm_season.playoffs }}th
-            {% else %}
-              —
-            {% endif %}
-          </strong>
-        </div>
-
-        <div>
-          <span>DRAFT</span>
-
-          <strong>
-            {% if gm_season.draft %}
-              Attended
-            {% else %}
-              Missed
-            {% endif %}
-          </strong>
-        </div>
-
-      {% endif %}
-
-    </div>
-
-
-    {% if gm.seasons.size > 1 %}
-
-      <details class="team-gm-card__history">
-
-        <summary>
-          GM HISTORY
-        </summary>
-
-        <div class="team-gm-card__history-list">
-
-          {% for season in gm.seasons reversed %}
-
-            <div class="team-gm-card__history-row">
-
-              <strong>
-                {{ season.year }}
-              </strong>
-
-              <span>
-                {{ season.team | replace: "-", " " | capitalize }}
-
-                · {{ season.regular_season }}th ZČ
-
-                {% if season.playoffs %}
-                  · {{ season.playoffs }}th PO
-                {% endif %}
-
-              </span>
-
-            </div>
-
-          {% endfor %}
-
-        </div>
-
-      </details>
-
-    {% endif %}
-
-  </section>
-
+“{{ current_gm.hero }}”
+{% endif %} {% if season_data %}
+{{ current_season }} SEASON
+REGULAR SEASON {{ season_data.regular_season }}.
+PLAYOFFS {{ season_data.playoffs }}.
+DRAFT {% if season_data.draft %}YES{% else %}NO{% endif %}
 {% endif %}
+{% endif %}
+FRANCHISE HISTORY
+{% for gm in all_gms %} {% for season in gm.seasons %} {% if season.team == page.team_id %}
+{{ season.year }} {{ gm.nick }} {{ season.regular_season }}. RS {{ season.playoffs }}. PO
+{% endif %} {% endfor %} {% endfor %}
+
   <!-- =====================================================
        FRANCHISE
        ===================================================== -->
