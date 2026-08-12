@@ -1,0 +1,16 @@
+- id: brian
+  name: Brian
+  flag: "🇺🇸"
+  timezone: EST
+  since: 2026
+  quote: "I like the simplicity which also brings a massive challenge."
+  team: new-orleans-soul
+  warning: false
+  bonus: false
+
+  seasons:
+    - year: 2026
+      team: new-orleans-soul
+      regular_season: 0
+      playoffs: 0
+      draft: true
