@@ -3,6 +3,7 @@ layout: team
 title: Anchorage Prospectors
 permalink: /teams/anchorage-prospectors/
 slug: anchorage-prospectors
+team_id: anchorage-prospectors
 
 city: Anchorage
 state: Alaska
@@ -22,7 +23,6 @@ secondary: "#182026"
 motto: "Fortunes belong to those who keep digging."
 founded_on: "Built at the edge of the Last Frontier, where opportunity has always rewarded those willing to search farther."
 
-gm: "Available"
 arena: "Frontier Arena"
 
 salary_cap: 500
