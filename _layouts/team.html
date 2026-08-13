@@ -41,8 +41,17 @@ layout: default
 
 
   <!-- =====================================================
-       QUICK INFO
+       QUICK INFO + CURRENT GM
        ===================================================== -->
+
+  {% assign current_gm = nil %}
+
+  {% for gm in site.data.gms.gms %}
+    {% if gm.status == "active" and gm.current_team == page.team_id %}
+      {% assign current_gm = gm %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
 
   <section class="team-meta">
 
@@ -57,190 +66,231 @@ layout: default
     </div>
 
     <div class="team-meta__item">
-      <span>Status</span>
-      <strong>{{ page.status | capitalize }}</strong>
+      <span>Established</span>
+      <strong>{{ page.founded }}</strong>
     </div>
-
-<div class="team-meta__item team-meta__gm">
-
-  <span>General Manager</span>
-
-  {% assign current_gm = nil %}
-
-  {% for gm in site.data.gms.gms %}
-    {% if gm.status == "active" and gm.current_team == page.team_id %}
-      {% assign current_gm = gm %}
-      {% break %}
-    {% endif %}
-  {% endfor %}
-
-  {% if current_gm %}
-    <strong>{{ current_gm.nick }}</strong>
-  {% else %}
-    <strong>Available</strong>
-  {% endif %}
-
-</div>
 
   </section>
 
 
+  {% if current_gm %}
 
-{% if current_gm %}
+  <!-- =====================================================
+       GENERAL MANAGER
+       ===================================================== -->
 
-<section class="gm-panel">
+  {% assign latest_season = current_gm.seasons | last %}
+  {% assign gm_stars = 2 %}
 
-  <div class="gm-card">
+  {% if latest_season.draft %}
+    {% assign gm_stars = gm_stars | plus: 1 %}
+  {% endif %}
 
-    <div class="gm-card__main">
+  {% if latest_season.regular_season <= 10 or latest_season.playoffs <= 10 %}
+    {% assign gm_stars = gm_stars | plus: 1 %}
+  {% endif %}
 
-      <div class="gm-card__eyebrow">
-        GENERAL MANAGER
-      </div>
+  {% if current_gm.bonus %}
+    {% assign gm_stars = gm_stars | plus: 1 %}
+  {% endif %}
 
-      <div class="gm-card__identity">
+  {% if current_gm.warning %}
+    {% assign gm_stars = gm_stars | minus: 1 %}
+  {% endif %}
 
-        {% if current_gm.flag %}
-          <span class="gm-card__flag">{{ current_gm.flag }}</span>
-        {% endif %}
+  {% if gm_stars < 1 %}
+    {% assign gm_stars = 1 %}
+  {% endif %}
 
-        <h2>{{ current_gm.nick }}</h2>
+  {% if gm_stars > 5 %}
+    {% assign gm_stars = 5 %}
+  {% endif %}
 
-      </div>
+  <section class="gm-panel">
 
-      {% if current_gm.quote %}
-        <p class="gm-card__quote">
-          “{{ current_gm.quote }}”
-        </p>
-      {% endif %}
+    <div class="gm-card">
 
-    </div>
+      <div class="gm-card__main">
 
+        <div class="gm-card__eyebrow">GENERAL MANAGER</div>
 
-    <div class="gm-card__details">
+        <div class="gm-card__identity">
+          {% if current_gm.flag %}
+            <span class="gm-card__flag">{{ current_gm.flag }}</span>
+          {% endif %}
 
-      {% if current_gm.stars %}
-        <div class="gm-stat">
-          <span>GM Rating</span>
-          <strong class="gm-stars">
-            {% for i in (1..current_gm.stars) %}★{% endfor %}
-          </strong>
+          <h2>{{ current_gm.nick }}</h2>
         </div>
-      {% endif %}
 
-      {% if current_gm.timezone %}
-        <div class="gm-stat">
-          <span>Time Zone</span>
-          <strong>{{ current_gm.timezone }}</strong>
+        <div class="gm-stars" aria-label="GM rating: {{ gm_stars }} out of 5">
+          {% for i in (1..5) %}
+            {% if i <= gm_stars %}★{% else %}☆{% endif %}
+          {% endfor %}
         </div>
-      {% endif %}
 
-      {% if current_gm.since %}
-        <div class="gm-stat">
-          <span>IceCore Since</span>
-          <strong>{{ current_gm.since }}</strong>
-        </div>
-      {% endif %}
-
-      {% if current_gm.experience %}
-        <div class="gm-stat">
-          <span>Fantasy Experience</span>
-          <strong>{{ current_gm.experience }} years</strong>
-        </div>
-      {% endif %}
-
-    </div>
-
-  </div>
-
-
-  {% if current_gm.seasons %}
-
-  <div class="gm-results">
-
-    <div class="gm-results__heading">
-      <span>GM RECORD</span>
-      <h3>Recent Results</h3>
-    </div>
-
-    <div class="gm-results__grid">
-
-      {% for season in current_gm.seasons reversed %}
-
-      <div class="gm-season">
-
-        <strong>{{ season.year }}</strong>
-
-        <span>
-          Regular Season
-          <b>{{ season.regular }}</b>
-        </span>
-
-        <span>
-          Playoffs
-          <b>{{ season.playoffs }}</b>
-        </span>
-
-        {% if season.draft %}
-          <span>
-            Draft
-            <b>{{ season.draft }}</b>
-          </span>
+        {% if current_gm.hero %}
+          <p class="gm-card__quote">“{{ current_gm.hero }}”</p>
         {% endif %}
 
       </div>
 
-      {% endfor %}
+      <div class="gm-card__details">
+
+        {% if current_gm.timezone %}
+          <div class="gm-stat">
+            <span>Time Zone</span>
+            <strong>{{ current_gm.timezone }}</strong>
+          </div>
+        {% endif %}
+
+        {% if current_gm.since %}
+          <div class="gm-stat">
+            <span>IceCore Since</span>
+            <strong>{{ current_gm.since }}</strong>
+          </div>
+        {% endif %}
+
+        {% if current_gm.country %}
+          <div class="gm-stat">
+            <span>Country</span>
+            <strong>{{ current_gm.country }}</strong>
+          </div>
+        {% endif %}
+
+      </div>
 
     </div>
 
-  </div>
+
+    {% if latest_season %}
+
+    <!-- =====================================================
+         CURRENT / MOST RECENT RESULT
+         ===================================================== -->
+
+    <div class="gm-results">
+
+      <div class="gm-results__heading">
+        <span>GM RECORD</span>
+        <h3>Recent Results</h3>
+      </div>
+
+      <div class="gm-results__current">
+
+        <div class="gm-result-year">
+          <span>Season</span>
+          <strong>{{ latest_season.year }}</strong>
+        </div>
+
+        <div>
+          <span>Regular Season</span>
+          <strong>#{{ latest_season.regular_season }} of 20</strong>
+        </div>
+
+        <div>
+          <span>Playoffs</span>
+          <strong>#{{ latest_season.playoffs }} of 20</strong>
+        </div>
+
+        <div>
+          <span>Draft</span>
+          {% if latest_season.draft %}
+            <strong class="gm-draft--yes">✓ Attended</strong>
+          {% else %}
+            <strong class="gm-draft--no">— Not attended</strong>
+          {% endif %}
+        </div>
+
+      </div>
+
+    </div>
+
+    {% endif %}
+
+
+    {% if current_gm.seasons.size > 1 %}
+
+    <!-- =====================================================
+         PREVIOUS GM RESULTS
+         ===================================================== -->
+
+    <details class="gm-history">
+      <summary>Previous Seasons</summary>
+
+      <div class="gm-history__list">
+        {% assign season_count = current_gm.seasons.size %}
+        {% for season in current_gm.seasons reversed %}
+          {% if forloop.first == false %}
+            <div class="gm-history__row">
+              <strong>{{ season.year }}</strong>
+              <span>RS #{{ season.regular_season }}</span>
+              <span>PO #{{ season.playoffs }}</span>
+              <span>
+                {% if season.draft %}✓ Draft{% else %}— Draft{% endif %}
+              </span>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </details>
+
+    {% endif %}
+
+  </section>
 
   {% endif %}
 
-</section>
 
-{% endif %}
+  <!-- =====================================================
+       FRANCHISE HISTORY — DATA COMES FROM GM DATABASE
+       ===================================================== -->
 
+  {% assign has_franchise_history = false %}
 
+  {% for gm in site.data.gms.gms %}
+    {% for season in gm.seasons %}
+      {% if season.team == page.team_id %}
+        {% assign has_franchise_history = true %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
 
+  {% if has_franchise_history %}
 
-  {% if page.franchise_history %}
+  <section class="franchise-history">
 
-<section class="franchise-history">
+    <div class="team-section__heading">
+      <span class="team-section__label">Franchise History</span>
+      <h2>The People Behind the Franchise</h2>
+    </div>
 
-  <div class="team-section__heading">
-    <span class="team-section__label">Franchise History</span>
-    <h2>The People Behind the Franchise</h2>
-  </div>
+    <details class="franchise-history__details">
+      <summary>View Franchise History</summary>
 
-  <div class="franchise-history__list">
+      <div class="franchise-history__list">
 
-    {% for entry in page.franchise_history %}
+        {% for gm in site.data.gms.gms %}
+          {% for season in gm.seasons reversed %}
+            {% if season.team == page.team_id %}
 
-      <div class="franchise-history__row">
+              <div class="franchise-history__row">
+                <strong>{{ season.year }}</strong>
+                <span>{{ gm.nick }}</span>
+                <span>RS {{ season.regular_season }}th</span>
+                <span>PO {{ season.playoffs }}th</span>
+              </div>
 
-        <strong>{{ entry.year }}</strong>
-
-        <span>{{ entry.gm }}</span>
-
-        <span>
-          RS {{ entry.regular }}
-        </span>
-
-        <span>
-          PO {{ entry.playoffs }}
-        </span>
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
 
       </div>
+    </details>
 
-    {% endfor %}
+  </section>
 
-  </div>
+  {% endif %}
 
-</section>
-
-{% endif %}
 
   <!-- =====================================================
        FRANCHISE
