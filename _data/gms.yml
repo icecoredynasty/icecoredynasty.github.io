@@ -1,68 +1,424 @@
-# Central GM database
-# Change current_season ONCE when a new IceCore season begins.
+# IceCore Dynasty — Central GM database
+# current_season is changed once per season.
+# Team pages resolve the current GM from current_team.
+# Placeholder Manager1 records are intentionally inactive until assigned.
+
 current_season: 2026
 
 gms:
 
-  # =========================================================
-  # ACTIVE GMs
-  # =========================================================
-
   - id: "001"
-    nick: "Brian"
+    nick: "CharacterNo5725"
     status: active
     current_team: "amarillo-downburst"
     country: "US"
     flag: "🇺🇸"
     timezone: "EST"
     since: 2026
-    hero: "A vinyl collector who likes simple systems with massive challenges."
+    hero: "It’s very different, very well put together so far."
     warning: false
     bonus: false
-
-    seasons:
-      - year: 2026
-        team: "amarillo-downburst"
-        regular_season: 12
-        playoffs: 6
-        draft: true
+    seasons: []
 
   - id: "002"
-    nick: "Pete"
+    nick: "Tyler"
     status: active
-    current_team: "new-orleans-soul"
-    country: "SK"
-    timezone: "CET"
+    current_team: "anchorage-prospectors"
+    country: "CA"
+    flag: "🇨🇦"
+    timezone: "EST"
     since: 2026
-    hero: "Waiting to show what he got."
+    hero: "Anchorage looks cool. Or Halifax."
     warning: false
-    bonus: true
-
-    seasons:
-      - year: 2026
-        team: "new-orleans-soul"
-        regular_season: 5
-        playoffs: 3
-        draft: true
-
-  # =========================================================
-  # RETIRED / HISTORICAL GMs
-  # =========================================================
+    bonus: false
+    seasons: []
 
   - id: "003"
-    nick: "Mike"
-    status: retired
-    current_team: ""
+    nick: "Manager1"
+    status: available
+    current_team: null
+    country: ""
+    flag: ""
+    timezone: ""
+    since: 
+    hero: ""
+    warning: false
+    bonus: false
+    seasons: []
+
+  - id: "004"
+    nick: "Manager1"
+    status: available
+    current_team: null
+    country: ""
+    flag: ""
+    timezone: ""
+    since: 
+    hero: ""
+    warning: false
+    bonus: false
+    seasons: []
+
+  - id: "005"
+    nick: "Manager1"
+    status: available
+    current_team: null
+    country: ""
+    flag: ""
+    timezone: ""
+    since: 
+    hero: ""
+    warning: false
+    bonus: false
+    seasons: []
+
+  - id: "006"
+    nick: "freddiebrathwaite"
+    status: active
+    current_team: "green-bay-alliance"
+    country: "US"
+    flag: "🇺🇸"
+    timezone: "CST"
+    since: 2026
+    hero: "Big leagues, big rosters, and keepers without making the league unnecessarily complicated."
+    warning: false
+    bonus: false
+    seasons: []
+
+  - id: "007"
+    nick: "Manager1"
+    status: available
+    current_team: null
+    country: ""
+    flag: ""
+    timezone: ""
+    since: 
+    hero: ""
+    warning: false
+    bonus: false
+    seasons: []
+
+  - id: "008"
+    nick: "Standik"
+    status: active
+    current_team: "hartford-arsenal"
+    country: "CZ"
+    flag: "🇨🇿"
+    timezone: "CET"
+    since: 2026
+    hero: "The long game, the salary cap and the chance to build a permanent franchise."
+    warning: false
+    bonus: false
+    seasons: []
+
+  - id: "009"
+    nick: "CJ Mattias"
+    status: active
+    current_team: "honolulu-guardians"
+    country: "FI"
+    flag: "🇫🇮"
+    timezone: "UTC+3"
+    since: 2026
+    hero: "I’ve been looking for a league with depth that stays active."
+    warning: false
+    bonus: false
+    seasons: []
+
+  - id: "010"
+    nick: "Oscar"
+    status: active
+    current_team: "houston-signals"
+    country: "FI"
+    flag: "🇫🇮"
+    timezone: "UTC+3"
+    since: 2026
+    hero: "A keeper league with an active community beats another public lobby."
+    warning: false
+    bonus: false
+    seasons: []
+
+  - id: "011"
+    nick: "Manager1"
+    status: available
+    current_team: null
+    country: ""
+    flag: ""
+    timezone: ""
+    since: 
+    hero: ""
+    warning: false
+    bonus: false
+    seasons: []
+
+  - id: "012"
+    nick: "Manner16"
+    status: active
+    current_team: "key-west-rumrunners"
     country: "CA"
+    flag: "🇨🇦"
+    timezone: "EDT"
+    since: 2026
+    hero: "Looking for some more fun now that my own league is organized and functional."
+    warning: false
+    bonus: false
+    seasons: []
+
+  - id: "013"
+    nick: "Manager1"
+    status: available
+    current_team: null
+    country: ""
+    flag: ""
+    timezone: ""
+    since: 
+    hero: ""
+    warning: false
+    bonus: false
+    seasons: []
+
+  - id: "014"
+    nick: "Taylor-209"
+    status: active
+    current_team: "memphis-riffs"
+    country: "CA"
+    flag: "🇨🇦"
+    timezone: "MT"
+    since: 2026
+    hero: "Something unique that actually sounds fun."
+    warning: false
+    bonus: false
+    seasons: []
+
+  - id: "015"
+    nick: "Brian"
+    status: active
+    current_team: "new-orleans-soul"
+    country: "US"
+    flag: "🇺🇸"
+    timezone: "EST"
+    since: 2026
+    hero: "I collect vinyl records."
+    warning: false
+    bonus: false
+    seasons: []
+
+  - id: "016"
+    nick: "Manager1"
+    status: available
+    current_team: null
+    country: ""
+    flag: ""
+    timezone: ""
+    since: 
+    hero: ""
+    warning: false
+    bonus: false
+    seasons: []
+
+  - id: "017"
+    nick: "gordo"
+    status: active
+    current_team: "omaha-bison"
+    country: "CA"
+    flag: "🇨🇦"
     timezone: "PST"
     since: 2026
-    hero: "A former IceCore GM."
-    warning: true
+    hero: "I love hockey, dynasty value and the chance to build a real franchise."
+    warning: false
     bonus: false
+    seasons: []
 
-    seasons:
-      - year: 2026
-        team: "amarillo-downburst"
-        regular_season: 20
-        playoffs: 20
-        draft: false
+  - id: "018"
+    nick: "Level_Afraid"
+    status: active
+    current_team: "quebec-city-citadels"
+    country: "CA"
+    flag: "🇨🇦"
+    timezone: "EST"
+    since: 2026
+    hero: "Best ball, keeper and salary cap all in one."
+    warning: false
+    bonus: false
+    seasons: []
+
+  - id: "019"
+    nick: "Manager1"
+    status: available
+    current_team: null
+    country: ""
+    flag: ""
+    timezone: ""
+    since: 
+    hero: ""
+    warning: false
+    bonus: false
+    seasons: []
+
+  - id: "020"
+    nick: "Manager1"
+    status: available
+    current_team: null
+    country: ""
+    flag: ""
+    timezone: ""
+    since: 
+    hero: ""
+    warning: false
+    bonus: false
+    seasons: []
+
+  - id: "021"
+    nick: "paradiseishell69"
+    status: active
+    current_team: "richmond-union"
+    country: "US"
+    flag: "🇺🇸"
+    timezone: "EST"
+    since: 2026
+    hero: "I want a dynasty league that is competitive, structured and fair."
+    warning: false
+    bonus: false
+    seasons: []
+
+  - id: "022"
+    nick: "ksrich2001"
+    status: active
+    current_team: "roswell-greys"
+    country: "US"
+    flag: "🇺🇸"
+    timezone: "EDT"
+    since: 2026
+    hero: "Long-term dynasty strategy, salary cap management, prospects and FAAB."
+    warning: false
+    bonus: false
+    seasons: []
+
+  - id: "023"
+    nick: "Manager1"
+    status: available
+    current_team: null
+    country: ""
+    flag: ""
+    timezone: ""
+    since: 
+    hero: ""
+    warning: false
+    bonus: false
+    seasons: []
+
+  - id: "024"
+    nick: "writer"
+    status: active
+    current_team: "salem-ravens"
+    country: "US"
+    flag: "🇺🇸"
+    timezone: "MDT"
+    since: 2026
+    hero: "It looks like exactly the kind of league I was looking for."
+    warning: false
+    bonus: false
+    seasons: []
+
+  - id: "025"
+    nick: "Manager1"
+    status: available
+    current_team: null
+    country: ""
+    flag: ""
+    timezone: ""
+    since: 
+    hero: ""
+    warning: false
+    bonus: false
+    seasons: []
+
+  - id: "026"
+    nick: "Manager1"
+    status: available
+    current_team: null
+    country: ""
+    flag: ""
+    timezone: ""
+    since: 
+    hero: ""
+    warning: false
+    bonus: false
+    seasons: []
+
+  - id: "027"
+    nick: "Manager1"
+    status: available
+    current_team: null
+    country: ""
+    flag: ""
+    timezone: ""
+    since: 
+    hero: ""
+    warning: false
+    bonus: false
+    seasons: []
+
+  - id: "028"
+    nick: "Manager1"
+    status: available
+    current_team: null
+    country: ""
+    flag: ""
+    timezone: ""
+    since: 
+    hero: ""
+    warning: false
+    bonus: false
+    seasons: []
+
+  - id: "029"
+    nick: "SourGrape_s"
+    status: active
+    current_team: "victoria-cedars"
+    country: "CA"
+    flag: "🇨🇦"
+    timezone: "PST"
+    since: 2026
+    hero: "I love the idea of being a GM more than optimizing a lineup every day."
+    warning: false
+    bonus: false
+    seasons: []
+
+  - id: "030"
+    nick: "Manager1"
+    status: available
+    current_team: null
+    country: ""
+    flag: ""
+    timezone: ""
+    since: 
+    hero: ""
+    warning: false
+    bonus: false
+    seasons: []
+
+  - id: "031"
+    nick: "Joshhperrault"
+    status: available
+    current_team: null
+    country: "CA"
+    flag: "🇨🇦"
+    timezone: "MT"
+    since: 2026
+    hero: "I’ve been looking for another dynasty league — Yahoo preferred, salary cap included."
+    warning: false
+    bonus: false
+    seasons: []
+
+  - id: "032"
+    nick: "Rockey"
+    status: available
+    current_team: null
+    country: "CA"
+    flag: "🇨🇦"
+    timezone: ""
+    since: 2026
+    hero: "Always looking for more fantasy hockey — and always looking for another dynasty challenge."
+    warning: false
+    bonus: false
+    seasons: []
