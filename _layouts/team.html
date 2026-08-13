@@ -40,7 +40,7 @@ layout: default
   </header>
 
 
-  {% assign franchise_id = page.team_id | default: page.slug %}
+  {% assign franchise_id = page.slug | default: page.slug %}
   {% assign current_season_year = site.data.gms.current_season %}
   {% assign current_gm = nil %}
 
