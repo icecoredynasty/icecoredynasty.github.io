@@ -11,7 +11,7 @@ nickname: Guardians
 
 conference: West
 league: 1
-status: available
+status: reserved
 founded: 2026
 
 logo: /assets/images/teams/honolulu-guardians.png
