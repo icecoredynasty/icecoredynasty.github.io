@@ -13,7 +13,6 @@ gms:
     status: active
     current_team: "amarillo-downburst"
     country: "US"
-    flag: "🇺🇸"
     timezone: "EST"
     since: 2026
     hero: "A vinyl collector who likes simple systems with massive challenges."
