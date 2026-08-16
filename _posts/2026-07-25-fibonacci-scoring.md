@@ -58,23 +58,23 @@ Instead, its consecutive values form the entire scoring scale.
   <tbody>
     <tr>
       <td><strong>1</strong></td>
-      <td>SOG · HIT · SV</td>
-      <td>Volume</td>
+      <td>SOG · HIT · SV · PPP</td>
+      <td>Volume / supporting production</td>
     </tr>
     <tr>
       <td><strong>2</strong></td>
-      <td>BLK · PPP</td>
+      <td>BLK</td>
       <td>Impact</td>
     </tr>
     <tr>
       <td><strong>3</strong></td>
-      <td>SHP</td>
-      <td>Rare production</td>
+      <td>GA</td>
+      <td>Goaltending penalty</td>
     </tr>
     <tr>
       <td><strong>5</strong></td>
-      <td>W · |GA|</td>
-      <td>Goaltending outcome</td>
+      <td>SHP · W</td>
+      <td>Rare / goaltending outcome</td>
     </tr>
     <tr>
       <td><strong>8</strong></td>
@@ -90,8 +90,8 @@ Instead, its consecutive values form the entire scoring scale.
 </table>
 
 <p>
-Goals against use the same Fibonacci value in the opposite direction:
-<strong>GA = −5</strong>.
+Goals against use the negative value assigned to the goaltending penalty:
+<strong>GA = −3</strong>.
 </p>
 
 <p>
@@ -198,8 +198,8 @@ Their complete statistical profile matters.
 <h2>Special Teams Climb the Scale</h2>
 
 <p>
-A power-play point carries an additional <strong>2 points</strong>.
-A shorthanded point earns <strong>3</strong>.
+A power-play point carries an additional <strong>1 point</strong>.
+A shorthanded point earns <strong>5</strong>.
 </p>
 
 <p>
@@ -207,8 +207,8 @@ Both bonuses sit on top of the goal or assist that created them.
 </p>
 
 <p>
-Power-play production matters, but it is expected from elite offensive players.
-Shorthanded scoring is considerably rarer, so it moves one step higher on the Fibonacci scale.
+Power-play production still adds value, but its frequency keeps it at the foundation level.
+Shorthanded scoring is considerably rarer, so it jumps to the 5-point level.
 </p>
 
 <p>
@@ -235,7 +235,7 @@ Goaltending is where the system becomes dangerous.
     </tr>
     <tr>
       <td>Goal Against</td>
-      <td><strong>−5</strong></td>
+      <td><strong>−3</strong></td>
     </tr>
     <tr>
       <td>Win</td>
@@ -250,7 +250,7 @@ Goaltending is where the system becomes dangerous.
 
 <p>
 Every save builds value.
-Every goal against takes five of those saves away.
+Every goal against takes three of those saves away.
 A win adds five.
 </p>
 
@@ -290,7 +290,7 @@ Now consider a 20-save loss with six goals against:
 </p>
 
 <p>
-<strong>20 SV − 30 GA = −10 points.</strong>
+<strong>20 SV − 18 GA = 2 points.</strong>
 </p>
 
 <p>
@@ -393,7 +393,7 @@ IceCore therefore avoids fractional values and uses a deliberately expanded whol
 One point is the foundation.
 Two creates the first step in impact.
 Three rewards rarity.
-Five carries goaltending consequences.
+Five rewards rare production and goaltending outcomes.
 Eight defines primary production.
 Thirteen belongs to perfection.
 </p>

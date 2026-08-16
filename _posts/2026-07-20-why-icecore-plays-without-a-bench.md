@@ -45,7 +45,7 @@ If he is healthy and his NHL team puts him on the ice, his performance counts.
 
 Every IceCore franchise is built around a 20-player active roster:
 
-**12 Forwards · 6 Defensemen · 2 Goaltenders**
+**4 C · 4 LW · 4 RW · 6 Defensemen · 2 Goaltenders**
 
 There is no traditional fantasy bench.
 
