@@ -966,7 +966,9 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     <p>
       Keeper selections, rookie lists and other mandatory submissions
       must be provided through the designated league channel before
-      the announced deadline.
+      the announced deadline. Unless explicitly stated otherwise, all
+      published deadlines use <strong>IceCore Time</strong> as their
+      official reference.
     </p>
 
     <p>
@@ -1381,6 +1383,13 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </p>
 
     <p>
+      League-wide announcements should state the relevant date and
+      <strong>IceCore Time</strong> whenever a deadline or scheduled event
+      matters. Yahoo platform times may also be displayed in a GM's local
+      time, but IceCore's published deadline remains the governing reference.
+    </p>
+
+    <p>
       General Managers should therefore review the current
       <strong>Yahoo league settings</strong> before the season and whenever
       a major platform configuration changes. Yahoo's live settings are
@@ -1502,6 +1511,17 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     Yes. Each franchise has five NA slots for developing prospects.
     Between one and three players from the previous-season farm may
     become Development Keepers.
+  </p>
+</article>
+
+
+<article>
+  <h3>What is IceCore Time?</h3>
+  <p>
+    IceCore Time is the league's standard time reference for drafts,
+    deadlines and scheduled league events. The standard reference is
+    23:00 CET / 18:00 EDT / 15:00 Pacific. Unless a notice says otherwise,
+    all published deadlines use IceCore Time.
   </p>
 </article>
 
