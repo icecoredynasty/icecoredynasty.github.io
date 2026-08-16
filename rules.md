@@ -906,6 +906,24 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
       and budget shaped by previous franchise decisions.
     </p>
 
+    <p>
+      <strong>Draft positional limits:</strong> C 8, LW 8, RW 8, D 6 and G 2.
+      These limits apply to players acquired during the Live Salary Cap Draft
+      and are intended to prevent excessive positional hoarding. They do not
+      create additional active-roster positions. Multi-position players may
+      still be drafted when they can fill another eligible position.
+    </p>
+
+    <p>
+      <strong>Live draft attendance is strongly recommended.</strong>
+      If a GM has a serious reason that makes attendance impossible, the GM
+      should prepare and carefully update a ranked draft preference list before
+      the draft. This gives Yahoo's automated draft process the best chance of
+      selecting players in line with the GM's intended strategy. Whenever
+      possible, GMs are strongly encouraged to participate live, even through
+      the Yahoo mobile app.
+    </p>
+
   </div>
 
 </article>
