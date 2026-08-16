@@ -2,10 +2,10 @@
 layout: default
 title: League
 permalink: /league/
-description: "The IceCore Dynasty league structure, franchise model, salary-cap system and the framework behind twenty permanent hockey franchises."
+description: "The IceCore Dynasty league structure, franchise model, conferences, divisions, salary-cap system and the framework behind twenty permanent hockey franchises."
 ---
 
-<div class="league-page">
+[L8] <div class="league-page">
 
   <!-- FULL-WIDTH HERO -->
   <section class="league-hero">
@@ -51,11 +51,13 @@ description: "The IceCore Dynasty league structure, franchise model, salary-cap 
       Fantasy hockey<br>
       from the GM's chair.
     </h2>
-<p class="league-lead">
-  IceCore Dynasty is a 20-team fantasy hockey dynasty league built around
-  permanent franchises, long-term General Manager strategy, a 500-coin
-  salary cap, keepers, prospects and live salary-cap auctions.
-</p>
+
+    <p class="league-lead">
+      IceCore Dynasty is a 20-team fantasy hockey dynasty league built around
+      permanent franchises, long-term General Manager strategy, a 500-coin
+      salary cap, keepers, prospects and live salary-cap auctions.
+    </p>
+
     <p class="league-lead">
       IceCore Dynasty is built around franchise management rather
       than daily lineup management. Draft the players. Sign them.
@@ -107,12 +109,69 @@ description: "The IceCore Dynasty league structure, franchise model, salary-cap 
   </section>
 
 
+  <!-- CONFERENCES & DIVISIONS -->
+  <section class="league-feature">
+
+    <div class="league-feature__header">
+      <span class="league-eyebrow">THE LEAGUE STRUCTURE</span>
+      <span class="league-number">02</span>
+    </div>
+
+    <div class="league-split">
+
+      <div>
+
+        <h2>
+          Four divisions.<br>
+          One shared league.
+        </h2>
+
+        <p>
+          Twenty permanent franchises are organized into
+          <strong>two conferences and four divisions</strong>.
+          Each division contains five franchises.
+        </p>
+
+        <p>
+          Divisions create the internal geography of IceCore:
+          closer rivalries, recurring matchups and a stronger
+          identity for every franchise.
+        </p>
+
+        <p>
+          Each franchise meets its four divisional opponents
+          twice during the regular season. Every other franchise
+          is faced once.
+        </p>
+
+        <p>
+          The result is a schedule that gives divisional rivalries
+          greater weight while keeping the wider league connected.
+          Every franchise still has to compete across the entire
+          IceCore world — but the teams closest to you matter more often.
+        </p>
+
+      </div>
+
+      <div class="league-dynasty-card">
+        <span>2 · CONFERENCES</span>
+        <span>4 · DIVISIONS</span>
+        <span>5 · FRANCHISES EACH</span>
+        <span>DIVISION RIVALS · 2×</span>
+        <span>ALL OTHER TEAMS · 1×</span>
+      </div>
+
+    </div>
+
+  </section>
+
+
   <!-- ROSTER -->
   <section class="league-feature">
 
     <div class="league-feature__header">
       <span class="league-eyebrow">THE ROSTER</span>
-      <span class="league-number">02</span>
+      <span class="league-number">03</span>
     </div>
 
     <div class="league-split">
@@ -194,7 +253,7 @@ description: "The IceCore Dynasty league structure, franchise model, salary-cap 
 
     <div class="league-feature__header">
       <span class="league-eyebrow">THE GENERAL MANAGER</span>
-      <span class="league-number">03</span>
+      <span class="league-number">04</span>
     </div>
 
     <div class="league-philosophy">
@@ -230,7 +289,7 @@ description: "The IceCore Dynasty league structure, franchise model, salary-cap 
 
     <div class="league-feature__header">
       <span class="league-eyebrow">THE GAME</span>
-      <span class="league-number">04</span>
+      <span class="league-number">05</span>
     </div>
 
     <h2 class="league-feature__title">
@@ -290,7 +349,7 @@ description: "The IceCore Dynasty league structure, franchise model, salary-cap 
 
     <div class="league-feature__header">
       <span class="league-eyebrow">NO SAFE DECISIONS</span>
-      <span class="league-number">05</span>
+      <span class="league-number">06</span>
     </div>
 
     <div class="league-consequence">
@@ -325,7 +384,7 @@ description: "The IceCore Dynasty league structure, franchise model, salary-cap 
 
     <div class="league-feature__header">
       <span class="league-eyebrow">THE DYNASTY</span>
-      <span class="league-number">06</span>
+      <span class="league-number">07</span>
     </div>
 
     <div class="league-split">
@@ -383,7 +442,7 @@ description: "The IceCore Dynasty league structure, franchise model, salary-cap 
 
     <div class="league-feature__header">
       <span class="league-eyebrow">THE ECONOMY</span>
-      <span class="league-number">07</span>
+      <span class="league-number">08</span>
     </div>
 
     <div class="league-format">
@@ -426,12 +485,78 @@ description: "The IceCore Dynasty league structure, franchise model, salary-cap 
   </section>
 
 
-  <!-- FIBONACCI -->
+  <!-- DRAFT -->
   <section class="league-feature">
 
     <div class="league-feature__header">
+      <span class="league-eyebrow">THE INAUGURAL DRAFT</span>
+      <span class="league-number">09</span>
+    </div>
+
+    <div class="league-split">
+
+      <div>
+
+        <h2>
+          One community.<br>
+          One day.
+        </h2>
+
+        <p>
+          The IceCore inaugural draft is a live
+          <strong>Salary Cap Auction</strong>.
+          Every franchise enters the same room, manages the same budget
+          and competes for the same player pool.
+        </p>
+
+        <p>
+          The draft is held as <strong>one shared event</strong>.
+          It is not divided across multiple days or separate sessions.
+          Every General Manager is expected to make time for the complete
+          draft window.
+        </p>
+
+        <p>
+          The scheduled start is <strong>Sunday at 11:00 PM Central European Time</strong>,
+          which is <strong>6:00 PM Eastern</strong> and
+          <strong>3:00 PM Pacific</strong>.
+        </p>
+
+        <p>
+          The time was deliberately chosen as a worldwide compromise:
+          a Sunday afternoon and evening for North America and a late
+          Sunday evening for Europe. No time zone gets a perfect start,
+          but the goal is to give the entire IceCore community a realistic
+          opportunity to take part in the inaugural event together.
+        </p>
+
+        <p>
+          The draft is expected to take approximately
+          <strong>2–3 hours</strong>. Selected General Managers are expected
+          to reserve the full draft window before accepting their franchise.
+        </p>
+
+      </div>
+
+      <div class="league-dynasty-card">
+        <span>ONE COMMUNITY</span>
+        <span>ONE DAY</span>
+        <span>ONE AUCTION</span>
+        <span>20 FRANCHISES</span>
+        <span>500 COINS EACH</span>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- SCORING -->
+  <section class="league-feature league-feature--dark">
+
+    <div class="league-feature__header">
       <span class="league-eyebrow">THE SCORING</span>
-      <span class="league-number">08</span>
+      <span class="league-number">10</span>
     </div>
 
     <div class="league-split">
@@ -444,30 +569,28 @@ description: "The IceCore Dynasty league structure, franchise model, salary-cap 
         </h2>
 
         <p>
-          IceCore uses a Head-to-Head Points system built around
-          six consecutive Fibonacci values:
-          <strong>1 · 2 · 3 · 5 · 8 · 13</strong>.
+          IceCore uses a Head-to-Head Points system designed to reward
+          complete hockey performance rather than goals and assists alone.
         </p>
 
         <p>
-          Shots, hits and saves form the foundation at 1.
-          Blocks and power-play production rise to 2.
-          Short-handed production sits at 3.
-          Wins and goals against use 5.
-          Goals and assists sit at 8.
-          A shutout reaches 13.
+          Core offensive production carries the greatest weight:
+          <strong>goals and assists are worth 8 points</strong>.
+          Secondary categories add value across different player types,
+          allowing scorers, playmakers, physical defenders and special-team
+          contributors to matter in different ways.
         </p>
 
         <p>
-          The sequence creates a clear hierarchy without decimals
-          or arbitrary-looking values. Hockey determines where each
-          category belongs within it.
+          Power-play production receives a smaller situational bonus,
+          while short-handed production is deliberately rare and valuable.
+          Goaltending is built around wins, goals against, saves and shutouts.
         </p>
 
         <p>
-          Goals and assists share an 8-point base, but a goal also creates
-          a shot on goal. Scorers therefore retain a natural premium without
-          making playmakers secondary.
+          The system is inspired by a Fibonacci-style hierarchy of
+          meaningful values, while individual categories are tuned to keep
+          the player pool balanced and create different paths to fantasy value.
         </p>
 
       </div>
@@ -475,10 +598,11 @@ description: "The IceCore Dynasty league structure, franchise model, salary-cap 
 
       <div class="league-dynasty-card">
         <span>1 · SOG · HIT · SV</span>
-        <span>2 · BLK · PPP</span>
-        <span>3 · SHP</span>
-        <span>5 · W · −GA</span>
+        <span>2 · BLK</span>
+        <span>1 · PPP</span>
+        <span>5 · SHP · W</span>
         <span>8 · G · A</span>
+        <span>−3 · GA</span>
         <span>13 · SHO</span>
       </div>
 
@@ -492,7 +616,7 @@ description: "The IceCore Dynasty league structure, franchise model, salary-cap 
 
     <div class="league-feature__header">
       <span class="league-eyebrow">THE PRINCIPLE</span>
-      <span class="league-number">09</span>
+      <span class="league-number">11</span>
     </div>
 
     <div class="league-philosophy">
@@ -616,12 +740,12 @@ description: "The IceCore Dynasty league structure, franchise model, salary-cap 
           Apply for a franchise →
         </a>
 
-<span class="league-join__deadline">
-  If Apply doesn't open your email app, contact us at
-  <a href="mailto:commissioner@icecoredynasty.com">
-    commissioner@icecoredynasty.com
-  </a>.
-</span>
+        <span class="league-join__deadline">
+          If Apply doesn't open your email app, contact us at
+          <a href="mailto:commissioner@icecoredynasty.com">
+            commissioner@icecoredynasty.com
+          </a>.
+        </span>
 
       </div>
 
@@ -653,5 +777,6 @@ description: "The IceCore Dynasty league structure, franchise model, salary-cap 
     </div>
 
   </section>
+
 
 </div>
