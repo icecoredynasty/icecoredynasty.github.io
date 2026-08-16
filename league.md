@@ -2,7 +2,7 @@
 layout: default
 title: League
 permalink: /league/
-description: "The IceCore Dynasty league structure, franchise model, conferences, divisions, salary-cap system and the framework behind twenty permanent hockey franchises."
+description: "The IceCore Dynasty league structure, franchise model, four divisions, salary-cap system and the framework behind twenty permanent hockey franchises."
 ---
 
 [L8] <div class="league-page">
@@ -109,7 +109,7 @@ description: "The IceCore Dynasty league structure, franchise model, conferences
   </section>
 
 
-  <!-- CONFERENCES & DIVISIONS -->
+  <!-- DIVISIONS -->
   <section class="league-feature">
 
     <div class="league-feature__header">
@@ -128,8 +128,7 @@ description: "The IceCore Dynasty league structure, franchise model, conferences
 
         <p>
           Twenty permanent franchises are organized into
-          <strong>two conferences and four divisions</strong>.
-          Each division contains five franchises.
+          <strong>four divisions of five franchises each</strong>.
         </p>
 
         <p>
@@ -154,7 +153,6 @@ description: "The IceCore Dynasty league structure, franchise model, conferences
       </div>
 
       <div class="league-dynasty-card">
-        <span>2 · CONFERENCES</span>
         <span>4 · DIVISIONS</span>
         <span>5 · FRANCHISES EACH</span>
         <span>DIVISION RIVALS · 2×</span>
@@ -517,9 +515,8 @@ description: "The IceCore Dynasty league structure, franchise model, conferences
         </p>
 
         <p>
-          The scheduled start is <strong>Sunday at 11:00 PM Central European Time</strong>,
-          which is <strong>6:00 PM Eastern</strong> and
-          <strong>3:00 PM Pacific</strong>.
+          The scheduled start is <strong>Sunday at 23:00 IceCore Time</strong> —
+          <strong>23:00 CEST / 17:00 EDT / 14:00 PDT</strong> for the inaugural-season draft.
         </p>
 
         <p>

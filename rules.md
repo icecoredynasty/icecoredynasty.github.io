@@ -2,7 +2,7 @@
 layout: default
 title: Rules
 permalink: /rules/
-description: "The complete IceCore Dynasty rulebook covering the 20-team format, 500-coin salary cap, keepers, prospects, drafts, scoring and league administration."
+description: "The complete IceCore Dynasty rulebook covering the 20-team format, four divisions, 500-coin salary cap, keepers, prospects, drafts, scoring and league administration."
 ---
 
 <!-- =====================================================
@@ -148,7 +148,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
         <span>10</span>
         <h3>Four Divisions</h3>
         <p>
-          Two conferences. Four divisions. Divisional rivals meet twice,
+          Four divisions of five franchises. Divisional rivals meet twice,
           while every other franchise is faced once.
         </p>
       </article>
@@ -966,7 +966,8 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     <p>
       Keeper selections, rookie lists and other mandatory submissions
       must be provided through the designated league channel before
-      the announced deadline. Unless explicitly stated otherwise, all
+      the announced deadline. This includes all keeper submissions and other
+      offseason deadlines published by the Commissioner. Unless explicitly stated otherwise, all
       published deadlines use <strong>IceCore Time</strong> as their
       official reference.
     </p>
@@ -1192,7 +1193,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
     <span class="ic-eyebrow">THE ICECORE POSTSEASON</span>
 
-    <h3>Regular Season, Conferences & Playoffs</h3>
+    <h3>Regular Season, Divisions & Playoffs</h3>
 
     <p>
       IceCore uses a Head-to-Head Points format with
@@ -1203,8 +1204,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
     <div class="ic-rule-tags">
       <span>20 Franchises</span>
-      <span>2 Conferences</span>
-      <span>4 Divisions</span>
+      <span>4 Divisions · 5 Franchises Each</span>
       <span>23 Regular-Season Matchups</span>
       <span>3 Playoff Weeks</span>
       <span>Week 27 · Open</span>
@@ -1219,7 +1219,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </p>
 
     <p>
-      The conference and division structure gives IceCore a stronger identity
+      The four-division structure gives IceCore a stronger identity
       and creates recurring rivalries without disconnecting franchises from
       the wider league. Divisional games matter more often, while every team
       still meets the rest of the league during the season.
@@ -1520,16 +1520,19 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
   <p>
     IceCore Time is the league's standard time reference for drafts,
     deadlines and scheduled league events. The standard reference is
-    23:00 CET / 18:00 EDT / 15:00 Pacific. Unless a notice says otherwise,
-    all published deadlines use IceCore Time.
+    23:00 Central European Time (CET/CEST, according to the season), with the
+    corresponding North American conversion stated in league announcements.
+    For the inaugural-season draft, this is 23:00 CEST / 17:00 EDT / 14:00 PDT.
+    Unless a notice says otherwise, all published deadlines, keeper submissions,
+    drafts and scheduled league events use IceCore Time.
   </p>
 </article>
 
 
 <article>
-  <h3>How do the conferences and divisions work?</h3>
+  <h3>How do the divisions work?</h3>
   <p>
-    IceCore has two conferences and four divisions of five franchises.
+    IceCore has four divisions of five franchises.
     Each franchise plays its four divisional rivals twice and every other
     franchise once, producing 23 regular-season matchups.
   </p>

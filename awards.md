@@ -75,17 +75,39 @@ description: "IceCore Dynasty honours the champions, standout performances, reco
       </article>
 
 
+      <article class="ic-trophy ic-trophy--cup">
+
+        <span class="ic-trophy__type">CHALLENGE CUP</span>
+
+        <div class="ic-trophy__mark">CC</div>
+
+        <h3>IceCore Challenge Cup</h3>
+
+        <p>
+          Awarded to the winner of the second six-team postseason bracket.
+          A major postseason honor for franchises outside the championship field.
+        </p>
+
+        <footer>
+          <span>First awarded</span>
+          <strong>2026–27</strong>
+        </footer>
+
+      </article>
+
+
       <article class="ic-trophy">
 
         <span class="ic-trophy__type">REGULAR SEASON</span>
 
         <div class="ic-trophy__mark">01</div>
 
-        <h3>Regular Season Shield</h3>
+        <h3>IceCore Summit Shield</h3>
 
         <p>
           Awarded to the franchise finishing the regular season
-          with the league's best overall record.
+          with the league's best overall record. The highest regular-season
+          achievement before the playoffs begin.
         </p>
 
         <footer>
@@ -98,34 +120,15 @@ description: "IceCore Dynasty honours the champions, standout performances, reco
 
       <article class="ic-trophy">
 
-        <span class="ic-trophy__type">CONFERENCE</span>
+        <span class="ic-trophy__type">DIVISION</span>
 
-        <div class="ic-trophy__mark">E</div>
+        <div class="ic-trophy__mark">D</div>
 
-        <h3>Eastern Conference Champion</h3>
-
-        <p>
-          Awarded to the winner of the Eastern Conference playoffs.
-        </p>
-
-        <footer>
-          <span>First awarded</span>
-          <strong>2026–27</strong>
-        </footer>
-
-      </article>
-
-
-      <article class="ic-trophy">
-
-        <span class="ic-trophy__type">CONFERENCE</span>
-
-        <div class="ic-trophy__mark">W</div>
-
-        <h3>Western Conference Champion</h3>
+        <h3>Division Champion</h3>
 
         <p>
-          Awarded to the winner of the Western Conference playoffs.
+          Awarded to each of the four franchises finishing first in its division.
+          A division title guarantees a place in the IceCore Cup Playoffs.
         </p>
 
         <footer>
@@ -246,9 +249,107 @@ description: "IceCore Dynasty honours the champions, standout performances, reco
           <p>
             Recognition for exceptional reliability, participation
             and franchise stewardship throughout the entire season.
+            A long-term award for the GM who can be trusted to keep
+            a franchise active and competitive.
           </p>
 
         </div>
+
+      </article>
+
+
+      <article>
+
+        <span class="ic-award-list__number">06</span>
+
+        <div>
+
+          <h3>Most Active GM</h3>
+          <strong>League Participation Award</strong>
+
+          <p>
+            Awarded to the GM who best combines sustained league participation,
+            communication and activity throughout the season. The award is
+            voted on from the GMs with the strongest activity-star records,
+            with Yahoo participation statistics and league records used as
+            supporting evidence where available.
+          </p>
+
+        </div>
+
+      </article>
+
+    </div>
+
+  </section>
+
+
+  <!-- PLAYER AWARDS -->
+
+  <section class="ic-awards-section">
+
+    <header class="ic-awards-heading">
+      <span>ON THE ICE</span>
+      <h2>Player Honors</h2>
+
+      <p>
+        Individual player achievements recorded through the official
+        IceCore scoring system and Yahoo season statistics.
+      </p>
+    </header>
+
+
+    <div class="ic-move-grid">
+
+      <article>
+
+        <span>SKATER</span>
+        <h3>IceCore MVP</h3>
+
+        <p>
+          Awarded to the skater who finishes the season with the highest
+          total IceCore fantasy points. The league's premier individual
+          player honor.
+        </p>
+
+      </article>
+
+
+      <article>
+
+        <span>GOALTENDER</span>
+        <h3>Goaltender of the Year</h3>
+
+        <p>
+          Awarded to the goaltender finishing the season with the highest
+          total IceCore fantasy points.
+        </p>
+
+      </article>
+
+
+      <article>
+
+        <span>DEFENSEMAN</span>
+        <h3>Defensive Anchor</h3>
+
+        <p>
+          Recognizes the highest-scoring defenseman by IceCore fantasy points,
+          highlighting the value of complete defensive production.
+        </p>
+
+      </article>
+
+
+      <article>
+
+        <span>OFFENSE</span>
+        <h3>Scoring Leader</h3>
+
+        <p>
+          Records the skater with the highest total IceCore fantasy points
+          among the league's offensive player pool.
+        </p>
 
       </article>
 
@@ -382,7 +483,7 @@ description: "IceCore Dynasty honours the champions, standout performances, reco
 
         <p>
           The lowest single-game fantasy score recorded by a goaltender.
-          With every goal against worth −5, the wrong night can become
+          With every goal against worth −3, the wrong night can become
           just as memorable as the right one.
         </p>
 
@@ -427,6 +528,46 @@ description: "IceCore Dynasty honours the champions, standout performances, reco
 
       </article>
 
+
+      <article>
+
+        <span>REGULAR SEASON</span>
+        <h3>Points Machine</h3>
+
+        <p>
+          The franchise that accumulates the highest total fantasy points
+          across the regular season.
+        </p>
+
+      </article>
+
+
+      <article>
+
+        <span>STREAK</span>
+        <h3>Run of Form</h3>
+
+        <p>
+          The longest winning streak recorded by a franchise during
+          the regular season.
+        </p>
+
+      </article>
+
+
+      <article>
+
+        <span>RECORD</span>
+        <h3>Season Record</h3>
+
+        <p>
+          A permanent archive of league records such as highest team score,
+          highest player score, largest margin, closest matchup and other
+          measurable Yahoo statistics.
+        </p>
+
+      </article>
+
     </div>
 
   </section>
@@ -444,9 +585,10 @@ description: "IceCore Dynasty honours the champions, standout performances, reco
     </h2>
 
     <p>
-      Championships, major awards, records and defining moments
-      will become part of the permanent IceCore archive and the
-      history of the franchises that created them.
+      Championships, Challenge Cup titles, division titles, management
+      awards, player honors, GM activity records, statistical records
+      and defining moments will become part of the permanent IceCore
+      archive and the history of the franchises that created them.
     </p>
 
     <div class="ic-awards-season">
