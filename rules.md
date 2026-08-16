@@ -146,10 +146,10 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
       <article class="ic-quick-card">
         <span>10</span>
-        <h3>Balanced Schedule</h3>
+        <h3>Four Divisions</h3>
         <p>
-          Nineteen regular-season matchups. Every franchise faces every
-          other franchise exactly once before the 16-team IceCore Cup Playoffs.
+          Two conferences. Four divisions. Divisional rivals meet twice,
+          while every other franchise is faced once.
         </p>
       </article>
       <article class="ic-quick-card">
@@ -1031,6 +1031,14 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
       of a franchise may result in replacement of the General Manager.
     </p>
 
+    <p>
+      IceCore also maintains a <strong>GM Card and activity record</strong>.
+      GM recognition may consider competitive results, activity, reliability,
+      communication, long-term commitment and contribution to the league.
+      Activity recognition is separate from Yahoo standings and does not alter
+      fantasy scoring or playoff qualification.
+    </p>
+
   </div>
 
 </article>
@@ -1093,6 +1101,15 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
       to another franchise may be reviewed by the Commissioner.
     </p>
 
+    <p>
+      If a Yahoo bug, technical limitation, data error or situation not
+      specifically covered by these rules creates an unexpected competitive
+      problem, the Commissioner may make a ruling or corrective decision
+      necessary to preserve <strong>fairness, competitive integrity and the
+      intended spirit of IceCore</strong>. Such decisions should be applied
+      consistently and, where practical, communicated to the league.
+    </p>
+
     <blockquote class="ic-rule-quote">
       Bad strategy is allowed.<br>
       Collusion is not.
@@ -1116,44 +1133,46 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     <h3>Fibonacci Scoring</h3>
 
     <p>
-      IceCore uses a Head-to-Head Points system built on a clear
-      whole-number hierarchy using six consecutive Fibonacci values:
+      IceCore uses a Head-to-Head Points system built around
+      <strong>six consecutive Fibonacci values</strong>:
       <strong>1 · 2 · 3 · 5 · 8 · 13</strong>.
     </p>
 
+    <p>
+      The sequence forms the scoring architecture of IceCore.
+      Categories are assigned values according to their importance,
+      frequency or rarity. The numbers remain simple; the hockey
+      categories create the strategy.
+    </p>
+
     <div class="ic-rule-tags">
-      <span>SOG · HIT · SV = 1</span>
-      <span>BLK · PPP = 2</span>
-      <span>SHP = 3</span>
-      <span>W = 5</span>
-      <span>GA = −5</span>
+      <span>SOG · HIT · SV · PPP = 1</span>
+      <span>BLK · +/- = 2</span>
+      <span>GA = −3</span>
+      <span>SHP · W = 5</span>
       <span>G · A = 8</span>
       <span>SHO = 13</span>
     </div>
 
     <p>
-      Goals and assists share the same 8-point base value, but a goal also
-      records a shot on goal. A standard goal therefore produces at least
-      <strong>9 points</strong>, preserving a natural scoring premium without
-      reducing the value of playmaking.
+      Goals and assists are worth <strong>8 points</strong>.
+      Plus/minus and blocks add <strong>2</strong>.
+      Shots, hits, saves and power-play points add <strong>1</strong>.
+      Short-handed points and goaltender wins add <strong>5</strong>.
+      Goals against subtract <strong>3</strong>, while a shutout adds
+      the highest single-event value of <strong>13</strong>.
     </p>
 
     <p>
-      Volume events form the base of the scale, defensive and special-teams
-      contributions rise through it, primary production sits at 8, and a
-      shutout occupies the highest level at 13.
+      The scoring scale rewards different types of hockey value without
+      allowing one category to dominate the entire player pool.
+      Rare events receive greater weight; repeatable volume events form
+      the foundation.
     </p>
 
     <p>
-      Goaltending intentionally combines opportunity and risk:
-      every save adds 1, every goal against subtracts 5, a win adds 5
-      and a shutout adds 13. With no bench, a goaltender decision can
-      materially change a matchup in either direction.
-    </p>
-
-    <p>
-      The sequence provides the scoring scale; hockey determines where
-      each category belongs within it.
+      <strong>The numbers are fixed. The hockey determines where they belong.</strong>
+      That is the IceCore Fibonacci system.
     </p>
 
   </div>
@@ -1169,64 +1188,135 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
   <div class="ic-rule__body">
 
-    <span class="ic-eyebrow">BALANCED COMPETITION</span>
+    <span class="ic-eyebrow">THE ICECORE POSTSEASON</span>
 
-    <h3>Regular Season & Playoffs</h3>
+    <h3>Regular Season, Conferences & Playoffs</h3>
 
     <p>
-      IceCore uses a Head-to-Head Points format with a balanced
-      <strong>19-matchup regular season</strong>.
+      IceCore uses a Head-to-Head Points format with
+      <strong>23 regular-season matchups</strong> followed by a
+      three-week playoff period. The final <strong>27th game week is left
+      open</strong> and carries no IceCore matchup.
     </p>
 
     <div class="ic-rule-tags">
       <span>20 Franchises</span>
-      <span>19 Matchups</span>
-      <span>Top 16 Advance</span>
-      <span>4 Eliminated</span>
+      <span>2 Conferences</span>
+      <span>4 Divisions</span>
+      <span>23 Regular-Season Matchups</span>
+      <span>3 Playoff Weeks</span>
+      <span>Week 27 · Open</span>
     </div>
 
     <p>
-      Every franchise faces each of the other 19 franchises
-      <strong>exactly once</strong>. No team receives an additional matchup
-      against a weaker or stronger opponent simply because of scheduling
-      rotation. Every GM competes through the same regular-season path.
+      Each division contains five franchises. Every franchise plays its
+      <strong>four divisional rivals twice</strong> during the regular season,
+      creating eight divisional matchups. Every franchise outside its division
+      is faced once, creating fifteen additional matchups.
+      Each franchise therefore completes <strong>23 regular-season matchups</strong>.
     </p>
 
     <p>
-      At the end of the regular season, the <strong>top 16 franchises</strong>
-      qualify for the IceCore Cup Playoffs. The bottom four franchises are
-      eliminated.
+      The conference and division structure gives IceCore a stronger identity
+      and creates recurring rivalries without disconnecting franchises from
+      the wider league. Divisional games matter more often, while every team
+      still meets the rest of the league during the season.
+    </p>
+
+    <h4>Playoff qualification</h4>
+
+    <p>
+      The championship playoff field contains <strong>six franchises</strong>.
+      The winner of each of the four divisions is guaranteed a place in the
+      championship playoffs. The remaining two places go to the highest-ranked
+      franchises in the overall regular-season standings that did not win
+      their division.
     </p>
 
     <p>
-      The playoffs use a four-round bracket:
-      <strong>16 → 8 → 4 → 2 → Champion</strong>. The winner of the
-      championship matchup becomes the <strong>IceCore Cup Champion</strong>.
+      Once the six qualifiers are known, <strong>all six are seeded by overall
+      regular-season points</strong>. Division titles guarantee qualification,
+      but they do not automatically determine the playoff seed. The stronger
+      the regular-season finish, the stronger the playoff position.
     </p>
 
     <p>
-      The final NHL fantasy week is intentionally left outside the IceCore
-      Cup Playoffs. NHL clubs may rest established players, manage workloads
-      or give additional opportunities to younger players late in the season.
+      The <strong>top two championship seeds receive a first-round bye</strong>.
+      This is a direct reward for sustained regular-season performance and
+      gives the two strongest qualifiers an additional advantage earned before
+      the playoffs begin.
+    </p>
+
+    <div class="ic-rule-tags">
+      <span>4 Division Winners · Guaranteed</span>
+      <span>+ 2 Wild Cards · Overall Points</span>
+      <span>Seeds 1–2 · Bye</span>
+      <span>Seeds 3–6 · First Round</span>
+      <span>6 → 4 → 2 → Champion</span>
+    </div>
+
+    <p>
+      The championship bracket is the <strong>IceCore Cup Playoffs</strong>.
+      Seeds 3–6 play in the opening round. The winners join seeds 1–2 in the
+      semifinals, followed by the championship final. The winner becomes the
+      <strong>IceCore Cup Champion</strong>.
+    </p>
+
+    <h4>The IceCore Challenge Cup</h4>
+
+    <p>
+      The six franchises immediately outside the championship field —
+      <strong>regular-season seeds 7–12</strong> — enter a separate
+      <strong>IceCore Challenge Cup</strong>.
     </p>
 
     <p>
-      By deciding the IceCore Cup before that final week, the championship is
-      less exposed to late-season NHL roster management and more likely to be
-      decided by the franchises that actually earned their way there.
+      The Challenge Cup gives the middle of the standings a meaningful
+      postseason objective. It is not a second-tier substitute for the
+      IceCore Cup; it is its own competition with its own champion,
+      recognition and place in IceCore history.
+    </p>
+
+    <p>
+      The top two Challenge Cup seeds receive the same first-round bye.
+      Seeds 9–12 play the opening round, followed by semifinals and a final.
+      The Challenge Cup winner is officially recorded in the season's
+      <strong>Awards</strong> and receives substantial recognition in the
+      winning GM's <strong>GM Card</strong> and historical rating.
+    </p>
+
+    <div class="ic-rule-tags">
+      <span>Seeds 7–12 · Challenge Cup</span>
+      <span>Seeds 7–8 · Bye</span>
+      <span>Challenge Cup Champion · Awarded</span>
+      <span>GM Card Recognition</span>
+    </div>
+
+    <p>
+      Franchises finishing <strong>13th–20th</strong> after the regular season
+      do not enter either playoff competition. Their season ends with the
+      conclusion of the regular season, while their franchise history,
+      rankings, GM activity record and future dynasty position continue.
+    </p>
+
+    <p>
+      The open 27th game week ensures the IceCore postseason concludes before
+      the final NHL fantasy week. The final NHL week may involve rest,
+      workload management and opportunities for younger players, so IceCore
+      deliberately avoids making its championship dependent on that final
+      period.
     </p>
 
     <blockquote class="ic-rule-quote">
-      Everyone plays everyone once.<br>
-      The championship is decided before the final-week chaos.
+      Win your division and you are in.<br>
+      Build the strongest regular season and earn the best path.
     </blockquote>
 
     <p>
       Yahoo Fantasy remains the authoritative source for scoring, matchup
-      results, standings, player statistics and playoff qualification.
-      Official Yahoo league settings implement the Fibonacci Scoring framework
-      and remain authoritative for dates, transaction limits and other
-      season-specific platform settings.
+      results, standings, player statistics and the live playoff schedule.
+      The exact platform configuration should always be checked in the
+      official Yahoo league settings.
     </p>
 
   </div>
@@ -1234,7 +1324,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 </article>
 
 
-<!-- 21 -->
+<!-- 21 --><!-- 21 -->
 
 <article class="ic-rule">
 
@@ -1249,15 +1339,18 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </p>
 
     <p>
-      Championships, conference titles, regular-season performance,
-      draft history and other achievements become part of each
-      franchise's permanent record.
+      Championships, Challenge Cup titles, division titles,
+      regular-season performance, draft history and other achievements
+      become part of each franchise's permanent record.
     </p>
 
     <p>
       General Managers may also earn league honors and historical
-      recognition based on competitive success, activity,
-      reliability and contribution to the league.
+      recognition based on competitive success, activity, reliability,
+      communication, longevity and contribution to the league.
+      The <strong>GM Card</strong> records this broader history and may
+      include an activity rating designed to recognize managers who
+      consistently contribute to IceCore beyond the standings.
     </p>
 
     <p>
@@ -1268,6 +1361,60 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
   </div>
 
 </article>
+
+
+<!-- 22 -->
+
+<article class="ic-rule">
+
+  <span class="ic-rule__number">22</span>
+
+  <div class="ic-rule__body">
+
+    <h3>Rules, Platform Settings & Commissioner Authority</h3>
+
+    <p>
+      These rules describe the intended IceCore structure and competitive
+      principles. Yahoo Fantasy is the operational platform and may contain
+      settings, restrictions or technical behavior that are not reproduced
+      word-for-word in this document.
+    </p>
+
+    <p>
+      General Managers should therefore review the current
+      <strong>Yahoo league settings</strong> before the season and whenever
+      a major platform configuration changes. Yahoo's live settings are
+      authoritative for platform-specific matters such as transaction
+      processing, waiver timing, roster eligibility, scoring implementation,
+      matchup dates and playoff dates.
+    </p>
+
+    <p>
+      If a technical limitation, bug, data issue, unexpected platform behavior
+      or situation not expressly covered by these rules creates a dispute,
+      the Commissioner may issue a temporary or permanent ruling intended to
+      preserve <strong>fairness, competitive balance and the integrity of the
+      IceCore competition</strong>.
+    </p>
+
+    <p>
+      Commissioner decisions should follow the written rules wherever possible.
+      Where the rules are silent, the decision should follow the original
+      purpose and spirit of the league rather than creating an advantage for
+      the Commissioner or any individual franchise.
+    </p>
+
+    <blockquote class="ic-rule-quote">
+      The rules protect the game.<br>
+      Integrity protects the league.
+    </blockquote>
+
+  </div>
+
+</article>
+
+
+<article class="ic-rule">
 
   </section>
 
@@ -1355,6 +1502,38 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     Yes. Each franchise has five NA slots for developing prospects.
     Between one and three players from the previous-season farm may
     become Development Keepers.
+  </p>
+</article>
+
+
+<article>
+  <h3>How do the conferences and divisions work?</h3>
+  <p>
+    IceCore has two conferences and four divisions of five franchises.
+    Each franchise plays its four divisional rivals twice and every other
+    franchise once, producing 23 regular-season matchups.
+  </p>
+</article>
+
+
+<article>
+  <h3>How do the playoffs work?</h3>
+  <p>
+    Six franchises qualify for the IceCore Cup: all four division winners
+    plus the two highest-ranked non-division winners by overall regular-season
+    points. The six are then seeded by overall points, with the top two seeds
+    receiving a first-round bye. Seeds 7–12 enter the separate IceCore
+    Challenge Cup, while seeds 13–20 finish their season after the regular season.
+  </p>
+</article>
+
+
+<article>
+  <h3>What is the Challenge Cup?</h3>
+  <p>
+    The Challenge Cup is a separate six-team postseason competition for
+    regular-season seeds 7–12. Its champion is recorded in the season's
+    Awards and receives meaningful recognition on the winning GM's GM Card.
   </p>
 </article>
 
