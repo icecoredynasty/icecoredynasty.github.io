@@ -517,6 +517,7 @@ description: "The IceCore Dynasty league structure, franchise model, four divisi
         <p>
           The scheduled start is <strong>Sunday at 23:00 IceCore Time</strong> —
           <strong>23:00 CEST / 17:00 EDT / 14:00 PDT</strong> for the inaugural-season draft.
+        </p>
 
         <p>
           <strong>IceCore Time is intentionally aligned with the opening-night
@@ -526,7 +527,6 @@ description: "The IceCore Dynasty league structure, franchise model, four divisi
           IceCore's inaugural draft uses that same 23:00 CEST reference time,
           creating a simple worldwide benchmark: <strong>when NHL opening-night
           hockey begins in Central Europe, that is IceCore Time.</strong>
-        </p>
         </p>
 
         <p>
