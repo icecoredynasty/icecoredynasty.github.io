@@ -5,7 +5,7 @@ permalink: /league/
 description: "The IceCore Dynasty league structure, franchise model, four divisions, salary-cap system and the framework behind twenty permanent hockey franchises."
 ---
 
-[L8] <div class="league-page">
+<div class="league-page">
 
   <!-- FULL-WIDTH HERO -->
   <section class="league-hero">
