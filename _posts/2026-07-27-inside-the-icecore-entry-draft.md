@@ -169,13 +169,19 @@ The system keeps moving.
 
 The same principle applies when the fantasy platform and the real hockey world move at different speeds.
 
-If a selected rookie is not yet available in Yahoo, a temporary eligible NA player may occupy the roster position until the selected rookie becomes available.
+If a selected rookie is not yet available in Yahoo at the time of the
+Entry Draft, the Commissioner may assign an eligible NA player as a
+temporary Yahoo roster placeholder so the franchise can complete the draft.
 
-The placeholder is not the pick.
+The placeholder is not the franchise's Entry Draft selection and does not
+gain any draft rights or historical claim.
 
-The rookie remains the franchise's selection.
+Once the intended rookie becomes available in Yahoo, the placeholder will be
+removed or replaced and the originally selected rookie will be added to the
+franchise. The original Entry Draft selection always remains the official
+IceCore selection.
 
-A platform delay should not change a hockey decision.
+A Yahoo availability delay should never change the result of the Entry Draft.
 
 And a missed deadline should not leave a permanent franchise without its annual piece of the future.
 
