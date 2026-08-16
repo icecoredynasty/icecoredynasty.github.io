@@ -258,11 +258,11 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 </header>
 
 
-<!-- 01 -->
+<!-- 23 -->
 
 <article class="ic-rule">
 
-  <span class="ic-rule__number">01</span>
+  <span class="ic-rule__number">23</span>
 
   <div class="ic-rule__body">
 
@@ -1490,9 +1490,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 </article>
 
 
-<article class="ic-rule">
-
-  </section>
+</section>
 
 <section class="ic-rules-section">
 
