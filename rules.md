@@ -1108,6 +1108,55 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
   <div class="ic-rule__body">
 
+    <h3>Emergency Franchise Rebuild</h3>
+
+    <p>
+      If a franchise becomes chronically inactive, loses its GM and cannot
+      reasonably be stabilized through replacement management, the Commissioner
+      may initiate an <strong>Emergency Franchise Rebuild</strong>.
+    </p>
+
+    <p>
+      This is an exceptional measure, not a 21st-team expansion. The affected
+      franchise remains part of the permanent 20-team league. Its existing
+      roster may be cleared and rebuilt for the replacement GM through a
+      controlled Expansion Draft.
+    </p>
+
+    <p>
+      Before the rebuild draft, each of the other 19 franchises may protect
+      <strong>7 skaters and 1 goaltender</strong>. The replacement GM then selects
+      <strong>one player from each of the other 19 franchises</strong>, while
+      remaining within the standard <strong>500-coin Salary Cap</strong>.
+    </p>
+
+    <p>
+      Selected players retain their existing IceCore salaries. The rebuilt
+      franchise must comply with the normal roster requirements, including
+      two goaltenders. The Commissioner will establish the protection and
+      selection deadlines and may make reasonable technical adjustments required
+      by Yahoo, provided competitive fairness and league integrity are preserved.
+    </p>
+
+    <p>
+      This procedure exists solely as a safeguard against a permanently
+      abandoned or severely compromised franchise and may not be used to create
+      an artificial competitive advantage.
+    </p>
+
+  </div>
+
+</article>
+
+
+<!-- 23 -->
+
+<article class="ic-rule">
+
+  <span class="ic-rule__number">23</span>
+
+  <div class="ic-rule__body">
+
     <h3>Competitive Integrity</h3>
 
     <p>
@@ -1344,7 +1393,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 </article>
 
 
-<!-- 21 --><!-- 21 -->
+<!-- 22 -->
 
 <article class="ic-rule">
 
