@@ -58,13 +58,13 @@ Instead, its consecutive values form the entire scoring scale.
   <tbody>
     <tr>
       <td><strong>1</strong></td>
-      <td>SOG · HIT · SV · PPP</td>
+      <td>SOG · HIT · SV</td>
       <td>Volume / supporting production</td>
     </tr>
     <tr>
       <td><strong>2</strong></td>
-      <td>BLK</td>
-      <td>Impact</td>
+      <td>BLK · PPP</td>
+      <td>Impact / special teams</td>
     </tr>
     <tr>
       <td><strong>3</strong></td>
@@ -198,7 +198,7 @@ Their complete statistical profile matters.
 <h2>Special Teams Climb the Scale</h2>
 
 <p>
-A power-play point carries an additional <strong>1 point</strong>.
+A power-play point carries an additional <strong>2 points</strong>.
 A shorthanded point earns <strong>5</strong>.
 </p>
 
@@ -207,7 +207,8 @@ Both bonuses sit on top of the goal or assist that created them.
 </p>
 
 <p>
-Power-play production still adds value, but its frequency keeps it at the foundation level.
+Power-play production adds meaningful value to players who consistently contribute on the man advantage.
+Because it is more common than shorthanded scoring, power-play production remains below the 5-point SHP level.
 Shorthanded scoring is considerably rarer, so it jumps to the 5-point level.
 </p>
 
