@@ -121,6 +121,38 @@ permalink: /legal/
   </section>
 
   <section class="ic-legal__section">
+    <h2>Voluntary Community Support & Physical Awards</h2>
+
+<p>
+  IceCore Dynasty does not charge entry fees, membership fees, franchise fees,
+  draft fees or any other mandatory payment for participation in the league.
+</p>
+
+<p>
+  From time to time, the Commissioner or community members may voluntarily
+  support physical league awards, website hosting, domain costs or other
+  community expenses. Any such support is entirely optional and is not a
+  payment for participation, access, a franchise, roster rights, competitive
+  advantage, voting rights or any other league benefit.
+</p>
+
+<p>
+  IceCore Dynasty does not operate a prize pool and voluntary support does not
+  create an entitlement to a cash prize or physical award. Any payment or
+  support option, if offered, may be processed through a third-party payment
+  provider and remains subject to that provider's terms, fees and policies.
+</p>
+
+<p>
+  IceCore Dynasty is a recreational community project and does not represent
+  itself as a registered charity or tax-exempt organization. Contributors are
+  responsible for considering any tax or reporting obligations that may apply
+  to them under the laws of their country.
+</p>
+
+  </section>
+
+  <section class="ic-legal__section">
     <h2>Open-Source Software</h2>
 
 <p>
@@ -173,7 +205,7 @@ permalink: /legal/
   </section>
 
   <footer class="ic-legal__updated">
-    Last updated · July 2026
+    Last updated · August 2026
   </footer>
 
   <section class="ic-legal__section">
