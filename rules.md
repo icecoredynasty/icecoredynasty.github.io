@@ -1191,7 +1191,6 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
 
 <!-- 19 -->
-
 <article class="ic-rule ic-rule--feature">
 
   <span class="ic-rule__number">19</span>
@@ -1216,8 +1215,8 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </p>
 
     <div class="ic-rule-tags">
-      <span>SOG · HIT · SV · PPP = 1</span>
-      <span>BLK · +/- = 2</span>
+      <span>SOG · HIT · SV = 1</span>
+      <span>BLK · PPP = 2</span>
       <span>GA = −3</span>
       <span>SHP · W = 5</span>
       <span>G · A = 8</span>
@@ -1226,18 +1225,29 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
     <p>
       Goals and assists are worth <strong>8 points</strong>.
-      Plus/minus and blocks add <strong>2</strong>.
-      Shots, hits, saves and power-play points add <strong>1</strong>.
-      Short-handed points and goaltender wins add <strong>5</strong>.
-      Goals against subtract <strong>3</strong>, while a shutout adds
-      the highest single-event value of <strong>13</strong>.
+      Shots, hits and saves provide the foundation of the system,
+      while blocks and power-play points receive greater weight at
+      <strong>2 points</strong>.
     </p>
 
     <p>
-      The scoring scale rewards different types of hockey value without
-      allowing one category to dominate the entire player pool.
-      Rare events receive greater weight; repeatable volume events form
-      the foundation.
+      Short-handed points and goaltender wins are rewarded at
+      <strong>5 points</strong>, reflecting their relative rarity
+      and impact. Goals against subtract <strong>3 points</strong>,
+      creating a meaningful penalty for goaltending mistakes.
+    </p>
+
+    <p>
+      A shutout is the rarest standard scoring event and therefore
+      carries the highest single-event value of <strong>13 points</strong>.
+    </p>
+
+    <p>
+      The scoring scale rewards different types of hockey value
+      without allowing one category to dominate the entire player pool.
+      Volume events form the foundation, meaningful contributions rise
+      through the scale, primary production sits at 8, and perfection
+      occupies the highest level at 13.
     </p>
 
     <p>
