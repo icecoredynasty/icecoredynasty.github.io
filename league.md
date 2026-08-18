@@ -589,8 +589,8 @@ description: "The IceCore Dynasty league structure, franchise model, four divisi
         </p>
 
         <p>
-          Shots, hits, saves and power-play points form the foundation at
-          <strong>1</strong>. Blocks rise to <strong>2</strong>.
+          Shots, hits and saves form the foundation at <strong>1</strong>.
+          Blocks and power-play points rise to <strong>2</strong>.
           Goals against carry a <strong>−3</strong> penalty.
           Short-handed points and wins are worth <strong>5</strong>.
           Goals and assists sit at <strong>8</strong>.
@@ -607,8 +607,8 @@ description: "The IceCore Dynasty league structure, franchise model, four divisi
 
 
       <div class="league-dynasty-card">
-        <span>1 · SOG · HIT · SV · PPP</span>
-        <span>2 · BLK</span>
+        <span>1 · SOG · HIT · SV</span>
+        <span>2 · BLK · PPP</span>
         <span>−3 · GA</span>
         <span>5 · SHP · W</span>
         <span>8 · G · A</span>
