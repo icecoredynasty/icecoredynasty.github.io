@@ -21,7 +21,7 @@ Every dynasty needs a future.
 
 In IceCore, that future enters the league one player at a time.
 
-Every offseason, each franchise receives one selection in the **IceCore Entry Draft**.
+Beginning with the **2027 offseason**, each franchise receives one selection in the **IceCore Entry Draft**. The Entry Draft is for **eligible rookies selected in the first round of the real-world NHL Entry Draft**.
 
 Twenty franchises.
 
@@ -35,7 +35,7 @@ The Entry Draft is deliberately small.
 
 IceCore does not need a five-round prospect draft followed by dozens of rights held in an external spreadsheet.
 
-Every franchise selects exactly one eligible rookie.
+Every franchise selects exactly one eligible rookie from the **first round of the relevant NHL Entry Draft**.
 
 That player enters the organization at a salary of **1 Coin**.
 
@@ -75,7 +75,7 @@ You are asking:
 
 ## Competitive Balance Comes First
 
-The Entry Draft uses reverse standings.
+The Entry Draft uses reverse final standings.
 
 The lowest-ranked franchise selects first.
 
@@ -131,7 +131,7 @@ But nobody can trade away a future GM's annual path back into the draft.
 
 ## Prospects Without the Spreadsheet
 
-IceCore supports long-term prospect management through its roster structure and NA development positions rather than a separate database of player rights.
+IceCore supports long-term prospect management through its roster structure and NA development positions rather than a separate database of player rights. The **NA farm is primarily intended for young players and prospects**, but a General Manager may also hold an older player there when that fits the franchise's strategy.
 
 Managers who love scouting can invest deeply in young talent.
 
@@ -161,7 +161,7 @@ The Entry Draft should not break because someone misses a message.
 
 Selections are submitted ahead of the draft deadline.
 
-If a franchise does not submit its selection, the league follows the real NHL Draft order among eligible players still available.
+If a franchise does not submit a rookie priority list, the league follows the **real-world first-round NHL Draft order** among eligible players still available.
 
 The franchise still receives a rookie.
 
