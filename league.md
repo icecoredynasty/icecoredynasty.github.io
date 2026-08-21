@@ -405,7 +405,7 @@ description: "The IceCore Dynasty league structure, franchise model, four divisi
           <strong>11–15 player regular core</strong> from their active roster
           and IR+, while carrying forward <strong>1–3 Development Keepers</strong>
           from their previous-season NA farm.
-          An annual Entry Draft adds one rookie to every franchise.
+          Beginning with the second season, the Entry Draft adds one rookie to every franchise.
         </p>
 
         <p>
