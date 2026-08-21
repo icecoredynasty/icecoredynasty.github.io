@@ -14,7 +14,7 @@ featured_guide: true
 highlight: false
 
 image: /assets/images/journal/gm-guide.jpg
-excerpt: "Twenty players. 500 Coins. One rookie every year. Everything you need to know before taking control of an IceCore franchise."
+excerpt: "Twenty players. 500 Coins. One first-round NHL rookie from the second IceCore season onward. Everything you need to know before taking control of an IceCore franchise."
 ---
 
 Taking control of an IceCore franchise is simple.
@@ -105,7 +105,9 @@ Both approaches can be legitimate strategies.
 
 Not every player in your organization has to help you today.
 
-IceCore gives every franchise five NA positions for eligible young and inactive players outside the active roster.
+IceCore gives every franchise five NA positions outside the active roster.
+They are intended primarily for young players and prospects, but a GM may also
+use the farm for an older player when that fits the franchise strategy.
 
 You can keep prospect management simple.
 
@@ -129,7 +131,10 @@ Managers who don't can still understand exactly what they own.
 
 ## Draft One Rookie
 
-Every offseason brings one new eligible rookie into each IceCore organization through the Entry Draft.
+Beginning with the second IceCore season, every offseason brings one rookie into each
+IceCore organization through the Entry Draft. The selected player must come from the
+first round of the relevant real-world NHL Entry Draft. There is no Entry Draft during
+the inaugural IceCore season.
 
 The order rewards franchises that need the most help.
 
@@ -224,6 +229,20 @@ That is why the market exists.
 A great trade does not need one obvious winner.
 
 It needs two General Managers with different plans.
+
+## Reach the Postseason
+
+IceCore's regular season lasts **23 matchups**: every franchise faces every other
+franchise once, then plays its four divisional rivals one additional time. Each division
+contains five franchises.
+
+Twelve franchises reach the postseason. Division winners are guaranteed a playoff place,
+while the remaining places are awarded by total regular-season points. The twelve
+qualifiers are then seeded by total points.
+
+Seeds **1–6** compete for the **IceCore Cup**. Seeds **7–12** enter the
+**IceCore Challenge Cup**. Both six-team brackets run for three rounds, with the top
+two seeds receiving first-round byes. Week 27 is a blank postseason week.
 
 ## Choose Your Direction
 
