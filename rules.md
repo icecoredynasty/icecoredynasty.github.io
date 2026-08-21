@@ -1081,23 +1081,47 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
   <div class="ic-rule__body">
 
-    <h3>Competitive Integrity</h3>
+    <h3>Competitive Integrity & League Conduct</h3>
 
     <p>
-      Managers are free to rebuild, contend, speculate on prospects,
-      overpay for stars, sell established players or pursue unconventional
-      roster strategies.
+      IceCore encourages rebuilding, prospect development and different
+      roster-building philosophies. Managers may take risks or make
+      unconventional decisions, but every franchise is expected to make
+      a genuine effort to compete and manage its roster in good faith.
     </p>
 
     <p>
-      Collusion, coordinated roster dumping, waiver manipulation
-      or actions intended primarily to provide an unfair advantage
-      to another franchise may be reviewed by the Commissioner.
+      Deliberately tanking games or weakening a roster primarily to obtain
+      a better future draft position is not permitted. Likewise, collusion,
+      coordinated roster dumping, waiver manipulation, artificial or
+      knowingly unreasonable salary inflation, or other actions intended
+      primarily to distort the competition or benefit another franchise
+      are prohibited. A normal disagreement over a player's value is not,
+      by itself, a violation.
+    </p>
+
+    <p>
+      GMs are expected to keep league discussions focused on hockey and
+      fantasy hockey. Personal attacks, harassment, discriminatory or
+      inflammatory remarks, and prolonged political or other socially
+      sensitive debates have no place in IceCore. Competitive banter is
+      welcome when it remains respectful and does not target another GM
+      personally.
+    </p>
+
+    <p>
+      If conduct or roster decisions threaten the fairness or atmosphere
+      of the league, the Commissioner may request a correction, reverse
+      an improper transaction where technically possible, restrict further
+      activity, or take other reasonable action up to and including
+      removal from the league. The Commissioner may intervene whenever
+      necessary to protect the integrity and long-term health of IceCore,
+      including in situations not explicitly covered by these rules.
     </p>
 
     <blockquote class="ic-rule-quote">
-      Bad strategy is allowed.<br>
-      Collusion is not.
+      Build your franchise your way.<br>
+      Protect the league along the way.
     </blockquote>
 
   </div>
