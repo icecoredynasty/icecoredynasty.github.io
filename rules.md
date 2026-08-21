@@ -148,8 +148,8 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
         <span>10</span>
         <h3>Balanced Schedule</h3>
         <p>
-          Nineteen regular-season matchups. Every franchise faces every
-          other franchise exactly once before the 16-team IceCore Cup Playoffs.
+          Twenty-three regular-season matchups. Every franchise faces every other
+          franchise once, plus one additional matchup against each divisional opponent.
         </p>
       </article>
       <article class="ic-quick-card">
@@ -203,7 +203,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     <span>02</span>
     <strong>Entry Draft</strong>
     <p>
-      Every franchise adds exactly one rookie at 1 coin.
+      Beginning with the second IceCore season, every franchise adds exactly one rookie at 1 coin. The rookie is selected from the first round of the relevant real-world NHL Entry Draft.
     </p>
   </article>
 
@@ -365,7 +365,9 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
     <p>
       The five NA positions form each franchise's in-season development
-      space. Players held there may become eligible for offseason
+      space. They are intended primarily for young players and prospects,
+      but a franchise may also use NA for an older player when that fits its
+      roster strategy. Players held there may become eligible for offseason
       Development Keeper protection.
     </p>
 
@@ -506,8 +508,10 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     <h3>Entry Draft</h3>
 
     <p>
-      Beginning with the 2027 offseason, each franchise receives one selection
-      in the annual IceCore Entry Draft.
+      Beginning with the second IceCore season, each franchise receives one selection
+      in the annual IceCore Entry Draft. The selection is for a player chosen
+      in the first round of the relevant real-world NHL Entry Draft. The IceCore
+      Entry Draft does not exist during the inaugural season.
     </p>
 
     <p>
@@ -1206,40 +1210,44 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
     <div class="ic-rule-tags">
       <span>20 Franchises</span>
-      <span>19 Matchups</span>
-      <span>Top 16 Advance</span>
-      <span>4 Eliminated</span>
+      <span>23 Matchups</span>
+      <span>12 Playoff Teams</span>
+      <span>8 Eliminated</span>
     </div>
 
     <p>
-      Every franchise faces each of the other 19 franchises
-      <strong>exactly once</strong>. No team receives an additional matchup
-      against a weaker or stronger opponent simply because of scheduling
-      rotation. Every GM competes through the same regular-season path.
+      Every franchise faces each of the other 19 franchises <strong>once</strong>,
+      plus each of its four divisional opponents <strong>one additional time</strong>.
+      This creates a balanced 23-matchup regular season: every franchise plays
+      every other franchise once and its divisional rivals twice.
     </p>
 
     <p>
-      At the end of the regular season, the <strong>top 16 franchises</strong>
-      qualify for the IceCore Cup Playoffs. The bottom four franchises are
-      eliminated.
+      At the end of the regular season, <strong>twelve franchises</strong> enter
+      the playoffs. The top six franchises enter the primary championship bracket,
+      while the next six enter the <strong>Consolidation</strong> bracket. The remaining
+      eight franchises are eliminated.
     </p>
 
     <p>
-      The playoffs use a four-round bracket:
-      <strong>16 → 8 → 4 → 2 → Champion</strong>. The winner of the
-      championship matchup becomes the <strong>IceCore Cup Champion</strong>.
+      Each six-team playoff bracket is played over three rounds. The top two seeds
+      in each bracket receive a first-round bye. The remaining four teams play
+      in the opening round, followed by semifinals and a final. The winner of
+      the primary bracket becomes the <strong>IceCore Cup Champion</strong>; the
+      winner of the second bracket becomes the <strong>Consolidation Champion</strong>.
     </p>
 
     <p>
-      The final NHL fantasy week is intentionally left outside the IceCore
-      Cup Playoffs. NHL clubs may rest established players, manage workloads
-      or give additional opportunities to younger players late in the season.
+      The final NHL fantasy week, <strong>Week 27</strong>, is intentionally left outside
+      the IceCore playoffs and is a blank week for postseason competition. NHL
+      clubs may rest established players, manage workloads or give additional
+      opportunities to younger players late in the season.
     </p>
 
     <p>
-      By deciding the IceCore Cup before that final week, the championship is
-      less exposed to late-season NHL roster management and more likely to be
-      decided by the franchises that actually earned their way there.
+      By deciding both championships before that final week, IceCore reduces exposure
+      to late-season NHL roster management and keeps the postseason focused on
+      the franchises that earned their way there.
     </p>
 
     <blockquote class="ic-rule-quote">
