@@ -55,17 +55,17 @@ one of three paths.
 
   <div class="ic-article-stat">
     <strong>+5</strong>
-    <span>Outside Top 100</span>
+    <span>Outside Top 100 skaters / Top 10 goaltenders</span>
   </div>
 
   <div class="ic-article-stat">
     <strong>+10</strong>
-    <span>Top 100</span>
+    <span>Top 100 skaters / Top 10 goaltenders</span>
   </div>
 
   <div class="ic-article-stat">
     <strong>+15</strong>
-    <span>Top 100 · Salary ≤ 20</span>
+    <span>Top 100 skaters / Top 10 goaltenders · Salary ≤ 20</span>
   </div>
 
 </div>
@@ -75,11 +75,11 @@ Most players simply grow by 5 Coins.
 </p>
 
 <p>
-A Top 100 fantasy player grows by 10.
+A Top 100 skater or Top 10 goaltender grows by 10.
 </p>
 
 <p>
-And when a Top 100 player is still carrying a salary of 20 Coins or less,
+And when a qualifying Top 100 skater or Top 10 goaltender is still carrying a salary of 20 Coins or less,
 the increase becomes 15.
 </p>
 
@@ -150,7 +150,7 @@ Now imagine a player already carrying a salary of just 1 Coin.
 </p>
 
 <p>
-Then he breaks out and finishes inside the Top 100.
+Then he breaks out and finishes inside the Top 100 skaters or Top 10 goaltenders.
 </p>
 
 <div class="ic-article-flow">
@@ -178,7 +178,7 @@ But suppose the player does it again.
 </div>
 
 <p>
-His previous salary was still 20 Coins or less, so another Top 100 season
+His previous salary was still 20 Coins or less, so another qualifying Top 100 skater / Top 10 goaltender season
 produces another 15-Coin increase.
 </p>
 
@@ -187,7 +187,7 @@ Now the salary is above the low-cost threshold.
 </p>
 
 <p>
-If he remains Top 100 again:
+If he remains in the Top 100 skaters / Top 10 goaltenders group again:
 </p>
 
 <div class="ic-article-flow">
@@ -226,7 +226,7 @@ If he remains outside the Top 100 and you protect him:
 </div>
 
 <p>
-If that waiver discovery explodes into a Top 100 season:
+If that waiver discovery explodes into a qualifying Top 100 skater / Top 10 goaltender season:
 </p>
 
 <div class="ic-article-flow">
@@ -297,7 +297,7 @@ If the new General Manager protects him after an ordinary season:
 </div>
 
 <p>
-If he finishes inside the Top 100:
+If he finishes inside the Top 100 skaters or Top 10 goaltenders:
 </p>
 
 <div class="ic-article-flow">
@@ -322,7 +322,7 @@ Salary growth is not only about cheap players.
 
 <p>
 Imagine an established superstar already carrying a 95-Coin salary
-and continuing to finish inside the Top 100.
+and continuing to finish inside the Top 100 skaters or Top 10 goaltenders.
 </p>
 
 <div class="ic-article-flow">
