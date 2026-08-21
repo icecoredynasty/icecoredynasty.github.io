@@ -155,6 +155,14 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
       <article class="ic-quick-card">
   <span>11</span>
   <h3>Salary Escalation</h3>
+
+    <p>
+      For salary-escalation purposes, the Top 100 skaters and Top 10 goaltenders
+      are determined after the regular season from the final Yahoo Fantasy point
+      totals for the completed season. IceCore does not maintain a fixed player
+      list in these rules; the applicable rankings are recalculated from the
+      official season results.
+    </p>
   <p>
     Regular keeper salaries increase each offseason,
     making long-term value and contract decisions matter.
@@ -667,13 +675,11 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </div>
 
     <p>
-      Every regular keeper receives a base increase of +5.
-      A player finishing in the **Top 100 skaters** receives +10.
-      A Top 100 skater whose previous salary is 20 coins or less
-      receives +15.
-      A player finishing in the **Top 10 goaltenders** receives the same +10
-      Top 100-equivalent increase, or +15 when his previous salary is 20 coins
-      or less.
+      Every regular keeper receives a base increase of +5. A player finishing
+      in the <strong>Top 100 skaters</strong> receives +10, or +15 when his
+      previous salary is 20 coins or less. A player finishing in the
+      <strong>Top 10 goaltenders</strong> follows the same +10 / +15 structure.
+      Players outside those performance groups receive the base +5 increase.
     </p>
 
     <div class="ic-example">
@@ -713,12 +719,14 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
     <p>
       If that 0-coin player is protected for the following season,
-      normal escalation applies.
+      normal escalation applies. Because a 0-coin salary is 20 coins or less,
+      a Top 100 skater or Top 10 goaltender receives the +15 qualifying increase;
+      otherwise the player receives +5.
     </p>
 
     <div class="ic-rule-tags">
-      <span>Outside Top 100 Skaters / Top 10 Goaltenders → 5</span>
-      <span>Top 100 Skaters / Top 10 Goaltenders → 15</span>
+      <span>Outside Top 100 Skaters / Top 10 Goaltenders → +5</span>
+      <span>Top 100 Skaters / Top 10 Goaltenders · Salary ≤ 20 → +15</span>
     </div>
 
     <p>
@@ -1205,7 +1213,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
     <p>
       IceCore uses a Head-to-Head Points format with a balanced
-      <strong>19-matchup regular season</strong>.
+      <strong>23-matchup regular season</strong>.
     </p>
 
     <div class="ic-rule-tags">
@@ -1218,47 +1226,53 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     <p>
       Every franchise faces each of the other 19 franchises <strong>once</strong>,
       plus each of its four divisional opponents <strong>one additional time</strong>.
-      This creates a balanced 23-matchup regular season: every franchise plays
-      every other franchise once and its divisional rivals twice.
+      Each division contains <strong>five franchises</strong>, so every divisional
+      rival is faced twice during the regular season.
     </p>
 
     <p>
-      At the end of the regular season, <strong>twelve franchises</strong> enter
-      the playoffs. The top six franchises enter the primary championship bracket,
-      while the next six enter the <strong>Consolidation</strong> bracket. The remaining
-      eight franchises are eliminated.
+      The four division winners are guaranteed a playoff place. The remaining
+      playoff places are awarded by total regular-season points until twelve
+      franchises qualify. The twelve qualifiers are then seeded by total
+      regular-season points. This guarantees every division winner a postseason
+      place while using total points to determine the playoff order.
     </p>
 
     <p>
-      Each six-team playoff bracket is played over three rounds. The top two seeds
-      in each bracket receive a first-round bye. The remaining four teams play
-      in the opening round, followed by semifinals and a final. The winner of
-      the primary bracket becomes the <strong>IceCore Cup Champion</strong>; the
-      winner of the second bracket becomes the <strong>Consolidation Champion</strong>.
+      Seeds <strong>1–6</strong> enter the primary playoff, the
+      <strong>IceCore Cup</strong>. Seeds <strong>7–12</strong> enter the
+      <strong>IceCore Challenge Cup</strong>. Both six-team brackets are played
+      over three rounds. The top two seeds in each bracket receive a first-round
+      bye; seeds 3–6 play in the opening round, followed by semifinals and a final.
+    </p>
+
+    <p>
+      The winner of the primary bracket becomes the <strong>IceCore Cup Champion</strong>.
+      The winner of the second bracket becomes the <strong>IceCore Challenge Cup Champion</strong>.
     </p>
 
     <p>
       The final NHL fantasy week, <strong>Week 27</strong>, is intentionally left outside
-      the IceCore playoffs and is a blank week for postseason competition. NHL
-      clubs may rest established players, manage workloads or give additional
-      opportunities to younger players late in the season.
+      the IceCore playoffs and is a blank week for postseason competition. NHL clubs
+      may rest established players, manage workloads or give additional opportunities
+      to younger players late in the season.
     </p>
 
     <p>
       By deciding both championships before that final week, IceCore reduces exposure
-      to late-season NHL roster management and keeps the postseason focused on
-      the franchises that earned their way there.
+      to late-season NHL roster management and keeps the postseason focused on the
+      franchises that earned their way there.
     </p>
 
     <blockquote class="ic-rule-quote">
       Everyone plays everyone once.<br>
-      The championship is decided before the final-week chaos.
+      Division rivals matter twice.
     </blockquote>
 
     <p>
       Yahoo Fantasy remains the authoritative source for scoring, matchup
       results, standings, player statistics and playoff qualification.
-      Official Yahoo league settings implement the Fibonacci Scoring framework
+      Official Yahoo league settings implement the IceCore scoring framework
       and remain authoritative for dates, transaction limits and other
       season-specific platform settings.
     </p>
@@ -1283,7 +1297,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </p>
 
     <p>
-      Championships, conference titles, regular-season performance,
+      Championships, division titles, regular-season performance,
       draft history and other achievements become part of each
       franchise's permanent record.
     </p>
@@ -1297,6 +1311,42 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     <p>
       These records form IceCore's history.
       They do not alter Yahoo scoring or competitive results.
+    </p>
+
+  </div>
+
+</article>
+
+
+<!-- 22 -->
+
+<article class="ic-rule">
+
+  <span class="ic-rule__number">22</span>
+
+  <div class="ic-rule__body">
+
+    <h3>Rules Stability</h3>
+
+    <p>
+      IceCore rules and core league settings are intended to be stable and
+      transparent. General Managers make draft, keeper, salary and roster
+      decisions based on the published framework, so material competitive
+      changes will not be introduced during an active season.
+    </p>
+
+    <p>
+      Before each season's draft, the published rules and core league settings
+      are finalized and are treated as locked once that season's draft begins.
+      Changes that materially affect competitive strategy, roster value, scoring
+      or the meaning of previously made decisions are reserved for the offseason.
+    </p>
+
+    <p>
+      The Commissioner may make non-competitive corrections where necessary
+      to fix an obvious error, clarify an ambiguity or reflect a technical
+      Yahoo platform requirement. Any such correction should preserve the
+      intended competitive framework and will be communicated to the league.
     </p>
 
   </div>
@@ -1386,9 +1436,22 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 <article>
   <h3>Does IceCore have a prospect or farm system?</h3>
   <p>
-    Yes. Each franchise has five NA slots for developing prospects.
-    Between one and three players from the previous-season farm may
-    become Development Keepers.
+    Yes. Each franchise has five NA slots, intended primarily for young players
+    and prospects. A GM may also place an older player there when it fits the
+    franchise strategy. Between one and three players from the previous-season
+    farm may become Development Keepers.
+  </p>
+</article>
+
+
+<article>
+  <h3>How do the playoffs work?</h3>
+  <p>
+    Twelve franchises qualify. Division winners are guaranteed a playoff place,
+    and the qualifiers are seeded by total regular-season points. Seeds 1–6 play
+    for the <strong>IceCore Cup</strong>; seeds 7–12 play for the
+    <strong>IceCore Challenge Cup</strong>. Both six-team brackets last three rounds,
+    with the top two seeds receiving first-round byes.
   </p>
 </article>
 
