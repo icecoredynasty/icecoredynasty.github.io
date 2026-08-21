@@ -516,17 +516,16 @@ description: "The IceCore Dynasty league structure, franchise model, four divisi
 
         <p>
           The scheduled start is <strong>Sunday at 23:00 IceCore Time</strong> —
-          <strong>23:00 CEST / 17:00 EDT / 14:00 PDT</strong> for the inaugural-season draft.
+          <strong>11:00 PM CEST / 05:00 PM EDT / 02:00 PM PDT</strong> for the inaugural-season draft.
+          See the <strong>IceCore Calendar</strong> for the exact date and all scheduled league events.
         </p>
 
         <p>
           <strong>IceCore Time is intentionally aligned with the opening-night
-          rhythm of the NHL.</strong> The 2026–27 NHL regular season opens on
-          Tuesday, September 29, with the first game scheduled for
-          <strong>23:00 CEST</strong> / <strong>17:00 EDT</strong>.
-          IceCore's inaugural draft uses that same 23:00 CEST reference time,
-          creating a simple worldwide benchmark: <strong>when NHL opening-night
-          hockey begins in Central Europe, that is IceCore Time.</strong>
+          rhythm of the NHL.</strong> It uses <strong>23:00 CEST</strong> as the
+          European reference point, creating a simple worldwide benchmark:
+          <strong>when NHL opening-night hockey begins in Central Europe,
+          that is IceCore Time.</strong>
         </p>
 
         <p>
