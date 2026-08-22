@@ -14,7 +14,7 @@ featured_guide: true
 highlight: false
 
 image: /assets/images/journal/gm-guide.jpg
-excerpt: "Twenty players. 500 Coins. One first-round NHL rookie from the second IceCore season onward. Everything you need to know before taking control of an IceCore franchise."
+excerpt: "Twenty players. 500 Coins. One first-round NHL rookie from the second IceCore season onward. Eight playoff teams. Everything you need to know before taking control of an IceCore franchise."
 ---
 
 Taking control of an IceCore franchise is simple.
@@ -236,13 +236,18 @@ IceCore's regular season lasts **23 matchups**: every franchise faces every othe
 franchise once, then plays its four divisional rivals one additional time. Each division
 contains five franchises.
 
-Twelve franchises reach the postseason. Division winners are guaranteed a playoff place,
-while the remaining places are awarded by total regular-season points. The twelve
-qualifiers are then seeded by total points.
+Eight franchises reach the postseason. Division winners are guaranteed a playoff place,
+while the remaining places are awarded by total regular-season points. The eight
+qualifiers are then seeded by total points, so a division winner may enter the playoffs
+as any seed from **1–8**.
 
-Seeds **1–6** compete for the **IceCore Cup**. Seeds **7–12** enter the
-**IceCore Challenge Cup**. Both six-team brackets run for three rounds, with the top
-two seeds receiving first-round byes. Week 27 is a blank postseason week.
+Seeds **1–8** compete in the **IceCore Cup Playoffs**. There are no first-round byes.
+The playoff runs for three rounds during **Weeks 24, 25 and 26**, with the winner
+becoming the IceCore Cup Champion. **Week 27 is a blank week** outside the playoffs.
+
+The regular season is therefore a race for playoff qualification from the opening week:
+every matchup matters, and there is no second playoff bracket for teams finishing outside
+the top eight.
 
 ## Choose Your Direction
 
