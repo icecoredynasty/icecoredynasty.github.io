@@ -54,48 +54,6 @@ description: "IceCore Dynasty honours the champions, standout performances, reco
 
     <div class="ic-trophy-grid">
 
-      <article class="ic-trophy ic-trophy--cup">
-
-        <span class="ic-trophy__type">CHAMPIONSHIP</span>
-
-        <div class="ic-trophy__mark">IC</div>
-
-        <h3>IceCore Cup</h3>
-
-        <p>
-          Awarded to the winner of the IceCore championship playoffs.
-          The highest competitive honor in the league.
-        </p>
-
-        <footer>
-          <span>First awarded</span>
-          <strong>2026–27</strong>
-        </footer>
-
-      </article>
-
-
-      <article class="ic-trophy ic-trophy--cup">
-
-        <span class="ic-trophy__type">CHALLENGE CUP</span>
-
-        <div class="ic-trophy__mark">CC</div>
-
-        <h3>IceCore Challenge Cup</h3>
-
-        <p>
-          Awarded to the winner of the second six-team postseason bracket.
-          A major postseason honor for franchises outside the championship field.
-        </p>
-
-        <footer>
-          <span>First awarded</span>
-          <strong>2026–27</strong>
-        </footer>
-
-      </article>
-
-
       <article class="ic-trophy">
 
         <span class="ic-trophy__type">REGULAR SEASON</span>
