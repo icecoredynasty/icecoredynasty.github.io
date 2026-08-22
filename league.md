@@ -150,6 +150,13 @@ description: "The IceCore Dynasty league structure, franchise model, four divisi
           IceCore world — but the teams closest to you matter more often.
         </p>
 
+        <p>
+          The 23-match regular season is also the race for the IceCore Cup Playoffs.
+          Division winners are guaranteed a place in the eight-team postseason,
+          while the remaining places are determined by overall regular-season points.
+          All eight playoff teams are seeded by total points.
+        </p>
+
       </div>
 
       <div class="league-dynasty-card">
@@ -670,6 +677,8 @@ description: "The IceCore Dynasty league structure, franchise model, four divisi
       The rules define the framework.
       The General Managers decide what happens next.
     </p>
+
+    <p class="league-end__motto"><strong>One dynasty. One community. One champion.</strong></p>
 
     <div class="league-end__links">
       <a href="{{ '/teams/' | relative_url }}">Meet the franchises →</a>

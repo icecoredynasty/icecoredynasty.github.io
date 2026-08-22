@@ -54,6 +54,27 @@ description: "IceCore Dynasty honours the champions, standout performances, reco
 
     <div class="ic-trophy-grid">
 
+      <article class="ic-trophy ic-trophy--cup">
+
+        <span class="ic-trophy__type">CHAMPIONSHIP</span>
+
+        <div class="ic-trophy__mark">IC</div>
+
+        <h3>IceCore Cup</h3>
+
+        <p>
+          Awarded to the winner of the IceCore championship playoffs.
+          The highest competitive honor in the league.
+        </p>
+
+        <footer>
+          <span>First awarded</span>
+          <strong>2026–27</strong>
+        </footer>
+
+      </article>
+
+
       <article class="ic-trophy">
 
         <span class="ic-trophy__type">REGULAR SEASON</span>
@@ -543,8 +564,8 @@ description: "IceCore Dynasty honours the champions, standout performances, reco
     </h2>
 
     <p>
-      Championships, Challenge Cup titles, division titles, management
-      awards, player honors, GM activity records, statistical records
+      Championships, division titles, management awards, player honors,
+      GM activity records, statistical records
       and defining moments will become part of the permanent IceCore
       archive and the history of the franchises that created them.
     </p>

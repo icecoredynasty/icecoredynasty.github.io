@@ -112,7 +112,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
         <span>06</span>
         <h3>One Rookie</h3>
         <p>
-          Every franchise receives one Entry Draft selection.
+          Beginning with the second IceCore season, every franchise receives one Entry Draft selection from the first round of the relevant real-world NHL Entry Draft.
           Reverse standings. No lottery. No pick trading.
         </p>
       </article>
@@ -806,8 +806,10 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     <h3>Offseason Roster Construction</h3>
 
     <p>
-      Every franchise builds its 20-player opening roster through
-      four sources.
+      Beginning with the second IceCore season, every franchise builds its
+      20-player opening roster through four sources. In the inaugural season,
+      all 20 active roster positions are filled through the inaugural Live Salary
+      Cap Auction.
     </p>
 
     <div class="ic-roster-formula">
@@ -1219,8 +1221,8 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     <div class="ic-rule-tags">
       <span>20 Franchises</span>
       <span>23 Matchups</span>
-      <span>12 Playoff Teams</span>
-      <span>8 Eliminated</span>
+      <span>8 Playoff Teams</span>
+      <span>12 Eliminated</span>
     </div>
 
     <p>
@@ -1232,36 +1234,35 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
     <p>
       The four division winners are guaranteed a playoff place. The remaining
-      playoff places are awarded by total regular-season points until twelve
-      franchises qualify. The twelve qualifiers are then seeded by total
-      regular-season points. This guarantees every division winner a postseason
-      place while using total points to determine the playoff order.
+      playoff places are awarded by total regular-season points until eight
+      franchises qualify. All eight qualifiers are then seeded by total
+      regular-season points. A division title guarantees qualification, but it
+      does not guarantee a particular seed — a division winner may enter the
+      playoffs as low as seed 8.
     </p>
 
     <p>
-      Seeds <strong>1–6</strong> enter the primary playoff, the
-      <strong>IceCore Cup</strong>. Seeds <strong>7–12</strong> enter the
-      <strong>IceCore Challenge Cup</strong>. Both six-team brackets are played
-      over three rounds. The top two seeds in each bracket receive a first-round
-      bye; seeds 3–6 play in the opening round, followed by semifinals and a final.
+      Seeds <strong>1–8</strong> enter the <strong>IceCore Cup Playoffs</strong>.
+      The playoff bracket is a standard eight-team format with no byes:
+      quarterfinals, semifinals and the championship final. The three playoff
+      rounds are played during <strong>Weeks 24, 25 and 26</strong>.
     </p>
 
     <p>
-      The winner of the primary bracket becomes the <strong>IceCore Cup Champion</strong>.
-      The winner of the second bracket becomes the <strong>IceCore Challenge Cup Champion</strong>.
+      The winner of the playoff bracket becomes the <strong>IceCore Cup Champion</strong>,
+      the league's single championship winner.
     </p>
 
     <p>
-      The final NHL fantasy week, <strong>Week 27</strong>, is intentionally left outside
-      the IceCore playoffs and is a blank week for postseason competition. NHL clubs
-      may rest established players, manage workloads or give additional opportunities
-      to younger players late in the season.
+      <strong>Week 27</strong> is intentionally left blank for IceCore postseason
+      competition. NHL clubs may rest established players, manage workloads or
+      give additional opportunities to younger players late in the season.
     </p>
 
     <p>
-      By deciding both championships before that final week, IceCore reduces exposure
-      to late-season NHL roster management and keeps the postseason focused on the
-      franchises that earned their way there.
+      By deciding the championship before that final NHL fantasy week, IceCore
+      reduces exposure to late-season NHL roster management and keeps the title
+      focused on the franchises that earned their way into the playoffs.
     </p>
 
     <blockquote class="ic-rule-quote">
@@ -1447,11 +1448,11 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 <article>
   <h3>How do the playoffs work?</h3>
   <p>
-    Twelve franchises qualify. Division winners are guaranteed a playoff place,
-    and the qualifiers are seeded by total regular-season points. Seeds 1–6 play
-    for the <strong>IceCore Cup</strong>; seeds 7–12 play for the
-    <strong>IceCore Challenge Cup</strong>. Both six-team brackets last three rounds,
-    with the top two seeds receiving first-round byes.
+    Eight franchises qualify. Each division winner is guaranteed a playoff place,
+    and the remaining places are filled by total regular-season points. All eight
+    qualifiers are seeded by total points; division winners are not automatically
+    given a higher seed. Seeds 1–8 play in the <strong>IceCore Cup Playoffs</strong>
+    over three rounds, with no first-round byes.
   </p>
 </article>
 
