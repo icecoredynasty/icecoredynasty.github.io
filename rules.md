@@ -1526,4 +1526,4 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
   </section>
 
-</div>
+
