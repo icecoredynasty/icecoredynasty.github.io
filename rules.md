@@ -490,6 +490,19 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </p>
 
     <p>
+      <strong>Development Keepers also count toward the franchise's total
+      positional roster limits.</strong> For example, a franchise protecting
+      15 regular keepers with 4 C, 4 LW, 3 RW, 3 D and 1 G has one remaining
+      G slot and two remaining D slots. If it then protects 1 G and 2 D from
+      its NA farm, it reaches the maximum of 2 goaltenders. That franchise
+      therefore cannot add another G through the Entry Draft or the Live
+      Salary Cap Draft. If its designated Entry Draft selection would
+      otherwise be a goaltender, the selection moves to the highest-ranked
+      available eligible non-goaltender. The same positional limit applies
+      when filling the remaining roster through the Live Salary Cap Draft.
+    </p>
+
+    <p>
       The five NA slots available during the season provide development
       space. They are not five automatic additional offseason keepers.
       A maximum of three players from that group may be protected.
@@ -516,34 +529,41 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     <h3>Entry Draft</h3>
 
     <p>
-      Beginning with the second IceCore season, each franchise receives one selection
-      in the annual IceCore Entry Draft. The selection is for a player chosen
-      in the first round of the relevant real-world NHL Entry Draft. The IceCore
-      Entry Draft does not exist during the inaugural season.
+      Beginning with the <strong>second IceCore season</strong>, each franchise receives one selection
+      in the annual IceCore Entry Draft. The selection is for a rookie chosen
+      in the <strong>first round of the relevant real-world NHL Entry Draft</strong>.
+      The IceCore Entry Draft does not exist during the inaugural season.
     </p>
 
     <p>
       Draft order is determined by reverse final standings. There is no lottery,
-      and Entry Draft selections cannot be traded.
+      and Entry Draft selections cannot be traded. The Commissioner conducts
+      the Entry Draft manually.
     </p>
 
     <p>
-      Each General Manager may submit a ranked rookie priority list before the
-      published deadline. When a franchise is on the clock, the highest-ranked
-      available player on that list will be selected.
+      Each General Manager may submit a ranked list of eligible first-round NHL
+      rookies before the published deadline. When a franchise is reached, the
+      highest-ranked available player on that franchise's list will be selected.
     </p>
 
     <p>
-      Submitting a priority list is optional. If no list is submitted, the
-      franchise will automatically receive the highest available eligible player
-      according to the real-world NHL Draft order.
+      A GM may submit a short list rather than ranking every eligible rookie. If
+      the list runs out before the franchise's selection, the Commissioner continues
+      from the remaining eligible rookies in the order they were selected in the
+      first round of the relevant NHL Draft.
+    </p>
+
+    <p>
+      If no rookie list is submitted, the franchise remains in the draft and the
+      real-world first-round NHL Draft order is used as its default ranking. Missing
+      the priority-list deadline does not result in a league penalty.
     </p>
 
     <p>
       Entry Draft selections enter their IceCore franchise at a salary of
       <strong>1 Coin</strong>.
     </p>
-
   </div>
 
 </article>
@@ -560,38 +580,28 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     <h3>Rookie Lists & Yahoo Availability</h3>
 
     <p>
-      Managers may submit their rookie preferences before the announced
-      Entry Draft deadline.
+      Managers may submit their rookie preferences before the announced Entry Draft
+      deadline. Preferences must be limited to eligible rookies selected in the first
+      round of the relevant real-world NHL Entry Draft.
     </p>
 
     <p>
-      If a GM does not submit a list, the franchise remains in the draft.
-      Its default ranking follows the real-world order of players selected
-      in the first round of the relevant NHL Draft.
+      If a GM submits only a short list, that list is followed for as long as eligible
+      players remain available. If the list runs out before the franchise's selection,
+      the Commissioner continues from the remaining eligible rookies in real-world
+      first-round NHL Draft order.
     </p>
 
     <p>
-      Missing the Entry Draft priority-list deadline does not result in a league
-      penalty. The default NHL Draft order will be used automatically.
+      If a GM does not submit a list, the franchise remains in the draft and its default
+      ranking follows the real-world order of players selected in the first round of the
+      relevant NHL Draft. Missing the priority-list deadline does not result in a league
+      penalty; the default NHL Draft order is used automatically.
     </p>
 
     <p>
       If an Entry Draft selection is not yet available in Yahoo when offseason
       rosters are prepared, the franchise retains exclusive rights to that rookie.
-    </p>
-
-    <p>
-      The Commissioner may temporarily use an eligible player from the
-      franchise's development group as a roster placeholder. Once the selected
-      rookie becomes available in Yahoo, the placeholder is removed and the
-      rookie is assigned to the franchise at his standard 1-coin salary.
-    </p>
-
-    <p>
-      A temporary placeholder does not create additional player rights,
-      salary or keeper protection.
-    </p>
-
   </div>
 
 </article>
