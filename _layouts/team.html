@@ -22,7 +22,7 @@ layout: default
       <div class="team-header__text">
 
         <div class="team-header__eyebrow">
-          ICECORE DYNASTY · LEAGUE {{ page.league }}
+          ICECORE DYNASTY · LEAGUE {{ page.league }}{% if page.division %} — {{ page.division }} DIVISION{% endif %}
         </div>
 
         <h1>{{ page.title }}</h1>
@@ -97,6 +97,22 @@ layout: default
        QUICK INFO
        ===================================================== -->
 
+  {% assign country_flag = "" %}
+  {% case page.country %}
+    {% when "USA" %}
+      {% assign country_flag = "🇺🇸" %}
+    {% when "United States" %}
+      {% assign country_flag = "🇺🇸" %}
+    {% when "Canada" %}
+      {% assign country_flag = "🇨🇦" %}
+    {% when "Puerto Rico" %}
+      {% assign country_flag = "🇵🇷" %}
+    {% when "US Virgin Islands" %}
+      {% assign country_flag = "🇻🇮" %}
+    {% when "U.S. Virgin Islands" %}
+      {% assign country_flag = "🇻🇮" %}
+  {% endcase %}
+
   <section class="team-meta">
 
     <div class="team-meta__item">
@@ -105,22 +121,24 @@ layout: default
     </div>
 
     <div class="team-meta__item">
-      <span>Conference</span>
-      <strong>{{ page.conference }}</strong>
+      <span>Division</span>
+      <strong>{{ page.division | default: "—" }}</strong>
     </div>
 
     <div class="team-meta__item">
       <span>Status</span>
-      <strong>{{ page.status | capitalize }}</strong>
-    </div>
-
-    <div class="team-meta__item team-meta__gm">
-      <span>General Manager</span>
       {% if current_gm %}
-        <strong>{{ current_gm.nick }}</strong>
+        <strong>Active</strong>
       {% else %}
         <strong>Available</strong>
       {% endif %}
+    </div>
+
+    <div class="team-meta__item">
+      <span>State</span>
+      <strong>
+        {{ page.state }}{% if country_flag %} {{ country_flag }}{% endif %}
+      </strong>
     </div>
 
   </section>
@@ -141,7 +159,6 @@ layout: default
         </div>
 
         <div class="gm-card__identity">
-
           {% if current_gm.flag %}
             <span class="gm-card__flag">{{ current_gm.flag }}</span>
           {% endif %}
@@ -154,6 +171,11 @@ layout: default
             {% endif %}
           </h2>
 
+          <div class="gm-stars" aria-label="GM rating: {{ gm_stars }} out of 5">
+            {% for i in (1..5) %}
+              {% if i <= gm_stars %}★{% else %}☆{% endif %}
+            {% endfor %}
+          </div>
         </div>
 
         {% if current_gm %}
@@ -174,34 +196,14 @@ layout: default
       <div class="gm-card__details">
 
         <div class="gm-stat">
-          <span>GM Rating</span>
-          <strong class="gm-stars" aria-label="{{ gm_stars }} out of 5 stars">
-            {% for i in (1..5) %}
-              {% if i <= gm_stars %}★{% else %}☆{% endif %}
-            {% endfor %}
-          </strong>
+          <span>Time Zone</span>
+          <strong>{{ current_gm.timezone | default: "—" }}</strong>
         </div>
 
-        {% if current_gm and current_gm.timezone %}
-          <div class="gm-stat">
-            <span>Time Zone</span>
-            <strong>{{ current_gm.timezone }}</strong>
-          </div>
-        {% endif %}
-
-        {% if current_gm and current_gm.since %}
-          <div class="gm-stat">
-            <span>IceCore Since</span>
-            <strong>{{ current_gm.since }}</strong>
-          </div>
-        {% endif %}
-
-        {% if current_gm and current_gm.experience %}
-          <div class="gm-stat">
-            <span>Fantasy Experience</span>
-            <strong>{{ current_gm.experience }} years</strong>
-          </div>
-        {% endif %}
+        <div class="gm-stat">
+          <span>IceCore Since</span>
+          <strong>{{ current_gm.since | default: "—" }}</strong>
+        </div>
 
       </div>
 
