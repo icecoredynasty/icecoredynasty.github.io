@@ -602,6 +602,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     <p>
       If an Entry Draft selection is not yet available in Yahoo when offseason
       rosters are prepared, the franchise retains exclusive rights to that rookie.
+    </p>
   </div>
 
 </article>
