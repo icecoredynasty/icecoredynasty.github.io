@@ -1,7 +1,7 @@
 # IceCore Dynasty — Central GM database
+# One record per franchise. Team pages resolve the current GM from current_team.
 # current_season is changed once per season.
-# Team pages resolve the current GM from current_team.
-# Placeholder Manager1 records are intentionally inactive until assigned.
+# seasons stores the franchise-specific GM history and is ready for additional seasons.
 
 current_season: 2026
 
@@ -15,7 +15,7 @@ gms:
     flag: "🇺🇸"
     timezone: "EST"
     since: 2026
-    hero: "It’s very different, very well put together so far."
+    hero: "I love fantasy hockey, and IceCore looks very different, very well put together."
     warning: false
     bonus: false
     seasons: []
@@ -34,40 +34,40 @@ gms:
     seasons: []
 
   - id: "003"
-    nick: "Manager1"
-    status: available
-    current_team: null
-    country: ""
-    flag: ""
-    timezone: ""
-    since: 
-    hero: ""
+    nick: "seatonstrength"
+    status: active
+    current_team: "charlotte-amalie-corsairs"
+    country: "US"
+    flag: "🇺🇸"
+    timezone: "EST"
+    since: 2026
+    hero: "I was looking for a league that felt different, and IceCore immediately caught my attention."
     warning: false
     bonus: false
     seasons: []
 
   - id: "004"
-    nick: "Manager1"
+    nick: "Available"
     status: available
-    current_team: null
+    current_team: "cincinnati-rivermen"
     country: ""
     flag: ""
     timezone: ""
-    since: 
-    hero: ""
+    since:
+    hero: "This franchise is waiting for its General Manager."
     warning: false
     bonus: false
     seasons: []
 
   - id: "005"
-    nick: "Manager1"
+    nick: "Available"
     status: available
-    current_team: null
+    current_team: "cleveland-forge"
     country: ""
     flag: ""
     timezone: ""
-    since: 
-    hero: ""
+    since:
+    hero: "This franchise is waiting for its General Manager."
     warning: false
     bonus: false
     seasons: []
@@ -86,14 +86,14 @@ gms:
     seasons: []
 
   - id: "007"
-    nick: "Manager1"
-    status: available
-    current_team: null
-    country: ""
-    flag: ""
-    timezone: ""
-    since: 
-    hero: ""
+    nick: "NEMA"
+    status: active
+    current_team: "halifax-privateers"
+    country: "CA"
+    flag: "🇨🇦"
+    timezone: "EST"
+    since: 2026
+    hero: "A 20-team league seems like a great challenge."
     warning: false
     bonus: false
     seasons: []
@@ -138,14 +138,14 @@ gms:
     seasons: []
 
   - id: "011"
-    nick: "Manager1"
-    status: available
-    current_team: null
-    country: ""
-    flag: ""
-    timezone: ""
-    since: 
-    hero: ""
+    nick: "MURAD"
+    status: active
+    current_team: "kelowna-vintners"
+    country: "CA"
+    flag: "🇨🇦"
+    timezone: "ET"
+    since: 2026
+    hero: "I’ve always wanted a robust fantasy league with structure, competitiveness and fun."
     warning: false
     bonus: false
     seasons: []
@@ -158,20 +158,20 @@ gms:
     flag: "🇨🇦"
     timezone: "EDT"
     since: 2026
-    hero: "Looking for some more fun now that my own league is organized and functional."
+    hero: "I’m looking for more fun and a chance to compete in a new league."
     warning: false
     bonus: false
     seasons: []
 
   - id: "013"
-    nick: "Manager1"
+    nick: "Available"
     status: available
-    current_team: null
+    current_team: "lancaster-keystone"
     country: ""
     flag: ""
     timezone: ""
-    since: 
-    hero: ""
+    since:
+    hero: "This franchise is waiting for its General Manager."
     warning: false
     bonus: false
     seasons: []
@@ -184,39 +184,39 @@ gms:
     flag: "🇨🇦"
     timezone: "MT"
     since: 2026
-    hero: "Something unique that actually sounds fun."
+    hero: "There’s something about IceCore that catches my eye — it looks fun and unique."
     warning: false
     bonus: false
     seasons: []
 
   - id: "015"
-    nick: "Brian"
+    nick: "Bmax311"
     status: active
     current_team: "new-orleans-soul"
     country: "US"
     flag: "🇺🇸"
     timezone: "EST"
     since: 2026
-    hero: "I collect vinyl records."
+    hero: "I like the uniqueness and the simplicity that still creates a massive challenge."
     warning: false
     bonus: false
     seasons: []
 
   - id: "016"
-    nick: "Manager1"
-    status: available
-    current_team: null
-    country: ""
-    flag: ""
-    timezone: ""
-    since: 
-    hero: ""
+    nick: "Bruce"
+    status: active
+    current_team: "norfolk-navigators"
+    country: "CA"
+    flag: "🇨🇦"
+    timezone: "EDT/EST"
+    since: 2026
+    hero: "IceCore goes the extra mile — serious, competitive and built with safeguards."
     warning: false
     bonus: false
     seasons: []
 
   - id: "017"
-    nick: "gordo"
+    nick: "gokoloco777"
     status: active
     current_team: "omaha-bison"
     country: "CA"
@@ -242,27 +242,27 @@ gms:
     seasons: []
 
   - id: "019"
-    nick: "Manager1"
+    nick: "Available"
     status: available
-    current_team: null
+    current_team: "rapid-city-triceratops"
     country: ""
     flag: ""
     timezone: ""
-    since: 
-    hero: ""
+    since:
+    hero: "This franchise is waiting for its General Manager."
     warning: false
     bonus: false
     seasons: []
 
   - id: "020"
-    nick: "Manager1"
+    nick: "Available"
     status: available
-    current_team: null
+    current_team: "reno-wildcards"
     country: ""
     flag: ""
     timezone: ""
-    since: 
-    hero: ""
+    since:
+    hero: "This franchise is waiting for its General Manager."
     warning: false
     bonus: false
     seasons: []
@@ -294,14 +294,14 @@ gms:
     seasons: []
 
   - id: "023"
-    nick: "Manager1"
+    nick: "Available"
     status: available
-    current_team: null
+    current_team: "sacramento-sentinels"
     country: ""
     flag: ""
     timezone: ""
-    since: 
-    hero: ""
+    since:
+    hero: "This franchise is waiting for its General Manager."
     warning: false
     bonus: false
     seasons: []
@@ -320,53 +320,53 @@ gms:
     seasons: []
 
   - id: "025"
-    nick: "Manager1"
+    nick: "Available"
     status: available
-    current_team: null
+    current_team: "salt-lake-summit"
     country: ""
     flag: ""
     timezone: ""
-    since: 
-    hero: ""
+    since:
+    hero: "This franchise is waiting for its General Manager."
     warning: false
     bonus: false
     seasons: []
 
   - id: "026"
-    nick: "Manager1"
+    nick: "Available"
     status: available
-    current_team: null
+    current_team: "san-juan-tainos"
     country: ""
     flag: ""
     timezone: ""
-    since: 
-    hero: ""
+    since:
+    hero: "This franchise is waiting for its General Manager."
     warning: false
     bonus: false
     seasons: []
 
   - id: "027"
-    nick: "Manager1"
+    nick: "Available"
     status: available
-    current_team: null
+    current_team: "saskatoon-prairie-drifters"
     country: ""
     flag: ""
     timezone: ""
-    since: 
-    hero: ""
+    since:
+    hero: "This franchise is waiting for its General Manager."
     warning: false
     bonus: false
     seasons: []
 
   - id: "028"
-    nick: "Manager1"
+    nick: "Available"
     status: available
-    current_team: null
+    current_team: "tucson-saguaros"
     country: ""
     flag: ""
     timezone: ""
-    since: 
-    hero: ""
+    since:
+    hero: "This franchise is waiting for its General Manager."
     warning: false
     bonus: false
     seasons: []
@@ -385,40 +385,14 @@ gms:
     seasons: []
 
   - id: "030"
-    nick: "Manager1"
+    nick: "Available"
     status: available
-    current_team: null
+    current_team: "wichita-aviators"
     country: ""
     flag: ""
     timezone: ""
-    since: 
-    hero: ""
-    warning: false
-    bonus: false
-    seasons: []
-
-  - id: "031"
-    nick: "Joshhperrault"
-    status: available
-    current_team: null
-    country: "CA"
-    flag: "🇨🇦"
-    timezone: "MT"
-    since: 2026
-    hero: "I’ve been looking for another dynasty league — Yahoo preferred, salary cap included."
-    warning: false
-    bonus: false
-    seasons: []
-
-  - id: "032"
-    nick: "Rockey"
-    status: available
-    current_team: null
-    country: "CA"
-    flag: "🇨🇦"
-    timezone: ""
-    since: 2026
-    hero: "Always looking for more fantasy hockey — and always looking for another dynasty challenge."
+    since:
+    hero: "This franchise is waiting for its General Manager."
     warning: false
     bonus: false
     seasons: []
