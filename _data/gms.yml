@@ -1,14 +1,18 @@
 # IceCore Dynasty — Central GM database
 # One record per franchise. Team pages resolve the current GM from current_team.
+# nick is the public GM display name: use the first word from the application
+# 'Name or nickname:' field, not the Reddit or Yahoo username.
 # current_season is changed once per season.
-# seasons stores the franchise-specific GM history and is ready for additional seasons.
+# seasons stores franchise-specific GM history and is ready for additional seasons.
+# Keep the season schema consistent when adding future results: year, team,
+# regular_season, playoffs and draft.
 
 current_season: 2026
 
 gms:
 
   - id: "001"
-    nick: "CharacterNo5725"
+    nick: "Robert"
     status: active
     current_team: "amarillo-downburst"
     country: "US"
@@ -34,7 +38,7 @@ gms:
     seasons: []
 
   - id: "003"
-    nick: "seatonstrength"
+    nick: "Mike"
     status: active
     current_team: "charlotte-amalie-corsairs"
     country: "US"
@@ -73,7 +77,7 @@ gms:
     seasons: []
 
   - id: "006"
-    nick: "freddiebrathwaite"
+    nick: "Christoph"
     status: active
     current_team: "green-bay-alliance"
     country: "US"
@@ -86,7 +90,7 @@ gms:
     seasons: []
 
   - id: "007"
-    nick: "NEMA"
+    nick: "Brent"
     status: active
     current_team: "halifax-privateers"
     country: "CA"
@@ -112,7 +116,7 @@ gms:
     seasons: []
 
   - id: "009"
-    nick: "CJ Mattias"
+    nick: "CJ"
     status: active
     current_team: "honolulu-guardians"
     country: "FI"
@@ -151,7 +155,7 @@ gms:
     seasons: []
 
   - id: "012"
-    nick: "Manner16"
+    nick: "Trav"
     status: active
     current_team: "key-west-rumrunners"
     country: "CA"
@@ -177,7 +181,7 @@ gms:
     seasons: []
 
   - id: "014"
-    nick: "Taylor-209"
+    nick: "Taylor"
     status: active
     current_team: "memphis-riffs"
     country: "CA"
@@ -190,7 +194,7 @@ gms:
     seasons: []
 
   - id: "015"
-    nick: "Bmax311"
+    nick: "Brian"
     status: active
     current_team: "new-orleans-soul"
     country: "US"
@@ -216,7 +220,7 @@ gms:
     seasons: []
 
   - id: "017"
-    nick: "gokoloco777"
+    nick: "Gord"
     status: active
     current_team: "omaha-bison"
     country: "CA"
@@ -229,7 +233,7 @@ gms:
     seasons: []
 
   - id: "018"
-    nick: "Level_Afraid"
+    nick: "whoswho"
     status: active
     current_team: "quebec-city-citadels"
     country: "CA"
@@ -268,7 +272,7 @@ gms:
     seasons: []
 
   - id: "021"
-    nick: "paradiseishell69"
+    nick: "Noah"
     status: active
     current_team: "richmond-union"
     country: "US"
@@ -281,7 +285,7 @@ gms:
     seasons: []
 
   - id: "022"
-    nick: "ksrich2001"
+    nick: "Ken"
     status: active
     current_team: "roswell-greys"
     country: "US"
@@ -307,7 +311,7 @@ gms:
     seasons: []
 
   - id: "024"
-    nick: "writer"
+    nick: "James"
     status: active
     current_team: "salem-ravens"
     country: "US"
@@ -372,7 +376,7 @@ gms:
     seasons: []
 
   - id: "029"
-    nick: "SourGrape_s"
+    nick: "Paul"
     status: active
     current_team: "victoria-cedars"
     country: "CA"
