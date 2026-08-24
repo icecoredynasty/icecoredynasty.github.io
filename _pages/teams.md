@@ -41,29 +41,34 @@ description: "Meet the twenty IceCore Dynasty franchises, their identities, citi
 
     {% include team-grid.html %}
 
-      <div class="teams-filters">
+    <div class="teams-filters">
 
-        <label class="teams-filter">
-          <span>League</span>
+      <label class="teams-filter">
+        <span>League</span>
 
-<select id="league-filter">
-  <option value="all">All Leagues</option>
-  <option value="1" selected>League I</option>
-</select>
-        </label>
+        <select id="league-filter">
+          <option value="all">All Leagues</option>
+          <option value="1" selected>League 1</option>
+        </select>
+      </label>
 
-        <label class="teams-filter">
-          <span>Conference</span>
+      <label class="teams-filter">
+        <span>Division</span>
 
-<select id="conference-filter">
-  <option value="all">All Conferences</option>
-  <option value="east">Eastern Conference</option>
-  <option value="west">Western Conference</option>
-</select>
-        </label>
+        <select id="division-filter">
+          <option value="all">All Divisions</option>
+          {% assign league_1_all = site.teams | where: "league", 1 %}
+          {% assign league_1_divisions = league_1_all | map: "division" | compact | uniq | sort_natural %}
+          {% for division in league_1_divisions %}
+            {% if division != "" %}
+              <option value="{{ division | downcase | escape }}">{{ division }} Division</option>
+            {% endif %}
+          {% endfor %}
+        </select>
+      </label>
 
-      </div>
-      
+    </div>
+
   </div>
 
 </section>
@@ -72,42 +77,35 @@ description: "Meet the twenty IceCore Dynasty franchises, their identities, citi
 document.addEventListener("DOMContentLoaded", function () {
 
   const leagueFilter = document.getElementById("league-filter");
-  const conferenceFilter = document.getElementById("conference-filter");
+  const divisionFilter = document.getElementById("division-filter");
   const cards = document.querySelectorAll(".team-card");
 
   function filterTeams() {
 
     const selectedLeague = leagueFilter.value;
-    const selectedConference = conferenceFilter.value;
+    const selectedDivision = divisionFilter.value;
 
-    cards.forEach(function(card) {
+    cards.forEach(function (card) {
 
       const cardLeague = card.dataset.league;
-      const cardConference = card.dataset.conference;
+      const cardDivision = card.dataset.division;
 
       const leagueMatch =
         selectedLeague === "all" ||
         cardLeague === selectedLeague;
 
-      const conferenceMatch =
-        selectedConference === "all" ||
-        cardConference === selectedConference;
+      const divisionMatch =
+        selectedDivision === "all" ||
+        cardDivision === selectedDivision;
 
-      if (leagueMatch && conferenceMatch) {
-        card.style.display = "";
-      } else {
-        card.style.display = "none";
-      }
-
+      card.style.display = leagueMatch && divisionMatch ? "" : "none";
     });
 
   }
 
   leagueFilter.addEventListener("change", filterTeams);
-  conferenceFilter.addEventListener("change", filterTeams);
-
+  divisionFilter.addEventListener("change", filterTeams);
   filterTeams();
 
 });
 </script>
-
