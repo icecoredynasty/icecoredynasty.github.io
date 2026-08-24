@@ -11,7 +11,7 @@ state: Texas
 country: USA
 nickname: Downburst
 
-conference: West
+division: West
 league: 1
 status: reserved
 founded: 2026
