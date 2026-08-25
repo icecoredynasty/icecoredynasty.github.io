@@ -763,7 +763,7 @@ description: "The IceCore Dynasty league structure, franchise model, four divisi
         </ul>
 
         <a
-          href="mailto:commissioner@icecoredynasty.com?subject=IceCore%20Dynasty%20-%20GM%20Application&body=Name%20or%20nickname%3A%0A%0ACountry%20%2F%20Time%20Zone%3A%0A%0AFantasy%20Hockey%20Experience%3A%0A%0AYahoo%20Fantasy%20Rating%20or%20Level%20(if%20available)%3A%0A%0APreferred%20IceCore%20Franchise%20(see%20Teams%20page)%3A%0A%0AWhy%20does%20IceCore%20interest%20you%3F%0A%0AAnything%20else%3A%0A"
+          href="mailto:commissioner@icecoredynasty.com?subject=IceCore%20Dynasty%20-%20GM%20Application&body=Name%20or%20nickname%3A%0A%0ACountry%20%2F%20Time%20Zone%3A%0A%0AFantasy%20Hockey%20Experience%3A%0A%0AHave%20you%20completed%20at%20least%20one%20season%20of%20Yahoo%20Fantasy%20Hockey%3F%20%28Yes%20%2F%20No%29%3A%0A%0AYahoo%20Fantasy%20Rating%20or%20Level%20(if%20available)%3A%0A%0APreferred%20IceCore%20Franchise%20(see%20Teams%20page)%3A%0A%0AWhy%20does%20IceCore%20interest%20you%3F%0A%0AAnything%20else%3A%0A"
           class="league-join__button"
         >
           Apply for a franchise →
