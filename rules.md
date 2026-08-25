@@ -1365,6 +1365,63 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
 </article>
 
+<!-- 23 -->
+
+<article class="ic-rule">
+
+  <span class="ic-rule__number">23</span>
+
+  <div class="ic-rule__body">
+
+    <h3>GM Experience &amp; Training League</h3>
+
+    <p>
+      IceCore is an advanced fantasy hockey league built around long-term
+      franchise management, salary-cap strategy, keeper decisions, prospects,
+      waivers and Yahoo Fantasy. A minimum of <strong>one completed season of
+      Yahoo Fantasy Hockey</strong> is required for consideration for a
+      permanent IceCore franchise.
+    </p>
+
+    <p>
+      Experience on other fantasy hockey platforms is taken into account and
+      may strengthen an application, but it does not replace the Yahoo
+      experience requirement. The purpose of the requirement is not to measure
+      a manager's knowledge of hockey, but to ensure that every GM has at least
+      a basic understanding of the Yahoo platform and the specific mechanics
+      they will encounter in IceCore.
+    </p>
+
+    <p>
+      Applicants who have not yet completed a Yahoo Fantasy Hockey season may
+      be considered for the <strong>IceCore Training League</strong>. The
+      Training League provides a full season to learn the platform, experience
+      the IceCore format and develop practical experience with drafts, waivers,
+      FAAB, roster management and other league systems before taking control of
+      a permanent franchise.
+    </p>
+
+    <p>
+      Training League participation also provides an opportunity to demonstrate
+      activity, reliability, strategic thinking, understanding of the format
+      and commitment to the IceCore community. Strong-performing and engaged
+      managers may receive priority consideration for future IceCore franchise
+      opportunities or a new league created following the completion of the
+      current season.
+    </p>
+
+    <p>
+      The Commissioner may also place an applicant in the Training League or
+      Reserved List where additional time is considered appropriate to assess
+      activity, reliability, understanding of the league framework or overall
+      fit with the IceCore community. Such placement is not a penalty and does
+      not necessarily reflect a manager's fantasy hockey ability.
+    </p>
+
+  </div>
+
+</article>
+
   </section>
 
 <section class="ic-rules-section">
