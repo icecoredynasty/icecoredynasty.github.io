@@ -730,6 +730,12 @@ description: "The IceCore Dynasty league structure, franchise model, four divisi
           Compete your way. IceCore Dynasty is completely free to join.
         </p>
 
+         <p>
+          Please note: IceCore has a limited number of permanent franchises. 
+          If all franchises are filled, additional qualified applicants may be 
+          placed on the Reserved List and contacted if a franchise becomes available.
+        </p>
+
       </div>
 
 
