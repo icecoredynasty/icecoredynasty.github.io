@@ -12,7 +12,7 @@ nickname: Prospectors
 
 conference: West
 league: 1
-status: reserved
+status: available
 founded: 2026
 
 logo: /assets/images/teams/anchorage-prospectors.png
