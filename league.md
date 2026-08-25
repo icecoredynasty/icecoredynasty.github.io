@@ -712,29 +712,35 @@ description: "The IceCore Dynasty league structure, franchise model, four divisi
 
       <div class="league-join__copy">
 
-        <h3>We're looking for GMs who stay.</h3>
+<h3>We're looking for GMs who stay.</h3>
 
-        <p>
-          You don't need years of dynasty experience or an encyclopedic
-          knowledge of every NHL prospect.
-        </p>
+<p>
+  IceCore is an <strong>advanced fantasy hockey league</strong> built for active
+  GMs who enjoy hockey, long-term roster building and decisions that matter
+  beyond a single season.
+</p>
 
-        <p>
-          We're looking for active, reliable General Managers who enjoy
-          hockey, long-term roster building and making decisions that matter
-          beyond a single season.
-        </p>
+<p>
+  A minimum of <strong>one completed Yahoo Fantasy Hockey season</strong> is
+  required for an IceCore franchise.
+</p>
 
-        <p>
-          Learn the format. Build your franchise. Meet the deadlines.
-          Compete your way. IceCore Dynasty is completely free to join.
-        </p>
+<p>
+  New to Yahoo? You may be considered for the <strong>IceCore Training League</strong> —
+  learn the platform, experience the format and earn your way into a future
+  IceCore franchise.
+</p>
 
-         <p>
-          Please note: IceCore has a limited number of permanent franchises. 
-          If all franchises are filled, additional qualified applicants may be 
-          placed on the Reserved List and contacted if a franchise becomes available.
-        </p>
+<p>
+  Learn the format. Build your franchise. Meet the deadlines.
+  Compete your way.
+</p>
+
+<p>
+  Please note: IceCore has a limited number of permanent franchises.
+  If all franchises are filled, additional qualified applicants may be
+  placed on the <strong>Reserved List</strong> and contacted when a franchise becomes available.
+</p>
 
       </div>
 
