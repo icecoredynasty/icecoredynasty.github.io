@@ -11,7 +11,7 @@ nickname: Riffs
 
 conference: East
 league: 1
-status: reserved
+status: available
 founded: 2026
 
 logo: /assets/images/teams/memphis-riffs.png
