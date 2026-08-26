@@ -1373,49 +1373,39 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
   <div class="ic-rule__body">
 
-    <h3>GM Experience &amp; Training League</h3>
+    <h3>GM Experience &amp; Development League</h3>
 
     <p>
-      IceCore is an advanced fantasy hockey league built around long-term
-      franchise management, salary-cap strategy, keeper decisions, prospects,
-      waivers and Yahoo Fantasy. A minimum of <strong>one completed season of
-      Yahoo Fantasy Hockey</strong> is required for consideration for a
-      permanent IceCore franchise.
+      IceCore is an <strong>advanced fantasy hockey league</strong> built around
+      long-term franchise management, salary-cap strategy, keeper decisions,
+      prospects, waivers and Yahoo Fantasy. It is not intended to be a first
+      experience with fantasy sports, so applicants' previous fantasy
+      experience is reviewed as part of the selection process.
     </p>
 
     <p>
-      Experience on other fantasy hockey platforms is taken into account and
-      may strengthen an application, but it does not replace the Yahoo
-      experience requirement. The purpose of the requirement is not to measure
-      a manager's knowledge of hockey, but to ensure that every GM has at least
-      a basic understanding of the Yahoo platform and the specific mechanics
-      they will encounter in IceCore.
+      <strong>Yahoo Fantasy experience is preferred</strong>, as familiarity
+      with the platform and its mechanics is particularly valuable in IceCore.
+      Relevant experience from other fantasy hockey platforms, or from other
+      fantasy sports involving similar formats and systems, is also taken into
+      account when assessing an applicant's overall experience and readiness.
     </p>
 
     <p>
-      Applicants who have not yet completed a Yahoo Fantasy Hockey season may
-      be considered for the <strong>IceCore Training League</strong>. The
-      Training League provides a full season to learn the platform, experience
-      the IceCore format and develop practical experience with drafts, waivers,
-      FAAB, roster management and other league systems before taking control of
-      a permanent franchise.
+      The <strong>IceCore Development League</strong> is intended primarily for
+      fantasy newcomers who need time to learn the platform and the practical
+      aspects of the IceCore format, including drafts, waivers, FAAB, roster
+      management and salary systems. It will be opened when there is sufficient
+      interest to form a meaningful group.
     </p>
 
     <p>
-      Training League participation also provides an opportunity to demonstrate
-      activity, reliability, strategic thinking, understanding of the format
-      and commitment to the IceCore community. Strong-performing and engaged
-      managers may receive priority consideration for future IceCore franchise
-      opportunities or a new league created following the completion of the
-      current season.
-    </p>
-
-    <p>
-      The Commissioner may also place an applicant in the Training League or
-      Reserved List where additional time is considered appropriate to assess
-      activity, reliability, understanding of the league framework or overall
-      fit with the IceCore community. Such placement is not a penalty and does
-      not necessarily reflect a manager's fantasy hockey ability.
+      Development League participation provides an opportunity to demonstrate
+      activity, reliability and strategic thinking, with strong and engaged
+      managers having a path toward future IceCore franchise opportunities.
+      The Commissioner may also use the Development League or Reserved List to
+      assess an applicant's activity, reliability or overall fit with the
+      IceCore community before offering a permanent franchise.
     </p>
 
   </div>
