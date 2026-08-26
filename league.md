@@ -726,7 +726,7 @@ description: "The IceCore Dynasty league structure, franchise model, four divisi
 </p>
 
 <p>
-  New to Yahoo? You may be considered for the <strong>IceCore Training League</strong> —
+  New to Yahoo? You may be considered for the <strong>IceCore Development</strong> League —
   learn the platform, experience the format and earn your way into a future
   IceCore franchise.
 </p>
