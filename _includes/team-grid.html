@@ -2,143 +2,71 @@
 {% assign league_1_active = league_1_all | where: "status", "active" | sort: "title" %}
 {% assign league_1_divisions = league_1_all | map: "division" | compact | uniq | sort_natural %}
 
-{% assign reserved_teams = site.teams | where: "status", "reserved" | sort: "title" %}
+{% assign league_2_all = site.teams | where: "league", 2 %}
+{% assign league_2_active = league_2_all | where: "status", "active" | sort: "title" %}
+{% assign league_2_divisions = league_2_all | map: "division" | compact | uniq | sort_natural %}
+
 {% assign available_teams = site.teams | where: "status", "available" | sort: "title" %}
+{% assign reserved_teams = site.teams | where: "status", "reserved" | sort: "title" %}
 
+{% for league_number in (1..2) %}
+  {% if league_number == 1 %}
+    {% assign league_active = league_1_active %}
+    {% assign league_divisions = league_1_divisions %}
+  {% else %}
+    {% assign league_active = league_2_active %}
+    {% assign league_divisions = league_2_divisions %}
+  {% endif %}
 
-{% if league_1_active.size > 0 %}
-
-  {% for division in league_1_divisions %}
-
-    {% if division != "" %}
-      {% assign division_teams = league_1_active | where: "division", division | sort: "title" %}
-
-      {% if division_teams.size > 0 %}
-
+  {% if league_active.size > 0 %}
+    {% for division in league_divisions %}
+      {% if division != "" %}
+        {% assign division_teams = league_active | where: "division", division | sort: "title" %}
+        {% if division_teams.size > 0 %}
 <section class="teams-group">
-
   <div class="teams-group__heading">
-    <span>LEAGUE 1 · {{ division | upcase }} DIVISION</span>
+    <span>LEAGUE {{ league_number }} · {{ division | upcase }} DIVISION</span>
     <div class="teams-section-line"></div>
   </div>
-
   <div class="team-grid">
-
     {% for team in division_teams %}
-
-      <a
-        href="{{ team.url | relative_url }}"
-        class="team-card"
-        data-league="{{ team.league }}"
-        data-division="{{ team.division | downcase | escape }}"
-        data-status="{{ team.status }}">
-
-        <div class="team-card__logo">
-          <img
-            src="{{ team.logo | relative_url }}"
-            alt="{{ team.title }}"
-            loading="lazy">
-        </div>
-
-        <div class="team-card__name">
-          {{ team.title }}
-        </div>
-
+      <a href="{{ team.url | relative_url }}" class="team-card" data-league="{{ team.league }}" data-division="{{ team.division | downcase | escape }}" data-status="{{ team.status }}">
+        <div class="team-card__logo"><img src="{{ team.logo | relative_url }}" alt="{{ team.title }}" loading="lazy"></div>
+        <div class="team-card__name">{{ team.title }}</div>
       </a>
-
     {% endfor %}
-
   </div>
-
 </section>
-
+        {% endif %}
       {% endif %}
-    {% endif %}
-
-  {% endfor %}
-
-{% endif %}
-
-
-{% if reserved_teams.size > 0 %}
-
-<section class="teams-group">
-
-  <div class="teams-group__heading">
-    <span>RESERVED FRANCHISES</span>
-    <div class="teams-section-line"></div>
-  </div>
-
-  <div class="team-grid">
-
-    {% for team in reserved_teams %}
-
-      <a
-        href="{{ team.url | relative_url }}"
-        class="team-card"
-        data-league="{{ team.league }}"
-        data-division="{{ team.division | downcase | escape }}"
-        data-status="{{ team.status }}">
-
-        <div class="team-card__logo">
-          <img
-            src="{{ team.logo | relative_url }}"
-            alt="{{ team.title }}"
-            loading="lazy">
-        </div>
-
-        <div class="team-card__name">
-          {{ team.title }}
-        </div>
-
-      </a>
-
     {% endfor %}
-
-  </div>
-
-</section>
-
-{% endif %}
-
+  {% endif %}
+{% endfor %}
 
 {% if available_teams.size > 0 %}
-
 <section class="teams-group">
-
-  <div class="teams-group__heading">
-    <span>AVAILABLE FRANCHISES</span>
-    <div class="teams-section-line"></div>
-  </div>
-
+  <div class="teams-group__heading"><span>AVAILABLE FRANCHISES</span><div class="teams-section-line"></div></div>
   <div class="team-grid">
-
     {% for team in available_teams %}
-
-      <a
-        href="{{ team.url | relative_url }}"
-        class="team-card"
-        data-league="{{ team.league }}"
-        data-division="{{ team.division | downcase | escape }}"
-        data-status="{{ team.status }}">
-
-        <div class="team-card__logo">
-          <img
-            src="{{ team.logo | relative_url }}"
-            alt="{{ team.title }}"
-            loading="lazy">
-        </div>
-
-        <div class="team-card__name">
-          {{ team.title }}
-        </div>
-
+      <a href="{{ team.url | relative_url }}" class="team-card" data-league="{{ team.league }}" data-division="{{ team.division | downcase | escape }}" data-status="{{ team.status }}">
+        <div class="team-card__logo"><img src="{{ team.logo | relative_url }}" alt="{{ team.title }}" loading="lazy"></div>
+        <div class="team-card__name">{{ team.title }}</div>
       </a>
-
     {% endfor %}
-
   </div>
-
 </section>
+{% endif %}
 
+{% if reserved_teams.size > 0 %}
+<section class="teams-group">
+  <div class="teams-group__heading"><span>RESERVED FRANCHISES</span><div class="teams-section-line"></div></div>
+  <div class="team-grid">
+    {% for team in reserved_teams %}
+      <a href="{{ team.url | relative_url }}" class="team-card" data-league="{{ team.league }}" data-division="{{ team.division | downcase | escape }}" data-status="{{ team.status }}">
+        <div class="team-card__logo"><img src="{{ team.logo | relative_url }}" alt="{{ team.title }}" loading="lazy"></div>
+        <div class="team-card__name">{{ team.title }}</div>
+      </a>
+    {% endfor %}
+  </div>
+</section>
 {% endif %}
