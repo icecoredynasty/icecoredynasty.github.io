@@ -721,13 +721,14 @@ description: "The IceCore Dynasty league structure, franchise model, four divisi
 </p>
 
 <p>
-  A minimum of <strong>one completed Yahoo Fantasy Hockey season</strong> is
-  required for an IceCore franchise.
+  Applicants should have previous experience with <strong>Yahoo Fantasy Hockey
+  leagues</strong> and describe their fantasy experience in their application.
 </p>
 
 <p>
-  New to Yahoo? You may be considered for the <strong>IceCore Development</strong> League —
-  learn the platform, experience the format and earn your way into a future
+  New to fantasy hockey or still learning the basics? The
+  <strong>IceCore Development</strong> League is designed for beginners who want
+  to learn the platform, experience the format and earn their way into a future
   IceCore franchise.
 </p>
 
