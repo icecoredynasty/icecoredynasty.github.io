@@ -11,7 +11,7 @@ nickname: Taínos
 
 conference: East
 league: 1
-status: available
+status: reserved
 founded: 2026
 
 logo: /assets/images/teams/san-juan-tainos.png
