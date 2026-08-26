@@ -50,7 +50,7 @@ layout: default
   {% assign current_season_data = nil %}
 
   {% for gm in all_gms %}
-    {% if gm.status == "active" and gm.current_team == page.team_id %}
+    {% if gm.current_team == page.team_id and gm.status != "inactive" %}
       {% assign current_gm = gm %}
       {% break %}
     {% endif %}
@@ -65,7 +65,7 @@ layout: default
     {% endfor %}
   {% endif %}
 
-  {% assign gm_stars = 2 %}
+  {% assign gm_stars = 3 %}
 
   {% if current_season_data %}
     {% if current_season_data.draft %}
@@ -127,11 +127,13 @@ layout: default
 
     <div class="team-meta__item">
       <span>Status</span>
-      {% if current_gm %}
-        <strong>Active</strong>
-      {% else %}
-        <strong>Available</strong>
-      {% endif %}
+      {% case page.status %}
+        {% when "active" %}<strong>Active</strong>
+        {% when "reserved" %}<strong>Reserved</strong>
+        {% when "available" %}<strong>Available</strong>
+        {% else %}
+          {% if current_gm %}<strong>Active</strong>{% else %}<strong>Available</strong>{% endif %}
+      {% endcase %}
     </div>
 
     <div class="team-meta__item">
