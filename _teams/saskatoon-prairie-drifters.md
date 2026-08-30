@@ -11,7 +11,7 @@ nickname: Prairie Drifters
 
 conference: West
 league: 1
-status: reserved
+status: available
 founded: 2026
 
 logo: /assets/images/teams/saskatoon-prairie-drifters.png
