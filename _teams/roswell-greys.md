@@ -22,7 +22,6 @@ secondary: "#151A19"
 motto: "Believe what you will."
 founded_on: "Born beneath the desert skies of a city where mystery became part of the identity."
 
-gm: "Available"
 arena: "Area 47 Arena"
 
 salary_cap: 500
