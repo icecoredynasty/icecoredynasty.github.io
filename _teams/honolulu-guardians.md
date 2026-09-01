@@ -9,9 +9,9 @@ state: Hawaii
 country: USA
 nickname: Guardians
 
-conference: West
+division: West
 league: 1
-status: reserved
+status: active
 founded: 2026
 
 logo: /assets/images/teams/honolulu-guardians.png
