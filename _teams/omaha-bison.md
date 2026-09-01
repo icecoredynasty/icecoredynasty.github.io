@@ -22,7 +22,6 @@ secondary: "#D2B26C"
 motto: "Stand your ground."
 founded_on: "Built on the Great Plains, where strength comes from endurance and holding your ground."
 
-gm: "Available"
 arena: "Prairie Center"
 
 salary_cap: 500
