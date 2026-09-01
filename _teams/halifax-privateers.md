@@ -9,9 +9,9 @@ state: Nova Scotia
 country: Canada
 nickname: Privateers
 
-conference: East
+division: East
 league: 1
-status: reserved
+status: active
 founded: 2026
 
 logo: /assets/images/teams/halifax-privateers.png
