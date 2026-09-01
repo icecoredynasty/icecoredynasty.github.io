@@ -9,9 +9,9 @@ state: Connecticut
 country: USA
 nickname: Arsenal
 
-conference: East
+division: East
 league: 1
-status: reserved
+status: active
 founded: 2026
 
 logo: /assets/images/teams/hartford-arsenal.png
