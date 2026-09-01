@@ -1,6 +1,6 @@
 ---
 title: "Why Salaries Grow"
-date: 2026-07-28
+date: 2026-09-01
 categories:
   - strategy
 tags:
@@ -8,14 +8,14 @@ tags:
   - Keepers
   - Contracts
   - Strategy
-season: "2026-27"
+season: "2027-28"
 
 featured: false
 featured_guide: false
 highlight: false
 
 image: /assets/images/journal/why-salaries-grow.jpg
-excerpt: "Finding value should be rewarded. Keeping it should eventually cost you."
+excerpt: "Finding value should be rewarded. Keeping it should eventually cost you — but the increase depends on performance and salary."
 ---
 
 <p>
@@ -54,33 +54,36 @@ one of three paths.
 <div class="ic-article-stat-grid">
 
   <div class="ic-article-stat">
-    <strong>+5</strong>
-    <span>Outside Top 100 skaters / Top 10 goaltenders</span>
+    <strong>+4</strong>
+    <span>Outside Top 150 skaters / Top 15 goaltenders</span>
   </div>
 
   <div class="ic-article-stat">
-    <strong>+10</strong>
-    <span>Top 100 skaters / Top 10 goaltenders</span>
+    <strong>+8</strong>
+    <span>Top 150 skaters / Top 15 goaltenders · Salary ≤ 30</span>
   </div>
 
   <div class="ic-article-stat">
-    <strong>+15</strong>
-    <span>Top 100 skaters / Top 10 goaltenders · Salary ≤ 20</span>
+    <strong>+12</strong>
+    <span>Top 30 skaters / Top 3 goaltenders · Salary ≤ 60</span>
   </div>
 
 </div>
 
 <p>
-Most players simply grow by 5 Coins.
+The base increase is 4 Coins.
 </p>
 
 <p>
-A Top 100 skater or Top 10 goaltender grows by 10.
+A Top 150 skater or Top 15 goaltender with a salary of 30 Coins or less grows by 8.
 </p>
 
 <p>
-And when a qualifying Top 100 skater or Top 10 goaltender is still carrying a salary of 20 Coins or less,
-the increase becomes 15.
+A Top 30 skater or Top 3 goaltender with a salary of 60 Coins or less grows by 12.
+</p>
+
+<p>
+The highest applicable tier is used. A player receives only one increase per offseason.
 </p>
 
 <p>
@@ -94,21 +97,21 @@ Everything else is just the story of how a player got there.
 <h2>The Normal Keeper</h2>
 
 <p>
-Start with a useful established player carrying a 35-Coin salary.
+Start with a useful established player carrying a 34-Coin salary.
 </p>
 
 <p>
-He remains productive, but finishes outside the Top 100.
+He remains productive, but finishes outside the Top 150.
 </p>
 
 <div class="ic-article-flow">
   <span>35</span>
   <span>→</span>
-  <span>40</span>
+  <span>39</span>
   <span>→</span>
-  <span>45</span>
+  <span>43</span>
   <span>→</span>
-  <span>50</span>
+  <span>47</span>
 </div>
 
 <p>
@@ -116,7 +119,7 @@ Nothing dramatic happens.
 </p>
 
 <p>
-Every offseason the General Manager pays another 5 Coins to keep him.
+Every offseason the General Manager pays another 4 Coins to keep him.
 </p>
 
 <p>
@@ -150,13 +153,13 @@ Now imagine a player already carrying a salary of just 1 Coin.
 </p>
 
 <p>
-Then he breaks out and finishes inside the Top 100 skaters or Top 10 goaltenders.
+Then he breaks out and finishes inside the Top 150 skaters or Top 15 goaltenders.
 </p>
 
 <div class="ic-article-flow">
   <span>1</span>
   <span>→</span>
-  <strong>16</strong>
+  <strong>13</strong>
 </div>
 
 <p>
@@ -164,7 +167,7 @@ The General Manager still has an extraordinary contract.
 </p>
 
 <p>
-The breakout was discovered early, and IceCore rewards that.
+The breakout was discovered early, and IceCore rewards that with the highest applicable tier.
 </p>
 
 <p>
@@ -172,14 +175,14 @@ But suppose the player does it again.
 </p>
 
 <div class="ic-article-flow">
-  <span>16</span>
+  <span>13</span>
   <span>→</span>
-  <strong>31</strong>
+  <strong>25</strong>
 </div>
 
 <p>
-His previous salary was still 20 Coins or less, so another qualifying Top 100 skater / Top 10 goaltender season
-produces another 15-Coin increase.
+His previous salary was still 30 Coins or less, so another qualifying Top 150 skater / Top 10 goaltender season
+produces another 12-Coin increase.
 </p>
 
 <p>
@@ -187,13 +190,13 @@ Now the salary is above the low-cost threshold.
 </p>
 
 <p>
-If he remains in the Top 100 skaters / Top 10 goaltenders group again:
+If he remains in the Top 30 skaters / Top 3 goaltenders group again:
 </p>
 
 <div class="ic-article-flow">
-  <span>31</span>
+  <span>25</span>
   <span>→</span>
-  <strong>41</strong>
+  <strong>37</strong>
 </div>
 
 <p>
@@ -216,32 +219,32 @@ can be acquired from waivers at 0 Coins.
 </p>
 
 <p>
-If he remains outside the Top 100 and you protect him:
+If he remains outside the Top 150 and you protect him:
 </p>
 
 <div class="ic-article-flow">
   <span>0</span>
   <span>→</span>
-  <strong>5</strong>
+  <strong>4</strong>
 </div>
 
 <p>
-If that waiver discovery explodes into a qualifying Top 100 skater / Top 10 goaltender season:
+If that waiver discovery explodes into a qualifying Top 150 skater / Top 10 goaltender season:
 </p>
 
 <div class="ic-article-flow">
   <span>0</span>
   <span>→</span>
-  <strong>15</strong>
+  <strong>8</strong>
 </div>
 
 <p>
-There is no 0 → 10 path.
+There is no 0 → 4 path for a qualifying Top 150 player.
 </p>
 
 <p>
 A 0-Coin player is automatically inside the low-salary tier, so a
-Top 100 finish triggers the 15-Coin increase.
+Top 150 finish triggers the 12-Coin increase.
 </p>
 
 <p>
@@ -293,17 +296,17 @@ If the new General Manager protects him after an ordinary season:
 <div class="ic-article-flow">
   <span>10</span>
   <span>→</span>
-  <strong>15</strong>
+  <strong>14</strong>
 </div>
 
 <p>
-If he finishes inside the Top 100 skaters or Top 10 goaltenders:
+If he finishes inside the Top 150 skaters or Top 15 goaltenders:
 </p>
 
 <div class="ic-article-flow">
   <span>10</span>
   <span>→</span>
-  <strong>25</strong>
+  <strong>18</strong>
 </div>
 
 <p>
@@ -321,18 +324,18 @@ Salary growth is not only about cheap players.
 </p>
 
 <p>
-Imagine an established superstar already carrying a 95-Coin salary
-and continuing to finish inside the Top 100 skaters or Top 10 goaltenders.
+Imagine an established superstar already carrying a 94-Coin salary
+and continuing to finish inside the Top 150 skaters or Top 15 goaltenders.
 </p>
 
 <div class="ic-article-flow">
   <span>95</span>
   <span>→</span>
-  <span>105</span>
+  <span>103</span>
   <span>→</span>
-  <span>115</span>
+  <span>111</span>
   <span>→</span>
-  <strong>125</strong>
+  <strong>119</strong>
 </div>
 
 <p>
@@ -388,14 +391,14 @@ future offseason, normal salary escalation begins.
 </p>
 
 <p>
-Imagine that rookie becomes a Top 100 player before his next regular
+Imagine that rookie becomes a Top 150 player before his next regular
 keeper decision.
 </p>
 
 <div class="ic-article-flow">
   <span>1</span>
   <span>→</span>
-  <strong>16</strong>
+  <strong>13</strong>
 </div>
 
 <p>
@@ -423,20 +426,21 @@ at:
 
 <p>
 And if he remains eligible for the development system and is protected
-from the NA farm again the following offseason, he can remain:
+from the NA farm again the following offseason, his salary increases by
+1 Coin per offseason:
 </p>
 
 <div class="ic-article-flow">
   <span>1</span>
   <span>→</span>
-  <strong>1</strong>
+  <strong>2</strong>
   <span>→</span>
-  <strong>1</strong>
+  <strong>3</strong>
 </div>
 
 <p>
-IceCore does not charge a franchise more simply for being patient with
-a prospect who is still developing on the farm.
+The development system still rewards scouting and patience, but a long-term
+farm keeper is not permanently frozen at 1 Coin.
 </p>
 
 <p>
@@ -527,7 +531,7 @@ Sometimes the answer will be obvious.
 </p>
 
 <p>
-Sometimes a 5-Coin increase will be enough to change it.
+Sometimes a 4-Coin increase will be enough to change it.
 </p>
 
 <p>
