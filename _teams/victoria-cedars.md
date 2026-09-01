@@ -9,9 +9,9 @@ state: British Columbia
 country: Canada
 nickname: Cedars
 
-conference: West
+division: West
 league: 1
-status: reserved
+status: active
 founded: 2026
 
 logo: /assets/images/teams/victoria-cedars.png
@@ -22,7 +22,6 @@ secondary: "#B69B6A"
 motto: "Rooted through every season."
 founded_on: "Born on Vancouver Island, where the Pacific coast and ancient forests define the landscape."
 
-gm: "Available"
 arena: "Pacific Grove Arena"
 
 salary_cap: 500
