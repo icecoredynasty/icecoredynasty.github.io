@@ -87,6 +87,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
         <p>
           Every franchise operates under a 500-coin Salary Cap.
           Keeper salaries reduce the budget available in the live draft.
+          New keepers enter at 1 coin and then escalate each offseason.
         </p>
       </article>
 
@@ -112,8 +113,8 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
         <span>06</span>
         <h3>One Rookie</h3>
         <p>
-          Beginning with the second IceCore season, every franchise receives one Entry Draft selection from the first round of the relevant real-world NHL Entry Draft.
-          Reverse standings. No lottery. No pick trading.
+          Beginning with the second season, every franchise receives one first-round rookie pick.
+          The first four picks go to the division last-place teams by mini-table; the remaining positions follow reverse regular-season standings.
         </p>
       </article>
 
@@ -157,16 +158,8 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
   <h3>Salary Escalation</h3>
 
     <p>
-      For salary-escalation purposes, the Top 100 skaters and Top 10 goaltenders
-      are determined after the regular season from the final Yahoo Fantasy point
-      totals for the completed season. IceCore does not maintain a fixed player
-      list in these rules; the applicable rankings are recalculated from the
-      official season results.
+      Regular keeper salaries increase each offseason according to performance and salary thresholds.
     </p>
-  <p>
-    Regular keeper salaries increase each offseason,
-    making long-term value and contract decisions matter.
-  </p>
 </article>
 <article class="ic-quick-card">
   <span>12</span>
@@ -485,8 +478,8 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </p>
 
     <p>
-      Development Keepers enter the new roster at
-      <strong>1 coin</strong>.
+      Development Keepers enter the new roster at <strong>1 coin</strong>.
+      If kept again, their salary increases by <strong>+1 coin per offseason</strong>.
     </p>
 
     <p>
@@ -536,8 +529,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </p>
 
     <p>
-      Draft order is determined by reverse final standings. There is no lottery,
-      and Entry Draft selections cannot be traded. The Commissioner conducts
+      The first four picks go to the four division last-place franchises, ordered by their mini-table of head-to-head games; ties go to the worse regular-season finish. The remaining positions follow reverse regular-season standings. Entry Draft selections cannot be traded. The Commissioner conducts
       the Entry Draft manually.
     </p>
 
@@ -669,28 +661,39 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     <div class="ic-salary-grid">
 
       <div>
-        <span>Outside Top 100 Skaters / Top 10 Goaltenders</span>
-        <strong>+5</strong>
+        <span>Outside Top 150 Skaters / Top 15 Goaltenders</span>
+        <strong>+4</strong>
       </div>
 
       <div>
-        <span>Top 100 Skaters / Top 10 Goaltenders</span>
-        <strong>+10</strong>
+        <span>Top 150 Skaters / Top 15 Goaltenders · Salary ≤ 30</span>
+        <strong>+8</strong>
       </div>
 
       <div class="ic-salary-grid__hot">
-        <span>Top 100 Skaters / Top 10 Goaltenders · Salary ≤ 20</span>
-        <strong>+15</strong>
+        <span>Top 30 Skaters / Top 3 Goaltenders · Salary ≤ 60</span>
+        <strong>+12</strong>
       </div>
 
     </div>
 
     <p>
-      Every regular keeper receives a base increase of +5. A player finishing
-      in the <strong>Top 100 skaters</strong> receives +10, or +15 when his
-      previous salary is 20 coins or less. A player finishing in the
-      <strong>Top 10 goaltenders</strong> follows the same +10 / +15 structure.
-      Players outside those performance groups receive the base +5 increase.
+      Every regular keeper receives a base increase of <strong>+4</strong>.
+      A player finishing in the <strong>Top 150 skaters</strong> or
+      <strong>Top 15 goaltenders</strong> receives <strong>+8</strong> when his
+      previous salary is 30 coins or less. A player finishing in the
+      <strong>Top 30 skaters</strong> or <strong>Top 3 goaltenders</strong>
+      receives <strong>+12</strong> when his previous salary is 60 coins or less.
+      These thresholds are evaluated from the completed season's final Yahoo
+      Fantasy point totals.
+    </p>
+
+    <p>
+      The escalation is designed to make successful players become more expensive
+      faster, reflecting how rising value is rewarded in real hockey. At the same
+      time, the increases are deliberately moderate enough that a strong core can
+      be kept for several seasons rather than forcing a constant redraft simply
+      because a player performed well.
     </p>
 
     <div class="ic-example">
@@ -698,11 +701,11 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
       <span>EXAMPLE</span>
 
       <p>
-        A 1-coin breakout skater finishes inside the Top 100 skaters:
-        <strong>1 → 16</strong>.
-        If he remains Top 100 skaters the next season:
-        <strong>16 → 31</strong>.
-        Once his previous salary exceeds 20, continued qualifying performance produces a +10 increase.
+        A 1-coin breakout skater finishes inside the Top 30 skaters:
+        <strong>1 → 13</strong>.
+        If he remains Top 30 skaters while his previous salary is 13:
+        <strong>13 → 25</strong>.
+        Once his previous salary exceeds 60, the same player receives the base +4 increase.
       </p>
 
     </div>
@@ -723,21 +726,15 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     <h3>Free Agents, Waivers & Existing Salaries</h3>
 
     <p>
-      A player entering the IceCore player economy without an established
-      salary is acquired from free agency or waivers at
-      <strong>0 coins</strong>.
-    </p>
-
-    <p>
-      If that 0-coin player is protected for the following season,
-      normal escalation applies. Because a 0-coin salary is 20 coins or less,
-      a Top 100 skater or Top 10 goaltender receives the +15 qualifying increase;
-      otherwise the player receives +5.
+      A player without an established IceCore salary enters from free agency or
+      waivers at <strong>0 coins</strong>. If protected for the following season,
+      the normal <strong>+4 / +8 / +12</strong> escalation applies.
     </p>
 
     <div class="ic-rule-tags">
-      <span>Outside Top 100 Skaters / Top 10 Goaltenders → +5</span>
-      <span>Top 100 Skaters / Top 10 Goaltenders · Salary ≤ 20 → +15</span>
+      <span>Base → +4</span>
+      <span>Top 150 / Top 15 · Salary ≤ 30 → +8</span>
+      <span>Top 30 / Top 3 · Salary ≤ 60 → +12</span>
     </div>
 
     <p>
@@ -1126,6 +1123,14 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </p>
 
     <p>
+      If a player is deliberately dropped or a roster is otherwise manipulated
+      in a way that threatens league integrity, the Commissioner may
+      <strong>reverse the sabotage-driven player release</strong> where technically
+      possible, restore the affected roster state, or take another reasonable
+      corrective action.
+    </p>
+
+    <p>
       GMs are expected to keep league discussions focused on hockey and
       fantasy hockey. Personal attacks, harassment, discriminatory or
       inflammatory remarks, and prolonged political or other socially
@@ -1175,9 +1180,9 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     <div class="ic-rule-tags">
       <span>SOG · HIT · SV = 1</span>
       <span>BLK · PPP = 2</span>
+      <span>GA = −3</span>
       <span>SHP = 5</span>
       <span>W = 5</span>
-      <span>GA = −3</span>
       <span>G · A = 8</span>
       <span>SHO = 13</span>
     </div>
@@ -1241,6 +1246,13 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
       plus each of its four divisional opponents <strong>one additional time</strong>.
       Each division contains <strong>five franchises</strong>, so every divisional
       rival is faced twice during the regular season.
+    </p>
+
+    <p>
+      Each division contains five franchises. Divisional opponents are played
+      <strong>twice</strong>; the Commissioner determines division composition,
+      primarily with geography in mind. Division composition may change when the
+      league expands.
     </p>
 
     <p>
@@ -1338,6 +1350,53 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
   <div class="ic-rule__body">
 
+    <h3>Franchise Expansion &amp; Reset</h3>
+
+    <p>
+      If IceCore expands and a new franchise is introduced, the expansion process
+      is determined by the Commissioner according to the league's current structure
+      and competitive needs.
+    </p>
+
+    <p>
+      If an existing franchise is reset, the reset takes place during the
+      <strong>offseason</strong>. The franchise may protect
+      <strong>7 players plus 1 goaltender</strong> from its active roster or IR+,
+      together with its <strong>entire NA farm</strong>.
+    </p>
+
+    <p>
+      The protected players must be identified by the GM in the
+      <strong>keeper email</strong> sent to the Commissioner. Because a reset
+      reduces the protected core, the franchise may end up keeping
+      <strong>fewer than the normal minimum of 11 regular keepers</strong>.
+    </p>
+
+    <p>
+      The franchise's <strong>20th and final roster player is selected through
+      the IceCore Entry Draft</strong>. The remaining roster positions are then
+      filled through the applicable offseason process.
+    </p>
+
+    <p>
+      The protected group becomes the foundation of the reset franchise, while
+      the remaining players return to the player pool according to the applicable
+      offseason process.
+    </p>
+
+  </div>
+
+</article>
+
+
+<!-- 23 -->
+
+<article class="ic-rule">
+
+  <span class="ic-rule__number">23</span>
+
+  <div class="ic-rule__body">
+
     <h3>Rules Stability</h3>
 
     <p>
@@ -1365,11 +1424,11 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
 </article>
 
-<!-- 23 -->
+<!-- 24 -->
 
 <article class="ic-rule">
 
-  <span class="ic-rule__number">23</span>
+  <span class="ic-rule__number">24</span>
 
   <div class="ic-rule__body">
 
@@ -1504,6 +1563,14 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
 
 <article>
+  <h3>How is the Entry Draft order decided?</h3>
+  <p>
+    The first four picks go to the four divisional last-place franchises, ordered by their mini-table of head-to-head games; if tied, the worse regular-season finish gets the higher pick. The remaining positions follow reverse regular-season standings.
+  </p>
+</article>
+
+
+<article>
   <h3>How do the playoffs work?</h3>
   <p>
     Eight franchises qualify. Each division winner is guaranteed a playoff place,
@@ -1511,6 +1578,21 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     qualifiers are seeded by total points; division winners are not automatically
     given a higher seed. Seeds 1–8 play in the <strong>IceCore Cup Playoffs</strong>
     over three rounds, with no first-round byes.
+  </p>
+</article>
+
+
+
+
+
+<article>
+  <h3>How does salary escalation work?</h3>
+  <p>
+    Regular keepers increase by <strong>+4, +8 or +12</strong> depending on
+    performance and salary thresholds: base +4; Top 150 skaters / Top 15
+    goaltenders with salary ≤30 get +8; Top 30 skaters / Top 3 goaltenders
+    with salary ≤60 get +12. Development Keepers start at 1 coin and increase
+    by +1 per offseason if kept again.
   </p>
 </article>
 
@@ -1540,6 +1622,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
   <p>
     IceCore Dynasty is an independent fantasy hockey league whose
     league competition is administered using Yahoo Fantasy Sports.
+    Yahoo also determines platform-controlled timing and availability.
   </p>
 </article>
 
@@ -1549,6 +1632,70 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
   <!-- =====================================================
        CLOSING
        ===================================================== -->
+
+
+  <!-- =====================================================
+       SEASON CALENDAR
+       ===================================================== -->
+
+  <section class="ic-rules-section">
+
+    <header class="ic-section-heading">
+
+      <span class="ic-eyebrow">SEASON CALENDAR</span>
+
+      <h2>Key dates.</h2>
+
+      <p>
+        IceCore deadlines are expressed in <strong>IceCore time</strong>.
+        Yahoo remains authoritative for platform-controlled dates and settings.
+      </p>
+
+    </header>
+
+    <div class="ic-faq">
+
+      <article>
+        <h3>01 · Draft</h3>
+        <p>
+          The annual IceCore Salary Cap Draft is held on the
+          <strong>Sunday before NHL Opening Night</strong>, in IceCore time,
+          and must take place at least <strong>5 days before Opening Night</strong>.
+          If Opening Night falls on Tuesday, the preceding Sunday is
+          <strong>9 days before Opening Night</strong>.
+        </p>
+      </article>
+
+      <article>
+        <h3>02 · Keeper &amp; Rookie List Deadline</h3>
+        <p>
+          Keeper selections and rookie priority lists are due by the
+          <strong>4th Sunday after the final regular-season game</strong>,
+          in IceCore time. They must be submitted by private Yahoo chat
+          directly to the Commissioner.
+        </p>
+      </article>
+
+      <article>
+        <h3>03 · Waiver Timing</h3>
+        <p>
+          IceCore uses a <strong>1-day waiver period</strong>, subject to
+          Yahoo's continuous waiver processing and platform rules.
+        </p>
+      </article>
+
+      <article>
+        <h3>04 · Trade Review</h3>
+        <p>
+          Trades reviewed by the Commissioner have a
+          <strong>1-day review/protest period</strong>, subject to Yahoo's
+          platform processing.
+        </p>
+      </article>
+
+    </div>
+
+  </section>
 
   <section class="ic-rules-closing">
 
