@@ -22,7 +22,6 @@ secondary: "#C79B52"
 motto: "Fortune favors the fearless."
 founded_on: "Born in a Caribbean harbor shaped by trade, ships and centuries of stories carried across the sea."
 
-gm: "Available"
 arena: "Havensight Arena"
 
 salary_cap: 500
