@@ -22,7 +22,6 @@ secondary: "#C5A35B"
 motto: "Where every heartbeat has a rhythm."
 founded_on: "Born in a city where music, culture and celebration are woven into everyday life."
 
-gm: "Available"
 arena: "Crescent Hall"
 
 salary_cap: 500
