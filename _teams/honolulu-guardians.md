@@ -22,7 +22,6 @@ secondary: "#D8B866"
 motto: "Paradise is worth defending."
 founded_on: "Born in the Pacific, where island identity, ocean and community are inseparable."
 
-gm: "Available"
 arena: "Pacific Crown Arena"
 
 salary_cap: 500
