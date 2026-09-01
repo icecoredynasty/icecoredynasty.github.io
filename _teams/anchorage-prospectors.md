@@ -11,7 +11,7 @@ country: USA
 nickname: Prospectors
 
 division: 
-league: 1
+league: 
 status: available
 founded: 2026
 
