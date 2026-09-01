@@ -9,8 +9,8 @@ state: Nevada
 country: USA
 nickname: Wildcards
 
-conference: West
-league: 1
+division: 
+league: 
 status: available
 founded: 2026
 
