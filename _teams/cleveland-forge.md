@@ -9,9 +9,9 @@ state: Ohio
 country: USA
 nickname: Forge
 
-conference: East
+division: East
 league: 1
-status: reserved
+status: active
 founded: 2026
 
 logo: /assets/images/teams/cleveland-forge.png
