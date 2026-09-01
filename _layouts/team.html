@@ -50,7 +50,7 @@ layout: default
   {% assign current_season_data = nil %}
 
   {% for gm in all_gms %}
-    {% if gm.current_team == page.team_id and gm.status != "inactive" %}
+    {% if gm.current_team == page.slug and gm.status != "inactive" %}
       {% assign current_gm = gm %}
       {% break %}
     {% endif %}
@@ -58,7 +58,7 @@ layout: default
 
   {% if current_gm %}
     {% for season in current_gm.seasons %}
-      {% if season.year == current_season and season.team == page.team_id %}
+      {% if season.year == current_season and season.team == page.slug %}
         {% assign current_season_data = season %}
         {% break %}
       {% endif %}
@@ -279,7 +279,7 @@ layout: default
 
         {% for gm in all_gms %}
           {% for season in gm.seasons reversed %}
-            {% if season.team == page.team_id %}
+            {% if season.team == page.slug %}
               {% assign has_history = true %}
 
               <div class="franchise-history__row">
