@@ -22,7 +22,6 @@ secondary: "#D2A24C"
 motto: "Built to hold."
 founded_on: "Founded in the heart of Pennsylvania — the Keystone State."
 
-gm: "Available"
 arena: "Keystone Center"
 
 salary_cap: 500
