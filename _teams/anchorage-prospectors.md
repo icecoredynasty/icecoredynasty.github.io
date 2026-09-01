@@ -10,7 +10,7 @@ state: Alaska
 country: USA
 nickname: Prospectors
 
-conference: West
+division: 
 league: 1
 status: available
 founded: 2026
