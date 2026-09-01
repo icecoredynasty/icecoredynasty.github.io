@@ -661,7 +661,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     <div class="ic-salary-grid">
 
       <div>
-        <span>Outside Top 150 Skaters / Top 15 Goaltenders</span>
+        <span>Regular keeper increase</span>
         <strong>+4</strong>
       </div>
 
@@ -703,7 +703,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
       <p>
         A 1-coin breakout skater finishes inside the Top 30 skaters:
         <strong>1 → 13</strong>.
-        If he remains Top 30 skaters while his previous salary is 13:
+        If he remains Top 30 skaters (by fan points) while his previous salary is 13:
         <strong>13 → 25</strong>.
         Once his previous salary exceeds 60, the same player receives the base +4 increase.
       </p>
