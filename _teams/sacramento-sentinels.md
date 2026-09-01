@@ -22,7 +22,6 @@ secondary: "#C7A45D"
 motto: "Always watching."
 founded_on: "Established in California's capital, where vigilance and responsibility come with the territory."
 
-gm: "Available"
 arena: "Capitol Arena"
 
 salary_cap: 500
