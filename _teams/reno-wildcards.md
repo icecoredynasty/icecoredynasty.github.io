@@ -22,7 +22,6 @@ secondary: "#B9BDC1"
 motto: "Never play the hand they expect."
 founded_on: "Born in the Biggest Little City, where risk and reinvention have always been part of the game."
 
-gm: "Available"
 arena: "High Desert Arena"
 
 salary_cap: 500
