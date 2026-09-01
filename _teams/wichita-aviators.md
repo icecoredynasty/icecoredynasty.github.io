@@ -9,8 +9,8 @@ state: Kansas
 country: USA
 nickname: Aviators
 
-conference: West
-league: 1
+division: 
+league: 
 status: available
 founded: 2026
 
@@ -22,7 +22,6 @@ secondary: "#BFC4C6"
 motto: "Built to rise."
 founded_on: "Founded in the Air Capital of the World, where generations of aircraft have taken shape before taking flight."
 
-gm: "Available"
 arena: "Air Capital Arena"
 
 salary_cap: 500
