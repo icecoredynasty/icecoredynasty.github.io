@@ -22,7 +22,6 @@ secondary: "#D6B36A"
 motto: "The river always moves forward."
 founded_on: "Born on the banks of the Ohio, where the river helped build a city of movement, trade and industry."
 
-gm: "Available"
 arena: "Riverfront Hall"
 
 salary_cap: 500
