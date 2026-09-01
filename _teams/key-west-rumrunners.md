@@ -9,9 +9,9 @@ state: Florida
 country: USA
 nickname: Rumrunners
 
-conference: East
+division: South
 league: 1
-status: reserved
+status: active
 founded: 2026
 
 logo: /assets/images/teams/key-west-rumrunners.png
