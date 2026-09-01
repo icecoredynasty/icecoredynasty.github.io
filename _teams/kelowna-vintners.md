@@ -22,7 +22,6 @@ secondary: "#C7A86B"
 motto: "Patience creates greatness."
 founded_on: "Rooted in the Okanagan Valley, where time, patience and careful cultivation turn potential into something exceptional."
 
-gm: "Available"
 arena: "Okanagan Cellars Arena"
 
 salary_cap: 500
