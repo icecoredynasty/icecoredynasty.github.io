@@ -9,9 +9,9 @@ state: Quebec
 country: Canada
 nickname: Citadels
 
-conference: East
+division: East
 league: 1
-status: reserved
+status: active
 founded: 2026
 
 logo: /assets/images/teams/quebec-city-citadels.png
