@@ -9,9 +9,9 @@ state: Saskatchewan
 country: Canada
 nickname: Prairie Drifters
 
-conference: West
+division: Central
 league: 1
-status: reserved
+status: active
 founded: 2026
 
 logo: /assets/images/teams/saskatoon-prairie-drifters.png
@@ -22,7 +22,6 @@ secondary: "#C8AF7A"
 motto: "Stand firm. Let the wind move around you."
 founded_on: "Founded on the endless prairie where resilience is shaped by the wind."
 
-gm: "Available"
 arena: "Prairie Horizon Centre"
 
 salary_cap: 500
