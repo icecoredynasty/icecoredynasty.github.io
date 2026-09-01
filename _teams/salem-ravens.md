@@ -9,9 +9,9 @@ state: Massachusetts
 country: USA
 nickname: Ravens
 
-conference: East
+division: West
 league: 1
-status: reserved
+status: active
 founded: 2026
 
 logo: /assets/images/teams/salem-ravens.png
@@ -22,7 +22,6 @@ secondary: "#8B789B"
 motto: "Wisdom flies in silence."
 founded_on: "Born in a New England city where history, folklore and mystery have never completely faded."
 
-gm: "Available"
 arena: "Essex Hall"
 
 salary_cap: 500
