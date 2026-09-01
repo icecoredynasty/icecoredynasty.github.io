@@ -22,7 +22,6 @@ secondary: "#E56A38"
 motto: "Always reaching farther."
 founded_on: "Created in Space City, where every signal carries the possibility of discovering what comes next."
 
-gm: "Available"
 arena: "Vector Center"
 
 salary_cap: 500
