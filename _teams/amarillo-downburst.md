@@ -4,8 +4,6 @@ title: Amarillo Downburst
 permalink: /teams/amarillo-downburst/
 slug: amarillo-downburst
 
-team_id: amarillo-downburst
-
 city: Amarillo
 state: Texas
 country: USA
