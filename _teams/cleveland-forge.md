@@ -22,7 +22,6 @@ secondary: "#25282A"
 motto: "Built in fire. Proven on ice."
 founded_on: "Forged in a city shaped by industry, hard work and the strength of the Great Lakes."
 
-gm: "Available"
 arena: "Foundry Center"
 
 salary_cap: 500
