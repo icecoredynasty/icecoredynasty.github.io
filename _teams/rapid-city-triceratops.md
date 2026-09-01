@@ -22,7 +22,6 @@ secondary: "#252525"
 motto: "Built to survive."
 founded_on: "Born beside the Black Hills in a region where ancient history still rises from the ground."
 
-gm: "Available"
 arena: "Black Hills Arena"
 
 salary_cap: 500
