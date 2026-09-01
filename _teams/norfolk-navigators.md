@@ -22,7 +22,6 @@ secondary: "#C5A45B"
 motto: "Always find the way home."
 founded_on: "Born in a city shaped by the sea, where knowing the course has always mattered."
 
-gm: "Available"
 arena: "Hampton Roads Arena"
 
 salary_cap: 500
