@@ -9,9 +9,9 @@ state: Tennessee
 country: USA
 nickname: Riffs
 
-conference: East
+division: Central
 league: 1
-status: reserved
+status: active
 founded: 2026
 
 logo: /assets/images/teams/memphis-riffs.png
