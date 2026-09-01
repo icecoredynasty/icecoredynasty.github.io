@@ -9,9 +9,9 @@ state: Louisiana
 country: USA
 nickname: Soul
 
-conference: East
+division: South
 league: 1
-status: reserved
+status: active
 founded: 2026
 
 logo: /assets/images/teams/new-orleans-soul.png
