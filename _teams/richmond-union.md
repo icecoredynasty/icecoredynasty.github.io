@@ -9,9 +9,9 @@ state: Virginia
 country: USA
 nickname: Union
 
-conference: East
+division: East
 league: 1
-status: reserved
+status: active
 founded: 2026
 
 logo: /assets/images/teams/richmond-union.png
