@@ -9,8 +9,8 @@ state: Arizona
 country: USA
 nickname: Saguaros
 
-conference: West
-league: 1
+division: 
+league: 
 status: available
 founded: 2026
 
@@ -22,7 +22,6 @@ secondary: "#C98A52"
 motto: "We outlast the storm."
 founded_on: "Rooted in the Sonoran Desert, where survival is measured across generations."
 
-gm: "Available"
 arena: "Sonoran Arena"
 
 salary_cap: 500
