@@ -9,8 +9,8 @@ state: Utah
 country: USA
 nickname: Summit
 
-conference: West
-league: 1
+division: 
+league: 
 status: available
 founded: 2026
 
@@ -22,7 +22,6 @@ secondary: "#D6D9D8"
 motto: "The climb defines us."
 founded_on: "Built beneath the Wasatch Range, where the horizon is measured in peaks."
 
-gm: "Available"
 arena: "Wasatch Arena"
 
 salary_cap: 500
