@@ -22,7 +22,6 @@ secondary: "#D4AF37"
 motto: "Fortune favors the prepared."
 founded_on: "Founded on the proud maritime heritage of Canada's Atlantic coast."
 
-gm: "Available"
 arena: "Harbour Crown Arena"
 
 salary_cap: 500
