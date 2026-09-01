@@ -22,7 +22,6 @@ secondary: "#C69B4B"
 motto: "Every dynasty starts with one note."
 founded_on: "Founded in the city that changed music forever."
 
-gm: "Available"
 arena: "Beale Street Arena"
 
 salary_cap: 500
