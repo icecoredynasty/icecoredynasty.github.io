@@ -1,10 +1,18 @@
+{% comment %}
+  Teams directory order:
+  1. League 1 active divisions
+  2. League 2 active divisions
+  3. Available franchises
+  4. Reserved franchises
+{% endcomment %}
+
 {% assign league_1_all = site.teams | where: "league", 1 %}
 {% assign league_1_active = league_1_all | where: "status", "active" | sort: "title" %}
-{% assign league_1_divisions = league_1_all | map: "division" | compact | uniq | sort_natural %}
+{% assign league_1_divisions = league_1_active | map: "division" | compact | uniq | sort_natural %}
 
 {% assign league_2_all = site.teams | where: "league", 2 %}
 {% assign league_2_active = league_2_all | where: "status", "active" | sort: "title" %}
-{% assign league_2_divisions = league_2_all | map: "division" | compact | uniq | sort_natural %}
+{% assign league_2_divisions = league_2_active | map: "division" | compact | uniq | sort_natural %}
 
 {% assign available_teams = site.teams | where: "status", "available" | sort: "title" %}
 {% assign reserved_teams = site.teams | where: "status", "reserved" | sort: "title" %}
@@ -48,7 +56,7 @@
   <div class="teams-group__heading"><span>AVAILABLE FRANCHISES</span><div class="teams-section-line"></div></div>
   <div class="team-grid">
     {% for team in available_teams %}
-      <a href="{{ team.url | relative_url }}" class="team-card" data-league="{{ team.league }}" data-division="{{ team.division | downcase | escape }}" data-status="{{ team.status }}">
+      <a href="{{ team.url | relative_url }}" class="team-card" data-league="{{ team.league | default: '' }}" data-division="{{ team.division | downcase | escape }}" data-status="{{ team.status }}">
         <div class="team-card__logo"><img src="{{ team.logo | relative_url }}" alt="{{ team.title }}" loading="lazy"></div>
         <div class="team-card__name">{{ team.title }}</div>
       </a>
@@ -62,7 +70,7 @@
   <div class="teams-group__heading"><span>RESERVED FRANCHISES</span><div class="teams-section-line"></div></div>
   <div class="team-grid">
     {% for team in reserved_teams %}
-      <a href="{{ team.url | relative_url }}" class="team-card" data-league="{{ team.league }}" data-division="{{ team.division | downcase | escape }}" data-status="{{ team.status }}">
+      <a href="{{ team.url | relative_url }}" class="team-card" data-league="{{ team.league | default: '' }}" data-division="{{ team.division | downcase | escape }}" data-status="{{ team.status }}">
         <div class="team-card__logo"><img src="{{ team.logo | relative_url }}" alt="{{ team.title }}" loading="lazy"></div>
         <div class="team-card__name">{{ team.title }}</div>
       </a>
