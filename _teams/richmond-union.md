@@ -22,7 +22,6 @@ secondary: "#C8102E"
 motto: "Stronger together."
 founded_on: "Founded in Richmond, Virginia — where history and a new hockey identity come together."
 
-gm: "Available"
 arena: "Union Hall"
 
 salary_cap: 500
