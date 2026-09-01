@@ -9,8 +9,8 @@ state: South Dakota
 country: USA
 nickname: Triceratops
 
-conference: West
-league: 1
+division: 
+league: 
 status: available
 founded: 2026
 
