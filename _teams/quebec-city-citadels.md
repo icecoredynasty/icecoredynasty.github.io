@@ -22,7 +22,6 @@ secondary: "#C7A768"
 motto: "Walls may fall. Resolve never."
 founded_on: "Founded in one of North America's great fortified cities, where history still stands above the St. Lawrence."
 
-gm: "Available"
 arena: "Citadelle Arena"
 
 salary_cap: 500
