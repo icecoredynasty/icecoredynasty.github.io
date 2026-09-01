@@ -22,7 +22,6 @@ secondary: "#D5A62C"
 motto: "Different games. One city."
 founded_on: "Created for a city where sport has always meant something larger than the game itself."
 
-gm: "Available"
 arena: "Bay Arena"
 
 salary_cap: 500
