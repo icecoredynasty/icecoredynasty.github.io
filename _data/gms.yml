@@ -11,394 +11,394 @@ current_season: 2026
 
 gms:
 
-- id: "001"
-  nick: "Rob"
-  status: active
-  current_team: "amarillo-downburst"
-  country: "US"
-  flag: "🇺🇸"
-  timezone: "EST"
-  since: 2026
-  hero: "20+ years of fantasy hockey — now ready to see what IceCore can do."
-  warning: false
-  bonus: false
-  seasons: []
+  - id: "001"
+    nick: "Rob"
+    status: active
+    current_team: "amarillo-downburst"
+    country: "US"
+    flag: "🇺🇸"
+    timezone: "EST"
+    since: 2026
+    hero: "20+ years of fantasy hockey — now ready to see what IceCore can do."
+    warning: false
+    bonus: false
+    seasons: []
 
-- id: "002"
-  nick: "Available"
-  status: available
-  current_team: "anchorage-prospectors"
-  country: ""
-  flag: ""
-  timezone: ""
-  since:
-  hero: "This franchise is waiting for its General Manager."
-  warning: false
-  bonus: false
-  seasons: []
+  - id: "002"
+    nick: "Available"
+    status: available
+    current_team: "anchorage-prospectors"
+    country: ""
+    flag: ""
+    timezone: ""
+    since:
+    hero: "This franchise is waiting for its General Manager."
+    warning: false
+    bonus: false
+    seasons: []
 
-- id: "003"
-  nick: "Michael"
-  status: active
-  current_team: "charlotte-amalie-corsairs"
-  country: "US"
-  flag: "🇺🇸"
-  timezone: "CST"
-  since: 2026
-  hero: "After 2,500+ hours of Eastside Hockey Manager, I’m ready to run the Corsairs."
-  warning: false
-  bonus: false
-  seasons: []
+  - id: "003"
+    nick: "Michael"
+    status: active
+    current_team: "charlotte-amalie-corsairs"
+    country: "US"
+    flag: "🇺🇸"
+    timezone: "CST"
+    since: 2026
+    hero: "After 2,500+ hours of Eastside Hockey Manager, I’m ready to run the Corsairs."
+    warning: false
+    bonus: false
+    seasons: []
 
-- id: "004"
-  nick: "James"
-  status: active
-  current_team: "cincinnati-rivermen"
-  country: "US"
-  flag: "🇺🇸"
-  timezone: "MDT"
-  since: 2026
-  hero: "Looking for something beyond another standard fantasy season."
-  warning: false
-  bonus: false
-  seasons: []
+  - id: "004"
+    nick: "James"
+    status: active
+    current_team: "cincinnati-rivermen"
+    country: "US"
+    flag: "🇺🇸"
+    timezone: "MDT"
+    since: 2026
+    hero: "Looking for something beyond another standard fantasy season."
+    warning: false
+    bonus: false
+    seasons: []
 
-- id: "005"
-  nick: "Stanley"
-  status: active
-  current_team: "cleveland-forge"
-  country: "SK"
-  flag: "🇸🇰"
-  timezone: "CET"
-  since: 2026
-  hero: "Building IceCore from the ground up — now it’s time to compete."
-  warning: false
-  bonus: false
-  seasons: []
+  - id: "005"
+    nick: "Stanley"
+    status: active
+    current_team: "cleveland-forge"
+    country: "SK"
+    flag: "🇸🇰"
+    timezone: "CET"
+    since: 2026
+    hero: "Building IceCore from the ground up — now it’s time to compete."
+    warning: false
+    bonus: false
+    seasons: []
 
-- id: "006"
-  nick: "Chris"
-  status: active
-  current_team: "green-bay-alliance"
-  country: "US"
-  flag: "🇺🇸"
-  timezone: "CST"
-  since: 2026
-  hero: "Big rosters, big leagues and a dynasty built to last."
-  warning: false
-  bonus: false
-  seasons: []
+  - id: "006"
+    nick: "Chris"
+    status: active
+    current_team: "green-bay-alliance"
+    country: "US"
+    flag: "🇺🇸"
+    timezone: "CST"
+    since: 2026
+    hero: "Big rosters, big leagues and a dynasty built to last."
+    warning: false
+    bonus: false
+    seasons: []
 
-- id: "007"
-  nick: "Brent"
-  status: active
-  current_team: "halifax-privateers"
-  country: "CA"
-  flag: "🇨🇦"
-  timezone: "EST"
-  since: 2026
-  hero: "Twenty teams? Sounds like a pretty good challenge."
-  warning: false
-  bonus: false
-  seasons: []
+  - id: "007"
+    nick: "Brent"
+    status: active
+    current_team: "halifax-privateers"
+    country: "CA"
+    flag: "🇨🇦"
+    timezone: "EST"
+    since: 2026
+    hero: "Twenty teams? Sounds like a pretty good challenge."
+    warning: false
+    bonus: false
+    seasons: []
 
-- id: "008"
-  nick: "Standik"
-  status: active
-  current_team: "hartford-arsenal"
-  country: "CZ"
-  flag: "🇨🇿"
-  timezone: "CET"
-  since: 2026
-  hero: "The long game, the salary cap and a franchise worth building."
-  warning: false
-  bonus: false
-  seasons: []
+  - id: "008"
+    nick: "Standik"
+    status: active
+    current_team: "hartford-arsenal"
+    country: "CZ"
+    flag: "🇨🇿"
+    timezone: "CET"
+    since: 2026
+    hero: "The long game, the salary cap and a franchise worth building."
+    warning: false
+    bonus: false
+    seasons: []
 
-- id: "009"
-  nick: "CJ Mattias"
-  status: active
-  current_team: "honolulu-guardians"
-  country: "FI"
-  flag: "🇫🇮"
-  timezone: "UTC+3"
-  since: 2026
-  hero: "Depth, activity and a league that stays interesting all season."
-  warning: false
-  bonus: false
-  seasons: []
+  - id: "009"
+    nick: "CJ Mattias"
+    status: active
+    current_team: "honolulu-guardians"
+    country: "FI"
+    flag: "🇫🇮"
+    timezone: "UTC+3"
+    since: 2026
+    hero: "Depth, activity and a league that stays interesting all season."
+    warning: false
+    bonus: false
+    seasons: []
 
-- id: "010"
-  nick: "Oscar"
-  status: active
-  current_team: "houston-signals"
-  country: "FI"
-  flag: "🇫🇮"
-  timezone: "UTC+3"
-  since: 2026
-  hero: "After winning before, I’m here for an active league and another run."
-  warning: false
-  bonus: false
-  seasons: []
+  - id: "010"
+    nick: "Oscar"
+    status: active
+    current_team: "houston-signals"
+    country: "FI"
+    flag: "🇫🇮"
+    timezone: "UTC+3"
+    since: 2026
+    hero: "After winning before, I’m here for an active league and another run."
+    warning: false
+    bonus: false
+    seasons: []
 
-- id: "011"
-  nick: "Murad"
-  status: active
-  current_team: "kelowna-vintners"
-  country: "CA"
-  flag: "🇨🇦"
-  timezone: "ET"
-  since: 2026
-  hero: "Structure, competitiveness and plenty of trading — that’s my kind of league."
-  warning: false
-  bonus: false
-  seasons: []
+  - id: "011"
+    nick: "Murad"
+    status: active
+    current_team: "kelowna-vintners"
+    country: "CA"
+    flag: "🇨🇦"
+    timezone: "ET"
+    since: 2026
+    hero: "Structure, competitiveness and plenty of trading — that’s my kind of league."
+    warning: false
+    bonus: false
+    seasons: []
 
-- id: "012"
-  nick: "Travis"
-  status: active
-  current_team: "key-west-rumrunners"
-  country: "CA"
-  flag: "🇨🇦"
-  timezone: "EDT"
-  since: 2026
-  hero: "My league is organized — now I’m ready to come in and steamroll this one."
-  warning: false
-  bonus: false
-  seasons: []
+  - id: "012"
+    nick: "Travis"
+    status: active
+    current_team: "key-west-rumrunners"
+    country: "CA"
+    flag: "🇨🇦"
+    timezone: "EDT"
+    since: 2026
+    hero: "My league is organized — now I’m ready to come in and steamroll this one."
+    warning: false
+    bonus: false
+    seasons: []
 
-- id: "013"
-  nick: "Available"
-  status: available
-  current_team: "lancaster-keystone"
-  country: ""
-  flag: ""
-  timezone: ""
-  since:
-  hero: "This franchise is waiting for its General Manager."
-  warning: false
-  bonus: false
-  seasons: []
+  - id: "013"
+    nick: "Available"
+    status: available
+    current_team: "lancaster-keystone"
+    country: ""
+    flag: ""
+    timezone: ""
+    since:
+    hero: "This franchise is waiting for its General Manager."
+    warning: false
+    bonus: false
+    seasons: []
 
-- id: "014"
-  nick: "Taylor"
-  status: active
-  current_team: "memphis-riffs"
-  country: "CA"
-  flag: "🇨🇦"
-  timezone: "MT"
-  since: 2026
-  hero: "A unique league, a unique point system and a Memphis team — let’s go."
-  warning: false
-  bonus: false
-  seasons: []
+  - id: "014"
+    nick: "Taylor"
+    status: active
+    current_team: "memphis-riffs"
+    country: "CA"
+    flag: "🇨🇦"
+    timezone: "MT"
+    since: 2026
+    hero: "A unique league, a unique point system and a Memphis team — let’s go."
+    warning: false
+    bonus: false
+    seasons: []
 
-- id: "015"
-  nick: "Bmax"
-  status: active
-  current_team: "new-orleans-soul"
-  country: "US"
-  flag: "🇺🇸"
-  timezone: "EST"
-  since: 2026
-  hero: "I like the uniqueness and the simplicity that still creates a massive challenge."
-  warning: false
-  bonus: false
-  seasons: []
+  - id: "015"
+    nick: "Bmax"
+    status: active
+    current_team: "new-orleans-soul"
+    country: "US"
+    flag: "🇺🇸"
+    timezone: "EST"
+    since: 2026
+    hero: "I like the uniqueness and the simplicity that still creates a massive challenge."
+    warning: false
+    bonus: false
+    seasons: []
 
-- id: "016"
-  nick: "Available"
-  status: available
-  current_team: "norfolk-navigators"
-  country: ""
-  flag: ""
-  timezone: ""
-  since:
-  hero: "This franchise is waiting for its General Manager."
-  warning: false
-  bonus: false
-  seasons: []
+  - id: "016"
+    nick: "Available"
+    status: available
+    current_team: "norfolk-navigators"
+    country: ""
+    flag: ""
+    timezone: ""
+    since:
+    hero: "This franchise is waiting for its General Manager."
+    warning: false
+    bonus: false
+    seasons: []
 
-- id: "017"
-  nick: "Gord"
-  status: active
-  current_team: "omaha-bison"
-  country: "CA"
-  flag: "🇨🇦"
-  timezone: "PST"
-  since: 2026
-  hero: "A hockey dynasty at last — I’m here to build a real franchise."
-  warning: false
-  bonus: false
-  seasons: []
+  - id: "017"
+    nick: "Gord"
+    status: active
+    current_team: "omaha-bison"
+    country: "CA"
+    flag: "🇨🇦"
+    timezone: "PST"
+    since: 2026
+    hero: "A hockey dynasty at last — I’m here to build a real franchise."
+    warning: false
+    bonus: false
+    seasons: []
 
-- id: "018"
-  nick: "shaan"
-  status: active
-  current_team: "quebec-city-citadels"
-  country: "CA"
-  flag: "🇨🇦"
-  timezone: "EST"
-  since: 2026
-  hero: "Best ball, keeper and salary cap — all in one place."
-  warning: false
-  bonus: false
-  seasons: []
+  - id: "018"
+    nick: "shaan"
+    status: active
+    current_team: "quebec-city-citadels"
+    country: "CA"
+    flag: "🇨🇦"
+    timezone: "EST"
+    since: 2026
+    hero: "Best ball, keeper and salary cap — all in one place."
+    warning: false
+    bonus: false
+    seasons: []
 
-- id: "019"
-  nick: "Available"
-  status: available
-  current_team: "rapid-city-triceratops"
-  country: ""
-  flag: ""
-  timezone: ""
-  since:
-  hero: "This franchise is waiting for its General Manager."
-  warning: false
-  bonus: false
-  seasons: []
+  - id: "019"
+    nick: "Available"
+    status: available
+    current_team: "rapid-city-triceratops"
+    country: ""
+    flag: ""
+    timezone: ""
+    since:
+    hero: "This franchise is waiting for its General Manager."
+    warning: false
+    bonus: false
+    seasons: []
 
-- id: "020"
-  nick: "Available"
-  status: available
-  current_team: "reno-wildcards"
-  country: ""
-  flag: ""
-  timezone: ""
-  since:
-  hero: "This franchise is waiting for its General Manager."
-  warning: false
-  bonus: false
-  seasons: []
+  - id: "020"
+    nick: "Available"
+    status: available
+    current_team: "reno-wildcards"
+    country: ""
+    flag: ""
+    timezone: ""
+    since:
+    hero: "This franchise is waiting for its General Manager."
+    warning: false
+    bonus: false
+    seasons: []
 
-- id: "021"
-  nick: "Noah"
-  status: active
-  current_team: "richmond-union"
-  country: "US"
-  flag: "🇺🇸"
-  timezone: "EST"
-  since: 2026
-  hero: "Competitive, structured and fair — then build a team that can win for years."
-  warning: false
-  bonus: false
-  seasons: []
+  - id: "021"
+    nick: "Noah"
+    status: active
+    current_team: "richmond-union"
+    country: "US"
+    flag: "🇺🇸"
+    timezone: "EST"
+    since: 2026
+    hero: "Competitive, structured and fair — then build a team that can win for years."
+    warning: false
+    bonus: false
+    seasons: []
 
-- id: "022"
-  nick: "Kenneth"
-  status: active
-  current_team: "roswell-greys"
-  country: "US"
-  flag: "🇺🇸"
-  timezone: "EDT"
-  since: 2026
-  hero: "Dynasty strategy, salary-cap management, prospects and FAAB — perfect."
-  warning: false
-  bonus: false
-  seasons: []
+  - id: "022"
+    nick: "Kenneth"
+    status: active
+    current_team: "roswell-greys"
+    country: "US"
+    flag: "🇺🇸"
+    timezone: "EDT"
+    since: 2026
+    hero: "Dynasty strategy, salary-cap management, prospects and FAAB — perfect."
+    warning: false
+    bonus: false
+    seasons: []
 
-- id: "023"
-  nick: "Available"
-  status: available
-  current_team: "sacramento-sentinels"
-  country: ""
-  flag: ""
-  timezone: ""
-  since:
-  hero: "This franchise is waiting for its General Manager."
-  warning: false
-  bonus: false
-  seasons: []
+  - id: "023"
+    nick: "Available"
+    status: available
+    current_team: "sacramento-sentinels"
+    country: ""
+    flag: ""
+    timezone: ""
+    since:
+    hero: "This franchise is waiting for its General Manager."
+    warning: false
+    bonus: false
+    seasons: []
 
-- id: "024"
-  nick: "Michael"
-  status: active
-  current_team: "salem-ravens"
-  country: "US"
-  flag: "🇺🇸"
-  timezone: "PST"
-  since: 2026
-  hero: "A franchise that stays with you for the long haul — that’s what caught my
-    eye."
-  warning: false
-  bonus: false
-  seasons: []
+  - id: "024"
+    nick: "Michael"
+    status: active
+    current_team: "salem-ravens"
+    country: "US"
+    flag: "🇺🇸"
+    timezone: "PST"
+    since: 2026
+    hero: "A franchise that stays with you for the long haul — that’s what caught my
+      eye."
+    warning: false
+    bonus: false
+    seasons: []
 
-- id: "025"
-  nick: "Available"
-  status: available
-  current_team: "salt-lake-summit"
-  country: ""
-  flag: ""
-  timezone: ""
-  since:
-  hero: "This franchise is waiting for its General Manager."
-  warning: false
-  bonus: false
-  seasons: []
+  - id: "025"
+    nick: "Available"
+    status: available
+    current_team: "salt-lake-summit"
+    country: ""
+    flag: ""
+    timezone: ""
+    since:
+    hero: "This franchise is waiting for its General Manager."
+    warning: false
+    bonus: false
+    seasons: []
 
-- id: "026"
-  nick: "Available"
-  status: available
-  current_team: "san-juan-tainos"
-  country: ""
-  flag: ""
-  timezone: ""
-  since:
-  hero: "This franchise is waiting for its General Manager."
-  warning: false
-  bonus: false
-  seasons: []
+  - id: "026"
+    nick: "Available"
+    status: available
+    current_team: "san-juan-tainos"
+    country: ""
+    flag: ""
+    timezone: ""
+    since:
+    hero: "This franchise is waiting for its General Manager."
+    warning: false
+    bonus: false
+    seasons: []
 
-- id: "027"
-  nick: "Keaton"
-  status: active
-  current_team: "saskatoon-prairie-drifters"
-  country: "CA"
-  flag: "🇨🇦"
-  timezone: "PST"
-  since: 2026
-  hero: "New to Yahoo, but ready for an active keeper league and the long haul."
-  warning: false
-  bonus: false
-  seasons: []
+  - id: "027"
+    nick: "Keaton"
+    status: active
+    current_team: "saskatoon-prairie-drifters"
+    country: "CA"
+    flag: "🇨🇦"
+    timezone: "PST"
+    since: 2026
+    hero: "New to Yahoo, but ready for an active keeper league and the long haul."
+    warning: false
+    bonus: false
+    seasons: []
 
-- id: "028"
-  nick: "Available"
-  status: available
-  current_team: "tucson-saguaros"
-  country: ""
-  flag: ""
-  timezone: ""
-  since:
-  hero: "This franchise is waiting for its General Manager."
-  warning: false
-  bonus: false
-  seasons: []
+  - id: "028"
+    nick: "Available"
+    status: available
+    current_team: "tucson-saguaros"
+    country: ""
+    flag: ""
+    timezone: ""
+    since:
+    hero: "This franchise is waiting for its General Manager."
+    warning: false
+    bonus: false
+    seasons: []
 
-- id: "029"
-  nick: "Ryan"
-  status: active
-  current_team: "victoria-cedars"
-  country: "CA"
-  flag: "🇨🇦"
-  timezone: "PST"
-  since: 2026
-  hero: "A professional-looking league with permanent franchises — exactly what I
-    was after."
-  warning: false
-  bonus: false
-  seasons: []
+  - id: "029"
+    nick: "Ryan"
+    status: active
+    current_team: "victoria-cedars"
+    country: "CA"
+    flag: "🇨🇦"
+    timezone: "PST"
+    since: 2026
+    hero: "A professional-looking league with permanent franchises — exactly what I
+      was after."
+    warning: false
+    bonus: false
+    seasons: []
 
-- id: "030"
-  nick: "Available"
-  status: available
-  current_team: "wichita-aviators"
-  country: ""
-  flag: ""
-  timezone: ""
-  since:
-  hero: "This franchise is waiting for its General Manager."
-  warning: false
-  bonus: false
-  seasons: []
+  - id: "030"
+    nick: "Available"
+    status: available
+    current_team: "wichita-aviators"
+    country: ""
+    flag: ""
+    timezone: ""
+    since:
+    hero: "This franchise is waiting for its General Manager."
+    warning: false
+    bonus: false
+    seasons: []
