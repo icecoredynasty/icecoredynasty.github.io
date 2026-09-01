@@ -9,8 +9,8 @@ state: Virginia
 country: USA
 nickname: Navigators
 
-conference: East
-league: 1
+division: 
+league: 
 status: available
 founded: 2026
 
