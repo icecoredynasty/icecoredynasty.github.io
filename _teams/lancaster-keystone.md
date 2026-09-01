@@ -9,8 +9,8 @@ state: Pennsylvania
 country: USA
 nickname: Keystone
 
-conference: East
-league: 1
+division: 
+league: 
 status: available
 founded: 2026
 
