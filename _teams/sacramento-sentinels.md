@@ -9,8 +9,8 @@ state: California
 country: USA
 nickname: Sentinels
 
-conference: West
-league: 1
+division: 
+league: 
 status: available
 founded: 2026
 
