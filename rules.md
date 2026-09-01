@@ -703,7 +703,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
       <p>
         A 1-coin breakout skater finishes inside the Top 30 skaters:
         <strong>1 → 13</strong>.
-        If he remains Top 30 skaters (by fan points) while his previous salary is 13:
+        If he remains Top 30 skaters (by season fan points of ended season) while his previous salary is 13:
         <strong>13 → 25</strong>.
         Once his previous salary exceeds 60, the same player receives the base +4 increase.
       </p>
