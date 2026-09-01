@@ -9,8 +9,8 @@ state: Puerto Rico
 country: USA
 nickname: Taínos
 
-conference: East
-league: 1
+division: 
+league: 
 status: reserved
 founded: 2026
 
@@ -22,7 +22,6 @@ secondary: "#2E5250"
 motto: "The first spirit never vanished."
 founded_on: "Rooted in Puerto Rico and inspired by a cultural legacy that remains part of the island's identity."
 
-gm: "Available"
 arena: "Borikén Arena"
 
 salary_cap: 500
