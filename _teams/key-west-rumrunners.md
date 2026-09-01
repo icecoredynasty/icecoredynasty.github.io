@@ -22,7 +22,6 @@ secondary: "#C78743"
 motto: "Fast water. Free spirit."
 founded_on: "Born at the end of the Overseas Highway, where open water and an independent spirit have always shaped island life."
 
-gm: "Available"
 arena: "Southernmost Arena"
 
 salary_cap: 500
