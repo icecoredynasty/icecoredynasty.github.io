@@ -22,7 +22,6 @@ secondary: "#B7A16A"
 motto: "Prepared for every battle."
 founded_on: "A New England franchise built around preparation, precision and an old city's enduring strength."
 
-gm: "Available"
 arena: "Charter Oak Arena"
 
 salary_cap: 500
