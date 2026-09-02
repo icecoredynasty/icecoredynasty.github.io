@@ -1027,9 +1027,12 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </p>
 
     <p>
-      Missing a mandatory deadline may result in a warning.
-      Repeated missed obligations, prolonged inactivity or abandonment
-      of a franchise may result in replacement of the General Manager.
+      Missing a mandatory deadline may result in a warning. Repeated missed
+      obligations, prolonged inactivity or abandonment of a franchise may
+      result in replacement of the General Manager. Consistently poor
+      competitive results alone do not constitute grounds for replacement,
+      but a GM who repeatedly fails to manage the franchise competitively
+      or in good faith may be removed by the Commissioner.
     </p>
 
   </div>
@@ -1350,9 +1353,10 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </p>
 
     <p>
-      The franchise's <strong>20th and final roster player is selected through
-      the IceCore Entry Draft</strong>. The remaining roster positions are then
-      filled through the applicable offseason process.
+      After the reset, the franchise receives <strong>19 players through the
+      Expansion Draft</strong>. The remaining <strong>20th roster position</strong>
+      is filled through the annual IceCore Salary Cap Draft together with the
+      other franchises.
     </p>
 
     <p>
@@ -1560,6 +1564,17 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
 
 
+
+
+<article>
+  <h3>What happens if a franchise is reset?</h3>
+  <p>
+    A reset takes place in the offseason. The franchise protects 7 players
+    plus 1 goaltender and keeps its entire NA farm, then receives 19 players
+    through the Expansion Draft. Its final roster position is filled through
+    the annual Salary Cap Draft together with the other franchises.
+  </p>
+</article>
 
 
 <article>
