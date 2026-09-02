@@ -114,7 +114,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
         <h3>One Rookie</h3>
         <p>
           Beginning with the second season, every franchise receives one first-round rookie pick.
-          The first four picks go to the division last-place teams by mini-table; the remaining positions follow reverse regular-season standings.
+          The first four picks go to the division last-place teams by mini-table; the remaining positions follow reverse regular-season standings. Pick trading is not currently supported by Yahoo.
         </p>
       </article>
 
@@ -529,7 +529,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </p>
 
     <p>
-      The first four picks go to the four division last-place franchises, ordered by their mini-table of head-to-head games; ties go to the worse regular-season finish. The remaining positions follow reverse regular-season standings. Entry Draft selections cannot be traded. The Commissioner conducts
+      The first four picks go to the four division last-place franchises, ordered by their mini-table of head-to-head games; ties go to the worse regular-season finish. The remaining positions follow reverse regular-season standings. Draft pick trading is not currently supported by Yahoo for IceCore's salary-cap league. If Yahoo supports it in the future, it may be introduced for a future season. The Commissioner conducts
       the Entry Draft manually.
     </p>
 
@@ -678,7 +678,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </p>
 
     <p>
-      This makes the system dynamic and market-driven rather than based on fixed salary thresholds. A player selected for the Value Bonus therefore receives <strong>+10</strong> in total for that offseason. The current value ranking will be published and updated on the <a href="{{ '/' | relative_url }}">IceCore homepage</a> as league content, with final bonus recipients confirmed after the completed season.
+      This makes the system dynamic and market-driven rather than based on fixed salary thresholds. A player selected for the Value Bonus therefore receives <strong>+10</strong> in total for that offseason. The current value ranking will be published and updated on the <a href="{{ '/value-board.html' | relative_url }}">IceCore Value Board</a> during the draft and season, with final bonus recipients confirmed after the completed season.
     </p>
 
     <div class="ic-example">
@@ -934,7 +934,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </p>
 
     <p>
-      Entry Draft selections cannot be traded.
+      Draft pick trading is not currently supported by Yahoo for IceCore's salary-cap league. If Yahoo supports it in the future, it may be introduced for a future season.
     </p>
 
     <p>
@@ -1341,14 +1341,20 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     <p>
       If an existing franchise is reset, the reset takes place during the
       <strong>offseason</strong>. The franchise may protect
-      <strong>7 players plus 1 goaltender</strong> from its active roster or IR+,
+      <strong>8 skaters plus 1 goaltender</strong> from its active roster or IR+,
       together with its <strong>entire NA farm</strong>.
     </p>
 
     <p>
       The protected players must be identified by the GM in the
-      <strong>keeper email</strong> sent to the Commissioner. Because a reset
-      reduces the protected core, the franchise may end up keeping
+      <strong>keeper list</strong> sent to the Commissioner. The players selected
+      for protection must also be included in that franchise's keeper list and
+      therefore must be under an established IceCore contract. The GM may mark
+      up to <strong>8 skaters plus 1 goaltender</strong> as reset-protected players.
+      If no reset-protected players are specifically marked, the first
+      <strong>8 eligible players in the submitted keeper list</strong> are treated
+      as protected, with the required goaltender position respected.
+      Because a reset reduces the protected core, the franchise may end up keeping
       <strong>fewer than the normal minimum of 11 regular keepers</strong>.
     </p>
 
@@ -1569,10 +1575,13 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 <article>
   <h3>What happens if a franchise is reset?</h3>
   <p>
-    A reset takes place in the offseason. The franchise protects 7 players
-    plus 1 goaltender and keeps its entire NA farm, then receives 19 players
-    through the Expansion Draft. Its final roster position is filled through
-    the annual Salary Cap Draft together with the other franchises.
+    A reset takes place in the offseason. The franchise protects 8 skaters
+    plus 1 goaltender from its keeper list and keeps its entire NA farm, then
+    receives 19 players through the Expansion Draft. Its final roster position
+    is filled through the annual Salary Cap Draft together with the other
+    franchises. If no reset-protected players are specifically marked, the
+    first 8 eligible skaters and the first eligible goaltender in the submitted keeper list are treated as
+    protected.
   </p>
 </article>
 
