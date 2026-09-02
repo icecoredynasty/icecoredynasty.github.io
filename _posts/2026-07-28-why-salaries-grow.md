@@ -44,55 +44,54 @@ his salary eventually has to follow.
 That is why keeper salaries grow.
 </p>
 
-<h2>Two Paths</h2>
+<h2>Three Paths</h2>
 
 <p>
 When a regular player is protected for another season, his salary follows
-a simple two-part system.
+one of three paths.
 </p>
 
 <div class="ic-article-stat-grid">
+
   <div class="ic-article-stat">
     <strong>+4</strong>
-    <span>Every regular keeper</span>
+    <span>Outside Top 150 skaters / Top 15 goaltenders</span>
   </div>
 
   <div class="ic-article-stat">
-    <strong>+6</strong>
-    <span>60 selected Top 150 value players</span>
+    <strong>+8</strong>
+    <span>Top 150 skaters / Top 15 goaltenders · Salary ≤ 30</span>
   </div>
+
+  <div class="ic-article-stat">
+    <strong>+12</strong>
+    <span>Top 30 skaters / Top 3 goaltenders · Salary ≤ 60</span>
+  </div>
+
 </div>
 
 <p>
-Every regular keeper receives a 4-Coin increase.
+The base increase is 4 Coins.
 </p>
 
 <p>
-In addition, 60 selected players from the Top 150 skaters receive a 6-Coin
-Value Bonus: 20 from ranks 1–50, 20 from ranks 51–100 and 20 from ranks
-101–150.
+A Top 150 skater or Top 15 goaltender with a salary of 30 Coins or less grows by 8.
 </p>
 
 <p>
-The selected players are determined by how many Fan Points they produced
-for each Coin of salary during the completed season. The market determines
-which contracts represent the best value.
+A Top 30 skater or Top 3 goaltender with a salary of 60 Coins or less grows by 12.
 </p>
 
 <p>
-A selected Value Bonus player therefore receives a total increase of
-10 Coins for that offseason.
+The highest applicable tier is used. A player receives only one increase per offseason.
 </p>
 
 <p>
-There are no fixed salary thresholds. The system stays dynamic because the
-value of a contract is judged against the actual market salaries and the
-production they generated.
+Three numbers.
 </p>
+
 <p>
-The current value ranking will be published and updated on the IceCore
-homepage, making the system part of the league's ongoing content. Final
-Value Bonus recipients are confirmed after the completed season.
+Everything else is just the story of how a player got there.
 </p>
 
 <h2>The Normal Keeper</h2>
@@ -102,17 +101,17 @@ Start with a useful established player carrying a 34-Coin salary.
 </p>
 
 <p>
-He remains productive, but is not selected for the Value Bonus.
+He remains productive, but finishes outside the Top 150.
 </p>
 
 <div class="ic-article-flow">
-  <span>34</span>
+  <span>35</span>
   <span>→</span>
-  <strong>38</strong>
+  <span>39</span>
   <span>→</span>
-  <strong>42</strong>
+  <span>43</span>
   <span>→</span>
-  <strong>46</strong>
+  <span>47</span>
 </div>
 
 <p>
@@ -154,34 +153,58 @@ Now imagine a player already carrying a salary of just 1 Coin.
 </p>
 
 <p>
-He breaks out and finishes inside the Top 150. More importantly, his contract
-turns out to be one of the best-value contracts in his ranking group.
+Then he breaks out and finishes inside the Top 150 skaters or Top 15 goaltenders.
 </p>
 
 <div class="ic-article-flow">
   <span>1</span>
   <span>→</span>
-  <strong>11</strong>
+  <strong>13</strong>
 </div>
 
 <p>
-The regular keeper increase is 4 Coins, and the selected Value Bonus adds
-another 6.
+The General Manager still has an extraordinary contract.
 </p>
 
 <p>
-The player was discovered early, and the franchise benefits from that value.
-But the increase is determined by the player's actual production relative
-to his salary — not by a commissioner-set salary threshold.
+The breakout was discovered early, and IceCore rewards that with the highest applicable tier.
 </p>
 
 <p>
-If his contract remains excellent value in another completed season, he may
-again qualify for the Value Bonus.
+But suppose the player does it again.
+</p>
+
+<div class="ic-article-flow">
+  <span>13</span>
+  <span>→</span>
+  <strong>25</strong>
+</div>
+
+<p>
+His previous salary was still 30 Coins or less, so another qualifying Top 150 skater / Top 10 goaltender season
+produces another 12-Coin increase.
 </p>
 
 <p>
-The market decides.
+Now the salary is above the low-cost threshold.
+</p>
+
+<p>
+If he remains in the Top 30 skaters / Top 3 goaltenders group again:
+</p>
+
+<div class="ic-article-flow">
+  <span>25</span>
+  <span>→</span>
+  <strong>37</strong>
+</div>
+
+<p>
+The bargain survives.
+</p>
+
+<p>
+It just doesn't stay frozen forever.
 </p>
 
 <h2>The Waiver Discovery</h2>
@@ -196,7 +219,7 @@ can be acquired from waivers at 0 Coins.
 </p>
 
 <p>
-If he remains outside the selected Value Bonus group and you protect him:
+If he remains outside the Top 150 and you protect him:
 </p>
 
 <div class="ic-article-flow">
@@ -206,22 +229,34 @@ If he remains outside the selected Value Bonus group and you protect him:
 </div>
 
 <p>
-If his completed season makes him one of the selected Top 150 value players:
+If that waiver discovery explodes into a qualifying Top 150 skater / Top 10 goaltender season:
 </p>
 
 <div class="ic-article-flow">
   <span>0</span>
   <span>→</span>
-  <strong>10</strong>
+  <strong>8</strong>
 </div>
+
+<p>
+There is no 0 → 4 path for a qualifying Top 150 player.
+</p>
+
+<p>
+A 0-Coin player is automatically inside the low-salary tier, so a
+Top 150 finish triggers the 12-Coin increase.
+</p>
 
 <p>
 You found the player for nothing.
 </p>
 
 <p>
-You still get the bargain — but exceptional value is eventually reflected
-in the contract.
+You still get the bargain.
+</p>
+
+<p>
+But now the league knows what you found.
 </p>
 
 <h2>The Dropped Contract</h2>
@@ -265,14 +300,13 @@ If the new General Manager protects him after an ordinary season:
 </div>
 
 <p>
-If his completed season also makes him one of the selected Top 150 value
-players, the increase is 10 Coins instead:
+If he finishes inside the Top 150 skaters or Top 15 goaltenders:
 </p>
 
 <div class="ic-article-flow">
   <span>10</span>
   <span>→</span>
-  <strong>20</strong>
+  <strong>18</strong>
 </div>
 
 <p>
@@ -290,32 +324,39 @@ Salary growth is not only about cheap players.
 </p>
 
 <p>
-Imagine an established superstar already carrying a 94-Coin salary.
+Imagine an established superstar already carrying a 94-Coin salary
+and continuing to finish inside the Top 150 skaters or Top 15 goaltenders.
 </p>
 
 <div class="ic-article-flow">
-  <span>94</span>
+  <span>95</span>
   <span>→</span>
-  <strong>98</strong>
+  <span>103</span>
   <span>→</span>
-  <strong>102</strong>
+  <span>111</span>
   <span>→</span>
-  <strong>106</strong>
+  <strong>119</strong>
 </div>
 
 <p>
-The regular increase is always 4 Coins. A high salary does not automatically
-create a larger increase, and there are no arbitrary salary cliffs.
+There is nothing wrong with keeping him.
 </p>
 
 <p>
-That player may still be worth every Coin. But under a 500-Coin Salary Cap,
-the rest of the franchise has to live with that decision too.
+He may be worth every Coin.
 </p>
 
 <p>
-Keeping an elite player is easy. Building around an increasingly expensive
-elite player is the challenge.
+But under a 500-Coin Salary Cap, the rest of the franchise has to live
+with that decision too.
+</p>
+
+<p>
+Keeping an elite player is easy.
+</p>
+
+<p>
+Building around an increasingly expensive elite player is the challenge.
 </p>
 
 <h2>The Rookie</h2>
@@ -350,14 +391,14 @@ future offseason, normal salary escalation begins.
 </p>
 
 <p>
-Imagine that rookie becomes one of the selected Top 150 value players before
-his next regular keeper decision.
+Imagine that rookie becomes a Top 150 player before his next regular
+keeper decision.
 </p>
 
 <div class="ic-article-flow">
   <span>1</span>
   <span>→</span>
-  <strong>11</strong>
+  <strong>13</strong>
 </div>
 
 <p>
@@ -490,8 +531,7 @@ Sometimes the answer will be obvious.
 </p>
 
 <p>
-Sometimes the 4-Coin increase will be enough to change it. Sometimes the
-additional Value Bonus will make the decision even harder.
+Sometimes a 4-Coin increase will be enough to change it.
 </p>
 
 <p>
