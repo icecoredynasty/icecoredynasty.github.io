@@ -114,7 +114,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
         <h3>One Rookie</h3>
         <p>
           Beginning with the second season, every franchise receives one first-round rookie pick.
-          The first four picks go to the division last-place teams by mini-table; the remaining positions follow reverse regular-season standings. Pick trading is not currently supported by Yahoo.
+          The first four picks go to the division last-place teams by mini-table; the remaining positions follow reverse regular-season standings.
         </p>
       </article>
 
@@ -158,7 +158,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
   <h3>Salary Escalation</h3>
 
     <p>
-      Every regular keeper gets <strong>+4</strong>. 60 selected Top 150 value players get an additional <strong>+6</strong>.
+      Regular keeper salaries increase each offseason according to performance and salary thresholds.
     </p>
 </article>
 <article class="ic-quick-card">
@@ -529,7 +529,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </p>
 
     <p>
-      The first four picks go to the four division last-place franchises, ordered by their mini-table of head-to-head games; ties go to the worse regular-season finish. The remaining positions follow reverse regular-season standings. Draft pick trading is not currently supported by Yahoo for IceCore's salary-cap league. If Yahoo supports it in the future, it may be introduced for a future season. The Commissioner conducts
+      The first four picks go to the four division last-place franchises, ordered by their mini-table of head-to-head games; ties go to the worse regular-season finish. The remaining positions follow reverse regular-season standings. Entry Draft selections cannot be traded. The Commissioner conducts
       the Entry Draft manually.
     </p>
 
@@ -665,27 +665,49 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
         <strong>+4</strong>
       </div>
 
+      <div>
+        <span>Top 150 Skaters / Top 15 Goaltenders · Salary ≤ 30</span>
+        <strong>+8</strong>
+      </div>
+
       <div class="ic-salary-grid__hot">
-        <span>Value adjustment · selected Top 150 players</span>
-        <strong>+6</strong>
+        <span>Top 30 Skaters / Top 3 Goaltenders · Salary ≤ 60</span>
+        <strong>+12</strong>
       </div>
 
     </div>
 
-
     <p>
-      Every regular keeper receives <strong>+4</strong>. In addition, <strong>60 selected players from the Top 150</strong> receive a <strong>+6 Value Bonus</strong>: 20 players from ranks 1–50, 20 from ranks 51–100 and 20 from ranks 101–150. Within each group, players are selected by how many Fan Points they produced for each coin of salary. The calculation uses Fan Points from the completed season, so the market itself determines which contracts are considered the best value.
+      Every regular keeper receives a base increase of <strong>+4</strong>.
+      A player finishing in the <strong>Top 150 skaters</strong> or
+      <strong>Top 15 goaltenders</strong> receives <strong>+8</strong> when his
+      previous salary is 30 coins or less. A player finishing in the
+      <strong>Top 30 skaters</strong> or <strong>Top 3 goaltenders</strong>
+      receives <strong>+12</strong> when his previous salary is 60 coins or less.
+      These thresholds are evaluated from the completed season's final Yahoo
+      Fantasy point totals.
     </p>
 
     <p>
-      This makes the system dynamic and market-driven rather than based on fixed salary thresholds. A player selected for the Value Bonus therefore receives <strong>+10</strong> in total for that offseason. The current value ranking will be published and updated on the <a href="{{ '/value-board.html' | relative_url }}">IceCore Value Board</a> during the draft and season, with final bonus recipients confirmed after the completed season.
+      The escalation is designed to make successful players become more expensive
+      faster, reflecting how rising value is rewarded in real hockey. At the same
+      time, the increases are deliberately moderate enough that a strong core can
+      be kept for several seasons rather than forcing a constant redraft simply
+      because a player performed well.
     </p>
 
     <div class="ic-example">
+
       <span>EXAMPLE</span>
+
       <p>
-        A keeper with a salary of <strong>10</strong> receives the regular <strong>+4</strong>. If he is one of the selected Top 150 value players, he also receives the <strong>+6 Value Bonus</strong>, so his salary becomes <strong>20</strong>.
+        A 1-coin breakout skater finishes inside the Top 30 skaters:
+        <strong>1 → 13</strong>.
+        If he remains Top 30 skaters (by season fan points of ended season) while his previous salary is 13:
+        <strong>13 → 25</strong>.
+        Once his previous salary exceeds 60, the same player receives the base +4 increase.
       </p>
+
     </div>
 
   </div>
@@ -706,12 +728,13 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     <p>
       A player without an established IceCore salary enters from free agency or
       waivers at <strong>0 coins</strong>. If protected for the following season,
-      the normal <strong>+4 / +6 Value Bonus</strong> escalation applies.
+      the normal <strong>+4 / +8 / +12</strong> escalation applies.
     </p>
 
     <div class="ic-rule-tags">
       <span>Base → +4</span>
-      <span>60 selected Top 150 value players → +6</span>
+      <span>Top 150 / Top 15 · Salary ≤ 30 → +8</span>
+      <span>Top 30 / Top 3 · Salary ≤ 60 → +12</span>
     </div>
 
     <p>
@@ -934,7 +957,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </p>
 
     <p>
-      Draft pick trading is not currently supported by Yahoo for IceCore's salary-cap league. If Yahoo supports it in the future, it may be introduced for a future season.
+      Entry Draft selections cannot be traded.
     </p>
 
     <p>
@@ -1027,12 +1050,9 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </p>
 
     <p>
-      Missing a mandatory deadline may result in a warning. Repeated missed
-      obligations, prolonged inactivity or abandonment of a franchise may
-      result in replacement of the General Manager. Consistently poor
-      competitive results alone do not constitute grounds for replacement,
-      but a GM who repeatedly fails to manage the franchise competitively
-      or in good faith may be removed by the Commissioner.
+      Missing a mandatory deadline may result in a warning.
+      Repeated missed obligations, prolonged inactivity or abandonment
+      of a franchise may result in replacement of the General Manager.
     </p>
 
   </div>
@@ -1341,28 +1361,21 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     <p>
       If an existing franchise is reset, the reset takes place during the
       <strong>offseason</strong>. The franchise may protect
-      <strong>8 skaters plus 1 goaltender</strong> from its active roster or IR+,
+      <strong>7 players plus 1 goaltender</strong> from its active roster or IR+,
       together with its <strong>entire NA farm</strong>.
     </p>
 
     <p>
       The protected players must be identified by the GM in the
-      <strong>keeper list</strong> sent to the Commissioner. The players selected
-      for protection must also be included in that franchise's keeper list and
-      therefore must be under an established IceCore contract. The GM may mark
-      up to <strong>8 skaters plus 1 goaltender</strong> as reset-protected players.
-      If no reset-protected players are specifically marked, the first
-      <strong>8 eligible players in the submitted keeper list</strong> are treated
-      as protected, with the required goaltender position respected.
-      Because a reset reduces the protected core, the franchise may end up keeping
+      <strong>keeper email</strong> sent to the Commissioner. Because a reset
+      reduces the protected core, the franchise may end up keeping
       <strong>fewer than the normal minimum of 11 regular keepers</strong>.
     </p>
 
     <p>
-      After the reset, the franchise receives <strong>19 players through the
-      Expansion Draft</strong>. The remaining <strong>20th roster position</strong>
-      is filled through the annual IceCore Salary Cap Draft together with the
-      other franchises.
+      The franchise's <strong>20th and final roster player is selected through
+      the IceCore Entry Draft</strong>. The remaining roster positions are then
+      filled through the applicable offseason process.
     </p>
 
     <p>
@@ -1573,23 +1586,13 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
 
 <article>
-  <h3>What happens if a franchise is reset?</h3>
-  <p>
-    A reset takes place in the offseason. The franchise protects 8 skaters
-    plus 1 goaltender from its keeper list and keeps its entire NA farm, then
-    receives 19 players through the Expansion Draft. Its final roster position
-    is filled through the annual Salary Cap Draft together with the other
-    franchises. If no reset-protected players are specifically marked, the
-    first 8 eligible skaters and the first eligible goaltender in the submitted keeper list are treated as
-    protected.
-  </p>
-</article>
-
-
-<article>
   <h3>How does salary escalation work?</h3>
   <p>
-    Regular keepers receive <strong>+4</strong>. An additional <strong>+6 Value Bonus</strong> is awarded to 60 selected players from the Top 150: 20 from ranks 1–50, 20 from 51–100 and 20 from 101–150. Selection is based on Fan Points earned during the completed season relative to salary. Development Keepers start at 1 coin and increase by +1 per offseason if kept again.
+    Regular keepers increase by <strong>+4, +8 or +12</strong> depending on
+    performance and salary thresholds: base +4; Top 150 skaters / Top 15
+    goaltenders with salary ≤30 get +8; Top 30 skaters / Top 3 goaltenders
+    with salary ≤60 get +12. Development Keepers start at 1 coin and increase
+    by +1 per offseason if kept again.
   </p>
 </article>
 
@@ -1718,4 +1721,4 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
   </section>
 
-</div>
+
