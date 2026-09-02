@@ -158,7 +158,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
   <h3>Salary Escalation</h3>
 
     <p>
-      Regular keeper salaries increase each offseason according to performance and salary thresholds.
+      Every regular keeper gets <strong>+4</strong>. 60 selected Top 150 value players get an additional <strong>+6</strong>.
     </p>
 </article>
 <article class="ic-quick-card">
@@ -665,49 +665,27 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
         <strong>+4</strong>
       </div>
 
-      <div>
-        <span>Top 150 Skaters / Top 15 Goaltenders · Salary ≤ 30</span>
-        <strong>+8</strong>
-      </div>
-
       <div class="ic-salary-grid__hot">
-        <span>Top 30 Skaters / Top 3 Goaltenders · Salary ≤ 60</span>
-        <strong>+12</strong>
+        <span>Value adjustment · selected Top 150 players</span>
+        <strong>+6</strong>
       </div>
 
     </div>
 
+
     <p>
-      Every regular keeper receives a base increase of <strong>+4</strong>.
-      A player finishing in the <strong>Top 150 skaters</strong> or
-      <strong>Top 15 goaltenders</strong> receives <strong>+8</strong> when his
-      previous salary is 30 coins or less. A player finishing in the
-      <strong>Top 30 skaters</strong> or <strong>Top 3 goaltenders</strong>
-      receives <strong>+12</strong> when his previous salary is 60 coins or less.
-      These thresholds are evaluated from the completed season's final Yahoo
-      Fantasy point totals.
+      Every regular keeper receives <strong>+4</strong>. In addition, <strong>60 selected players from the Top 150</strong> receive a <strong>+6 Value Bonus</strong>: 20 players from ranks 1–50, 20 from ranks 51–100 and 20 from ranks 101–150. Within each group, players are selected by how many Fan Points they produced for each coin of salary. The calculation uses Fan Points from the completed season, so the market itself determines which contracts are considered the best value.
     </p>
 
     <p>
-      The escalation is designed to make successful players become more expensive
-      faster, reflecting how rising value is rewarded in real hockey. At the same
-      time, the increases are deliberately moderate enough that a strong core can
-      be kept for several seasons rather than forcing a constant redraft simply
-      because a player performed well.
+      This makes the system dynamic and market-driven rather than based on fixed salary thresholds. A player selected for the Value Bonus therefore receives <strong>+10</strong> in total for that offseason. The current value ranking will be published and updated on the <a href="{{ '/' | relative_url }}">IceCore homepage</a> as league content, with final bonus recipients confirmed after the completed season.
     </p>
 
     <div class="ic-example">
-
       <span>EXAMPLE</span>
-
       <p>
-        A 1-coin breakout skater finishes inside the Top 30 skaters:
-        <strong>1 → 13</strong>.
-        If he remains Top 30 skaters (by season fan points of ended season) while his previous salary is 13:
-        <strong>13 → 25</strong>.
-        Once his previous salary exceeds 60, the same player receives the base +4 increase.
+        A keeper with a salary of <strong>10</strong> receives the regular <strong>+4</strong>. If he is one of the selected Top 150 value players, he also receives the <strong>+6 Value Bonus</strong>, so his salary becomes <strong>20</strong>.
       </p>
-
     </div>
 
   </div>
@@ -728,13 +706,12 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     <p>
       A player without an established IceCore salary enters from free agency or
       waivers at <strong>0 coins</strong>. If protected for the following season,
-      the normal <strong>+4 / +8 / +12</strong> escalation applies.
+      the normal <strong>+4 / +6 Value Bonus</strong> escalation applies.
     </p>
 
     <div class="ic-rule-tags">
       <span>Base → +4</span>
-      <span>Top 150 / Top 15 · Salary ≤ 30 → +8</span>
-      <span>Top 30 / Top 3 · Salary ≤ 60 → +12</span>
+      <span>60 selected Top 150 value players → +6</span>
     </div>
 
     <p>
@@ -1588,11 +1565,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 <article>
   <h3>How does salary escalation work?</h3>
   <p>
-    Regular keepers increase by <strong>+4, +8 or +12</strong> depending on
-    performance and salary thresholds: base +4; Top 150 skaters / Top 15
-    goaltenders with salary ≤30 get +8; Top 30 skaters / Top 3 goaltenders
-    with salary ≤60 get +12. Development Keepers start at 1 coin and increase
-    by +1 per offseason if kept again.
+    Regular keepers receive <strong>+4</strong>. An additional <strong>+6 Value Bonus</strong> is awarded to 60 selected players from the Top 150: 20 from ranks 1–50, 20 from 51–100 and 20 from 101–150. Selection is based on Fan Points earned during the completed season relative to salary. Development Keepers start at 1 coin and increase by +1 per offseason if kept again.
   </p>
 </article>
 
@@ -1721,4 +1694,4 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
   </section>
 
-
+</div>
