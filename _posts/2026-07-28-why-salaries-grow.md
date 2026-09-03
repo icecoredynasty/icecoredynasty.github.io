@@ -179,7 +179,7 @@ lowest salaries are removed.
 
 <p>
 The regular keeper increase is 4 Coins, and the selected Value Bonus adds
-another 6.
+another 5.
 </p>
 
 <p>
@@ -384,46 +384,29 @@ Success eventually begins moving the contract.
 <h2>The Prospect Who Stays on the Farm</h2>
 
 <p>
-Development Keepers work differently.
+Development Keepers work differently from Regular Keepers.
 </p>
 
 <p>
-A player protected from the franchise's NA farm enters the new season
-at:
-</p>
-
-<div class="ic-article-flow">
-  <strong>1 COIN</strong>
-</div>
-
-<p>
-And if he remains eligible for the development system and is protected
-from the NA farm again the following offseason, his salary increases by
-1 Coin per offseason:
-</p>
-
-<div class="ic-article-flow">
-  <span>1</span>
-  <span>→</span>
-  <strong>2</strong>
-  <span>→</span>
-  <strong>3</strong>
-</div>
-
-<p>
-The development system still rewards scouting and patience, but a long-term
-farm keeper is not permanently frozen at 1 Coin.
+A Development Keeper retains the IceCore salary at which the player was
+acquired. If the player was acquired through Free Agency or Waivers, his
+salary is 0 Coins. If he was acquired through the Salary Cap Draft, his
+salary is the winning bid.
 </p>
 
 <p>
-The development system is there to reward scouting and patience,
-not to create salary pressure before the player becomes part of the
-regular roster economy.
+There is no automatic +1 Coin increase for remaining on the NA farm.
+</p>
+
+<p>
+The development system is there to reward scouting and patience without
+creating an arbitrary salary progression before the player becomes part of
+the regular roster economy.
 </p>
 
 <p>
 When that player eventually becomes a regular keeper, the normal salary
-rules begin to matter.
+escalation rules begin to matter.
 </p>
 
 <h2>Cheap Does Not Mean Permanent</h2>

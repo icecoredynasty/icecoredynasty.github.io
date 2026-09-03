@@ -81,9 +81,9 @@ The four division last-place teams therefore receive the first four picks, while
 
 There is no lottery.
 
-Draft selections cannot be traded.
+Entry Draft selections cannot currently be traded because Yahoo does not support draft-pick trading in Salary Cap Draft leagues. If Yahoo changes this in the future, IceCore may introduce draft-pick trading beginning with a future season.
 
-That is intentional.
+That is the current IceCore setup.
 
 The Entry Draft is one of IceCore's strongest tools for competitive balance.
 
