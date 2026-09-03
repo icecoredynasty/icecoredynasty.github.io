@@ -3,7 +3,6 @@ layout: team
 title: Anchorage Prospectors
 permalink: /teams/anchorage-prospectors/
 slug: anchorage-prospectors
-team_id: anchorage-prospectors
 
 city: Anchorage
 state: Alaska
@@ -12,7 +11,7 @@ nickname: Prospectors
 
 division: 
 league: 
-status: available
+status: reserved
 founded: 2026
 
 logo: /assets/images/teams/anchorage-prospectors.png
