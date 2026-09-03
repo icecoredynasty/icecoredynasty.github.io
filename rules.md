@@ -113,7 +113,6 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
         <h3>One Rookie</h3>
         <p>
           Beginning with the second season, every franchise receives one first-round rookie pick.
-          The first four picks go to the division last-place teams by mini-table; the remaining positions follow reverse regular-season standings.
         </p>
       </article>
 
@@ -157,7 +156,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
   <h3>Salary Escalation</h3>
 
     <p>
-      Every regular keeper gets +4. Eligible underpaid players may receive an additional +5 IceCore Value Bonus.
+      Every regular keeper gets +4. Eligible underpaid players may receive an additional +5 Value Bonus.
     </p>
 </article>
 <article class="ic-quick-card">
@@ -497,7 +496,8 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     <p>
       The five NA slots available during the season provide development
       space. They are not five automatic additional offseason keepers.
-      A maximum of three players from that group may be protected.
+      A maximum of three players from that group may be protected
+      (the rest should be placed on regular keeper list).
     </p>
 
     <p>
@@ -658,7 +658,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </p>
 
     <p>
-      A regular keeper may also receive a <strong>+5 IceCore Value Bonus</strong> if his
+      A regular keeper may also receive a <strong>+5 Value Bonus</strong> if his
       previous salary is below the average salary of his performance group. For this
       purpose, the <strong>Top 150 skaters</strong> are divided into groups of 10, while the
       <strong>Top 10 goaltenders</strong> are treated as one group. In each group, the highest
@@ -676,7 +676,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
       The <a href="{{ '/value-board/' | relative_url }}">IceCore Value Board</a> will be used
       during the season to publish informative interim lists of players who would currently
       qualify for the <strong>+5 IceCore Value Bonus</strong> based on the latest standings
-      and salary data. These interim lists are informational only; final bonus recipients
+      and salary data. Final bonus recipients
       are confirmed after the completed regular season.
     </p>
 
