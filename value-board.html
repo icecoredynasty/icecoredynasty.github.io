@@ -4,44 +4,10 @@ title: IceCore Value Board
 permalink: /value-board/
 ---
 
-<style>
-  .value-board-page { max-width: 1180px; margin: 0 auto; }
-  .value-board-page .page-header { margin-bottom: 1.5rem; }
-  .value-board-page .page-subtitle { opacity: .75; }
-  .vb-intro, .vb-explain, .vb-summary, .vb-note { margin: 1.5rem 0; }
-  .vb-groups { display: grid; gap: 1.5rem; }
-  .vb-group { border: 1px solid rgba(127,127,127,.22); border-radius: 12px; overflow: hidden; background: rgba(127,127,127,.035); }
-  .vb-group-header { display:flex; justify-content:space-between; align-items:center; gap:1rem; padding:1rem 1.1rem; border-bottom:1px solid rgba(127,127,127,.18); }
-  .vb-group-header h3 { margin:0; }
-  .vb-benchmark { white-space:nowrap; font-weight:700; }
-  .vb-table-wrap { overflow-x:auto; }
-  .vb-table { width:100%; border-collapse:collapse; min-width:720px; }
-  .vb-table th, .vb-table td { padding:.65rem .75rem; text-align:left; border-bottom:1px solid rgba(127,127,127,.14); }
-  .vb-table th { font-size:.82rem; opacity:.72; text-transform:uppercase; letter-spacing:.03em; }
-  .vb-table tr:last-child td { border-bottom:0; }
-  .vb-rank { width:3rem; opacity:.65; }
-  .vb-player { font-weight:700; }
-  .vb-salary, .vb-benchmark-cell { white-space:nowrap; }
-  .vb-status { white-space:nowrap; font-weight:600; }
-  .vb-bonus { font-weight:700; }
-  .vb-legend { display:flex; flex-wrap:wrap; gap:.65rem 1rem; margin:1rem 0 0; }
-  .vb-legend span { display:inline-flex; align-items:center; gap:.35rem; }
-  .vb-cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:1rem; margin-top:1rem; }
-  .vb-card { padding:1rem; border:1px solid rgba(127,127,127,.2); border-radius:10px; }
-  .vb-card strong { display:block; margin-bottom:.35rem; }
-  .vb-summary-table { width:100%; border-collapse:collapse; }
-  .vb-summary-table th, .vb-summary-table td { padding:.65rem .75rem; border-bottom:1px solid rgba(127,127,127,.14); text-align:left; }
-  .vb-small { font-size:.9rem; opacity:.78; }
-  .vb-highlight { font-weight:700; }
-  @media (max-width:700px) {
-    .vb-group-header { align-items:flex-start; flex-direction:column; }
-    .vb-benchmark { white-space:normal; }
-  }
-</style>
 
 <div class="page-container value-board-page">
 
-  <header class="page-header">
+  <header class="page-header vb-page-header">
     <h1>💰 IceCore Value Board</h1>
     <p class="page-subtitle">Provisional Value Board · updated after Round X</p>
   </header>
@@ -84,10 +50,10 @@ permalink: /value-board/
     <div class="vb-group">
       <div class="vb-group-header">
         <h3>Skaters · Ranks 1–10</h3>
-        <div class="vb-benchmark">Benchmark: <strong>— Coins</strong></div>
+        <div class="vb-benchmark"><span>Benchmark</span><strong>— Coins</strong></div>
       </div>
       <div class="vb-table-wrap"><table class="vb-table">
-        <thead><tr><th>#</th><th>Player</th><th>Team</th><th>Salary</th><th>Benchmark</th><th>Status</th><th>Keeper Increase</th></tr></thead>
+        <thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Salary</th><th scope="col">Benchmark</th><th scope="col">Status</th><th scope="col">Keeper Increase</th></tr></thead>
         <tbody>
           <tr><td class="vb-rank">1</td><td class="vb-player">—</td><td>—</td><td class="vb-salary">—</td><td class="vb-benchmark-cell">—</td><td class="vb-status">⚖️ Fair Salary</td><td>+4</td></tr>
           <tr><td>2</td><td class="vb-player">—</td><td>—</td><td>—</td><td>—</td><td class="vb-status">⚖️ Fair Salary</td><td>+4</td></tr>
@@ -109,10 +75,10 @@ permalink: /value-board/
     <div class="vb-group">
       <div class="vb-group-header">
         <h3>Skaters · Ranks {{ group }}</h3>
-        <div class="vb-benchmark">Benchmark: <strong>— Coins</strong></div>
+        <div class="vb-benchmark"><span>Benchmark</span><strong>— Coins</strong></div>
       </div>
       <div class="vb-table-wrap"><table class="vb-table">
-        <thead><tr><th>Rank</th><th>Player</th><th>Team</th><th>Salary</th><th>Benchmark</th><th>Status</th><th>Keeper Increase</th></tr></thead>
+        <thead><tr><th scope="col">Rank</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Salary</th><th scope="col">Benchmark</th><th scope="col">Status</th><th scope="col">Keeper Increase</th></tr></thead>
         <tbody>
           {% assign range = group | split: "–" %}
           {% assign start = range[0] | plus: 0 %}
@@ -129,10 +95,10 @@ permalink: /value-board/
     <div class="vb-group">
       <div class="vb-group-header">
         <h3>Goalies · Top 10</h3>
-        <div class="vb-benchmark">Benchmark: <strong>— Coins</strong></div>
+        <div class="vb-benchmark"><span>Benchmark</span><strong>— Coins</strong></div>
       </div>
       <div class="vb-table-wrap"><table class="vb-table">
-        <thead><tr><th>#</th><th>Goalie</th><th>Team</th><th>Salary</th><th>Benchmark</th><th>Status</th><th>Keeper Increase</th></tr></thead>
+        <thead><tr><th scope="col">#</th><th scope="col">Goalie</th><th scope="col">Team</th><th scope="col">Salary</th><th scope="col">Benchmark</th><th scope="col">Status</th><th scope="col">Keeper Increase</th></tr></thead>
         <tbody>
           {% for rank in (1..10) %}
           <tr><td class="vb-rank">{{ rank }}</td><td class="vb-player">—</td><td>—</td><td>—</td><td>—</td><td class="vb-status">⚖️ Fair Salary</td><td>+4</td></tr>
@@ -151,9 +117,9 @@ permalink: /value-board/
       benchmarks is extracting more value from the same 500-Coin cap.
     </p>
 
-    <div class="table-wrapper">
+    <div class="vb-summary-table-wrap">
       <table class="vb-summary-table">
-        <thead><tr><th>#</th><th>Franchise</th><th>GM</th><th>💎 Value Bonus Players</th><th>Average Salary Efficiency</th><th>Economy Note</th></tr></thead>
+        <thead><tr><th scope="col">#</th><th scope="col">Franchise</th><th scope="col">GM</th><th scope="col">💎 Value Bonus Players</th><th scope="col">Average Salary Efficiency</th><th scope="col">Economy Note</th></tr></thead>
         <tbody>
           <tr><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
           <tr><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
