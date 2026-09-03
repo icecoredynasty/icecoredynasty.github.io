@@ -398,10 +398,11 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </p>
 
     <p>
-      Keeper selections must fit the franchise's active roster limits:
-      <strong>4 C, 4 LW, 4 RW, 6 D and 2 G</strong>.
-      A franchise may not protect more players at a position than it
-      has active roster slots for that position.
+      Keeper selections must fit the franchise's configured positional roster limits:
+      <strong>8 C, 8 LW, 8 RW, 6 D and 2 G</strong>.
+      The limits for C, LW and RW allow additional players at those positions,
+      which is especially important for players with multiple-position eligibility.
+      The limits of <strong>6 D and 2 G</strong> are fixed.
     </p>
 
     <p>
@@ -464,10 +465,17 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </p>
 
     <p>
+      If a franchise has no eligible player in its previous-season NA farm,
+      the Commissioner will assign an eligible young player from the available
+      player pool to satisfy the minimum one-Development-Keeper requirement.
+    </p>
+
+    <p>
       A Development Keeper may be protected only if his position still
-      fits the franchise's active roster limits after the regular keepers
-      are selected. For example, a franchise with four regular C keepers
-      cannot protect another C from its NA farm.
+      fits the franchise's configured positional roster limits after the regular
+      keepers are selected. The maximum limits are <strong>8 C, 8 LW, 8 RW,
+      6 D and 2 G</strong>. The C, LW and RW limits allow additional players
+      at those positions, while the D and G limits are fixed.
     </p>
 
     <p>
@@ -476,21 +484,20 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </p>
 
     <p>
-      Development Keepers enter the new roster at <strong>1 coin</strong>.
-      If kept again, their salary increases by <strong>+1 coin per offseason</strong>.
+      A Development Keeper retains the IceCore salary at which he was acquired.
+      A player acquired from free agency or waivers carries a salary of
+      <strong>0 coins</strong>; a player acquired through the Salary Cap Draft
+      carries the winning Salary Cap Draft price.
     </p>
 
     <p>
       <strong>Development Keepers also count toward the franchise's total
-      positional roster limits.</strong> For example, a franchise protecting
-      15 regular keepers with 4 C, 4 LW, 3 RW, 3 D and 1 G has one remaining
-      G slot and two remaining D slots. If it then protects 1 G and 2 D from
-      its NA farm, it reaches the maximum of 2 goaltenders. That franchise
-      therefore cannot add another G through the Entry Draft or the Live
-      Salary Cap Draft. If its designated Entry Draft selection would
-      otherwise be a goaltender, the selection moves to the highest-ranked
-      available eligible non-goaltender. The same positional limit applies
-      when filling the remaining roster through the Live Salary Cap Draft.
+      positional roster limits.</strong> A franchise may have up to
+      <strong>8 C, 8 LW, 8 RW, 6 D and 2 G</strong> across its protected
+      players and later roster additions. The C, LW and RW limits allow
+      additional players at those positions, while the D and G limits are fixed.
+      These limits also apply when filling the remaining roster through the
+      Entry Draft or Live Salary Cap Draft.
     </p>
 
     <p>
@@ -528,8 +535,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </p>
 
     <p>
-      The first four picks go to the four division last-place franchises, ordered by their mini-table of head-to-head games; ties go to the worse regular-season finish. The remaining positions follow reverse regular-season standings. Entry Draft selections cannot be traded. The Commissioner conducts
-      the Entry Draft manually.
+      The first four picks go to the four division last-place franchises, ordered by their mini-table of head-to-head games; ties go to the worse regular-season finish. The remaining positions follow reverse regular-season standings. Entry Draft selections cannot be traded. The Commissioner conducts the Entry Draft manually.
     </p>
 
     <p>
@@ -547,14 +553,34 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
     <p>
       If no rookie list is submitted, the franchise remains in the draft and the
-      real-world first-round NHL Draft order is used as its default ranking. Missing
-      the priority-list deadline does not result in a league penalty.
+      real-world first-round NHL Draft order is used as its default ranking.
+      Missing the priority-list deadline does not result in a league penalty.
+    </p>
+
+    <p>
+      If the highest-ranked available rookie would cause the franchise to exceed
+      its configured positional limit, the selection moves to the next available
+      eligible rookie who fits the franchise's roster. The positional limits are
+      <strong>8 C, 8 LW, 8 RW, 6 D and 2 G</strong>; the limits for C, LW and RW
+      allow additional players at those positions, while the D and G limits are fixed.
     </p>
 
     <p>
       Entry Draft selections enter their IceCore franchise at a salary of
       <strong>1 Coin</strong>.
     </p>
+
+    <p>
+      If an Entry Draft selection is not yet available in Yahoo when offseason
+      rosters are prepared, the franchise retains exclusive rights to that rookie.
+    </p>
+
+    <p>
+      Yahoo currently does not support draft-pick trading in Salary Cap Draft leagues.
+      If Yahoo introduces support for draft-pick trading in this format in the future,
+      IceCore may introduce draft-pick trading beginning with a future season.
+    </p>
+
   </div>
 
 </article>
@@ -562,48 +588,9 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
 <!-- 07 -->
 
-<article class="ic-rule">
-
-  <span class="ic-rule__number">07</span>
-
-  <div class="ic-rule__body">
-
-    <h3>Rookie Lists & Yahoo Availability</h3>
-
-    <p>
-      Managers may submit their rookie preferences before the announced Entry Draft
-      deadline. Preferences must be limited to eligible rookies selected in the first
-      round of the relevant real-world NHL Entry Draft.
-    </p>
-
-    <p>
-      If a GM submits only a short list, that list is followed for as long as eligible
-      players remain available. If the list runs out before the franchise's selection,
-      the Commissioner continues from the remaining eligible rookies in real-world
-      first-round NHL Draft order.
-    </p>
-
-    <p>
-      If a GM does not submit a list, the franchise remains in the draft and its default
-      ranking follows the real-world order of players selected in the first round of the
-      relevant NHL Draft. Missing the priority-list deadline does not result in a league
-      penalty; the default NHL Draft order is used automatically.
-    </p>
-
-    <p>
-      If an Entry Draft selection is not yet available in Yahoo when offseason
-      rosters are prepared, the franchise retains exclusive rights to that rookie.
-    </p>
-  </div>
-
-</article>
-
-
-<!-- 08 -->
-
 <article class="ic-rule ic-rule--feature">
 
-  <span class="ic-rule__number">08</span>
+  <span class="ic-rule__number">07</span>
 
   <div class="ic-rule__body">
 
@@ -642,11 +629,11 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 </article>
 
 
-<!-- 09 -->
+<!-- 08 -->
 
 <article class="ic-rule">
 
-  <span class="ic-rule__number">09</span>
+  <span class="ic-rule__number">08</span>
 
   <div class="ic-rule__body">
 
@@ -721,11 +708,11 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 </article>
 
 
-<!-- 10 -->
+<!-- 09 -->
 
 <article class="ic-rule">
 
-  <span class="ic-rule__number">10</span>
+  <span class="ic-rule__number">09</span>
 
   <div class="ic-rule__body">
 
@@ -757,11 +744,11 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 </article>
 
 
-<!-- 11 -->
+<!-- 10 -->
 
 <article class="ic-rule ic-rule--feature">
 
-  <span class="ic-rule__number">11</span>
+  <span class="ic-rule__number">10</span>
 
   <div class="ic-rule__body">
 
@@ -808,11 +795,11 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 </article>
 
 
-<!-- 12 -->
+<!-- 11 -->
 
 <article class="ic-rule">
 
-  <span class="ic-rule__number">12</span>
+  <span class="ic-rule__number">11</span>
 
   <div class="ic-rule__body">
 
@@ -868,10 +855,12 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </p>
 
     <p>
-      All protected players must fit the active roster structure.
-      Keeper positions cannot exceed <strong>4 C, 4 LW, 4 RW, 6 D or 2 G</strong>.
-      This positional structure also determines which Development Keepers
-      can be carried from the NA farm.
+      All protected players must fit the franchise's configured positional roster limits:
+      <strong>8 C, 8 LW, 8 RW, 6 D and 2 G</strong>. The C, LW and RW limits allow
+      additional players at those positions, especially for players with multiple-position
+      eligibility, while the D and G limits are fixed. This positional structure also
+      determines which Development Keepers and Entry Draft selections can be carried
+      into the opening roster.
     </p>
 
     <p>
@@ -891,11 +880,11 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 </article>
 
 
-<!-- 13 -->
+<!-- 12 -->
 
 <article class="ic-rule" id="salary-cap-draft">
 
-  <span class="ic-rule__number">13</span>
+  <span class="ic-rule__number">12</span>
 
   <div class="ic-rule__body">
 
@@ -940,11 +929,11 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 </article>
 
 
-<!-- 14 -->
+<!-- 13 -->
 
 <article class="ic-rule">
 
-  <span class="ic-rule__number">14</span>
+  <span class="ic-rule__number">13</span>
 
   <div class="ic-rule__body">
 
@@ -977,11 +966,11 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 </article>
 
 
-<!-- 15 -->
+<!-- 14 -->
 
 <article class="ic-rule">
 
-  <span class="ic-rule__number">15</span>
+  <span class="ic-rule__number">14</span>
 
   <div class="ic-rule__body">
 
@@ -1031,11 +1020,11 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 </article>
 
 
-<!-- 16 -->
+<!-- 15 -->
 
 <article class="ic-rule">
 
-  <span class="ic-rule__number">16</span>
+  <span class="ic-rule__number">15</span>
 
   <div class="ic-rule__body">
 
@@ -1065,11 +1054,11 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 </article>
 
 
-<!-- 17 -->
+<!-- 16 -->
 
 <article class="ic-rule">
 
-  <span class="ic-rule__number">17</span>
+  <span class="ic-rule__number">16</span>
 
   <div class="ic-rule__body">
 
@@ -1100,11 +1089,11 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 </article>
 
 
-<!-- 18 -->
+<!-- 17 -->
 
 <article class="ic-rule">
 
-  <span class="ic-rule__number">18</span>
+  <span class="ic-rule__number">17</span>
 
   <div class="ic-rule__body">
 
@@ -1119,7 +1108,11 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
     <p>
       Deliberately tanking games or weakening a roster primarily to obtain
-      a better future draft position is not permitted. Likewise, collusion,
+      a better future draft position is not permitted. A rebuild may include
+      prospects and developmental players, but it is not considered legitimate
+      franchise management to field a deliberately non-competitive prospect-only
+      lineup throughout the regular season or intentionally lose all 23 matchups.
+      Likewise, collusion,
       coordinated roster dumping, waiver manipulation, artificial or
       knowingly unreasonable salary inflation, or other actions intended
       primarily to distort the competition or benefit another franchise
@@ -1164,11 +1157,11 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 </article>
 
 
-<!-- 19 -->
+<!-- 18 -->
 
 <article class="ic-rule ic-rule--feature">
 
-  <span class="ic-rule__number">19</span>
+  <span class="ic-rule__number">18</span>
 
   <div class="ic-rule__body">
 
@@ -1222,11 +1215,11 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 </article>
 
 
-<!-- 20 -->
+<!-- 19 -->
 
 <article class="ic-rule ic-rule--feature">
 
-  <span class="ic-rule__number">20</span>
+  <span class="ic-rule__number">19</span>
 
   <div class="ic-rule__body">
 
@@ -1311,11 +1304,11 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 </article>
 
 
-<!-- 21 -->
+<!-- 20 -->
 
 <article class="ic-rule">
 
-  <span class="ic-rule__number">21</span>
+  <span class="ic-rule__number">20</span>
 
   <div class="ic-rule__body">
 
@@ -1347,20 +1340,22 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 </article>
 
 
-<!-- 22 -->
+<!-- 21 -->
 
 <article class="ic-rule">
 
-  <span class="ic-rule__number">22</span>
+  <span class="ic-rule__number">21</span>
 
   <div class="ic-rule__body">
 
     <h3>Franchise Expansion &amp; Reset</h3>
 
     <p>
-      If IceCore expands and a new franchise is introduced, the expansion process
-      is determined by the Commissioner according to the league's current structure
-      and competitive needs.
+      If IceCore expands and a new franchise is introduced, the expansion franchise
+      enters with a complete <strong>20-player roster</strong> and does not participate
+      in the Entry Draft or Live Salary Cap Draft. The Commissioner will establish
+      and enter the expansion roster using the available Yahoo commissioner tools
+      and the league's current structure.
     </p>
 
     <p>
@@ -1396,28 +1391,28 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 </article>
 
 
-<!-- 23 -->
+<!-- 22 -->
 
 <article class="ic-rule">
 
-  <span class="ic-rule__number">23</span>
+  <span class="ic-rule__number">22</span>
 
   <div class="ic-rule__body">
 
     <h3>Rules Stability</h3>
 
     <p>
-      IceCore rules and core league settings are intended to be stable and
-      transparent. General Managers make draft, keeper, salary and roster
-      decisions based on the published framework, so material competitive
-      changes will not be introduced during an active season.
+      IceCore rules and core league settings are intended to remain stable and
+      consistent across seasons. General Managers make draft, keeper, salary and
+      roster decisions based on the published framework, and the goal is to avoid
+      repeatedly reshaping the league as the dynasty develops.
     </p>
 
     <p>
-      Before each season's draft, the published rules and core league settings
-      are finalized and are treated as locked once that season's draft begins.
-      Changes that materially affect competitive strategy, roster value, scoring
-      or the meaning of previously made decisions are reserved for the offseason.
+      The long-term goal is to let the IceCore economy develop in its own way.
+      Player values, salaries, roster strategies and franchise identities should
+      emerge from the decisions of the 20 General Managers rather than from
+      frequent rule changes or Commissioner intervention.
     </p>
 
     <p>
@@ -1431,11 +1426,11 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
 </article>
 
-<!-- 24 -->
+<!-- 23 -->
 
 <article class="ic-rule">
 
-  <span class="ic-rule__number">24</span>
+  <span class="ic-rule__number">23</span>
 
   <div class="ic-rule__body">
 
