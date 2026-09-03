@@ -1,0 +1,218 @@
+/* ==========================================================================
+   IceCore Value Board
+   ========================================================================== */
+
+.value-board-page {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding-top: 1.5rem;
+  padding-bottom: 3rem;
+
+  .vb-page-header {
+    margin-bottom: 2rem;
+  }
+
+  .page-subtitle {
+    opacity: 0.75;
+  }
+
+  .vb-intro,
+  .vb-explain,
+  .vb-summary,
+  .vb-note {
+    margin: 1.75rem 0;
+  }
+
+  .vb-intro {
+    max-width: 900px;
+  }
+
+  .vb-groups {
+    display: grid;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .vb-group {
+    overflow: hidden;
+    border: 1px solid rgba(127, 127, 127, 0.22);
+    border-radius: 12px;
+    background: rgba(127, 127, 127, 0.035);
+  }
+
+  .vb-group-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem 1.15rem;
+    border-bottom: 1px solid rgba(127, 127, 127, 0.18);
+
+    h3 {
+      margin: 0;
+    }
+  }
+
+  .vb-benchmark {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.4rem;
+    white-space: nowrap;
+    font-weight: 700;
+
+    span {
+      font-size: 0.78rem;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      opacity: 0.65;
+    }
+  }
+
+  .vb-table-wrap,
+  .vb-summary-table-wrap {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .vb-table {
+    width: 100%;
+    min-width: 720px;
+    border-collapse: collapse;
+  }
+
+  .vb-table th,
+  .vb-table td {
+    padding: 0.65rem 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid rgba(127, 127, 127, 0.14);
+  }
+
+  .vb-table th {
+    font-size: 0.82rem;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    opacity: 0.72;
+  }
+
+  .vb-table tbody tr {
+    transition: background-color 0.15s ease;
+  }
+
+  .vb-table tbody tr:hover {
+    background: rgba(127, 127, 127, 0.06);
+  }
+
+  .vb-table tr:last-child td {
+    border-bottom: 0;
+  }
+
+  .vb-rank {
+    width: 3rem;
+    opacity: 0.65;
+  }
+
+  .vb-player {
+    font-weight: 700;
+  }
+
+  .vb-salary,
+  .vb-benchmark-cell,
+  .vb-status {
+    white-space: nowrap;
+  }
+
+  .vb-status {
+    font-weight: 600;
+  }
+
+  .vb-bonus {
+    font-weight: 700;
+  }
+
+  .vb-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem 1rem;
+    margin: 1rem 0 0;
+
+    span {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+  }
+
+  .vb-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .vb-card {
+    padding: 1rem;
+    border: 1px solid rgba(127, 127, 127, 0.2);
+    border-radius: 10px;
+    background: rgba(127, 127, 127, 0.025);
+
+    strong {
+      display: block;
+      margin-bottom: 0.35rem;
+    }
+  }
+
+  .vb-summary-table {
+    width: 100%;
+    min-width: 780px;
+    border-collapse: collapse;
+  }
+
+  .vb-summary-table th,
+  .vb-summary-table td {
+    padding: 0.65rem 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid rgba(127, 127, 127, 0.14);
+  }
+
+  .vb-summary-table th {
+    font-size: 0.82rem;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    opacity: 0.72;
+  }
+
+  .vb-small {
+    font-size: 0.9rem;
+    opacity: 0.78;
+  }
+
+  .vb-highlight {
+    font-weight: 700;
+  }
+
+  @media (max-width: 700px) {
+    padding-top: 1rem;
+
+    .vb-page-header {
+      margin-bottom: 1.5rem;
+    }
+
+    .vb-group-header {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+
+    .vb-benchmark {
+      white-space: normal;
+    }
+
+    .vb-table th,
+    .vb-table td,
+    .vb-summary-table th,
+    .vb-summary-table td {
+      padding: 0.6rem;
+    }
+  }
+}
