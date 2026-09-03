@@ -75,11 +75,9 @@ You are asking:
 
 ## Competitive Balance Comes First
 
-The Entry Draft uses reverse final standings.
+The Entry Draft gives the first four selections to the four divisional last-place franchises, ordered by a mini-table of head-to-head games among those four teams. If tied, the worse regular-season finish receives the higher pick. The remaining selections follow reverse regular-season standings.
 
-The lowest-ranked franchise selects first.
-
-The highest-ranked franchise selects last.
+The four division last-place teams therefore receive the first four picks, while the rest of the order is determined by the final league standings.
 
 There is no lottery.
 

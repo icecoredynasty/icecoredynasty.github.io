@@ -159,7 +159,7 @@ It is what his salary allows the rest of the franchise to become.
 
 Cheap talent does not remain cheap forever.
 
-Keeper salaries rise between seasons, with larger increases applied to higher-ranked players and additional protection against elite production remaining artificially inexpensive.
+Keeper salaries rise between seasons. Every Regular Keeper receives a **+4 Coin Base Increase**. Eligible underpaid players can receive an additional **+5 IceCore Value Bonus**, determined by their final Yahoo Fantasy Points ranking and the actual salary market within their ranking group. This means the maximum annual increase is **+9 Coins**.
 
 A player acquired before his breakout can still become an outstanding asset.
 
