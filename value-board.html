@@ -4,290 +4,199 @@ title: IceCore Value Board
 permalink: /value-board/
 ---
 
-<div class="page-container">
+<style>
+  .value-board-page { max-width: 1180px; margin: 0 auto; }
+  .value-board-page .page-header { margin-bottom: 1.5rem; }
+  .value-board-page .page-subtitle { opacity: .75; }
+  .vb-intro, .vb-explain, .vb-summary, .vb-note { margin: 1.5rem 0; }
+  .vb-groups { display: grid; gap: 1.5rem; }
+  .vb-group { border: 1px solid rgba(127,127,127,.22); border-radius: 12px; overflow: hidden; background: rgba(127,127,127,.035); }
+  .vb-group-header { display:flex; justify-content:space-between; align-items:center; gap:1rem; padding:1rem 1.1rem; border-bottom:1px solid rgba(127,127,127,.18); }
+  .vb-group-header h3 { margin:0; }
+  .vb-benchmark { white-space:nowrap; font-weight:700; }
+  .vb-table-wrap { overflow-x:auto; }
+  .vb-table { width:100%; border-collapse:collapse; min-width:720px; }
+  .vb-table th, .vb-table td { padding:.65rem .75rem; text-align:left; border-bottom:1px solid rgba(127,127,127,.14); }
+  .vb-table th { font-size:.82rem; opacity:.72; text-transform:uppercase; letter-spacing:.03em; }
+  .vb-table tr:last-child td { border-bottom:0; }
+  .vb-rank { width:3rem; opacity:.65; }
+  .vb-player { font-weight:700; }
+  .vb-salary, .vb-benchmark-cell { white-space:nowrap; }
+  .vb-status { white-space:nowrap; font-weight:600; }
+  .vb-bonus { font-weight:700; }
+  .vb-legend { display:flex; flex-wrap:wrap; gap:.65rem 1rem; margin:1rem 0 0; }
+  .vb-legend span { display:inline-flex; align-items:center; gap:.35rem; }
+  .vb-cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:1rem; margin-top:1rem; }
+  .vb-card { padding:1rem; border:1px solid rgba(127,127,127,.2); border-radius:10px; }
+  .vb-card strong { display:block; margin-bottom:.35rem; }
+  .vb-summary-table { width:100%; border-collapse:collapse; }
+  .vb-summary-table th, .vb-summary-table td { padding:.65rem .75rem; border-bottom:1px solid rgba(127,127,127,.14); text-align:left; }
+  .vb-small { font-size:.9rem; opacity:.78; }
+  .vb-highlight { font-weight:700; }
+  @media (max-width:700px) {
+    .vb-group-header { align-items:flex-start; flex-direction:column; }
+    .vb-benchmark { white-space:normal; }
+  }
+</style>
+
+<div class="page-container value-board-page">
 
   <header class="page-header">
     <h1>💰 IceCore Value Board</h1>
-    <p class="page-subtitle">Provisional ranking after Round X</p>
+    <p class="page-subtitle">Provisional Value Board · updated after Round X</p>
   </header>
 
-
-  <!-- INTRO -->
-
-  <section class="value-intro">
+  <section class="vb-intro">
     <p>
-      Ranking of drafted players based on Fan Points produced per Coin of salary.
-      This is a provisional ranking and will change throughout the Salary Cap Draft.
+      The IceCore Value Board shows which players would currently qualify for the
+      <strong>+5 IceCore Value Bonus</strong> under the league's salary escalation system.
+      The board is informational during the season. Final bonus recipients are confirmed
+      after the completed regular season.
+    </p>
+    <p>
+      Skaters are ranked by final Yahoo Fantasy Points and divided into groups of ten.
+      The <strong>Top 10 goalies</strong> form one additional group. Within each group,
+      the highest and lowest salary are removed and the remaining salaries are averaged
+      to create that group's <strong>salary benchmark</strong>.
     </p>
   </section>
 
-
-  <!-- LEGEND -->
-
-  <section class="value-legend">
-
-    <h2>Value Categories</h2>
-
-    <div class="legend-grid">
-
-      <div class="legend-item">
-        <span class="legend-icon">🏆</span>
-        <div>
-          <strong>Top Bargain</strong>
-          <span>Exceptional value</span>
-        </div>
+  <section class="vb-explain">
+    <h2>How to Read the Board</h2>
+    <div class="vb-cards">
+      <div class="vb-card">
+        <strong>⚖️ Fair Salary</strong>
+        <span>Player's salary is at or above the current group benchmark. Base Increase only.</span>
       </div>
-
-      <div class="legend-item">
-        <span class="legend-icon">⚖️</span>
-        <div>
-          <strong>Quality Value</strong>
-          <span>Solid value for the salary</span>
-        </div>
+      <div class="vb-card">
+        <strong>💎 IceCore Value Bonus</strong>
+        <span>Player's salary is below the current group benchmark and would receive the additional +5 bonus.</span>
       </div>
-
-      <div class="legend-item">
-        <span class="legend-icon">💎</span>
-        <div>
-          <strong>Value Bonus</strong>
-          <span>Selected for offseason Value Bonus</span>
-        </div>
+      <div class="vb-card">
+        <strong>📊 Group Benchmark</strong>
+        <span>Average salary of the group after removing the highest- and lowest-paid player.</span>
       </div>
-
-      <div class="legend-item">
-        <span class="legend-icon">🪙</span>
-        <div>
-          <strong>Late-Round Gem</strong>
-          <span>Exceptional value at low salary</span>
-        </div>
-      </div>
-
-      <div class="legend-item">
-        <span class="legend-icon">💸</span>
-        <div>
-          <strong>Overpay</strong>
-          <span>Poor value relative to salary</span>
-        </div>
-      </div>
-
     </div>
-
   </section>
 
+  <section class="vb-groups">
 
-  <!-- MAIN VALUE BOARD -->
-
-  <section class="value-board">
-
-    <div class="section-heading">
-      <h2>Player Value Ranking</h2>
-      <span class="section-note">After Round X</span>
-    </div>
-
-    <div class="table-wrapper">
-
-      <table class="value-table">
-
-        <thead>
-          <tr>
-            <th>#</th>
-            <th>Player</th>
-            <th>Team</th>
-            <th>Salary</th>
-            <th>Fan Points</th>
-            <th>FP / Coin</th>
-            <th>Category</th>
-            <th>Badge</th>
-          </tr>
-        </thead>
-
+    <div class="vb-group">
+      <div class="vb-group-header">
+        <h3>Skaters · Ranks 1–10</h3>
+        <div class="vb-benchmark">Benchmark: <strong>— Coins</strong></div>
+      </div>
+      <div class="vb-table-wrap"><table class="vb-table">
+        <thead><tr><th>#</th><th>Player</th><th>Team</th><th>Salary</th><th>Benchmark</th><th>Status</th><th>Keeper Increase</th></tr></thead>
         <tbody>
-
-          <!-- PLAYER ROWS WILL BE ADDED HERE -->
-
-          <tr>
-            <td>1</td>
-            <td>—</td>
-            <td>—</td>
-            <td>—</td>
-            <td>—</td>
-            <td>—</td>
-            <td>Top 50</td>
-            <td>—</td>
-          </tr>
-
-          <tr>
-            <td>2</td>
-            <td>—</td>
-            <td>—</td>
-            <td>—</td>
-            <td>—</td>
-            <td>—</td>
-            <td>Top 50</td>
-            <td>—</td>
-          </tr>
-
-          <tr>
-            <td>3</td>
-            <td>—</td>
-            <td>—</td>
-            <td>—</td>
-            <td>—</td>
-            <td>—</td>
-            <td>Top 50</td>
-            <td>—</td>
-          </tr>
-
-          <!--
-          Continue adding players after each draft round.
-          The final board will contain the relevant drafted players.
-          -->
-
+          <tr><td class="vb-rank">1</td><td class="vb-player">—</td><td>—</td><td class="vb-salary">—</td><td class="vb-benchmark-cell">—</td><td class="vb-status">⚖️ Fair Salary</td><td>+4</td></tr>
+          <tr><td>2</td><td class="vb-player">—</td><td>—</td><td>—</td><td>—</td><td class="vb-status">⚖️ Fair Salary</td><td>+4</td></tr>
+          <tr><td>3</td><td class="vb-player">—</td><td>—</td><td>—</td><td>—</td><td class="vb-status">⚖️ Fair Salary</td><td>+4</td></tr>
+          <tr><td>4</td><td class="vb-player">—</td><td>—</td><td>—</td><td>—</td><td class="vb-status">⚖️ Fair Salary</td><td>+4</td></tr>
+          <tr><td>5</td><td class="vb-player">—</td><td>—</td><td>—</td><td>—</td><td class="vb-status">⚖️ Fair Salary</td><td>+4</td></tr>
+          <tr><td>6</td><td class="vb-player">—</td><td>—</td><td>—</td><td>—</td><td class="vb-status">⚖️ Fair Salary</td><td>+4</td></tr>
+          <tr><td>7</td><td class="vb-player">—</td><td>—</td><td>—</td><td>—</td><td class="vb-status">⚖️ Fair Salary</td><td>+4</td></tr>
+          <tr><td>8</td><td class="vb-player">—</td><td>—</td><td>—</td><td>—</td><td class="vb-status">⚖️ Fair Salary</td><td>+4</td></tr>
+          <tr><td>9</td><td class="vb-player">—</td><td>—</td><td>—</td><td>—</td><td class="vb-status">⚖️ Fair Salary</td><td>+4</td></tr>
+          <tr><td>10</td><td class="vb-player">—</td><td>—</td><td>—</td><td>—</td><td class="vb-status">⚖️ Fair Salary</td><td>+4</td></tr>
         </tbody>
+      </table></div>
+    </div>
 
-      </table>
+    <!-- TEMPLATE GROUPS -->
+    {% assign groups = "11–20|21–30|31–40|41–50|51–60|61–70|71–80|81–90|91–100|101–110|111–120|121–130|131–140|141–150" | split: "|" %}
+    {% for group in groups %}
+    <div class="vb-group">
+      <div class="vb-group-header">
+        <h3>Skaters · Ranks {{ group }}</h3>
+        <div class="vb-benchmark">Benchmark: <strong>— Coins</strong></div>
+      </div>
+      <div class="vb-table-wrap"><table class="vb-table">
+        <thead><tr><th>Rank</th><th>Player</th><th>Team</th><th>Salary</th><th>Benchmark</th><th>Status</th><th>Keeper Increase</th></tr></thead>
+        <tbody>
+          {% assign range = group | split: "–" %}
+          {% assign start = range[0] | plus: 0 %}
+          {% for offset in (0..9) %}
+          <tr>
+            <td class="vb-rank">{{ start | plus: offset }}</td><td class="vb-player">—</td><td>—</td><td>—</td><td>—</td><td class="vb-status">⚖️ Fair Salary</td><td>+4</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table></div>
+    </div>
+    {% endfor %}
 
+    <div class="vb-group">
+      <div class="vb-group-header">
+        <h3>Goalies · Top 10</h3>
+        <div class="vb-benchmark">Benchmark: <strong>— Coins</strong></div>
+      </div>
+      <div class="vb-table-wrap"><table class="vb-table">
+        <thead><tr><th>#</th><th>Goalie</th><th>Team</th><th>Salary</th><th>Benchmark</th><th>Status</th><th>Keeper Increase</th></tr></thead>
+        <tbody>
+          {% for rank in (1..10) %}
+          <tr><td class="vb-rank">{{ rank }}</td><td class="vb-player">—</td><td>—</td><td>—</td><td>—</td><td class="vb-status">⚖️ Fair Salary</td><td>+4</td></tr>
+          {% endfor %}
+        </tbody>
+      </table></div>
     </div>
 
   </section>
 
-
-  <!-- VALUE BONUS STRUCTURE -->
-
-  <section class="bonus-structure">
-
-    <h2>💎 Value Bonus Structure</h2>
-
+  <section class="vb-summary">
+    <h2>🧠 IceCore Economy</h2>
     <p>
-      The Value Bonus is determined separately within three Fan Point ranking groups.
-    </p>
-
-    <div class="bonus-grid">
-
-      <div class="bonus-card">
-        <strong>Top 50</strong>
-        <span>20 Value Bonus players</span>
-      </div>
-
-      <div class="bonus-card">
-        <strong>51–100</strong>
-        <span>20 Value Bonus players</span>
-      </div>
-
-      <div class="bonus-card">
-        <strong>101–150</strong>
-        <span>20 Value Bonus players</span>
-      </div>
-
-    </div>
-
-  </section>
-
-
-  <!-- GM ECONOMY BOARD -->
-
-  <section class="gm-economy">
-
-    <div class="section-heading">
-      <h2>🧠 IceCore Economy Board</h2>
-      <span class="section-note">Draft efficiency</span>
-    </div>
-
-    <p class="economy-description">
-      Which General Managers are getting the most Fan Points for their Coins?
+      The Value Board can also reveal which franchises are building the most efficient
+      salary structures. A GM who repeatedly finds productive players below their group
+      benchmarks is extracting more value from the same 500-Coin cap.
     </p>
 
     <div class="table-wrapper">
-
-      <table class="gm-table">
-
-        <thead>
-          <tr>
-            <th>#</th>
-            <th>GM</th>
-            <th>Team</th>
-            <th>Average FP / Coin</th>
-            <th>Value Picks</th>
-          </tr>
-        </thead>
-
+      <table class="vb-summary-table">
+        <thead><tr><th>#</th><th>Franchise</th><th>GM</th><th>💎 Value Bonus Players</th><th>Average Salary Efficiency</th><th>Economy Note</th></tr></thead>
         <tbody>
-
-          <tr>
-            <td>1</td>
-            <td>—</td>
-            <td>—</td>
-            <td>—</td>
-            <td>—</td>
-          </tr>
-
-          <tr>
-            <td>2</td>
-            <td>—</td>
-            <td>—</td>
-            <td>—</td>
-            <td>—</td>
-          </tr>
-
-          <tr>
-            <td>3</td>
-            <td>—</td>
-            <td>—</td>
-            <td>—</td>
-            <td>—</td>
-          </tr>
-
+          <tr><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+          <tr><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+          <tr><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
         </tbody>
-
       </table>
-
     </div>
 
-    <div class="economy-award">
-      <span class="award-icon">🧠</span>
-      <div>
-        <strong>Best Economy GM</strong>
-        <p>
-          The manager who extracts the most Fan Points from every Coin spent.
-        </p>
-      </div>
-    </div>
-
+    <p class="vb-note vb-small">
+      <strong>Economy Award:</strong> The franchise with the most 💎 Value Bonus players
+      can be recognized as the <strong>Best Economy</strong> of the season. This is a
+      descriptive league statistic, not a separate competition or rule.
+    </p>
   </section>
 
-
-  <!-- EXPLANATION -->
-
-  <section class="value-explanation">
-
-    <h2>How it works</h2>
-
+  <section class="vb-explain">
+    <h2>📌 Value Bonus Rules</h2>
     <p>
-      <strong>Fan Points / Coin</strong> measures how efficiently a player
-      converts salary into fantasy production.
+      Every regular keeper receives the <strong>+4 Base Increase</strong>. A player who
+      finishes below the salary benchmark of his ranking group receives an additional
+      <strong>+5 IceCore Value Bonus</strong>, for a maximum total increase of <strong>+9 Coins</strong>.
     </p>
-
-    <p>
-      The ranking is provisional during the Salary Cap Draft and changes
-      as new players are drafted.
-    </p>
-
-    <p>
-      After the completed season, the final Value Board is used to determine
-      the 60 Value Bonus players:
-    </p>
-
     <ul>
-      <li><strong>20 players</strong> from ranks 1–50</li>
-      <li><strong>20 players</strong> from ranks 51–100</li>
-      <li><strong>20 players</strong> from ranks 101–150</li>
+      <li>Skaters: final Yahoo Fantasy Point ranks <strong>1–150</strong>, divided into groups of 10.</li>
+      <li>Goalies: final Yahoo Fantasy Point <strong>Top 10</strong>, treated as one group.</li>
+      <li>Each group benchmark is calculated after removing its highest and lowest salary.</li>
+      <li>There are no fixed salary thresholds and no manually assigned player values.</li>
+      <li>The final list is confirmed after the completed regular season.</li>
     </ul>
+    <div class="vb-legend">
+      <span>⚖️ <strong>Fair Salary</strong> — no Value Bonus</span>
+      <span>💎 <strong>Value Bonus</strong> — +5 additional increase</span>
+    </div>
+  </section>
 
+  <section class="vb-explain">
+    <h2>During the Season</h2>
     <p>
-      Selection is based on Fan Points produced per Coin of salary
-      during the completed season.
+      The Value Board may publish <strong>informative interim lists</strong> showing which
+      players would currently qualify for the +5 IceCore Value Bonus based on the latest
+      standings and salary data. These lists are not final decisions; they are a snapshot
+      of the current salary economy.
     </p>
-
   </section>
 
 </div>
