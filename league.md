@@ -404,7 +404,8 @@ description: "The IceCore Dynasty league structure, franchise model, four divisi
         <p>
           IceCore franchises persist across seasons.
           Players carry value. Salaries matter.
-          Prospects develop. Decisions accumulate.
+          Prospects develop. Decisions accumulate. Salaries escalate between seasons,
+          so every GM must eventually decide which players are worth keeping at their rising cost.
         </p>
 
         <p>
