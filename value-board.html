@@ -9,38 +9,41 @@ permalink: /value-board/
 
   <header class="page-header vb-page-header">
     <h1>💰 IceCore Value Board</h1>
-    <p class="page-subtitle">Provisional Value Board · updated after Round X</p>
+    <p class="page-subtitle">Salary Escalation · Value, Efficiency &amp; League Economy</p>
   </header>
 
   <section class="vb-intro">
     <p>
-      The IceCore Value Board shows which players would currently qualify for the
-      <strong>+5 IceCore Value Bonus</strong> under the league's salary escalation system.
-      The board is informational during the season. Final bonus recipients are confirmed
-      after the completed regular season.
+      The <strong>IceCore Value Board</strong> tracks how efficiently each franchise is paying for
+      fantasy production. It compares every player's salary with the salary benchmark of the
+      ranking group in which that player finishes the season.
     </p>
     <p>
-      Skaters are ranked by final Yahoo Fantasy Points and divided into groups of ten.
-      The <strong>Top 10 goalies</strong> form one additional group. Within each group,
-      the highest and lowest salary are removed and the remaining salaries are averaged
-      to create that group's <strong>salary benchmark</strong>.
+      The system is designed to make the salary economy behave like a real hockey market:
+      <strong>cheap players who outperform their price naturally become more expensive</strong>,
+      while expensive stars receive a slower, predictable increase. The league itself creates
+      the benchmarks — the Commissioner does not set individual salary thresholds.
     </p>
   </section>
 
   <section class="vb-explain">
-    <h2>How to Read the Board</h2>
+    <h2>⚙️ How the Value System Works</h2>
     <div class="vb-cards">
       <div class="vb-card">
-        <strong>⚖️ Fair Salary</strong>
-        <span>Player's salary is at or above the current group benchmark. Base Increase only.</span>
+        <strong>➕ Base Increase</strong>
+        <span>The starting Base Increase is <strong>+4 Coins</strong>. It floats only between <strong>+3 and +5</strong> according to the league's economy.</span>
       </div>
       <div class="vb-card">
-        <strong>💎 IceCore Value Bonus</strong>
-        <span>Player's salary is below the current group benchmark and would receive the additional +5 bonus.</span>
+        <strong>💎 Value Increase</strong>
+        <span>Players below their group benchmark receive an additional increase based on how far below the benchmark their salary sits.</span>
       </div>
       <div class="vb-card">
-        <strong>📊 Group Benchmark</strong>
-        <span>Average salary of the group after removing the highest- and lowest-paid player.</span>
+        <strong>⚖️ Group Benchmark</strong>
+        <span>Each ranking group has its own market benchmark: the average salary of players <strong>2–9</strong>, excluding the highest and lowest salary.</span>
+      </div>
+      <div class="vb-card">
+        <strong>🌡️ Floating Economy</strong>
+        <span>The Base Increase automatically reacts to the average of all 16 group benchmarks. No fixed inflation target is imposed by the Commissioner.</span>
       </div>
     </div>
   </section>
@@ -49,24 +52,39 @@ permalink: /value-board/
 
     <div class="vb-group">
       <div class="vb-group-header">
-        <h3>Skaters · Ranks 1–10</h3>
-        <div class="vb-benchmark"><span>Benchmark</span><strong>— Coins</strong></div>
+        <h3>Fictional Example · Skaters · Ranks 1–10</h3>
+        <div class="vb-benchmark"><span>Benchmark</span><strong>39 Coins</strong></div>
       </div>
       <div class="vb-table-wrap"><table class="vb-table">
-        <thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Salary</th><th scope="col">Benchmark</th><th scope="col">Status</th><th scope="col">Keeper Increase</th></tr></thead>
+        <thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Salary</th><th scope="col">Benchmark</th><th scope="col">Status</th><th scope="col">Increase</th></tr></thead>
         <tbody>
-          <tr><td class="vb-rank">1</td><td class="vb-player">—</td><td>—</td><td class="vb-salary">—</td><td class="vb-benchmark-cell">—</td><td class="vb-status">⚖️ Fair Salary</td><td>+4</td></tr>
-          <tr><td>2</td><td class="vb-player">—</td><td>—</td><td>—</td><td>—</td><td class="vb-status">⚖️ Fair Salary</td><td>+4</td></tr>
-          <tr><td>3</td><td class="vb-player">—</td><td>—</td><td>—</td><td>—</td><td class="vb-status">⚖️ Fair Salary</td><td>+4</td></tr>
-          <tr><td>4</td><td class="vb-player">—</td><td>—</td><td>—</td><td>—</td><td class="vb-status">⚖️ Fair Salary</td><td>+4</td></tr>
-          <tr><td>5</td><td class="vb-player">—</td><td>—</td><td>—</td><td>—</td><td class="vb-status">⚖️ Fair Salary</td><td>+4</td></tr>
-          <tr><td>6</td><td class="vb-player">—</td><td>—</td><td>—</td><td>—</td><td class="vb-status">⚖️ Fair Salary</td><td>+4</td></tr>
-          <tr><td>7</td><td class="vb-player">—</td><td>—</td><td>—</td><td>—</td><td class="vb-status">⚖️ Fair Salary</td><td>+4</td></tr>
-          <tr><td>8</td><td class="vb-player">—</td><td>—</td><td>—</td><td>—</td><td class="vb-status">⚖️ Fair Salary</td><td>+4</td></tr>
-          <tr><td>9</td><td class="vb-player">—</td><td>—</td><td>—</td><td>—</td><td class="vb-status">⚖️ Fair Salary</td><td>+4</td></tr>
-          <tr><td>10</td><td class="vb-player">—</td><td>—</td><td>—</td><td>—</td><td class="vb-status">⚖️ Fair Salary</td><td>+4</td></tr>
+          <tr><td class="vb-rank">1</td><td class="vb-player">Player A</td><td>Team A</td><td class="vb-salary">130</td><td class="vb-benchmark-cell">39</td><td class="vb-status">⚖️ Above Market</td><td>+4</td></tr>
+          <tr><td>2</td><td class="vb-player">Player B</td><td>Team B</td><td>95</td><td>39</td><td class="vb-status">⚖️ Above Market</td><td>+4</td></tr>
+          <tr><td>3</td><td class="vb-player">Player C</td><td>Team C</td><td>60</td><td>39</td><td class="vb-status">⚖️ Above Market</td><td>+4</td></tr>
+          <tr><td>4</td><td class="vb-player">Player D</td><td>Team D</td><td>50</td><td>39</td><td class="vb-status">⚖️ Above Market</td><td>+4</td></tr>
+          <tr><td>5</td><td class="vb-player">Player E</td><td>Team E</td><td>42</td><td>39</td><td class="vb-status">⚖️ Above Market</td><td>+4</td></tr>
+          <tr><td>6</td><td class="vb-player">Player F</td><td>Team F</td><td>30</td><td>39</td><td class="vb-status">💎 Below Market</td><td>+7</td></tr>
+          <tr><td>7</td><td class="vb-player">Player G</td><td>Team G</td><td>20</td><td>39</td><td class="vb-status">💎 Below Market</td><td>+10</td></tr>
+          <tr><td>8</td><td class="vb-player">Player H</td><td>Team H</td><td>10</td><td>39</td><td class="vb-status">💎 Below Market</td><td>+14</td></tr>
+          <tr><td>9</td><td class="vb-player">Player I</td><td>Team I</td><td>5</td><td>39</td><td class="vb-status">💎 Below Market</td><td>+15</td></tr>
+          <tr><td>10</td><td class="vb-player">Player J</td><td>Team J</td><td>2</td><td>39</td><td class="vb-status">💎 Below Market</td><td>+4</td></tr>
         </tbody>
       </table></div>
+      <p class="vb-note vb-small">
+        <strong>Example calculation:</strong> the highest salary (130) and lowest salary (2) are removed.
+        The remaining eight salaries are 95, 60, 50, 42, 30, 20, 10 and 5. Their average is
+        <strong>39</strong> Coins, which becomes the group benchmark. Players at or above 39 receive
+        only the current Base Increase. Players below 39 also receive the Value Increase.
+        Player F, for example, is 9 below the benchmark: <strong>4 + (9 ÷ 3) = +7</strong>.
+        Player G is 19 below: <strong>4 + (19 ÷ 3) = +10</strong> after rounding the final increase to a whole Coin.
+        Player H is 29 below: <strong>4 + (29 ÷ 3) = +14</strong>. The exact same formula applies to every player.
+        <br><br>
+        <strong>Why remove #1 and #10?</strong> Extremes can distort the market signal. A very expensive player
+        (for example, a superstar returning from a long injury) can artificially push the benchmark up,
+        while a very cheap breakout player can pull it down — and can simultaneously reduce his own Value
+        Increase. Removing both extremes makes the benchmark represent the <strong>normal market around the player</strong>,
+        rather than two outliers.
+      </p>
     </div>
 
     <!-- TEMPLATE GROUPS -->
@@ -78,13 +96,13 @@ permalink: /value-board/
         <div class="vb-benchmark"><span>Benchmark</span><strong>— Coins</strong></div>
       </div>
       <div class="vb-table-wrap"><table class="vb-table">
-        <thead><tr><th scope="col">Rank</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Salary</th><th scope="col">Benchmark</th><th scope="col">Status</th><th scope="col">Keeper Increase</th></tr></thead>
+        <thead><tr><th scope="col">Rank</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Salary</th><th scope="col">Benchmark</th><th scope="col">Status</th><th scope="col">Increase</th></tr></thead>
         <tbody>
           {% assign range = group | split: "–" %}
           {% assign start = range[0] | plus: 0 %}
           {% for offset in (0..9) %}
           <tr>
-            <td class="vb-rank">{{ start | plus: offset }}</td><td class="vb-player">—</td><td>—</td><td>—</td><td>—</td><td class="vb-status">⚖️ Fair Salary</td><td>+4</td>
+            <td class="vb-rank">{{ start | plus: offset }}</td><td class="vb-player">—</td><td>—</td><td>—</td><td>—</td><td class="vb-status">—</td><td>—</td>
           </tr>
           {% endfor %}
         </tbody>
@@ -98,10 +116,10 @@ permalink: /value-board/
         <div class="vb-benchmark"><span>Benchmark</span><strong>— Coins</strong></div>
       </div>
       <div class="vb-table-wrap"><table class="vb-table">
-        <thead><tr><th scope="col">#</th><th scope="col">Goalie</th><th scope="col">Team</th><th scope="col">Salary</th><th scope="col">Benchmark</th><th scope="col">Status</th><th scope="col">Keeper Increase</th></tr></thead>
+        <thead><tr><th scope="col">#</th><th scope="col">Goalie</th><th scope="col">Team</th><th scope="col">Salary</th><th scope="col">Benchmark</th><th scope="col">Status</th><th scope="col">Increase</th></tr></thead>
         <tbody>
           {% for rank in (1..10) %}
-          <tr><td class="vb-rank">{{ rank }}</td><td class="vb-player">—</td><td>—</td><td>—</td><td>—</td><td class="vb-status">⚖️ Fair Salary</td><td>+4</td></tr>
+          <tr><td class="vb-rank">{{ rank }}</td><td class="vb-player">—</td><td>—</td><td>—</td><td>—</td><td class="vb-status">—</td><td>—</td></tr>
           {% endfor %}
         </tbody>
       </table></div>
@@ -109,59 +127,171 @@ permalink: /value-board/
 
   </section>
 
-  <section class="vb-summary">
-    <h2>🧠 IceCore Economy</h2>
+  <section class="vb-explain">
+    <h2>🌡️ Floating Base Increase</h2>
     <p>
-      The Value Board can also reveal which franchises are building the most efficient
-      salary structures. A GM who repeatedly finds productive players below their group
-      benchmarks is extracting more value from the same 500-Coin cap.
+      The starting Base Increase is <strong>+4 Coins</strong>. It is not permanently fixed. After each season,
+      the league calculates the benchmark for all <strong>16 ranking groups</strong> (15 skater groups + 1 goalie group)
+      and then calculates their average.
     </p>
-
-    <div class="vb-summary-table-wrap">
-      <table class="vb-summary-table">
-        <thead><tr><th scope="col">#</th><th scope="col">Franchise</th><th scope="col">GM</th><th scope="col">💎 Value Bonus Players</th><th scope="col">Average Salary Efficiency</th><th scope="col">Economy Note</th></tr></thead>
-        <tbody>
-          <tr><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-          <tr><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-          <tr><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-        </tbody>
-      </table>
+    <div class="vb-cards">
+      <div class="vb-card">
+        <strong>📈 Economy rises</strong>
+        <span>If the rounded average benchmark is higher than the previous season, the Base Increase falls by <strong>1</strong>.</span>
+      </div>
+      <div class="vb-card">
+        <strong>📉 Economy falls</strong>
+        <span>If the rounded average benchmark is lower than the previous season, the Base Increase rises by <strong>1</strong>.</span>
+      </div>
+      <div class="vb-card">
+        <strong>⏸️ No change</strong>
+        <span>If the rounded average benchmark is unchanged, the Base Increase remains unchanged.</span>
+      </div>
+      <div class="vb-card">
+        <strong>🔒 Hard limits</strong>
+        <span>The Base Increase can never be lower than <strong>+3</strong> or higher than <strong>+5</strong>. There are no other exceptions.</span>
+      </div>
     </div>
-
     <p class="vb-note vb-small">
-      <strong>Economy Award:</strong> The franchise with the most 💎 Value Bonus players
-      can be recognized as the <strong>Best Economy</strong> of the season. This is a
-      descriptive league statistic, not a separate competition or rule.
+      <strong>Rounding:</strong> the average of the 16 group benchmarks is rounded to the nearest whole Coin;
+      exactly <strong>.5 rounds upward</strong>. The rounded result is the value used for the year-to-year comparison.
+      Example: 34.49 → 34, 34.50 → 35, 34.51 → 35.
+      <br><br>
+      <strong>Example:</strong> Previous season rounded average = 38. Current season rounded average = 40.
+      The league's economy has risen, so Base 4 → <strong>Base 3</strong>. If the current average had fallen to 36,
+      Base 4 → <strong>Base 5</strong>. If it remained 38, Base stays <strong>4</strong>.
+      <br><br>
+      <strong>The GMs create the boundaries themselves.</strong> The Commissioner does not decide that salaries
+      "should" be around a particular number and does not manually move individual players. Auction prices,
+      trades, breakouts, injuries, overpays and bargains collectively create the market — the Value Board simply
+      measures it and the floating Base reacts to it. This creates an automatic <strong>inflation brake</strong> so that
+      the dynasty economy does not become increasingly broken over many seasons.
     </p>
   </section>
 
   <section class="vb-explain">
-    <h2>📌 Value Bonus Rules</h2>
+    <h2>📐 Exact Value Formula</h2>
     <p>
-      Every regular keeper receives the <strong>+4 Base Increase</strong>. A player who
-      finishes below the salary benchmark of his ranking group receives an additional
-      <strong>+5 IceCore Value Bonus</strong>, for a maximum total increase of <strong>+9 Coins</strong>.
+      Every regular keeper receives the current <strong>Base Increase</strong>. If a player's salary is below his
+      group benchmark, an additional one-third of the salary gap is added.
     </p>
-    <ul>
-      <li>Skaters: final Yahoo Fantasy Point ranks <strong>1–150</strong>, divided into groups of 10.</li>
-      <li>Goalies: final Yahoo Fantasy Point <strong>Top 10</strong>, treated as one group.</li>
-      <li>Each group benchmark is calculated after removing its highest and lowest salary.</li>
-      <li>There are no fixed salary thresholds and no manually assigned player values.</li>
-      <li>The final list is confirmed after the completed regular season.</li>
-    </ul>
-    <div class="vb-legend">
-      <span>⚖️ <strong>Fair Salary</strong> — no Value Bonus</span>
-      <span>💎 <strong>Value Bonus</strong> — +5 additional increase</span>
+    <p class="vb-formula"><strong>Increase = Base + max(0, (Benchmark − Salary) ÷ 3)</strong></p>
+    <p>
+      The resulting increase is rounded to a whole Coin. A player at or above the benchmark therefore receives
+      exactly the Base Increase, while a cheap player who significantly outperforms his salary can receive a much
+      larger increase. There is <strong>no separate superstar bonus, no arbitrary salary threshold and no special exception</strong>.
+    </p>
+  </section>
+
+  <section class="vb-explain">
+    <h2>🏒 Salary Floor · 250 Coins</h2>
+    <p>
+      IceCore also uses a <strong>250-Coin salary floor</strong>. A franchise that falls below the floor after the
+      keeper process receives time to correct its roster. The goal is to prevent deliberate or accidental extreme
+      under-spending while giving the GM a fair opportunity to fix the situation.
+    </p>
+    <p class="vb-note vb-small">
+      If the GM fails to correct the violation within the allowed correction period, the franchise's available
+      salary cap is reduced by the amount it is below the floor. Example: a team sitting at 242 after the deadline
+      would have its 500-Coin cap reduced by 8, leaving <strong>492 Coins</strong>. Repeated or unresolved violations
+      may lead to roster-move restrictions until the floor is restored. The purpose is economic balance, not a cash fine.
+    </p>
+  </section>
+
+  <section class="vb-summary">
+    <h2>📊 League Economy Dashboard</h2>
+    <p>
+      The Value Board is also a source of season-long league content. These statistics describe how GMs are using
+      the 500-Coin economy and can be highlighted during the season or at the end of the year.
+    </p>
+    <div class="vb-summary-table-wrap">
+      <table class="vb-summary-table">
+        <thead><tr><th scope="col">Statistic</th><th scope="col">Leader / Value</th><th scope="col">What it measures</th></tr></thead>
+        <tbody>
+          <tr><td>💎 <strong>Best Economy</strong></td><td>—</td><td>GM with the most players finishing below their group benchmark.</td></tr>
+          <tr><td>📈 <strong>Biggest Salary Gain</strong></td><td>—</td><td>Player whose salary increases by the most Coins in the season.</td></tr>
+          <tr><td>🧊 <strong>Most Underpriced</strong></td><td>—</td><td>Player finishing furthest below his group benchmark.</td></tr>
+          <tr><td>💰 <strong>Best Value per Coin</strong></td><td>—</td><td>Most productive player relative to salary, using the league's fantasy ranking and salary data.</td></tr>
+          <tr><td>🔥 <strong>Breakout of the Year</strong></td><td>—</td><td>Player who combines a major fantasy-rank improvement with a major salary correction.</td></tr>
+          <tr><td>💸 <strong>Most Overpaid</strong></td><td>—</td><td>Player furthest above his group benchmark.</td></tr>
+          <tr><td>🏦 <strong>Most Overpaid Franchise</strong></td><td>—</td><td>Team with the largest number of players above their group benchmarks.</td></tr>
+          <tr><td>📊 <strong>Biggest Salary Portfolio</strong></td><td>—</td><td>Team whose keeper salaries gain the most total Coins during the season.</td></tr>
+          <tr><td>🎯 <strong>Value Conversion Rate</strong></td><td>—</td><td>Share of a team's qualifying keepers that finish below their group benchmark.</td></tr>
+          <tr><td>🌡️ <strong>League Market Average</strong></td><td>—</td><td>Rounded average of all 16 group benchmarks — the number used for the Floating Base comparison.</td></tr>
+        </tbody>
+      </table>
     </div>
+    <p class="vb-note vb-small">
+      These are <strong>league statistics, not additional rules</strong>. They can be used for season recaps,
+      articles, graphics, awards or rivalry content. The actual salary escalation is determined only by the official
+      Value Formula and Floating Base rules above.
+    </p>
+  </section>
+
+  <section class="vb-explain">
+    <h2>🗂️ Annual Value Board Preparation</h2>
+    <p>
+      The Commissioner fills this section after the regular season. It preserves the same 16 categories every year
+      and makes the economic history of IceCore easy to compare from season to season.
+    </p>
+    <div class="vb-summary-table-wrap">
+      <table class="vb-summary-table">
+        <thead><tr><th scope="col">Group</th><th scope="col">Ranks</th><th scope="col">Benchmark</th><th scope="col">Rounded</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>Skaters 1–10</td><td>—</td><td>—</td></tr>
+          <tr><td>2</td><td>Skaters 11–20</td><td>—</td><td>—</td></tr>
+          <tr><td>3</td><td>Skaters 21–30</td><td>—</td><td>—</td></tr>
+          <tr><td>4</td><td>Skaters 31–40</td><td>—</td><td>—</td></tr>
+          <tr><td>5</td><td>Skaters 41–50</td><td>—</td><td>—</td></tr>
+          <tr><td>6</td><td>Skaters 51–60</td><td>—</td><td>—</td></tr>
+          <tr><td>7</td><td>Skaters 61–70</td><td>—</td><td>—</td></tr>
+          <tr><td>8</td><td>Skaters 71–80</td><td>—</td><td>—</td></tr>
+          <tr><td>9</td><td>Skaters 81–90</td><td>—</td><td>—</td></tr>
+          <tr><td>10</td><td>Skaters 91–100</td><td>—</td><td>—</td></tr>
+          <tr><td>11</td><td>Skaters 101–110</td><td>—</td><td>—</td></tr>
+          <tr><td>12</td><td>Skaters 111–120</td><td>—</td><td>—</td></tr>
+          <tr><td>13</td><td>Skaters 121–130</td><td>—</td><td>—</td></tr>
+          <tr><td>14</td><td>Skaters 131–140</td><td>—</td><td>—</td></tr>
+          <tr><td>15</td><td>Skaters 141–150</td><td>—</td><td>—</td></tr>
+          <tr><td>16</td><td>Goalies Top 10</td><td>—</td><td>—</td></tr>
+          <tr><td colspan="2"><strong>League Market Average</strong></td><td>—</td><td><strong>—</strong></td></tr>
+          <tr><td colspan="2"><strong>Previous Rounded Average</strong></td><td>—</td><td><strong>—</strong></td></tr>
+          <tr><td colspan="2"><strong>Next Season Base</strong></td><td>—</td><td><strong>+4</strong></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="vb-note vb-small">
+      <strong>Benchmark preparation:</strong> in each group, remove the highest-paid player and the lowest-paid player,
+      then average the remaining eight salaries. Do this for all 16 groups. The 16 resulting benchmarks are then averaged
+      together. That overall average is rounded to the nearest whole Coin (with .5 rounding upward) and compared with
+      the previous season's rounded average to determine whether the next Base is 3, 4 or 5.
+    </p>
+  </section>
+
+  <section class="vb-explain">
+    <h2>📌 Rules at a Glance</h2>
+    <ul>
+      <li>Every regular keeper receives the current Base Increase.</li>
+      <li>Base starts at <strong>+4</strong> and floats only between <strong>+3 and +5</strong>.</li>
+      <li>Players below their group benchmark receive an additional <strong>one-third of the salary gap</strong>.</li>
+      <li>Each benchmark uses ranks <strong>2–9</strong> of a ten-player group; the highest and lowest salary are excluded.</li>
+      <li>There are <strong>16 groups</strong>: 15 skater groups and one Top-10 goalie group.</li>
+      <li>The Floating Base is determined by the year-to-year change in the rounded average of all 16 benchmarks.</li>
+      <li>There are <strong>no emergency adjustments, star bonuses, fixed salary thresholds or Commissioner-set player values</strong>.</li>
+      <li>The final Value Board is confirmed after the completed regular season.</li>
+    </ul>
+    <p>
+      <strong>Full explanation:</strong> this Value Board is the detailed reference for the salary-escalation system;
+      the main IceCore Rules can link here instead of repeating the full calculation and examples.
+    </p>
   </section>
 
   <section class="vb-explain">
     <h2>During the Season</h2>
     <p>
-      The Value Board may publish <strong>informative interim lists</strong> showing which
-      players would currently qualify for the +5 IceCore Value Bonus based on the latest
-      standings and salary data. These lists are not final decisions; they are a snapshot
-      of the current salary economy.
+      The Value Board may publish informative interim snapshots showing current fantasy ranks, salaries,
+      group benchmarks and projected increases. Interim numbers are informational only. The official escalation
+      is calculated from the completed regular-season results.
     </p>
   </section>
 
