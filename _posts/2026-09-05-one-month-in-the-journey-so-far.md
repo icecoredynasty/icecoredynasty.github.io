@@ -52,6 +52,8 @@ The franchises are set.
 
 The schedule is set.
 
+The GM cards in teams are ready.
+
 And there is another important piece already in place.
 
 **A strong group of potential replacement GMs is waiting in reserve.**
@@ -120,19 +122,17 @@ A breakout player should be valuable.
 
 And a player who consistently performs like an expensive star should not remain permanently locked into a bargain salary.
 
-The system is designed to move salaries toward the market without eliminating the advantage of finding value early.
-
 ## A Few Final Adjustments
 
 A few other changes have also been made as the league was tested.
 
 The **Toilet Bowl** has been added, using a format familiar from many fantasy leagues but adapted to IceCore's Yahoo structure.
 
-The annual escalation for eligible **NA prospects increases by +1**.
+The annual escalation for eligible **NA prospects increases on +1**.
 
 A **salary floor** has also been introduced to keep the keeper market from becoming distorted by unrealistically low total salaries.
 
-These are refinements, not a change in the identity of the league.
+These are refinements, because I'm not a fan of changes during the game.
 
 For the complete and current version of every rule, the **Rules** section remains the authority.
 
@@ -183,8 +183,6 @@ That is part of what makes a worldwide league interesting.
 So ask questions.
 
 Use the chat.
-
-Challenge ideas.
 
 Discuss trades.
 
