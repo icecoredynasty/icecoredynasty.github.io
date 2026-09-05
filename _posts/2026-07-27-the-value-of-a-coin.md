@@ -7,7 +7,7 @@ tags:
   - Salary Cap
   - Coins
   - Strategy
-season: "2026-27"
+season: "2027-28"
 
 featured: false
 featured_guide: false
@@ -159,7 +159,9 @@ It is what his salary allows the rest of the franchise to become.
 
 Cheap talent does not remain cheap forever.
 
-Keeper salaries rise between seasons. Every Regular Keeper receives a **+4 Coin Base Increase**. Eligible underpaid players can receive an additional **+5 IceCore Value Bonus**, determined by their final Yahoo Fantasy Points ranking and the actual salary market within their ranking group. This means the maximum annual increase is **+9 Coins**.
+Keeper salaries rise between seasons. Every Regular Keeper receives a **Base Increase**, normally **+4 Coins**. The Base can float between **+3 and +5 Coins** depending on the league-wide salary market.
+
+Eligible underpaid players can also receive a **Value Bonus**. It is calculated from the gap between the player's previous salary and the benchmark of his final Yahoo Fantasy Points ranking group: **one additional Coin for every 3 Coins of gap**, with the result rounded to a whole Coin.
 
 A player acquired before his breakout can still become an outstanding asset.
 

@@ -58,8 +58,8 @@ a simple two-part system.
   </div>
 
   <div class="ic-article-stat">
-    <strong>+5</strong>
-    <span>IceCore Value Bonus</span>
+    <strong>+ Value</strong>
+    <span>Performance-based bonus</span>
   </div>
 </div>
 
@@ -81,9 +81,9 @@ benchmark.
 </p>
 
 <p>
-A player receives the +5 IceCore Value Bonus when his previous salary is below
-the average salary of his performance group. Otherwise, he receives only the
-normal +4 Base Increase.
+A player receives a Value Bonus when his previous salary is below the benchmark
+of his performance group. The bonus is calculated from the salary gap rather
+than being a fixed amount.
 </p>
 
 <p>
@@ -94,14 +94,14 @@ so the league's own market determines what represents an underpaid contract.
 
 <p>
 The maximum regular keeper increase is therefore <strong>9 Coins</strong>:
-+4 Base Increase plus the +5 IceCore Value Bonus.
+the Base Increase plus the calculated Value Bonus.
 </p>
 
 <p>
 The <strong>IceCore Value Board</strong> will be published on the league website
 at <a href="{{ '/value-board/' | relative_url }}">Value Board</a>. During the
 season, the page may contain informative interim lists of players who would
-currently qualify for the +5 IceCore Value Bonus based on the information
+currently appear likely to qualify for a Value Bonus based on the information
 available at that time. These lists are informational only. Final Value Bonus
 recipients are determined after the completed regular season using the final
 Yahoo Fantasy point rankings and the final applicable salaries.
@@ -178,8 +178,9 @@ lowest salaries are removed.
 </div>
 
 <p>
-The regular keeper increase is 4 Coins, and the selected Value Bonus adds
-another 5.
+The regular keeper receives the current Base Increase, normally 4 Coins.
+The Value Bonus is then calculated from the gap between his salary and the
+benchmark of his final performance group.
 </p>
 
 <p>
@@ -190,7 +191,8 @@ to his salary — not by a commissioner-set salary threshold.
 
 <p>
 If his salary remains below the benchmark of his new performance group in
-another completed season, he may again qualify for the +5 IceCore Value Bonus.
+another completed season, he may again qualify for a Value Bonus. The amount
+depends on the new gap, not on a fixed bonus.
 </p>
 
 <p>
@@ -278,8 +280,8 @@ If the new General Manager protects him after an ordinary season:
 </div>
 
 <p>
-If his completed season also makes him eligible for the IceCore Value Bonus,
-the total increase is 9 Coins instead:
+If his completed season also makes him eligible for a Value Bonus, the total
+increase is calculated from the benchmark gap rather than a fixed +9:
 </p>
 
 <div class="ic-article-flow">
@@ -317,8 +319,9 @@ Imagine an established superstar already carrying a 94-Coin salary.
 </div>
 
 <p>
-The regular increase is always 4 Coins. A high salary does not automatically
-create a larger increase, and there are no arbitrary salary cliffs.
+The Base Increase is normally 4 Coins and does not automatically become larger
+just because the player has a high salary. The Value Bonus depends on the
+benchmark gap, so there are no arbitrary salary cliffs.
 </p>
 
 <p>
@@ -358,8 +361,8 @@ That is his salary.
 </p>
 
 <p>
-If he eventually becomes a regular player and is protected again in a
-future offseason, normal salary escalation begins.
+If he eventually becomes a regular player and is protected as a Regular Keeper
+in a future offseason, the normal salary escalation rules begin.
 </p>
 
 <p>
@@ -395,7 +398,7 @@ salary is the winning bid.
 </p>
 
 <p>
-There is no automatic +1 Coin increase for remaining on the NA farm.
+A Development Keeper receives a separate <strong>+1 Coin increase for each offseason in which he is protected again as a Development Keeper</strong>.
 </p>
 
 <p>

@@ -7,7 +7,7 @@ tags:
   - General Managers
   - Guide
   - Dynasty
-season: "2026-27"
+season: "2027-28"
 
 featured: false
 featured_guide: true
