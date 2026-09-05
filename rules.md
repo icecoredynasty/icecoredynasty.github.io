@@ -156,7 +156,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
   <h3>Salary Escalation</h3>
 
     <p>
-      Every regular keeper gets +4. Eligible underpaid players may receive an additional +5 Value Bonus.
+      Regular keeper salaries rise through a dynamic system built around a <strong>+4 Base Increase</strong> and a performance-based Value Bonus. The Base may automatically float between <strong>+3 and +5</strong> according to the league's own salary economy.
     </p>
 </article>
 <article class="ic-quick-card">
@@ -491,6 +491,13 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </p>
 
     <p>
+      Development Keepers use a separate development escalation: their salary
+      increases by <strong>+1 coin per offseason</strong> when they are protected
+      again as a Development Keeper. The regular keeper +4 Base and Value Bonus
+      system does not apply to Development Keepers.
+    </p>
+
+    <p>
       <strong>Development Keepers also count toward the franchise's total
       positional roster limits.</strong> A franchise may have up to
       <strong>8 C, 8 LW, 8 RW, 6 D and 2 G</strong> across its protected
@@ -503,13 +510,8 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     <p>
       The five NA slots available during the season provide development
       space. They are not five automatic additional offseason keepers.
-      A maximum of three players from that group may be protected
-      (the rest should be placed on regular keeper list).
-    </p>
-
-    <p>
-      Any NA player who is not selected as a Development Keeper is
-      released into the player pool for the following season.
+      A maximum of three players from that group may be protected; any other
+      NA player is released into the player pool for the following season.
     </p>
 
   </div>
@@ -624,6 +626,16 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
       his applicable retained salary is used before normal escalation.
     </p>
 
+    <p>
+      IceCore also uses a <strong>250-coin Salary Floor</strong>. After the keeper
+      deadline, each franchise must maintain at least 250 coins in protected
+      player salaries. If a franchise falls below the floor, the GM receives a
+      warning and a reasonable correction period. If the problem is not corrected,
+      the franchise's 500-coin Salary Cap is reduced by the amount it remains below
+      250. Repeated violations may lead to roster or transaction restrictions
+      until the floor is restored.
+    </p>
+
   </div>
 
 </article>
@@ -641,69 +653,84 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
     <p>
       Salaries increase whenever a regular player is protected for another season.
-      Every regular keeper receives a <strong>+4 Base Increase</strong>.
+      Every regular keeper begins with a <strong>+4 Base Increase</strong>. The Base
+      may automatically float between <strong>+3 and +5</strong> from season to
+      season according to the league-wide salary economy.
     </p>
 
     <p>
-      A regular keeper may also receive a <strong>+5 Value Bonus</strong> if his
-      previous salary is below the average salary of his performance group. For this
-      purpose, the <strong>Top 150 skaters</strong> are divided into groups of 10, while the
-      <strong>Top 10 goaltenders</strong> are treated as one group. In each group, the highest
-      and lowest salary are removed before calculating the average. Rankings are based
-      on final Yahoo Fantasy point totals after the completed regular season.
+      A regular keeper whose salary is below the benchmark of his performance group
+      receives an additional <strong>Value Bonus</strong> equal to
+      <strong>one third of the difference</strong> between the benchmark and his
+      salary. The result is rounded to a whole coin. A player at or above his
+      benchmark receives only the Base Increase.
     </p>
 
     <p>
-      The system uses no fixed salary thresholds and no manually assigned player values.
-      The 20 GMs create the salary economy; IceCore uses the completed season to adjust
-      contracts to that market.
+      The <strong>Top 150 skaters</strong> are divided into groups of ten and the
+      <strong>Top 10 goaltenders</strong> form one additional group. In every group,
+      the highest and lowest salary are removed before calculating the average of
+      the remaining eight players. Rankings are based on final Yahoo Fantasy point
+      totals after the completed regular season.
     </p>
 
     <p>
-      The <a href="{{ '/value-board/' | relative_url }}">IceCore Value Board</a> will be used
-      during the season to publish informative interim lists of players who would currently
-      qualify for the <strong>+5 IceCore Value Bonus</strong> based on the latest standings
-      and salary data. Final bonus recipients
-      are confirmed after the completed regular season.
+      The system uses no fixed salary price for individual players. The
+      <strong>20 GMs create the salary economy</strong> through auctions, trades
+      and roster decisions; the Commissioner does not decide how much a particular
+      player is supposed to be worth. A player who performs strongly can therefore
+      move into a higher-value performance group and receive a larger escalation.
+    </p>
+
+    <p>
+      The floating Base acts as an automatic inflation control. The average of all
+      <strong>16 performance-group benchmarks</strong> is tracked from season to
+      season: if the rounded league average rises, the Base decreases by 1; if it
+      falls, the Base increases by 1; if it stays the same, the Base does not
+      change. The Base can never fall below <strong>+3</strong> or rise above
+      <strong>+5</strong>. There are no additional emergency adjustments or
+      exceptions.
+    </p>
+
+    <p>
+      General Managers do not need to calculate the system themselves. The
+      <a href="{{ '/value-board/' | relative_url }}">IceCore Value Board</a>
+      publishes the current data, benchmarks and calculated increases. GMs may use
+      the board as the official reference, while anyone who wants to follow the
+      economy during the season can calculate a provisional increase independently
+      from the published formula. Detailed calculations and worked examples are
+      maintained on the Value Board.
     </p>
 
     <div class="ic-salary-grid">
-
       <div>
-        <span>Regular keeper</span>
+        <span>Starting Base</span>
         <strong>+4</strong>
       </div>
-
       <div>
-        <span>Eligible underpaid Top 150 skater / Top 10 goalie</span>
-        <strong>+5 Value Bonus</strong>
+        <span>Floating Base</span>
+        <strong>+3 to +5</strong>
       </div>
-
       <div class="ic-salary-grid__hot">
-        <span>Maximum regular keeper increase</span>
-        <strong>+9</strong>
+        <span>Value Bonus</span>
+        <strong>⅓ of benchmark gap</strong>
       </div>
-
     </div>
 
     <div class="ic-example">
-
       <span>EXAMPLE</span>
-
       <p>
-        A skater finishes <strong>#4</strong> with a previous salary of <strong>5 coins</strong>.
-        If the Top 10 skater group averages <strong>23 coins</strong>, he is below the group
-        average and receives both increases: <strong>5 → 14</strong>.
+        A player has a salary of <strong>20 coins</strong> and his performance
+        group has a benchmark of <strong>35 coins</strong>. With a Base of +4,
+        the 15-coin gap produces a 5-coin Value Bonus, so his salary rises
+        <strong>20 → 29</strong>.
       </p>
-
       <p>
-        A skater finishes <strong>#1</strong> with a previous salary of <strong>130 coins</strong>.
-        If he is above his group average, he receives only the Base Increase: <strong>130 → 134</strong>.
+        A player with a salary of <strong>40 coins</strong> in the same group is
+        already above the benchmark and receives only the Base Increase:
+        <strong>40 → 44</strong>.
       </p>
-
-    </div>
-
-  </div>
+    </div>  </div>
 
 </article>
 
@@ -725,8 +752,8 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </p>
 
     <div class="ic-rule-tags">
-      <span>Base → +4</span>
-      <span>Eligible underpaid player → +5 Value Bonus</span>
+      <span>Regular keeper → Base + Value Bonus</span>
+      <span>Development Keeper → +1 per offseason</span>
     </div>
 
     <p>
@@ -1523,6 +1550,18 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
 
 <article>
+  <h3>What is the Salary Floor?</h3>
+  <p>
+    Every franchise must maintain at least <strong>250 coins</strong> in protected
+    player salaries after the keeper deadline. A franchise below the floor receives
+    a warning and a reasonable period to correct the roster. If it remains below
+    250, its Salary Cap is reduced by the amount of the shortfall. Repeated
+    violations may lead to roster or transaction restrictions until corrected.
+  </p>
+</article>
+
+
+<article>
   <h3>How does the auction draft work?</h3>
   <p>
     IceCore uses a live salary-cap auction draft. General Managers
@@ -1590,12 +1629,15 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 <article>
   <h3>How does salary escalation work?</h3>
   <p>
-    Regular keepers receive <strong>+4</strong> each offseason. A regular keeper may
-    receive an additional <strong>+5 IceCore Value Bonus</strong> if his salary is below
-    the average of his performance group: Top 150 skaters are divided into groups
-    of 10, while Top 10 goaltenders form one group. The highest and lowest salary
-    are removed before calculating each group's average. Development Keepers start
-    at 1 coin and increase by +1 per offseason if kept again.
+    Regular keepers start with a <strong>+4 Base Increase</strong>. The Base may
+    float automatically between <strong>+3 and +5</strong> according to the
+    league-wide salary economy. A regular keeper below his performance-group
+    benchmark receives an additional Value Bonus equal to <strong>one third of
+    the benchmark gap</strong>. The Top 150 skaters are divided into groups of 10
+    and the Top 10 goaltenders form one group; the highest and lowest salary are
+    removed before each benchmark is calculated. Development Keepers use a
+    separate <strong>+1 per offseason</strong> escalation. Full calculations and
+    examples are maintained on the <a href="{{ '/value-board/' | relative_url }}">IceCore Value Board</a>.
   </p>
 </article>
 
