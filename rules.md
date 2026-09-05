@@ -468,6 +468,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
       If a franchise has no eligible player in its previous-season NA farm,
       the Commissioner will assign an eligible young player from the available
       player pool to satisfy the minimum one-Development-Keeper requirement.
+      The assigned player carries a salary of <strong>1 coin</strong>.
     </p>
 
     <p>
@@ -537,7 +538,12 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </p>
 
     <p>
-      The first four picks go to the four division last-place franchises, ordered by their mini-table of head-to-head games; ties go to the worse regular-season finish. The remaining positions follow reverse regular-season standings. Entry Draft selections cannot be traded. The Commissioner conducts the Entry Draft manually.
+      The first four picks go to the four division last-place franchises, ordered by
+      a mini-table of their already-played head-to-head games against the other
+      divisional last-place teams: a win is worth 2 points and a draw 1 point.
+      If tied, the worse regular-season finish gets the higher pick. The remaining
+      positions follow reverse regular-season standings. Entry Draft selections cannot
+      be traded. The Commissioner conducts the Entry Draft manually.
     </p>
 
     <p>
@@ -569,12 +575,18 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
     <p>
       Entry Draft selections enter their IceCore franchise at a salary of
-      <strong>1 Coin</strong>.
+      <strong>1 Coin</strong> and are immediately placed on the franchise's
+      keeper list as a mandatory keeper for that offseason.
     </p>
 
     <p>
-      If an Entry Draft selection is not yet available in Yahoo when offseason
-      rosters are prepared, the franchise retains exclusive rights to that rookie.
+      The Entry Draft rookie is a mandatory keeper immediately after the draft.
+      After the draft, the GM may release the rookie or move him to an NA position
+      and replace the resulting active-roster position through the normal player market.
+      If the rookie remains protected as a regular keeper for the following offseason,
+      the normal salary escalation applies to his 1-coin salary. If he is moved to NA,
+      the Development Keeper rules apply instead if he is eligible. If the rookie is not yet available in Yahoo when offseason rosters are prepared,
+      the franchise retains exclusive rights to that rookie.
     </p>
 
     <p>
@@ -622,18 +634,19 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
     <p>
       Releasing a player does not erase his established IceCore salary
-      history. If that player is later acquired and protected again,
-      his applicable retained salary is used before normal escalation.
+      history. If that player is later acquired and protected again, his most
+      recently established IceCore salary remains the basis for his keeper cost,
+      followed by the normal offseason escalation.
     </p>
 
     <p>
       IceCore also uses a <strong>250-coin Salary Floor</strong>. After the keeper
-      deadline, each franchise must maintain at least 250 coins in protected
-      player salaries. If a franchise falls below the floor, the GM receives a
-      warning and a reasonable correction period. If the problem is not corrected,
-      the franchise's 500-coin Salary Cap is reduced by the amount it remains below
-      250. Repeated violations may lead to roster or transaction restrictions
-      until the floor is restored.
+      deadline, the submitted keeper roster is checked to ensure that each franchise
+      maintains at least 250 coins in protected player salaries. If a franchise falls
+      below the floor, the GM receives a warning and a reasonable correction period.
+      If the problem is not corrected, the franchise's 500-coin Salary Cap is reduced
+      by the amount it remains below 250. Repeated violations may lead to roster or
+      transaction restrictions until the floor is restored.
     </p>
 
   </div>
@@ -659,11 +672,13 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </p>
 
     <p>
+      The salary calculation is:
+      <strong>New Salary = Current Salary + Base Increase + Value Bonus.</strong>
       A regular keeper whose salary is below the benchmark of his performance group
       receives an additional <strong>Value Bonus</strong> equal to
-      <strong>one third of the difference</strong> between the benchmark and his
-      salary. The result is rounded to a whole coin. A player at or above his
-      benchmark receives only the Base Increase.
+      <strong>one third of the positive difference</strong> between the benchmark and
+      his salary. The result is rounded to the nearest whole coin. A player at or
+      above his benchmark receives only the Base Increase.
     </p>
 
     <p>
@@ -707,13 +722,9 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
         <span>Starting Base</span>
         <strong>+4</strong>
       </div>
-      <div>
-        <span>Floating Base</span>
-        <strong>+3 to +5</strong>
-      </div>
       <div class="ic-salary-grid__hot">
         <span>Value Bonus</span>
-        <strong>⅓ of benchmark gap</strong>
+        <strong>⅓ of the positive benchmark gap</strong>
       </div>
     </div>
 
@@ -805,16 +816,15 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
     <p>
       Each franchise may make a maximum of
-      <strong>4 player acquisitions per matchup period</strong>.
-      This keeps the waiver market active without turning transaction volume
-      into a competitive advantage.
+      <strong>4 player acquisitions per week</strong>, matching the Yahoo league
+      transaction setting. This keeps the waiver market active without turning
+      transaction volume into a competitive advantage.
     </p>
 
     <p>
-      A player dropped by a franchise cannot be reacquired by that same
-      franchise for <strong>1 day</strong>. This protects the player market
-      from rapid drop-and-reclaim activity and helps prevent deliberate
-      roster manipulation.
+      Dropped players are subject to Yahoo's <strong>continuous waiver processing</strong>.
+      Yahoo controls when a dropped player can be claimed and processed; IceCore does
+      not create a separate free-agent window outside Yahoo's waiver system.
     </p>
 
   </div>
@@ -1402,9 +1412,9 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </p>
 
     <p>
-      The franchise's <strong>20th and final roster player is selected through
-      the IceCore Entry Draft</strong>. The remaining roster positions are then
-      filled through the applicable offseason process.
+      After the reset-protected players are carried over, the franchise has
+      <strong>19 players</strong>. The <strong>20th and final roster player</strong>
+      is selected through the IceCore Entry Draft.
     </p>
 
     <p>
@@ -1606,7 +1616,11 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 <article>
   <h3>How is the Entry Draft order decided?</h3>
   <p>
-    The first four picks go to the four divisional last-place franchises, ordered by their mini-table of head-to-head games; if tied, the worse regular-season finish gets the higher pick. The remaining positions follow reverse regular-season standings.
+    The first four picks go to the four division last-place franchises, ordered by
+      a mini-table of their already-played head-to-head games against the other
+      divisional last-place teams: a win is worth 2 points and a draw 1 point.
+      If tied, the worse regular-season finish gets the higher pick. The remaining
+      positions follow reverse regular-season standings.
   </p>
 </article>
 
