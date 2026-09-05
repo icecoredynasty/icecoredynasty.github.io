@@ -7,7 +7,7 @@ section: League News
 league: League 1
 season: "2026–27"
 label: PRESEASON
-featured: true
+featured: false
 image: /assets/images/journal/a-new-dynasty-begins.jpg
 excerpt: "Twenty franchises. Permanent identities. One shared history waiting to be written."
 ---
