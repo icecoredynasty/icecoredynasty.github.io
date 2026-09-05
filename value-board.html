@@ -59,25 +59,24 @@ permalink: /value-board/
         <thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Salary</th><th scope="col">Benchmark</th><th scope="col">Status</th><th scope="col">Increase</th></tr></thead>
         <tbody>
           <tr><td class="vb-rank">1</td><td class="vb-player">Player A</td><td>Team A</td><td class="vb-salary">130</td><td class="vb-benchmark-cell">39</td><td class="vb-status">⚖️ Above Market</td><td>+4</td></tr>
-          <tr><td>2</td><td class="vb-player">Player B</td><td>Team B</td><td>95</td><td>39</td><td class="vb-status">⚖️ Above Market</td><td>+4</td></tr>
+          <tr><td>2</td><td class="vb-player">Player B</td><td>Team B</td><td>92</td><td>39</td><td class="vb-status">⚖️ Above Market</td><td>+4</td></tr>
           <tr><td>3</td><td class="vb-player">Player C</td><td>Team C</td><td>60</td><td>39</td><td class="vb-status">⚖️ Above Market</td><td>+4</td></tr>
-          <tr><td>4</td><td class="vb-player">Player D</td><td>Team D</td><td>50</td><td>39</td><td class="vb-status">⚖️ Above Market</td><td>+4</td></tr>
+          <tr><td>4</td><td class="vb-player">Player D</td><td>Team D</td><td>45</td><td>39</td><td class="vb-status">⚖️ Above Market</td><td>+4</td></tr>
           <tr><td>5</td><td class="vb-player">Player E</td><td>Team E</td><td>42</td><td>39</td><td class="vb-status">⚖️ Above Market</td><td>+4</td></tr>
-          <tr><td>6</td><td class="vb-player">Player F</td><td>Team F</td><td>30</td><td>39</td><td class="vb-status">💎 Below Market</td><td>+7</td></tr>
-          <tr><td>7</td><td class="vb-player">Player G</td><td>Team G</td><td>20</td><td>39</td><td class="vb-status">💎 Below Market</td><td>+10</td></tr>
-          <tr><td>8</td><td class="vb-player">Player H</td><td>Team H</td><td>10</td><td>39</td><td class="vb-status">💎 Below Market</td><td>+14</td></tr>
-          <tr><td>9</td><td class="vb-player">Player I</td><td>Team I</td><td>5</td><td>39</td><td class="vb-status">💎 Below Market</td><td>+15</td></tr>
-          <tr><td>10</td><td class="vb-player">Player J</td><td>Team J</td><td>2</td><td>39</td><td class="vb-status">💎 Below Market</td><td>+4</td></tr>
+          <tr><td>6</td><td class="vb-player">Player F</td><td>Team F</td><td>37</td><td>39</td><td class="vb-status">💎 Below Market</td><td>+5</td></tr>
+          <tr><td>7</td><td class="vb-player">Player G</td><td>Team G</td><td>25</td><td>39</td><td class="vb-status">💎 Below Market</td><td>+9</td></tr>
+          <tr><td>8</td><td class="vb-player">Player H</td><td>Team H</td><td>8</td><td>39</td><td class="vb-status">💎 Below Market</td><td>+14</td></tr>
+          <tr><td>9</td><td class="vb-player">Player I</td><td>Team I</td><td>3</td><td>39</td><td class="vb-status">💎 Below Market</td><td>+15</td></tr>
+          <tr><td>10</td><td class="vb-player">Player J</td><td>Team J</td><td>1</td><td>39</td><td class="vb-status">💎 Below Market</td><td>+17</td></tr>
         </tbody>
       </table></div>
       <p class="vb-note vb-small">
-        <strong>Example calculation:</strong> the highest salary (130) and lowest salary (2) are removed.
-        The remaining eight salaries are 95, 60, 50, 42, 30, 20, 10 and 5. Their average is
+        <strong>Example calculation:</strong> the highest salary (130) and lowest salary (1) are removed.
+        The remaining eight salaries are 92, 60, 45, 42, 37, 25, 8 and 3. Their average is
         <strong>39</strong> Coins, which becomes the group benchmark. Players at or above 39 receive
         only the current Base Increase. Players below 39 also receive the Value Increase.
-        Player F, for example, is 9 below the benchmark: <strong>4 + (9 ÷ 3) = +7</strong>.
-        Player G is 19 below: <strong>4 + (19 ÷ 3) = +10</strong> after rounding the final increase to a whole Coin.
-        Player H is 29 below: <strong>4 + (29 ÷ 3) = +14</strong>. The exact same formula applies to every player.
+        Player F, for example, is only 2 below the benchmark: <strong>4 + (2 ÷ 3) = +4.67 → +5</strong> after rounding the final increase to a whole Coin. This shows that being just slightly below the benchmark does not create a dramatic increase.
+        Player G is 14 below: <strong>4 + (14 ÷ 3) = +8.67 → +9</strong>. Player H is 31 below: <strong>4 + (31 ÷ 3) = +14.33 → +14</strong>. Player J is 38 below: <strong>4 + (38 ÷ 3) = +16.67 → +17</strong>. The exact same formula applies to every player.
         <br><br>
         <strong>Why remove #1 and #10?</strong> Extremes can distort the market signal. A very expensive player
         (for example, a superstar returning from a long injury) can artificially push the benchmark up,
