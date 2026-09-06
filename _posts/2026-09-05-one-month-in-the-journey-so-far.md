@@ -132,7 +132,7 @@ The annual escalation for eligible **NA prospects increases on +1**.
 
 A **salary floor** has also been introduced to keep the keeper market from becoming distorted by unrealistically low total salaries.
 
-These are refinements, because I'm not a fan of changes during the game.
+These are refinements before start. I'm not a fan of changes during the game.
 
 For the complete and current version of every rule, the **Rules** section remains the authority.
 
@@ -160,7 +160,7 @@ The first twenty franchises have been assigned.
 
 That does not mean the door is closed.
 
-If everything goes well and there is enough interest, the Commissioner is willing to discuss opening **IceCore 2**.
+If everything goes well and there is enough interest, I am willing to discuss opening **IceCore 2**.
 
 So if you discovered IceCore after the first twenty franchises were selected, **keep your application coming**.
 
