@@ -69,7 +69,7 @@ A goaltender facing an elite offense still belongs to your roster.
 
 A depth defenseman who blocks shots and plays hard minutes can have real value.
 
-An injury may force a franchise to react through free agency, waivers or organizational depth.
+An injury may force a franchise to react through, waivers or organizational depth.
 
 Those are management decisions.
 
