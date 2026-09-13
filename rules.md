@@ -538,11 +538,18 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </p>
 
     <p>
-      The first four picks go to the four division last-place franchises, ordered by
-      a mini-table of their already-played head-to-head games against the other
-      divisional last-place teams: a win is worth 2 points and a draw 1 point.
-      If tied, the worse regular-season finish gets the higher pick. The remaining
-      positions follow reverse regular-season standings. Entry Draft selections cannot
+      The four franchises that finish last in their respective divisions enter the
+      <strong>Toilet Bowl</strong>. Because Yahoo does not allow IceCore to create
+      additional postseason matchups after the regular season, the Toilet Bowl uses
+      the four teams' already-played regular-season games against one another. Each
+      pair of the four teams is counted once, creating a four-team mini-table. A win
+      is worth 2 points and a draw 1 point. The Toilet Bowl winner receives Entry Draft
+      pick No. 1, the second-place team receives No. 2, the third-place team receives
+      No. 3 and the fourth-place team receives No. 4. If tied, the worse regular-season
+      finish gets the higher pick.
+
+      The remaining 16 franchises receive picks No. 5–20 in reverse regular-season
+      standings, excluding the four Toilet Bowl teams. Entry Draft selections cannot
       be traded. The Commissioner conducts the Entry Draft manually.
     </p>
 
@@ -585,8 +592,17 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
       and replace the resulting active-roster position through the normal player market.
       If the rookie remains protected as a regular keeper for the following offseason,
       the normal salary escalation applies to his 1-coin salary. If he is moved to NA,
-      the Development Keeper rules apply instead if he is eligible. If the rookie is not yet available in Yahoo when offseason rosters are prepared,
-      the franchise retains exclusive rights to that rookie.
+      the Development Keeper rules apply instead if he is eligible.
+
+      If the selected rookie is not yet available in Yahoo when the offseason roster
+      is prepared, the franchise retains exclusive rights to that rookie. The
+      Commissioner may place an eligible temporary replacement player on the
+      franchise so that the Yahoo roster can be completed. The replacement is only
+      a temporary roster placeholder and does not become the franchise's Entry Draft
+      selection. When the intended rookie becomes available, the placeholder is
+      removed and the original rookie is added. If the GM voluntarily releases the
+      temporary replacement before the original rookie becomes available, the
+      franchise forfeits its exclusive rights to the original rookie.
     </p>
 
     <p>
@@ -1616,11 +1632,12 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 <article>
   <h3>How is the Entry Draft order decided?</h3>
   <p>
-    The first four picks go to the four division last-place franchises, ordered by
-      a mini-table of their already-played head-to-head games against the other
-      divisional last-place teams: a win is worth 2 points and a draw 1 point.
-      If tied, the worse regular-season finish gets the higher pick. The remaining
-      positions follow reverse regular-season standings.
+    The four divisional last-place franchises enter the <strong>Toilet Bowl</strong>,
+    using their already-played regular-season games against one another to form a
+    four-team mini-table. Each pair is counted once; a win is worth 2 points and a
+    draw 1 point. The winner receives pick No. 1, followed by No. 2, No. 3 and No. 4.
+    If tied, the worse regular-season finish gets the higher pick. The remaining 16
+    franchises receive picks No. 5–20 in reverse regular-season standings.
   </p>
 </article>
 
