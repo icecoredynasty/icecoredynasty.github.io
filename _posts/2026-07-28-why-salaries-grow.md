@@ -341,6 +341,11 @@ Keeping an elite player is easy. Building around an increasingly expensive
 elite player is the challenge.
 </p>
 
+<p>
+If he becomes too expensive for you, you can put him back into the draft pool 
+and try to get him back for less. But you risk another GM claiming him.
+</p>
+
 <h2>The Rookie</h2>
 
 <p>
@@ -399,7 +404,7 @@ Development Keepers work differently from Regular Keepers.
 
 <p>
 A Development Keeper retains the IceCore salary at which the player was
-acquired. If the player was acquired through Free Agency or Waivers, his
+acquired. If the player was acquired through Waivers, his
 salary is 0 Coins. If he was acquired through the Salary Cap Draft, his
 salary is the winning bid.
 </p>
