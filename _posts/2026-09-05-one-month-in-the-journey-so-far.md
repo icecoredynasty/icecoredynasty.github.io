@@ -126,9 +126,14 @@ And a player who consistently performs like an expensive star should not remain 
 
 A few other changes have also been made as the league was tested.
 
-The **Toilet Bowl** has been added, using a format familiar from many fantasy leagues but adapted to IceCore's Yahoo structure.
+The **Toilet Bowl** has also been added. The four divisional last-place teams form a
+mini-table using their already-played regular-season games against one another,
+with the winner receiving Entry Draft pick No. 1, followed by No. 2, No. 3 and No. 4.
+This preserves competitive balance without requiring Yahoo to create additional
+postseason matchups.
 
-The annual escalation for eligible **NA prospects increases on +1**.
+**Development Keepers** retained on the NA farm receive a separate +1 Coin
+escalation for each offseason they are protected again.
 
 A **salary floor** has also been introduced to keep the keeper market from becoming distorted by unrealistically low total salaries.
 

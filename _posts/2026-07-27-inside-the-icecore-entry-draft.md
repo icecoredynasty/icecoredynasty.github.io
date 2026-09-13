@@ -75,9 +75,9 @@ You are asking:
 
 ## Competitive Balance Comes First
 
-The Entry Draft gives the first four selections to the four divisional last-place franchises, ordered by a mini-table of head-to-head games among those four teams. If tied, the worse regular-season finish receives the higher pick. The remaining selections follow reverse regular-season standings.
+The Entry Draft gives the first four selections to the four divisional last-place franchises through the **Toilet Bowl**. The Toilet Bowl is a four-team mini-table built from their already-played regular-season games against one another, with each pair counted once. A win is worth 2 points and a draw 1 point. The winner receives pick No. 1, followed by No. 2, No. 3 and No. 4. If tied, the worse regular-season finish receives the higher pick.
 
-The four division last-place teams therefore receive the first four picks, while the rest of the order is determined by the final league standings.
+The remaining sixteen franchises receive picks No. 5–20 in reverse regular-season standings, excluding the four Toilet Bowl teams.
 
 There is no lottery.
 
@@ -167,17 +167,16 @@ The system keeps moving.
 
 The same principle applies when the fantasy platform and the real hockey world move at different speeds.
 
-If a selected rookie is not yet available in Yahoo at the time of the
-Entry Draft, the Commissioner may assign an eligible NA player as a
-temporary Yahoo roster placeholder so the franchise can complete the draft.
+If a selected rookie is not yet available in Yahoo when the offseason roster
+is prepared, the franchise retains exclusive rights to that rookie. The
+Commissioner may assign an eligible player as a temporary Yahoo roster
+replacement so the franchise can complete its roster. The replacement is not
+the franchise's Entry Draft selection and carries no claim to the original rookie.
 
-The placeholder is not the franchise's Entry Draft selection and does not
-gain any draft rights or historical claim.
-
-Once the intended rookie becomes available in Yahoo, the placeholder will be
-removed or replaced and the originally selected rookie will be added to the
-franchise. The original Entry Draft selection always remains the official
-IceCore selection.
+Once the intended rookie becomes available in Yahoo, the temporary replacement
+will be removed and the original rookie will be added. If the GM voluntarily
+releases the temporary replacement before the original rookie becomes available,
+the franchise forfeits its exclusive rights to the original rookie.
 
 A Yahoo availability delay should never change the result of the Entry Draft.
 

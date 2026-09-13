@@ -136,7 +136,10 @@ IceCore organization through the Entry Draft. The selected player must come from
 first round of the relevant real-world NHL Entry Draft. There is no Entry Draft during
 the inaugural IceCore season.
 
-The order rewards franchises that need the most help.
+The first four picks go to the four divisional last-place franchises through the
+**Toilet Bowl**: a mini-table using their already-played regular-season games
+against one another. The winner gets pick No. 1, followed by No. 2, No. 3 and No. 4.
+The remaining sixteen picks follow reverse regular-season standings.
 
 There is no lottery.
 
@@ -145,6 +148,20 @@ There are no traded Entry Draft selections.
 Every franchise gets one opportunity to add a new piece of its future.
 
 Then the General Manager decides what that opportunity becomes.
+
+## Salary Escalation
+
+Regular Keeper salaries rise each offseason through two linked mechanisms: a
+floating **Base Increase**, normally +4 and automatically adjusted between +3
+and +5 according to the league-wide salary economy, plus a **Value Bonus** for
+players whose salary is below the benchmark of their final performance group.
+The Value Bonus is one third of the positive benchmark gap, rounded to the nearest
+whole Coin. The Top 150 skaters are divided into groups of ten, while the Top 10
+goaltenders form one separate group; the highest and lowest salary are removed
+from each group before its benchmark is calculated.
+
+Development Keepers follow a separate **+1 Coin per offseason** escalation when
+protected again as Development Keepers.
 
 ## Enter the Market
 
@@ -235,6 +252,10 @@ It needs two General Managers with different plans.
 IceCore's regular season lasts **23 matchups**: every franchise faces every other
 franchise once, then plays its four divisional rivals one additional time. Each division
 contains five franchises.
+
+The four teams that finish last in their divisions enter the **Toilet Bowl** for
+Entry Draft positioning, using their already-played regular-season games against
+one another rather than creating new Yahoo playoff matchups.
 
 Eight franchises reach the postseason. Division winners are guaranteed a playoff place,
 while the remaining places are awarded by total regular-season points. The eight

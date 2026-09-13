@@ -68,9 +68,11 @@ Every regular keeper receives a 4-Coin increase.
 </p>
 
 <p>
-Some regular keepers may also receive a 5-Coin <strong>IceCore Value Bonus</strong>.
+Some regular keepers may also receive an <strong>IceCore Value Bonus</strong>.
 The bonus is available to underpaid players based on their final Yahoo Fantasy
-Points ranking and the actual salary economy of their performance group.
+Points ranking and the actual salary economy of their performance group. The
+bonus is one third of the positive gap between the player's salary and his group
+benchmark, rounded to the nearest whole Coin.
 </p>
 
 <p>
@@ -93,8 +95,9 @@ so the league's own market determines what represents an underpaid contract.
 </p>
 
 <p>
-The maximum regular keeper increase is therefore <strong>9 Coins</strong>:
-the Base Increase plus the calculated Value Bonus.
+There is no separate fixed Value Bonus or arbitrary salary threshold. The total
+increase is the current Base Increase plus the calculated Value Bonus, so the
+size of the increase depends on the actual market gap.
 </p>
 
 <p>
@@ -179,8 +182,8 @@ lowest salaries are removed.
 
 <p>
 The regular keeper receives the current Base Increase, normally 4 Coins.
-The Value Bonus is then calculated from the gap between his salary and the
-benchmark of his final performance group.
+The Value Bonus is then calculated as one third of the positive gap between his
+salary and the benchmark of his final performance group, rounded to a whole Coin.
 </p>
 
 <p>
