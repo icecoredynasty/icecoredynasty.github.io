@@ -53,8 +53,8 @@ a simple two-part system.
 
 <div class="ic-article-stat-grid">
   <div class="ic-article-stat">
-    <strong>+4</strong>
-    <span>Every regular keeper</span>
+    <strong>+3 to +5</strong>
+    <span>Current Base Increase</span>
   </div>
 
   <div class="ic-article-stat">
@@ -64,7 +64,7 @@ a simple two-part system.
 </div>
 
 <p>
-Every regular keeper receives a 4-Coin increase.
+Every regular keeper receives the current Base Increase, which starts at +4 and may float between +3 and +5.
 </p>
 
 <p>
@@ -135,7 +135,7 @@ Nothing dramatic happens.
 </p>
 
 <p>
-Every offseason the General Manager pays another 4 Coins to keep him.
+Every offseason the General Manager pays the current Base Increase to keep him. If the Base remains at +4, that means another 4 Coins.
 </p>
 
 <p>
@@ -177,11 +177,11 @@ lowest salaries are removed.
 <div class="ic-article-flow">
   <span>1</span>
   <span>→</span>
-  <strong>10</strong>
+  <strong>Base + Value Bonus</strong>
 </div>
 
 <p>
-The regular keeper receives the current Base Increase, normally 4 Coins.
+The regular keeper receives the current Base Increase, which starts at +4 and may float between +3 and +5.
 The Value Bonus is then calculated as one third of the positive gap between his
 salary and the benchmark of his final performance group, rounded to a whole Coin.
 </p>
@@ -220,7 +220,7 @@ If he remains outside the selected Value Bonus group and you protect him:
 <div class="ic-article-flow">
   <span>0</span>
   <span>→</span>
-  <strong>4</strong>
+  <strong>Current Base Increase</strong>
 </div>
 
 <p>
@@ -230,7 +230,7 @@ If his completed season makes him eligible for the IceCore Value Bonus:
 <div class="ic-article-flow">
   <span>0</span>
   <span>→</span>
-  <strong>9</strong>
+  <strong>Base + Value Bonus</strong>
 </div>
 
 <p>
@@ -279,7 +279,7 @@ If the new General Manager protects him after an ordinary season:
 <div class="ic-article-flow">
   <span>10</span>
   <span>→</span>
-  <strong>14</strong>
+  <strong>10 + Base Increase</strong>
 </div>
 
 <p>
@@ -290,7 +290,7 @@ increase is calculated from the benchmark gap rather than a fixed +9:
 <div class="ic-article-flow">
   <span>10</span>
   <span>→</span>
-  <strong>19</strong>
+  <strong>10 + Base + Value Bonus</strong>
 </div>
 
 <p>
@@ -314,17 +314,21 @@ Imagine an established superstar already carrying a 94-Coin salary.
 <div class="ic-article-flow">
   <span>94</span>
   <span>→</span>
-  <strong>98</strong>
+  <strong>98*</strong>
   <span>→</span>
-  <strong>102</strong>
+  <strong>102*</strong>
   <span>→</span>
-  <strong>106</strong>
+  <strong>106*</strong>
 </div>
 
 <p>
-The Base Increase is normally 4 Coins and does not automatically become larger
-just because the player has a high salary. The Value Bonus depends on the
-benchmark gap, so there are no arbitrary salary cliffs.
+The Base Increase starts at 4 Coins and may float between +3 and +5 based on
+the league's salary economy. It does not automatically become larger just
+because the player has a high salary. The Value Bonus depends on the benchmark
+gap, so there are no arbitrary salary cliffs.
+</p>
+<p>
+<em>*These figures assume the Base Increase remains at +4 and no Value Bonus applies.</em>
 </p>
 
 <p>
@@ -376,7 +380,7 @@ next regular keeper decision.
 <div class="ic-article-flow">
   <span>1</span>
   <span>→</span>
-  <strong>10</strong>
+  <strong>1 + Base + Value Bonus</strong>
 </div>
 
 <p>
@@ -492,7 +496,7 @@ Sometimes the answer will be obvious.
 </p>
 
 <p>
-Sometimes the 4-Coin increase will be enough to change it. Sometimes the
+Sometimes the Base Increase will be enough to change it. Sometimes the
 additional Value Bonus will make the decision even harder.
 </p>
 
