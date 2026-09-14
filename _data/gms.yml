@@ -377,15 +377,14 @@ gms:
     seasons: []
 
   - id: "029"
-    nick: "Ryan"
+    nick: "Alex"
     status: active
     current_team: "victoria-cedars"
     country: "CA"
     flag: "🇨🇦"
-    timezone: "PST"
+    timezone: "EDT"
     since: 2026
-    hero: "A professional-looking league with permanent franchises — exactly what I
-      was after."
+    hero: "20 years of fantasy hockey, long-term team building and a love for finding hidden gems."
     warning: false
     bonus: false
     seasons: []
