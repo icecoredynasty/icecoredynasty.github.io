@@ -484,7 +484,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
     <p>
       A Development Keeper retains the IceCore salary at which he was acquired.
-      A player acquired from or waivers carries a salary of
+      A player acquired from waivers carries a salary of
       <strong>0 coins</strong>; a player acquired through the Salary Cap Draft
       carries the winning Salary Cap Draft price.
     </p>
