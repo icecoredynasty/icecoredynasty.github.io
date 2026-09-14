@@ -156,7 +156,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
   <h3>Salary Escalation</h3>
 
     <p>
-      Every regular keeper gets +4. Eligible underpaid players may receive an additional +5 Value Bonus.
+      Regular keeper salaries rise through a dynamic system built around a <strong>+4 Base Increase</strong> and a performance-based Value Bonus. The Base may automatically float between <strong>+3 and +5</strong> according to the league's own salary economy.
     </p>
 </article>
 <article class="ic-quick-card">
@@ -194,7 +194,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     <span>01</span>
     <strong>Keepers</strong>
     <p>
-      Protect 11–15 regular players and 1–3 Development Keepers from the NA farm. Other eligible NA players may be protected as Regular Keepers.
+      Protect 11–15 regular players and 1–3 players from the NA farm.
     </p>
   </article>
 
@@ -309,10 +309,6 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </div>
 
     <p>
-      These are the required starting positions. The full positional roster limits are <strong>8 C, 8 LW, 8 RW, 6 D and 2 G</strong>; the C, LW and RW limits allow additional players at those positions, while the D and G limits are fixed.
-    </p>
-
-    <p>
       Each franchise has a
       <strong>20-player active roster</strong>.
     </p>
@@ -416,9 +412,8 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </p>
 
     <p>
-      Players held in NA positions are not automatically part of the regular keeper group.
-      An eligible NA player may nevertheless be selected as a Regular Keeper if the franchise
-      chooses to use one of its 11–15 regular keeper slots for him.
+      Players held in NA positions are not part of the regular keeper group.
+      They are handled separately through Development Keepers.
     </p>
 
     <p>
@@ -454,8 +449,8 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
     <p>
       Every franchise must protect between
-      <strong>one and three Development Keepers</strong>
-      from its previous-season NA farm. Other players from the previous-season NA farm may also be selected as Regular Keepers if they meet the Regular Keeper eligibility requirements.
+      <strong>one and three players</strong>
+      from its previous-season NA farm.
     </p>
 
     <div class="ic-inline-value">
@@ -473,12 +468,15 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
       If a franchise has no eligible player in its previous-season NA farm,
       the Commissioner will assign an eligible young player from the available
       player pool to satisfy the minimum one-Development-Keeper requirement.
+      The assigned player carries a salary of <strong>1 coin</strong>.
     </p>
 
     <p>
       A Development Keeper may be protected only if his position still
       fits the franchise's configured positional roster limits after the regular
-      keepers are selected.
+      keepers are selected. The maximum limits are <strong>8 C, 8 LW, 8 RW,
+      6 D and 2 G</strong>. The C, LW and RW limits allow additional players
+      at those positions, while the D and G limits are fixed.
     </p>
 
     <p>
@@ -488,9 +486,16 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
     <p>
       A Development Keeper retains the IceCore salary at which he was acquired.
-      A player acquired through waivers carries a salary of
+      A player acquired from free agency or waivers carries a salary of
       <strong>0 coins</strong>; a player acquired through the Salary Cap Draft
       carries the winning Salary Cap Draft price.
+    </p>
+
+    <p>
+      Development Keepers use a separate development escalation: their salary
+      increases by <strong>+1 coin per offseason</strong> when they are protected
+      again as a Development Keeper. The regular keeper +4 Base and Value Bonus
+      system does not apply to Development Keepers.
     </p>
 
     <p>
@@ -505,14 +510,9 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
     <p>
       The five NA slots available during the season provide development
-      space. They are not five automatic additional Development Keeper slots.
-      A maximum of three players from that group may be protected as Development Keepers;
-      other eligible NA players may still be protected through the Regular Keeper group.
-    </p>
-
-    <p>
-      Any NA player who is not protected either as a Development Keeper or as an eligible Regular Keeper is
-      released into the player pool for the following season.
+      space. They are not five automatic additional offseason keepers.
+      A maximum of three players from that group may be protected; any other
+      NA player is released into the player pool for the following season.
     </p>
 
   </div>
@@ -538,7 +538,19 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </p>
 
     <p>
-      The first four picks go to the four division last-place franchises, ordered by their mini-table of head-to-head games; ties go to the worse regular-season finish. The remaining positions follow reverse regular-season standings. Entry Draft selections cannot be traded. The Commissioner conducts the Entry Draft manually.
+      The four franchises that finish last in their respective divisions enter the
+      <strong>Toilet Bowl</strong>. Because Yahoo does not allow IceCore to create
+      additional postseason matchups after the regular season, the Toilet Bowl uses
+      the four teams' already-played regular-season games against one another. Each
+      pair of the four teams is counted once, creating a four-team mini-table. A win
+      is worth 2 points and a draw 1 point. The Toilet Bowl winner receives Entry Draft
+      pick No. 1, the second-place team receives No. 2, the third-place team receives
+      No. 3 and the fourth-place team receives No. 4. If tied, the worse regular-season
+      finish gets the higher pick.
+
+      The remaining 16 franchises receive picks No. 5–20 in reverse regular-season
+      standings, excluding the four Toilet Bowl teams. Entry Draft selections cannot
+      be traded. The Commissioner conducts the Entry Draft manually.
     </p>
 
     <p>
@@ -570,12 +582,27 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
     <p>
       Entry Draft selections enter their IceCore franchise at a salary of
-      <strong>1 Coin</strong>.
+      <strong>1 Coin</strong> and are immediately placed on the franchise's
+      keeper list as a mandatory keeper for that offseason.
     </p>
 
     <p>
-      If an Entry Draft selection is not yet available in Yahoo when offseason
-      rosters are prepared, the franchise retains exclusive rights to that rookie.
+      The Entry Draft rookie is a mandatory keeper immediately after the draft.
+      After the draft, the GM may release the rookie or move him to an NA position
+      and replace the resulting active-roster position through the normal player market.
+      If the rookie remains protected as a regular keeper for the following offseason,
+      the normal salary escalation applies to his 1-coin salary. If he is moved to NA,
+      the Development Keeper rules apply instead if he is eligible.
+
+      If the selected rookie is not yet available in Yahoo when the offseason roster
+      is prepared, the franchise retains exclusive rights to that rookie. The
+      Commissioner may place an eligible temporary replacement player on the
+      franchise so that the Yahoo roster can be completed. The replacement is only
+      a temporary roster placeholder and does not become the franchise's Entry Draft
+      selection. When the intended rookie becomes available, the placeholder is
+      removed and the original rookie is added. If the GM voluntarily releases the
+      temporary replacement before the original rookie becomes available, the
+      franchise forfeits its exclusive rights to the original rookie.
     </p>
 
     <p>
@@ -612,14 +639,6 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </p>
 
     <p>
-      IceCore also uses a <strong>250-coin Salary Floor</strong> for the submitted keeper roster.
-      After the keeper deadline, each franchise must have at least 250 coins in protected player salaries.
-      If a franchise falls below the floor, the GM receives a warning and a reasonable correction period.
-      If the shortfall is not corrected, the franchise's 500-coin Salary Cap is reduced by the amount it remains below 250.
-      Repeated violations may lead to roster or transaction restrictions until the floor is restored.
-    </p>
-
-    <p>
       Salaries of protected players are committed before the Live Salary
       Cap Draft and reduce the franchise's available draft budget.
     </p>
@@ -631,8 +650,19 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
     <p>
       Releasing a player does not erase his established IceCore salary
-      history. If that player is later acquired and protected again,
-      his applicable retained salary is used before normal escalation.
+      history. If that player is later acquired and protected again, his most
+      recently established IceCore salary remains the basis for his keeper cost,
+      followed by the normal offseason escalation.
+    </p>
+
+    <p>
+      IceCore also uses a <strong>250-coin Salary Floor</strong>. After the keeper
+      deadline, the submitted keeper roster is checked to ensure that each franchise
+      maintains at least 250 coins in protected player salaries. If a franchise falls
+      below the floor, the GM receives a warning and a reasonable correction period.
+      If the problem is not corrected, the franchise's 500-coin Salary Cap is reduced
+      by the amount it remains below 250. Repeated violations may lead to roster or
+      transaction restrictions until the floor is restored.
     </p>
 
   </div>
@@ -652,69 +682,82 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
     <p>
       Salaries increase whenever a regular player is protected for another season.
-      Every regular keeper receives a <strong>+4 Base Increase</strong>.
+      Every regular keeper begins with a <strong>+4 Base Increase</strong>. The Base
+      may automatically float between <strong>+3 and +5</strong> from season to
+      season according to the league-wide salary economy.
     </p>
 
     <p>
-      A regular keeper may also receive a <strong>+5 Value Bonus</strong> if his
-      previous salary is below the average salary of his performance group. For this
-      purpose, the <strong>Top 150 skaters</strong> are divided into groups of 10, while the
-      <strong>Top 10 goaltenders</strong> are treated as one group. In each group, the highest
-      and lowest salary are removed before calculating the average. Rankings are based
-      on final Yahoo Fantasy point totals after the completed regular season.
+      The salary calculation is:
+      <strong>New Salary = Current Salary + Base Increase + Value Bonus.</strong>
+      A regular keeper whose salary is below the benchmark of his performance group
+      receives an additional <strong>Value Bonus</strong> equal to
+      <strong>one third of the positive difference</strong> between the benchmark and
+      his salary. The result is rounded to the nearest whole coin. A player at or
+      above his benchmark receives only the Base Increase.
     </p>
 
     <p>
-      The system uses no fixed salary thresholds and no manually assigned player values.
-      The 20 GMs create the salary economy; IceCore uses the completed season to adjust
-      contracts to that market.
+      The <strong>Top 150 skaters</strong> are divided into groups of ten and the
+      <strong>Top 10 goaltenders</strong> form one additional group. In every group,
+      the highest and lowest salary are removed before calculating the average of
+      the remaining eight players. Rankings are based on final Yahoo Fantasy point
+      totals after the completed regular season.
     </p>
 
     <p>
-      The <a href="{{ '/value-board/' | relative_url }}">IceCore Value Board</a> will be used
-      during the season to publish informative interim lists of players who would currently
-      qualify for the <strong>+5 IceCore Value Bonus</strong> based on the latest standings
-      and salary data. Final bonus recipients
-      are confirmed after the completed regular season.
+      The system uses no fixed salary price for individual players. The
+      <strong>20 GMs create the salary economy</strong> through auctions, trades
+      and roster decisions; the Commissioner does not decide how much a particular
+      player is supposed to be worth. A player who performs strongly can therefore
+      move into a higher-value performance group and receive a larger escalation.
+    </p>
+
+    <p>
+      The floating Base acts as an automatic inflation control. The average of all
+      <strong>16 performance-group benchmarks</strong> is tracked from season to
+      season: if the rounded league average rises, the Base decreases by 1; if it
+      falls, the Base increases by 1; if it stays the same, the Base does not
+      change. The Base can never fall below <strong>+3</strong> or rise above
+      <strong>+5</strong>. There are no additional emergency adjustments or
+      exceptions.
+    </p>
+
+    <p>
+      General Managers do not need to calculate the system themselves. The
+      <a href="{{ '/value-board/' | relative_url }}">IceCore Value Board</a>
+      publishes the current data, benchmarks and calculated increases. GMs may use
+      the board as the official reference, while anyone who wants to follow the
+      economy during the season can calculate a provisional increase independently
+      from the published formula. Detailed calculations and worked examples are
+      maintained on the Value Board.
     </p>
 
     <div class="ic-salary-grid">
-
       <div>
-        <span>Regular keeper</span>
+        <span>Starting Base</span>
         <strong>+4</strong>
       </div>
-
-      <div>
-        <span>Eligible underpaid Top 150 skater / Top 10 goalie</span>
-        <strong>+5 Value Bonus</strong>
-      </div>
-
       <div class="ic-salary-grid__hot">
-        <span>Maximum regular keeper increase</span>
-        <strong>+9</strong>
+        <span>Value Bonus</span>
+        <strong>⅓ of the positive benchmark gap</strong>
       </div>
-
     </div>
 
     <div class="ic-example">
-
       <span>EXAMPLE</span>
-
       <p>
-        A skater finishes <strong>#4</strong> with a previous salary of <strong>5 coins</strong>.
-        If the Top 10 skater group averages <strong>23 coins</strong>, he is below the group
-        average and receives both increases: <strong>5 → 14</strong>.
+        A player has a salary of <strong>20 coins</strong> and his performance
+        group has a benchmark of <strong>35 coins</strong>. With a Base of +4,
+        the 15-coin gap produces a 5-coin Value Bonus, so his salary rises
+        <strong>20 → 29</strong>.
       </p>
-
       <p>
-        A skater finishes <strong>#1</strong> with a previous salary of <strong>130 coins</strong>.
-        If he is above his group average, he receives only the Base Increase: <strong>130 → 134</strong>.
+        A player with a salary of <strong>40 coins</strong> in the same group is
+        already above the benchmark and receives only the Base Increase:
+        <strong>40 → 44</strong>.
       </p>
-
-    </div>
-
-  </div>
+    </div>  </div>
 
 </article>
 
@@ -727,16 +770,17 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
   <div class="ic-rule__body">
 
-    <h3>Waivers & Existing Salaries</h3>
+    <h3>Free Agents, Waivers & Existing Salaries</h3>
 
     <p>
-      A player without an established IceCore salary enters through waivers at <strong>0 coins</strong>. If protected for the following season,
+      A player without an established IceCore salary enters from free agency or
+      waivers at <strong>0 coins</strong>. If protected for the following season,
       the normal salary escalation applies.
     </p>
 
     <div class="ic-rule-tags">
-      <span>Base → +4</span>
-      <span>Eligible underpaid player → +5 Value Bonus</span>
+      <span>Regular keeper → Base + Value Bonus</span>
+      <span>Development Keeper → +1 per offseason</span>
     </div>
 
     <p>
@@ -788,16 +832,15 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
     <p>
       Each franchise may make a maximum of
-      <strong>4 player acquisitions per matchup period</strong>.
-      This keeps the waiver market active without turning transaction volume
-      into a competitive advantage.
+      <strong>4 player acquisitions per week</strong>, matching the Yahoo league
+      transaction setting. This keeps the waiver market active without turning
+      transaction volume into a competitive advantage.
     </p>
 
     <p>
-      A player dropped by a franchise cannot be reacquired by that same
-      franchise for <strong>1 day</strong>. This protects the player market
-      from rapid drop-and-reclaim activity and helps prevent deliberate
-      roster manipulation.
+      Dropped players are subject to Yahoo's <strong>continuous waiver processing</strong>.
+      Yahoo controls when a dropped player can be claimed and processed; IceCore does
+      not create a separate free-agent window outside Yahoo's waiver system.
     </p>
 
   </div>
@@ -915,9 +958,9 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
       <div>
         <span>Franchise A</span>
-        <strong>250</strong>
+        <strong>180</strong>
         <small>committed</small>
-        <b>250 available</b>
+        <b>320 available</b>
       </div>
 
       <div>
@@ -993,10 +1036,8 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
     <p>
       Keeper selections, rookie lists and other mandatory submissions
-      must be provided by <strong>private Yahoo message directly to the Commissioner</strong> before
-      the announced deadline. Yahoo messages are the official submission channel because they preserve
-      the message history and timestamp of the submission. GMs are strongly encouraged to enable Yahoo
-      message notifications so that incoming league messages are not missed.
+      must be provided through the designated league channel before
+      the announced deadline.
     </p>
 
     <p>
@@ -1387,9 +1428,9 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </p>
 
     <p>
-      The franchise's <strong>20th and final roster player is selected through
-      the IceCore Entry Draft</strong>. The remaining roster positions are then
-      filled through the applicable offseason process.
+      After the reset-protected players are carried over, the franchise has
+      <strong>19 players</strong>. The <strong>20th and final roster player</strong>
+      is selected through the IceCore Entry Draft.
     </p>
 
     <p>
@@ -1535,6 +1576,18 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
 
 <article>
+  <h3>What is the Salary Floor?</h3>
+  <p>
+    Every franchise must maintain at least <strong>250 coins</strong> in protected
+    player salaries after the keeper deadline. A franchise below the floor receives
+    a warning and a reasonable period to correct the roster. If it remains below
+    250, its Salary Cap is reduced by the amount of the shortfall. Repeated
+    violations may lead to roster or transaction restrictions until corrected.
+  </p>
+</article>
+
+
+<article>
   <h3>How does the auction draft work?</h3>
   <p>
     IceCore uses a live salary-cap auction draft. General Managers
@@ -1579,7 +1632,12 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 <article>
   <h3>How is the Entry Draft order decided?</h3>
   <p>
-    The first four picks go to the four divisional last-place franchises, ordered by their mini-table of head-to-head games; if tied, the worse regular-season finish gets the higher pick. The remaining positions follow reverse regular-season standings.
+    The four divisional last-place franchises enter the <strong>Toilet Bowl</strong>,
+    using their already-played regular-season games against one another to form a
+    four-team mini-table. Each pair is counted once; a win is worth 2 points and a
+    draw 1 point. The winner receives pick No. 1, followed by No. 2, No. 3 and No. 4.
+    If tied, the worse regular-season finish gets the higher pick. The remaining 16
+    franchises receive picks No. 5–20 in reverse regular-season standings.
   </p>
 </article>
 
@@ -1602,12 +1660,15 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 <article>
   <h3>How does salary escalation work?</h3>
   <p>
-    Regular keepers receive <strong>+4</strong> each offseason. A regular keeper may
-    receive an additional <strong>+5 IceCore Value Bonus</strong> if his salary is below
-    the average of his performance group: Top 150 skaters are divided into groups
-    of 10, while Top 10 goaltenders form one group. The highest and lowest salary
-    are removed before calculating each group's average. Development Keepers start
-    at 1 coin and increase by +1 per offseason if kept again.
+    Regular keepers start with a <strong>+4 Base Increase</strong>. The Base may
+    float automatically between <strong>+3 and +5</strong> according to the
+    league-wide salary economy. A regular keeper below his performance-group
+    benchmark receives an additional Value Bonus equal to <strong>one third of
+    the benchmark gap</strong>. The Top 150 skaters are divided into groups of 10
+    and the Top 10 goaltenders form one group; the highest and lowest salary are
+    removed before each benchmark is calculated. Development Keepers use a
+    separate <strong>+1 per offseason</strong> escalation. Full calculations and
+    examples are maintained on the <a href="{{ '/value-board/' | relative_url }}">IceCore Value Board</a>.
   </p>
 </article>
 
@@ -1686,9 +1747,8 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
         <p>
           Keeper selections and rookie priority lists are due by the
           <strong>4th Sunday after the final regular-season game</strong>,
-          in IceCore time. They must be submitted by private Yahoo message
-          directly to the Commissioner. Yahoo messages are the official submission channel because they preserve
-          the message history and timestamp; GMs are strongly encouraged to enable message notifications.
+          in IceCore time. They must be submitted by private Yahoo chat
+          directly to the Commissioner.
         </p>
       </article>
 
