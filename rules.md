@@ -499,7 +499,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     <p>
       Development Keepers also count toward the franchise's total
       positional roster limits. These limits also apply when filling the 
-      remaining roster through the. Entry Draft or Live Salary Cap Draft.
+      remaining roster through Entry Draft or Live Salary Cap Draft.
     </p>
 
     <p>
