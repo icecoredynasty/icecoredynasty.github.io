@@ -1414,8 +1414,10 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
     <p>
       The protected players must be identified by the GM in the
-      <strong>keeper email</strong> sent to the Commissioner. If no reset-protected players are specifically identified,
-      the first <strong>8 eligible skaters and first eligible goaltender</strong> in the submitted keeper list are treated as protected.
+      <strong>private Yahoo message</strong> sent to the Commissioner. 
+     If no reset-protected players are specifically identified,
+      the first <strong>8 eligible skaters and first eligible goaltender</strong> 
+      in the submitted keeper list are treated as protected.
       Because a reset
       reduces the protected core, the franchise may end up keeping
       <strong>fewer than the normal minimum of 11 regular keepers</strong>.
