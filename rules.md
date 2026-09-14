@@ -412,8 +412,8 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </p>
 
     <p>
-      Players held in NA positions are not part of the regular keeper group.
-      They are handled separately through Development Keepers.
+      It is possible to keep more than 3 players from the NA farm team, 
+      but only in a regular slot with standard escalation.
     </p>
 
     <p>
@@ -474,9 +474,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     <p>
       A Development Keeper may be protected only if his position still
       fits the franchise's configured positional roster limits after the regular
-      keepers are selected. The maximum limits are <strong>8 C, 8 LW, 8 RW,
-      6 D and 2 G</strong>. The C, LW and RW limits allow additional players
-      at those positions, while the D and G limits are fixed.
+      keepers are selected.
     </p>
 
     <p>
@@ -486,7 +484,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
     <p>
       A Development Keeper retains the IceCore salary at which he was acquired.
-      A player acquired from free agency or waivers carries a salary of
+      A player acquired from or waivers carries a salary of
       <strong>0 coins</strong>; a player acquired through the Salary Cap Draft
       carries the winning Salary Cap Draft price.
     </p>
@@ -500,12 +498,8 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
     <p>
       <strong>Development Keepers also count toward the franchise's total
-      positional roster limits.</strong> A franchise may have up to
-      <strong>8 C, 8 LW, 8 RW, 6 D and 2 G</strong> across its protected
-      players and later roster additions. The C, LW and RW limits allow
-      additional players at those positions, while the D and G limits are fixed.
-      These limits also apply when filling the remaining roster through the
-      Entry Draft or Live Salary Cap Draft.
+      positional roster limits. These limits also apply when filling the 
+      remaining roster through the. Entry Draft or Live Salary Cap Draft.
     </p>
 
     <p>
@@ -770,10 +764,10 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
   <div class="ic-rule__body">
 
-    <h3>Free Agents, Waivers & Existing Salaries</h3>
+    <h3>Waivers & Existing Salaries</h3>
 
     <p>
-      A player without an established IceCore salary enters from free agency or
+      A player without an established IceCore salary enters from
       waivers at <strong>0 coins</strong>. If protected for the following season,
       the normal salary escalation applies.
     </p>
@@ -958,9 +952,9 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
       <div>
         <span>Franchise A</span>
-        <strong>180</strong>
+        <strong>258</strong>
         <small>committed</small>
-        <b>320 available</b>
+        <b>250 available</b>
       </div>
 
       <div>
