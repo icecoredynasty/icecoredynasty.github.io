@@ -80,18 +80,18 @@ becoming the most expensive player in the inaugural IceCore auction.
 But the more interesting story is what happened across the entire
 market.
 
-  Draft metric                           Result
-  -------------------------- ------------------
-  General Managers present          **20 / 20**
-  Franchises                             **20**
-  Players drafted                       **400**
-  Starting league economy      **10,000 Coins**
-  Coins spent                         **9,855**
-  Coins remaining                       **145**
-  Economy utilized                   **98.55%**
-  Average salary                 **24.6 Coins**
-  Median salary                    **13 Coins**
-  Highest salary                  **136 Coins**
+| Draft metric | Result |
+|---|---:|
+| General Managers present | **20 / 20** |
+| Franchises | **20** |
+| Players drafted | **400** |
+| Starting league economy | **10,000 Coins** |
+| Coins spent | **9,855** |
+| Coins remaining | **145** |
+| Economy utilized | **98.55%** |
+| Average salary | **24.6 Coins** |
+| Median salary | **13 Coins** |
+| Highest salary | **136 Coins** |
 
 ## A Market With More Than Two Tiers
 
@@ -150,28 +150,28 @@ These are **preseason projections, not results or power rankings**. The
 projections are powered by RotoWire, and they will change as the season
 approaches and begins.
 
-  Projected Fan Points rank     Average salary
-  --------------------------- ----------------
-  1--20                               **88.2**
-  21--40                              **66.4**
-  41--60                              **61.1**
-  61--80                              **43.0**
-  81--100                             **39.9**
-  101--120                            **33.9**
-  121--140                            **28.3**
-  141--160                            **22.7**
-  161--180                            **16.9**
-  181--200                            **11.8**
-  201--220                            **10.7**
-  221--240                            **13.8**
-  241--260                            **10.7**
-  261--280                            **10.3**
-  281--300                             **9.7**
-  301--320                             **5.2**
-  321--340                             **4.8**
-  341--360                             **6.4**
-  361--380                             **7.3**
-  381--400                             **2.2**
+| Projected Fan Points rank | Average salary |
+|---|---:|
+| 1–20 | **88.2** |
+| 21–40 | **66.4** |
+| 41–60 | **61.1** |
+| 61–80 | **43.0** |
+| 81–100 | **39.9** |
+| 101–120 | **33.9** |
+| 121–140 | **28.3** |
+| 141–160 | **22.7** |
+| 161–180 | **16.9** |
+| 181–200 | **11.8** |
+| 201–220 | **10.7** |
+| 221–240 | **13.8** |
+| 241–260 | **10.7** |
+| 261–280 | **10.3** |
+| 281–300 | **9.7** |
+| 301–320 | **5.2** |
+| 321–340 | **4.8** |
+| 341–360 | **6.4** |
+| 361–380 | **7.3** |
+| 381–400 | **2.2** |
 
 The table is not intended to identify "winners" or "bad contracts."
 
