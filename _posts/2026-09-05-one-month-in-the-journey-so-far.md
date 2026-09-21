@@ -7,7 +7,7 @@ section: League News
 league: League 1
 season: "2026–27"
 label: PRESEASON
-featured: true
+featured: false
 image: /assets/images/journal/one-month-in.jpg
 excerpt: "One month after launch, twenty franchises are in place, the league is built, and IceCore is ready for its first draft."
 ---
