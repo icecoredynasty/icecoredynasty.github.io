@@ -213,8 +213,6 @@ There is no point pretending otherwise.
 
 The inaugural IceCore draft was long.
 
-It stretched to roughly five hours.
-
 But that is also part of what we wanted to test.
 
 IceCore begins with a much larger economy than a typical salary-cap
