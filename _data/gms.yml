@@ -22,7 +22,12 @@ gms:
     hero: "20+ years of fantasy hockey — now ready to see what IceCore can do."
     warning: false
     bonus: false
-    seasons: []
+    seasons:
+      - year: 2026
+        team: "amarillo-downburst"
+        regular_season:
+        playoffs:
+        draft: true
 
   - id: "002"
     nick: "Available"
@@ -48,20 +53,30 @@ gms:
     hero: "After 2,500+ hours of Eastside Hockey Manager, I’m ready to run the Corsairs."
     warning: false
     bonus: false
-    seasons: []
+    seasons:
+      - year: 2026
+        team: "charlotte-amalie-corsairs"
+        regular_season:
+        playoffs:
+        draft: true
 
   - id: "004"
-    nick: "James"
+    nick: "Kam"
     status: active
     current_team: "cincinnati-rivermen"
     country: "US"
     flag: "🇺🇸"
     timezone: "MDT"
     since: 2026
-    hero: "Looking for something beyond another standard fantasy season."
+    hero: "Years of keeper experience — now ready to build the Rivermen."
     warning: false
     bonus: false
-    seasons: []
+    seasons:
+      - year: 2026
+        team: "cincinnati-rivermen"
+        regular_season:
+        playoffs:
+        draft: true
 
   - id: "005"
     nick: "Stanley"
@@ -74,7 +89,12 @@ gms:
     hero: "Building IceCore from the ground up — now it’s time to compete."
     warning: false
     bonus: false
-    seasons: []
+    seasons:
+      - year: 2026
+        team: "cleveland-forge"
+        regular_season:
+        playoffs:
+        draft: true
 
   - id: "006"
     nick: "Chris"
@@ -87,7 +107,12 @@ gms:
     hero: "Big rosters, big leagues and a dynasty built to last."
     warning: false
     bonus: false
-    seasons: []
+    seasons:
+      - year: 2026
+        team: "green-bay-alliance"
+        regular_season:
+        playoffs:
+        draft: true
 
   - id: "007"
     nick: "Brent"
@@ -100,7 +125,12 @@ gms:
     hero: "Twenty teams? Sounds like a pretty good challenge."
     warning: false
     bonus: false
-    seasons: []
+    seasons:
+      - year: 2026
+        team: "halifax-privateers"
+        regular_season:
+        playoffs:
+        draft: true
 
   - id: "008"
     nick: "Standik"
@@ -113,7 +143,12 @@ gms:
     hero: "The long game, the salary cap and a franchise worth building."
     warning: false
     bonus: false
-    seasons: []
+    seasons:
+      - year: 2026
+        team: "hartford-arsenal"
+        regular_season:
+        playoffs:
+        draft: true
 
   - id: "009"
     nick: "CJ Mattias"
@@ -125,8 +160,13 @@ gms:
     since: 2026
     hero: "Depth, activity and a league that stays interesting all season."
     warning: false
-    bonus: false
-    seasons: []
+    bonus: true
+    seasons:
+      - year: 2026
+        team: "honolulu-guardians"
+        regular_season:
+        playoffs:
+        draft: true
 
   - id: "010"
     nick: "Oscar"
@@ -139,7 +179,12 @@ gms:
     hero: "After winning before, I’m here for an active league and another run."
     warning: false
     bonus: false
-    seasons: []
+    seasons:
+      - year: 2026
+        team: "houston-signals"
+        regular_season:
+        playoffs:
+        draft: true
 
   - id: "011"
     nick: "Murad"
@@ -152,7 +197,12 @@ gms:
     hero: "Structure, competitiveness and plenty of trading — that’s my kind of league."
     warning: false
     bonus: false
-    seasons: []
+    seasons:
+      - year: 2026
+        team: "kelowna-vintners"
+        regular_season:
+        playoffs:
+        draft: true
 
   - id: "012"
     nick: "Travis"
@@ -165,7 +215,12 @@ gms:
     hero: "My league is organized — now I’m ready to come in and steamroll this one."
     warning: false
     bonus: false
-    seasons: []
+    seasons:
+      - year: 2026
+        team: "key-west-rumrunners"
+        regular_season:
+        playoffs:
+        draft: true
 
   - id: "013"
     nick: "Available"
@@ -191,7 +246,12 @@ gms:
     hero: "A unique league, a unique point system and a Memphis team — let’s go."
     warning: false
     bonus: false
-    seasons: []
+    seasons:
+      - year: 2026
+        team: "memphis-riffs"
+        regular_season:
+        playoffs:
+        draft: true
 
   - id: "015"
     nick: "Bmax"
@@ -204,7 +264,12 @@ gms:
     hero: "I like the uniqueness and the simplicity that still creates a massive challenge."
     warning: false
     bonus: false
-    seasons: []
+    seasons:
+      - year: 2026
+        team: "new-orleans-soul"
+        regular_season:
+        playoffs:
+        draft: true
 
   - id: "016"
     nick: "Available"
@@ -230,7 +295,12 @@ gms:
     hero: "A hockey dynasty at last — I’m here to build a real franchise."
     warning: false
     bonus: false
-    seasons: []
+    seasons:
+      - year: 2026
+        team: "omaha-bison"
+        regular_season:
+        playoffs:
+        draft: true
 
   - id: "018"
     nick: "shaan"
@@ -243,7 +313,12 @@ gms:
     hero: "Best ball, keeper and salary cap — all in one place."
     warning: false
     bonus: false
-    seasons: []
+    seasons:
+      - year: 2026
+        team: "quebec-city-citadels"
+        regular_season:
+        playoffs:
+        draft: true
 
   - id: "019"
     nick: "Available"
@@ -282,7 +357,12 @@ gms:
     hero: "Competitive, structured and fair — then build a team that can win for years."
     warning: false
     bonus: false
-    seasons: []
+    seasons:
+      - year: 2026
+        team: "richmond-union"
+        regular_season:
+        playoffs:
+        draft: true
 
   - id: "022"
     nick: "Kenneth"
@@ -295,7 +375,12 @@ gms:
     hero: "Dynasty strategy, salary-cap management, prospects and FAAB — perfect."
     warning: false
     bonus: false
-    seasons: []
+    seasons:
+      - year: 2026
+        team: "roswell-greys"
+        regular_season:
+        playoffs:
+        draft: true
 
   - id: "023"
     nick: "Available"
@@ -322,7 +407,12 @@ gms:
       eye."
     warning: false
     bonus: false
-    seasons: []
+    seasons:
+      - year: 2026
+        team: "salem-ravens"
+        regular_season:
+        playoffs:
+        draft: true
 
   - id: "025"
     nick: "Available"
@@ -361,7 +451,12 @@ gms:
     hero: "New to Yahoo, but ready for an active keeper league and the long haul."
     warning: false
     bonus: false
-    seasons: []
+    seasons:
+      - year: 2026
+        team: "saskatoon-prairie-drifters"
+        regular_season:
+        playoffs:
+        draft: true
 
   - id: "028"
     nick: "Available"
@@ -387,7 +482,12 @@ gms:
     hero: "20 years of fantasy hockey, long-term team building and a love for finding hidden gems."
     warning: false
     bonus: false
-    seasons: []
+    seasons:
+      - year: 2026
+        team: "victoria-cedars"
+        regular_season:
+        playoffs:
+        draft: true
 
   - id: "030"
     nick: "Available"
