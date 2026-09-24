@@ -692,9 +692,9 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </p>
 
     <p>
-      The <strong>Top 150 skaters</strong> are divided into groups of ten and the
-      <strong>Top 10 goaltenders</strong> form one additional group. In every group,
-      the highest and lowest salary are removed before calculating the average of
+      The <strong>Top 180 skaters</strong> are divided into groups of ten and the
+      <strong>Top 20 goaltenders</strong> form two additional groups of ten. In every
+      group, the highest and lowest salary are removed before calculating the average of
       the remaining eight players. Rankings are based on final Yahoo Fantasy point
       totals after the completed regular season.
     </p>
@@ -709,7 +709,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
     <p>
       The floating Base acts as an automatic inflation control. The average of all
-      <strong>16 performance-group benchmarks</strong> is tracked from season to
+      <strong>20 performance-group benchmarks</strong> is tracked from season to
       season: if the rounded league average rises, the Base decreases by 1; if it
       falls, the Base increases by 1; if it stays the same, the Base does not
       change. The Base can never fall below <strong>+3</strong> or rise above
