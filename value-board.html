@@ -26,6 +26,11 @@ permalink: /value-board/
     </p>
   </section>
 
+  <section class="vb-note" style="margin-top:16px;">
+    <p><strong>📋 Preliminary snapshot · GW 0/27</strong><br>
+    This is a preliminary Value Board snapshot before the regular season begins. The ranking groups and benchmarks are currently shown as a template. As the season progresses, the Commissioner may enter test player lists and later replace them with the official end-of-season results. Interim values are informational only; the official salary escalation is calculated from the completed regular-season results.</p>
+  </section>
+
   <section class="vb-explain">
     <h2>⚙️ How the Value System Works</h2>
     <div class="vb-cards">
@@ -43,7 +48,7 @@ permalink: /value-board/
       </div>
       <div class="vb-card">
         <strong>🌡️ Floating Economy</strong>
-        <span>The Base Increase automatically reacts to the average of all 16 group benchmarks. No fixed inflation target is imposed by the Commissioner.</span>
+        <span>The Base Increase automatically reacts to the average of all 20 group benchmarks. No fixed inflation target is imposed by the Commissioner.</span>
       </div>
     </div>
   </section>
@@ -87,7 +92,7 @@ permalink: /value-board/
     </div>
 
     <!-- TEMPLATE GROUPS -->
-    {% assign groups = "11–20|21–30|31–40|41–50|51–60|61–70|71–80|81–90|91–100|101–110|111–120|121–130|131–140|141–150" | split: "|" %}
+    {% assign groups = "11–20|21–30|31–40|41–50|51–60|61–70|71–80|81–90|91–100|101–110|111–120|121–130|131–140|141–150|151–160|161–170|171–180" | split: "|" %}
     {% for group in groups %}
     <div class="vb-group">
       <div class="vb-group-header">
@@ -109,20 +114,25 @@ permalink: /value-board/
     </div>
     {% endfor %}
 
+    {% assign goalie_groups = "1–10|11–20" | split: "|" %}
+    {% for group in goalie_groups %}
     <div class="vb-group">
       <div class="vb-group-header">
-        <h3>Goalies · Top 10</h3>
+        <h3>Goalies · Ranks {{ group }}</h3>
         <div class="vb-benchmark"><span>Benchmark</span><strong>— Coins</strong></div>
       </div>
       <div class="vb-table-wrap"><table class="vb-table">
-        <thead><tr><th scope="col">#</th><th scope="col">Goalie</th><th scope="col">Team</th><th scope="col">Salary</th><th scope="col">Benchmark</th><th scope="col">Status</th><th scope="col">Increase</th></tr></thead>
+        <thead><tr><th scope="col">Rank</th><th scope="col">Goalie</th><th scope="col">Team</th><th scope="col">Salary</th><th scope="col">Benchmark</th><th scope="col">Status</th><th scope="col">Increase</th></tr></thead>
         <tbody>
-          {% for rank in (1..10) %}
-          <tr><td class="vb-rank">{{ rank }}</td><td class="vb-player">—</td><td>—</td><td>—</td><td>—</td><td class="vb-status">—</td><td>—</td></tr>
+          {% assign range = group | split: "–" %}
+          {% assign start = range[0] | plus: 0 %}
+          {% for offset in (0..9) %}
+          <tr><td class="vb-rank">{{ start | plus: offset }}</td><td class="vb-player">—</td><td>—</td><td>—</td><td>—</td><td class="vb-status">—</td><td>—</td></tr>
           {% endfor %}
         </tbody>
       </table></div>
     </div>
+    {% endfor %}
 
   </section>
 
@@ -130,7 +140,7 @@ permalink: /value-board/
     <h2>🌡️ Floating Base Increase</h2>
     <p>
       The starting Base Increase is <strong>+4 Coins</strong>. It is not permanently fixed. After each season,
-      the league calculates the benchmark for all <strong>16 ranking groups</strong> (15 skater groups + 1 goalie group)
+      the league calculates the benchmark for all <strong>20 ranking groups</strong> (18 skater groups + 2 goalie groups)
       and then calculates their average.
     </p>
     <div class="vb-cards">
@@ -152,7 +162,7 @@ permalink: /value-board/
       </div>
     </div>
     <p class="vb-note vb-small">
-      <strong>Rounding:</strong> the average of the 16 group benchmarks is rounded to the nearest whole Coin;
+      <strong>Rounding:</strong> the average of the 20 group benchmarks is rounded to the nearest whole Coin;
       exactly <strong>.5 rounds upward</strong>. The rounded result is the value used for the year-to-year comparison.
       Example: 34.49 → 34, 34.50 → 35, 34.51 → 35.
       <br><br>
@@ -216,7 +226,7 @@ permalink: /value-board/
           <tr><td>🏦 <strong>Most Overpaid Franchise</strong></td><td>—</td><td>Team with the largest number of players above their group benchmarks.</td></tr>
           <tr><td>📊 <strong>Biggest Salary Portfolio</strong></td><td>—</td><td>Team whose keeper salaries gain the most total Coins during the season.</td></tr>
           <tr><td>🎯 <strong>Value Conversion Rate</strong></td><td>—</td><td>Share of a team's qualifying keepers that finish below their group benchmark.</td></tr>
-          <tr><td>🌡️ <strong>League Market Average</strong></td><td>—</td><td>Rounded average of all 16 group benchmarks — the number used for the Floating Base comparison.</td></tr>
+          <tr><td>🌡️ <strong>League Market Average</strong></td><td>—</td><td>Rounded average of all 20 group benchmarks — the number used for the Floating Base comparison.</td></tr>
         </tbody>
       </table>
     </div>
@@ -230,7 +240,7 @@ permalink: /value-board/
   <section class="vb-explain">
     <h2>🗂️ Annual Value Board Preparation</h2>
     <p>
-      The Commissioner fills this section after the regular season. It preserves the same 16 categories every year
+      The Commissioner fills this section after the regular season. It preserves the same 20 categories every year
       and makes the economic history of IceCore easy to compare from season to season.
     </p>
     <div class="vb-summary-table-wrap">
@@ -252,7 +262,11 @@ permalink: /value-board/
           <tr><td>13</td><td>Skaters 121–130</td><td>—</td><td>—</td></tr>
           <tr><td>14</td><td>Skaters 131–140</td><td>—</td><td>—</td></tr>
           <tr><td>15</td><td>Skaters 141–150</td><td>—</td><td>—</td></tr>
-          <tr><td>16</td><td>Goalies Top 10</td><td>—</td><td>—</td></tr>
+          <tr><td>16</td><td>Skaters 151–160</td><td>—</td><td>—</td></tr>
+          <tr><td>17</td><td>Skaters 161–170</td><td>—</td><td>—</td></tr>
+          <tr><td>18</td><td>Skaters 171–180</td><td>—</td><td>—</td></tr>
+          <tr><td>19</td><td>Goalies 1–10</td><td>—</td><td>—</td></tr>
+          <tr><td>20</td><td>Goalies 11–20</td><td>—</td><td>—</td></tr>
           <tr><td colspan="2"><strong>League Market Average</strong></td><td>—</td><td><strong>—</strong></td></tr>
           <tr><td colspan="2"><strong>Previous Rounded Average</strong></td><td>—</td><td><strong>—</strong></td></tr>
           <tr><td colspan="2"><strong>Next Season Base</strong></td><td>—</td><td><strong>+4</strong></td></tr>
@@ -261,7 +275,7 @@ permalink: /value-board/
     </div>
     <p class="vb-note vb-small">
       <strong>Benchmark preparation:</strong> in each group, remove the highest-paid player and the lowest-paid player,
-      then average the remaining eight salaries. Do this for all 16 groups. The 16 resulting benchmarks are then averaged
+      then average the remaining eight salaries. Do this for all 20 groups. The 16 resulting benchmarks are then averaged
       together. That overall average is rounded to the nearest whole Coin (with .5 rounding upward) and compared with
       the previous season's rounded average to determine whether the next Base is 3, 4 or 5.
     </p>
@@ -274,7 +288,7 @@ permalink: /value-board/
       <li>Base starts at <strong>+4</strong> and floats only between <strong>+3 and +5</strong>.</li>
       <li>Players below their group benchmark receive an additional <strong>one-third of the salary gap</strong>.</li>
       <li>Each benchmark uses ranks <strong>2–9</strong> of a ten-player group; the highest and lowest salary are excluded.</li>
-      <li>There are <strong>16 groups</strong>: 15 skater groups and one Top-10 goalie group.</li>
+      <li>There are <strong>20 groups</strong>: 18 skater groups (Top 180) and two Top-10 goalie groups (Top 20).</li>
       <li>The Floating Base is determined by the year-to-year change in the rounded average of all 16 benchmarks.</li>
       <li>There are <strong>no emergency adjustments, star bonuses, fixed salary thresholds or Commissioner-set player values</strong>.</li>
       <li>The final Value Board is confirmed after the completed regular season.</li>
