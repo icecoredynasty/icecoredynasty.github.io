@@ -46,13 +46,6 @@ At the end of the season, we can come back to this article and see how badly we 
 
 # How the IceCore Index works
 
-The ranking combines five pieces of information:
-
-- **Yahoo projection** — 50 %
-- **Average fantasy points per game from last season** — 30 %
-- **Average % Rostered** — 10 %
-- **GM rating** — 10 %
-
 The goal is not to pretend that this creates a perfect prediction of the standings.
 
 It simply gives us one common starting point for comparing twenty very different dynasty rosters.
