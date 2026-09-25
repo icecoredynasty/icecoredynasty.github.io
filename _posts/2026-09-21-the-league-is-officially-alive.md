@@ -5,7 +5,7 @@ date: 2026-09-21
 excerpt: Twenty General Managers. Four hundred players. One live
   auction. The inaugural IceCore Dynasty draft is complete --- and the
   league is officially alive.
-featured: true
+featured: false
 image: /assets/images/journal/the-league-is-officially-alive.jpg
 label: DRAFT
 league: League 1
