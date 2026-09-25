@@ -76,8 +76,8 @@ benchmark, rounded to the nearest whole Coin.
 </p>
 
 <p>
-The Top 150 skaters are divided into groups of 10. The Top 10 goaltenders form
-one separate performance group. For each group, the highest and lowest salary
+The Top 180 skaters are divided into groups of 10. The Top 20 goaltenders form
+two separated performance groups. For each group, the highest and lowest salary
 are removed, and the average of the remaining salaries becomes that group's
 benchmark.
 </p>
