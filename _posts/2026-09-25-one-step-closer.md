@@ -190,19 +190,19 @@ Roswell's biggest strength is balance. It is not dependent on a single player, w
 
 ## Key West Rumrunners
 
-Key West may be the most interesting team when it comes to the difference between the table and the underlying story. Its 779.3 projection keeps it near the top, but last season's production stands out even more — its 11.9 fantasy points per game is the highest among all South teams. And when you look at the roster, it makes sense. Cale Makar, Zach Werenski, Adrian Kempe, Brock Faber, MacKenzie Weegar and Pierre-Luc Dubois create a very strong core, while Linus Ullmark and Mackenzie Blackwood form the goaltending group. Makar was one of the biggest investments of the entire draft at $106, Werenski cost $87 and Kempe $66.
+Key West may be the most interesting team when it comes to the difference between the table and the underlying story. Its 779.3 projection keeps it near the top, but last season's production stands out even more — its 11.9 fantasy points per game is the highest among all South teams. And when you look at the roster, it makes sense. Cale Makar, Zach Werenski, Adrian Kempe, Brock Faber, MacKenzie Weegar and Pierre-Luc Dubois create a very strong core, while Linus Ullmark and Mackenzie Blackwood form the goaltending group. Makar was one of the biggest investments of the entire draft at 106 Coins, Werenski cost 87 Coins and Kempe 66 Coins.
 
 Key West's biggest strength is therefore proven fantasy production. It also has a very solid average rostered percentage, suggesting that this is not simply a team built on projections. The question is the age structure — 29.1 is among the older rosters in South — and therefore long-term sustainability. On the other hand, Logan Stankoven, Carter Yakemchuk and Jaxon Cover provide younger blood. Key West looks like a team with a very strong foundation for immediate performance, and it will be interesting to see how it gradually refreshes the older core.
 
 ## Houston Signals
 
-Houston is one of the most interesting "hidden value" teams in the division. Its 793.2 projection is actually the second-highest in South, its average age of 26.8 is among the lowest, and the roster contains many players who may not have reached their ceiling yet. Mark Scheifele, Nico Hischier, Brandon Hagel and Mathew Barzal form a very strong offensive core, while Mikhail Sergachev, Brandon Montour, Esa Lindell and Zayne Parekh give the defense an interesting mix of experience and upside. The draft illustrates the approach nicely — Scheifele $52, Hagel $62, Hischier $42 and Sergachev $44.
+Houston is one of the most interesting "hidden value" teams in the division. Its 793.2 projection is actually the second-highest in South, its average age of 26.8 is among the lowest, and the roster contains many players who may not have reached their ceiling yet. Mark Scheifele, Nico Hischier, Brandon Hagel and Mathew Barzal form a very strong offensive core, while Mikhail Sergachev, Brandon Montour, Esa Lindell and Zayne Parekh give the defense an interesting mix of experience and upside. The draft illustrates the approach nicely — Scheifele 52 Coins, Hagel 62 Coins, Hischier 42 Coins and Sergachev 44 Coins.
 
 Houston has one particularly interesting characteristic: the roster looks stronger on paper than its broader reputation might suggest. The 81.0 IceCore Index puts it very high, while the team is still carrying plenty of room for growth. Its strengths are depth, age and a large number of players in their productive years. The weaker area could be goaltending, along with the fact that some of the younger names still have to prove their potential. If Houston gets the development of its young players right, it could become a very difficult team to deal with.
 
 ## Charlotte Amalie Corsairs
 
-Charlotte is taking a completely different route. At the top of the roster are enormous names — Auston Matthews, Quinn Hughes, Dylan Larkin, Tyler Seguin, Brock Boeser, Andrei Marchenko and Teuvo Teräväinen. The draft was aggressive: Matthews cost $100 and Quinn Hughes $102, while Karel Vejmelka went for $54 and Logan Thompson $62. That is a major investment in top-end quality.
+Charlotte is taking a completely different route. At the top of the roster are enormous names — Auston Matthews, Quinn Hughes, Dylan Larkin, Tyler Seguin, Brock Boeser, Andrei Marchenko and Teuvo Teräväinen. The draft was aggressive: Matthews cost 100 Coins and Quinn Hughes 102 Coins, while Karel Vejmelka went for 54 Coins and Logan Thompson 62 Coins. That is a major investment in top-end quality.
 
 The potential problem is age and depth. At 30.4 years, Charlotte has the oldest roster in South, and the depth behind the main stars is less convincing. On the other hand, those big names give Charlotte a very high ceiling — if Matthews, Hughes, Larkin and the rest produce as expected, this team can be extremely dangerous. Rather than a classic dynasty project, Charlotte looks more like an attempt to maximize a strong present and get as much as possible out of it.
 
@@ -212,7 +212,7 @@ And then there is New Orleans. 😄 On paper, it is a completely different story
 
 Jack Hughes, Matt Boldy, Logan Cooley, James Hagens, Berkly Catton, Michael Misa, Shane Wright, Gabe Perreault, Zeev Buium, Jake Sanderson and Jesper Wallstedt — this is not a traditional roster built around today's production. It is almost a blueprint for the future.
 
-The draft reflects that perfectly. Jack Hughes cost $98, Matt Boldy $93 and Logan Cooley $52, followed by very interesting young pieces such as Hagens for $22, Buium for $21 and Viggo Björck for $4.
+The draft reflects that perfectly. Jack Hughes cost 98 Coins, Matt Boldy 93 Coins and Logan Cooley 52 Coins, followed by very interesting young pieces such as Hagens for 22 Coins, Buium for 21 Coins and Viggo Björck for 4 Coins.
 
 New Orleans' biggest weakness is therefore current production. Many players are still working toward their NHL and fantasy value, making the team highly unpredictable in the short term. On the other hand, age is its huge advantage. If Hagens, Misa, Catton, Perreault, Buium and the rest develop as hoped, today's numbers could look completely different in a few years. New Orleans is simply the biggest project in South — perhaps the least finished, but with a very interesting amount of room to grow.
 
@@ -346,9 +346,34 @@ At the other end is New Orleans at 68.0.
 
 ---
 
-# 🏆 So who is the "top" and who is the "flop"?
+# 🏟️ Division power ranking
 
-If we pick one team from each end of the table, the Index makes the answer fairly simple:
+So far we have looked at the teams individually. Now let's put the four divisions side by side.
+
+For this table, each division is simply the average of its five teams. The same five headline metrics are shown here: preseason projection, last-season fantasy production, average age, average % rostered and the IceCore Index.
+
+And if we sort the divisions by the **average IceCore Index**, we get our first unofficial answer to a very important question:
+
+**Which division looks the toughest on paper?** 😄
+
+| Rank | Division | Projection Ø | Last Season Ø | Avg. age | % Rostered Ø | IceCore Index |
+|---|---|---:|---:|---:|---:|---:|
+| 🥇 1 | East | **762.1** | **11.0** | **27.2** | **43.2%** | **80.0** |
+| 🥈 2 | West | **760.9** | **11.1** | **28.9** | **38.5%** | **79.4** |
+| 🥉 3 | South | **748.8** | **10.9** | **27.6** | **43.6%** | **78.3** |
+| 4 | Central | **700.1** | **10.7** | **27.4** | **45.1%** | **75.7** |
+
+One small surprise here: **East has the highest average IceCore Index**, even though South has the highest individual team score thanks to Roswell. West is extremely close behind, while Central has the lowest average Index of the four divisions.
+
+So if the Index is our paper measuring stick, **East looks like the toughest division overall**, with West right behind it.
+
+Of course, this is another place where the real season gets the final word. A division can be strong on paper and still produce surprises once the puck drops.
+
+---
+
+# 🏆 So who is the paper top and the paper bottom?
+
+If we pick one team from each end of the table, the Index gives us two very different preseason stories:
 
 ### 🏆 Roswell Greys
 
@@ -358,11 +383,11 @@ Roswell does not have an obvious weakness among the main factors we are looking 
 
 That still does not mean Roswell will win the league. It simply means that, **on paper, it has the strongest overall profile according to our model today.**
 
-### 🧱 New Orleans Soul
+### 🧱 New Orleans Soul — the paper bottom
 
 At the other end, we have New Orleans with an Index of 68.0.
 
-But "flop" needs to be taken with a very large grain of salt. 😄
+But "paper bottom" should be taken with a very large grain of salt. 😄
 
 New Orleans is an extremely young team with an average age of just 23.8. Its lower projection does not necessarily mean it is a bad dynasty roster — it shows that a large part of its value is stored in the future.
 
