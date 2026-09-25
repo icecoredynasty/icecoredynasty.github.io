@@ -430,5 +430,3 @@ We will look at the actual results, compare them with this preseason prediction 
 ...or whether we just created twenty beautiful reasons to laugh at ourselves. 😄
 
 **One step closer.**
-
-See you on the ice.
