@@ -428,5 +428,3 @@ At the end of the season, we will come back to this article.
 We will look at the actual results, compare them with this preseason prediction and find out whether we were geniuses...
 
 ...or whether we just created twenty beautiful reasons to laugh at ourselves. 😄
-
-**One step closer.**
