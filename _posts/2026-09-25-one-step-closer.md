@@ -2,7 +2,7 @@
 categories:
 - league
 date: 2026-09-25
-excerpt: One step closer. The rosters have had time to settle, the first moves are behind us, and now it is time to take a preseason look at all twenty IceCore franchises.
+excerpt: The rosters have had time to settle, the first moves are behind us, and now it is time to take a preseason look at all twenty IceCore franchises.
 featured: true
 image: /assets/images/journal/one-step-closer.jpg
 label: PREVIEW
@@ -11,8 +11,6 @@ season: 2026--27
 section: League News
 title: One Step Closer
 ---
-
-One step closer.
 
 The draft is behind us. The league is no longer just a freshly created dynasty experiment, and the twenty franchises have now had some time to look at their rosters, make adjustments and start thinking about the season ahead.
 
