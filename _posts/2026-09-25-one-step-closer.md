@@ -186,26 +186,22 @@ Roswell enters the season with a very solid mix of immediate production and play
 
 Roswell's biggest strength is balance. It is not dependent on a single player, while still having enough stars to produce consistently. The 84.4 IceCore Index is supported by the highest projection in South and a strong overall roster profile. A possible weakness is the depth behind Oettinger in goal, along with the question of whether younger players such as Slafkovsky, Kasper and Tsyplakov deliver the growth a dynasty team needs. Overall, however, Roswell looks like a very complete roster without an obvious hole.
 
-## Key West Rumrunners
-
+## 🇺🇸 Key West Rumrunners
 Key West may be the most interesting team when it comes to the difference between the table and the underlying story. Its 779.3 projection keeps it near the top, but last season's production stands out even more — its 11.9 fantasy points per game is the highest among all South teams. And when you look at the roster, it makes sense. Cale Makar, Zach Werenski, Adrian Kempe, Brock Faber, MacKenzie Weegar and Pierre-Luc Dubois create a very strong core, while Linus Ullmark and Mackenzie Blackwood form the goaltending group. Makar was one of the biggest investments of the entire draft at 106 Coins, Werenski cost 87 Coins and Kempe 66 Coins.
 
 Key West's biggest strength is therefore proven fantasy production. It also has a very solid average rostered percentage, suggesting that this is not simply a team built on projections. The question is the age structure — 29.1 is among the older rosters in South — and therefore long-term sustainability. On the other hand, Logan Stankoven, Carter Yakemchuk and Jaxon Cover provide younger blood. Key West looks like a team with a very strong foundation for immediate performance, and it will be interesting to see how it gradually refreshes the older core.
 
-## Houston Signals
-
+## 🇺🇸 Houston Signals
 Houston is one of the most interesting "hidden value" teams in the division. Its 793.2 projection is actually the second-highest in South, its average age of 26.8 is among the lowest, and the roster contains many players who may not have reached their ceiling yet. Mark Scheifele, Nico Hischier, Brandon Hagel and Mathew Barzal form a very strong offensive core, while Mikhail Sergachev, Brandon Montour, Esa Lindell and Zayne Parekh give the defense an interesting mix of experience and upside. The draft illustrates the approach nicely — Scheifele 52 Coins, Hagel 62 Coins, Hischier 42 Coins and Sergachev 44 Coins.
 
 Houston has one particularly interesting characteristic: the roster looks stronger on paper than its broader reputation might suggest. The 81.0 IceCore Index puts it very high, while the team is still carrying plenty of room for growth. Its strengths are depth, age and a large number of players in their productive years. The weaker area could be goaltending, along with the fact that some of the younger names still have to prove their potential. If Houston gets the development of its young players right, it could become a very difficult team to deal with.
 
-## Charlotte Amalie Corsairs
-
+## 🇻🇮 Charlotte Amalie Corsairs
 Charlotte is taking a completely different route. At the top of the roster are enormous names — Auston Matthews, Quinn Hughes, Dylan Larkin, Tyler Seguin, Brock Boeser, Andrei Marchenko and Teuvo Teräväinen. The draft was aggressive: Matthews cost 100 Coins and Quinn Hughes 102 Coins, while Karel Vejmelka went for 54 Coins and Logan Thompson 62 Coins. That is a major investment in top-end quality.
 
 The potential problem is age and depth. At 30.4 years, Charlotte has the oldest roster in South, and the depth behind the main stars is less convincing. On the other hand, those big names give Charlotte a very high ceiling — if Matthews, Hughes, Larkin and the rest produce as expected, this team can be extremely dangerous. Rather than a classic dynasty project, Charlotte looks more like an attempt to maximize a strong present and get as much as possible out of it.
 
-## New Orleans Soul
-
+## 🇺🇸 New Orleans Soul
 And then there is New Orleans. 😄 On paper, it is a completely different story from the rest of South. The 68.0 IceCore Index is significantly lower, and the 614.9 projection is last in the division, but the team is also just 23.8 years old on average. That is a huge difference.
 
 Jack Hughes, Matt Boldy, Logan Cooley, James Hagens, Berkly Catton, Michael Misa, Shane Wright, Gabe Perreault, Zeev Buium, Jake Sanderson and Jesper Wallstedt — this is not a traditional roster built around today's production. It is almost a blueprint for the future.
@@ -236,32 +232,27 @@ The gap between the top two is only 0.6 Index points, while New Orleans sits 16.
 | 4 | Honolulu Guardians | 776.60 | 11.12 | 27.52 | 44.70% | **78.80** |
 | 5 | Salem Ravens | 711.90 | 11.35 | 29.24 | 34.60% | **78.00** |
 
-## Victoria Cedars
-
+## 🇨🇦 Victoria Cedars
 Victoria is built around a fairly balanced and experienced core, with its biggest strength being the sheer number of usable players. Kyle Connor provides significant offensive production, joined by John Tavares, Charlie Coyle and Alexander Wennberg, while Matvei Michkov adds an interesting younger element. Connor cost 71 Coins, while Moritz Seider was one of the team's larger investments at 80.
 
 The roster does not look like a team built around several completely dominant superstars. It is more about a larger group of solid players. That could prove useful over a long season, but it also means there is less concentration of elite production. With an average rostered percentage around 36%, a significant part of the roster also sits outside the wider fantasy spotlight. Victoria has a very good foundation, but adding one more difference-making offensive piece could take it to another level.
 
-## Amarillo Downburst
-
+## 🇺🇸 Amarillo Downburst
 Amarillo probably has the most imposing top end in the entire division. Nathan MacKinnon, Leon Draisaitl and Kirill Kaprizov give the team an enormous concentration of elite fantasy production — they cost 109, 92 and 74 Coins respectively in the draft.
 
 The interesting part is what comes after them. Jordan Staal, William Karlsson, Nino Niederreiter and Bradly Nadeau are a very different type of player from the elite core. Amarillo therefore looks somewhat "top-heavy": when the stars perform, the ceiling is enormous, but the depth behind them is less convincing. The biggest opportunity may be gradually strengthening the second wave of quality players rather than continuing to chase superstars.
 
-## Kelowna Vintners
-
+## 🇨🇦 Kelowna Vintners
 Kelowna is a very interesting dynasty-oriented roster. Macklin Celebrini is the obvious cornerstone, and behind him the team has several young players with room to grow — Frank Nazar, Fraser Minten, Jiri Kulich and Easton Cowan. At the same time, Mitch Marner provides immediate production, so the young core is not being asked to carry everything by itself. Celebrini was also the most expensive acquisition of the entire draft at 136 Coins.
 
 The weaker side is the number of players whose eventual NHL production is still uncertain. That increases the long-term potential, but also the volatility. Kelowna's average rostered percentage is also very low. This team is clearly building toward the future — and if the young players start reaching their projections, the roster could move very quickly.
 
-## Honolulu Guardians
-
+## 🇺🇸 Honolulu Guardians
 Honolulu has a slightly different profile. It is a balanced, moderately deep roster without one overwhelmingly dominant leader. Vincent Trocheck, Elias Pettersson, Travis Konecny, Sam Reinhart and Lucas Raymond provide plenty of stable production, while the team also has players with multi-position eligibility. That is particularly valuable in our 4C/4LW/4RW/6D format. Trocheck cost only 33 Coins in the draft, while Sam Reinhart went for 55.
 
 Interestingly, the current lineup even has an open C slot, meaning there is still room to optimize the roster despite its overall quality. Honolulu also has a relatively high average rostered percentage, suggesting that much of the roster is already established in the fantasy community. The biggest challenge will be turning that breadth into a little more elite production.
 
-## Salem Ravens
-
+## 🇺🇸 Salem Ravens
 Salem is perhaps the most interesting mix of immediate production and dynasty upside. Jason Robertson, Wyatt Johnston, David Pastrnak, Leo Carlsson and Steven Stamkos form a very strong offensive core. Robertson cost 93 Coins, Johnston 95, Pastrnak 90 and Carlsson 77, so the draft clearly invested heavily in this group.
 
 Salem also owns one of the most intriguing long-term projects in Roger McQueen. At the same time, McQueen is a good example of the risk in this roster — his high Yahoo projection represents potential rather than certainty, as he does not yet have an NHL sample. If Salem gets the young projects right while maintaining veteran production, this roster could have a very interesting trajectory.
