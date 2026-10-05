@@ -3,7 +3,7 @@ categories:
 - league
 date: 2026-09-25
 excerpt: The rosters have had time to settle, the first moves are behind us, and now it is time to take a preseason look at all twenty IceCore franchises.
-featured: true
+featured: false
 image: /assets/images/journal/one-step-closer.jpg
 label: PREVIEW
 league: League 1
