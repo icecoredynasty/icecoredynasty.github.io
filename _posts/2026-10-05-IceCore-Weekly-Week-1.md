@@ -3,7 +3,7 @@ categories:
 - league
 date: 2026-10-05
 excerpt: Seven of ten preseason predictions were correct, but Week 1 already showed that IceCore Dynasty will not follow the script quietly.
-featured: true
+featured: false
 image: /assets/images/journal/icecore-weekly.jpg
 label: RECAP
 league: League 1
