@@ -34,7 +34,6 @@ The franchise was previously managed by **Kenneth**. He really enjoyed the draft
 
 Zach was already on our waiting list and has taken over the Greys very early in the season. Welcome to IceCore, Zach — we look forward to seeing what you do with the franchise.
 
----
 
 ## IceCore Should Belong to the GMs
 
@@ -68,7 +67,6 @@ The Co-Commissioner should understand the league’s philosophy, approach key de
 
 The goal is not to create another boss. It is to add another reliable person to the administration and a consistent North American perspective.
 
----
 
 ## League Veto: More Responsibility for GMs
 
@@ -90,7 +88,6 @@ If the system is repeatedly abused through unjustified trade vetoes, we reserve 
 
 The Commissioner also retains the right to intervene in exceptional cases involving clear fraud, collusion or deliberate manipulation, including correcting a roster if necessary to protect the integrity of the league.
 
----
 
 ## Salary Cap: A Compromise for the Future
 
@@ -108,7 +105,6 @@ The aim is to prevent teams competing for the title from pushing their salary in
 
 This is not meant to create constant monitoring or make every roster move complicated. It is meant to keep salary meaningful and discourage the strongest teams from accumulating value without limits.
 
----
 
 ## Long-Term Decisions Remain Long-Term Decisions
 
@@ -126,7 +122,6 @@ Rules can evolve where necessary, but the core structure must remain stable enou
 
 **What you build now should matter later.**
 
----
 
 ## IceCore 2?
 
@@ -140,7 +135,6 @@ If any current GM knows someone who would make a strong founding member of IceCo
 
 If IceCore 2 happens, the priority will not simply be to fill twenty places. We want to build another group of committed GMs who understand the long-term nature of the format and want to help create the league from the beginning.
 
----
 
 ## A New Home for IceCore on Reddit
 
@@ -154,7 +148,6 @@ The aim is to create another place for the community to discuss the league, shar
 
 You can find the link to our Reddit thread at the bottom of the IceCore website, in the footer.
 
----
 
 # THE ICECORE TROPHY
 
@@ -180,7 +173,6 @@ If we can make it work, the trophy could become an IceCore tradition — a physi
 
 Winning the first IceCore Dynasty season should be worth remembering — and reaching the playoffs should be worth celebrating, too.
 
----
 
 ## What Happens Next
 
