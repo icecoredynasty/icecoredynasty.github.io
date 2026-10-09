@@ -148,7 +148,7 @@ We set up our Reddit space some time ago, but getting the season started took a 
 
 We want to bring trade talk and league topics there as well, and I’m preparing **content specifically for Reddit**, including polls and other discussions that will not simply repeat what appears on the website or in Yahoo chat.
 
-Invitations will go out gradually. I already have most GMs’ Reddit usernames in the league database, and Reddit was chosen for a reason: almost everyone in IceCore has an account, and it was also where much of the original recruitment took place.
+I already have most GMs’ Reddit usernames in the league database, and Reddit was chosen for a reason: almost everyone in IceCore has an account, and it was also where much of the original recruitment took place.
 
 The aim is to create another place for the community to discuss the league, share opinions and get involved in decisions as IceCore grows.
 
