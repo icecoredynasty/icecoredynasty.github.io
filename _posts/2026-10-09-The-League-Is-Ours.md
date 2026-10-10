@@ -100,7 +100,7 @@ The problem was that Yahoo did not support a custom in-season salary cap in a wa
 
 Several GMs have since asked about salary rules, and the idea has received positive feedback. From **next season**, we plan to introduce a **600-Coin roster limit** together with a salary floor 250 Coins.
 
-Starting next season, there will be **three salary checks per season**. If a team is above 600 Coins at a check, its GM will have **one week** to bring the roster back to 600 or below. The salary floor will also be checked during those three reviews.
+Starting next season, there will be **at least three salary checks per season**. If a team is above 600 Coins at a check, its GM will have **one week** to bring the roster back to 600 or below. The salary floor will also be checked during those three reviews.
 
 Any GM who fails to bring their roster within the 600-Coin salary cap or up to the 250-Coin salary floor within the one-week correction period will receive a formal warning and be given one additional week to comply. A second warning in a season will result in the GM’s removal from the league.
 
