@@ -18,6 +18,13 @@ gms:
     country: "US"
     flag: "🇺🇸"
     timezone: "EST"
+    birth_year:
+    city: ""
+    favorite_nhl_team: ""
+    favorite_forward: ""
+    favorite_defenceman: ""
+    favorite_goalie: ""
+    fantasy_strategy: ""
     since: 2026
     hero: "20+ years of fantasy hockey — now ready to see what IceCore can do."
     warning: false
@@ -36,6 +43,13 @@ gms:
     country: ""
     flag: ""
     timezone: ""
+    birth_year:
+    city: ""
+    favorite_nhl_team: ""
+    favorite_forward: ""
+    favorite_defenceman: ""
+    favorite_goalie: ""
+    fantasy_strategy: ""
     since:
     hero: "This franchise is waiting for its General Manager."
     warning: false
@@ -49,6 +63,13 @@ gms:
     country: "US"
     flag: "🇺🇸"
     timezone: "CST"
+    birth_year:
+    city: ""
+    favorite_nhl_team: ""
+    favorite_forward: ""
+    favorite_defenceman: ""
+    favorite_goalie: ""
+    fantasy_strategy: ""
     since: 2026
     hero: "After 2,500+ hours of Eastside Hockey Manager, I’m ready to run the Corsairs."
     warning: false
@@ -67,6 +88,13 @@ gms:
     country: "US"
     flag: "🇺🇸"
     timezone: "MDT"
+    birth_year:
+    city: ""
+    favorite_nhl_team: ""
+    favorite_forward: ""
+    favorite_defenceman: ""
+    favorite_goalie: ""
+    fantasy_strategy: ""
     since: 2026
     hero: "Years of keeper experience — now ready to build the Rivermen."
     warning: false
@@ -85,6 +113,13 @@ gms:
     country: "SK"
     flag: "🇸🇰"
     timezone: "CET"
+    birth_year:
+    city: ""
+    favorite_nhl_team: ""
+    favorite_forward: ""
+    favorite_defenceman: ""
+    favorite_goalie: ""
+    fantasy_strategy: ""
     since: 2026
     hero: "Building IceCore from the ground up — now it’s time to compete."
     warning: false
@@ -103,6 +138,13 @@ gms:
     country: "US"
     flag: "🇺🇸"
     timezone: "CST"
+    birth_year:
+    city: ""
+    favorite_nhl_team: ""
+    favorite_forward: ""
+    favorite_defenceman: ""
+    favorite_goalie: ""
+    fantasy_strategy: ""
     since: 2026
     hero: "Big rosters, big leagues and a dynasty built to last."
     warning: false
@@ -121,6 +163,13 @@ gms:
     country: "CA"
     flag: "🇨🇦"
     timezone: "EST"
+    birth_year:
+    city: ""
+    favorite_nhl_team: ""
+    favorite_forward: ""
+    favorite_defenceman: ""
+    favorite_goalie: ""
+    fantasy_strategy: ""
     since: 2026
     hero: "Twenty teams? Sounds like a pretty good challenge."
     warning: false
@@ -139,6 +188,13 @@ gms:
     country: "CZ"
     flag: "🇨🇿"
     timezone: "CET"
+    birth_year:
+    city: ""
+    favorite_nhl_team: ""
+    favorite_forward: ""
+    favorite_defenceman: ""
+    favorite_goalie: ""
+    fantasy_strategy: ""
     since: 2026
     hero: "The long game, the salary cap and a franchise worth building."
     warning: false
@@ -157,6 +213,13 @@ gms:
     country: "FI"
     flag: "🇫🇮"
     timezone: "UTC+3"
+    birth_year:
+    city: ""
+    favorite_nhl_team: ""
+    favorite_forward: ""
+    favorite_defenceman: ""
+    favorite_goalie: ""
+    fantasy_strategy: ""
     since: 2026
     hero: "Depth, activity and a league that stays interesting all season."
     warning: false
@@ -175,6 +238,13 @@ gms:
     country: "FI"
     flag: "🇫🇮"
     timezone: "UTC+3"
+    birth_year:
+    city: ""
+    favorite_nhl_team: ""
+    favorite_forward: ""
+    favorite_defenceman: ""
+    favorite_goalie: ""
+    fantasy_strategy: ""
     since: 2026
     hero: "After winning before, I’m here for an active league and another run."
     warning: false
@@ -193,6 +263,13 @@ gms:
     country: "CA"
     flag: "🇨🇦"
     timezone: "ET"
+    birth_year:
+    city: ""
+    favorite_nhl_team: ""
+    favorite_forward: ""
+    favorite_defenceman: ""
+    favorite_goalie: ""
+    fantasy_strategy: ""
     since: 2026
     hero: "Structure, competitiveness and plenty of trading — that’s my kind of league."
     warning: false
@@ -211,6 +288,13 @@ gms:
     country: "CA"
     flag: "🇨🇦"
     timezone: "EDT"
+    birth_year:
+    city: ""
+    favorite_nhl_team: ""
+    favorite_forward: ""
+    favorite_defenceman: ""
+    favorite_goalie: ""
+    fantasy_strategy: ""
     since: 2026
     hero: "My league is organized — now I’m ready to come in and steamroll this one."
     warning: false
@@ -229,6 +313,13 @@ gms:
     country: ""
     flag: ""
     timezone: ""
+    birth_year:
+    city: ""
+    favorite_nhl_team: ""
+    favorite_forward: ""
+    favorite_defenceman: ""
+    favorite_goalie: ""
+    fantasy_strategy: ""
     since:
     hero: "This franchise is waiting for its General Manager."
     warning: false
@@ -242,6 +333,13 @@ gms:
     country: "CA"
     flag: "🇨🇦"
     timezone: "MT"
+    birth_year:
+    city: ""
+    favorite_nhl_team: ""
+    favorite_forward: ""
+    favorite_defenceman: ""
+    favorite_goalie: ""
+    fantasy_strategy: ""
     since: 2026
     hero: "A unique league, a unique point system and a Memphis team — let’s go."
     warning: false
@@ -260,6 +358,13 @@ gms:
     country: "US"
     flag: "🇺🇸"
     timezone: "EST"
+    birth_year:
+    city: ""
+    favorite_nhl_team: ""
+    favorite_forward: ""
+    favorite_defenceman: ""
+    favorite_goalie: ""
+    fantasy_strategy: ""
     since: 2026
     hero: "I like the uniqueness and the simplicity that still creates a massive challenge."
     warning: false
@@ -278,6 +383,13 @@ gms:
     country: ""
     flag: ""
     timezone: ""
+    birth_year:
+    city: ""
+    favorite_nhl_team: ""
+    favorite_forward: ""
+    favorite_defenceman: ""
+    favorite_goalie: ""
+    fantasy_strategy: ""
     since:
     hero: "This franchise is waiting for its General Manager."
     warning: false
@@ -291,6 +403,13 @@ gms:
     country: "CA"
     flag: "🇨🇦"
     timezone: "PST"
+    birth_year:
+    city: ""
+    favorite_nhl_team: ""
+    favorite_forward: ""
+    favorite_defenceman: ""
+    favorite_goalie: ""
+    fantasy_strategy: ""
     since: 2026
     hero: "A hockey dynasty at last — I’m here to build a real franchise."
     warning: false
@@ -309,6 +428,13 @@ gms:
     country: "CA"
     flag: "🇨🇦"
     timezone: "EST"
+    birth_year:
+    city: ""
+    favorite_nhl_team: ""
+    favorite_forward: ""
+    favorite_defenceman: ""
+    favorite_goalie: ""
+    fantasy_strategy: ""
     since: 2026
     hero: "Best ball, keeper and salary cap — all in one place."
     warning: false
@@ -327,6 +453,13 @@ gms:
     country: ""
     flag: ""
     timezone: ""
+    birth_year:
+    city: ""
+    favorite_nhl_team: ""
+    favorite_forward: ""
+    favorite_defenceman: ""
+    favorite_goalie: ""
+    fantasy_strategy: ""
     since:
     hero: "This franchise is waiting for its General Manager."
     warning: false
@@ -340,6 +473,13 @@ gms:
     country: ""
     flag: ""
     timezone: ""
+    birth_year:
+    city: ""
+    favorite_nhl_team: ""
+    favorite_forward: ""
+    favorite_defenceman: ""
+    favorite_goalie: ""
+    fantasy_strategy: ""
     since:
     hero: "This franchise is waiting for its General Manager."
     warning: false
@@ -353,6 +493,13 @@ gms:
     country: "US"
     flag: "🇺🇸"
     timezone: "EST"
+    birth_year:
+    city: ""
+    favorite_nhl_team: ""
+    favorite_forward: ""
+    favorite_defenceman: ""
+    favorite_goalie: ""
+    fantasy_strategy: ""
     since: 2026
     hero: "Competitive, structured and fair — then build a team that can win for years."
     warning: false
@@ -371,6 +518,13 @@ gms:
     country: "US"
     flag: "🇺🇸"
     timezone: "EDT"
+    birth_year:
+    city: ""
+    favorite_nhl_team: ""
+    favorite_forward: ""
+    favorite_defenceman: ""
+    favorite_goalie: ""
+    fantasy_strategy: ""
     since: 2026
     hero: "Dynasty strategy, salary-cap management, prospects and FAAB — perfect."
     warning: false
@@ -389,6 +543,13 @@ gms:
     country: ""
     flag: ""
     timezone: ""
+    birth_year:
+    city: ""
+    favorite_nhl_team: ""
+    favorite_forward: ""
+    favorite_defenceman: ""
+    favorite_goalie: ""
+    fantasy_strategy: ""
     since:
     hero: "This franchise is waiting for its General Manager."
     warning: false
@@ -402,6 +563,13 @@ gms:
     country: "US"
     flag: "🇺🇸"
     timezone: "PST"
+    birth_year:
+    city: ""
+    favorite_nhl_team: ""
+    favorite_forward: ""
+    favorite_defenceman: ""
+    favorite_goalie: ""
+    fantasy_strategy: ""
     since: 2026
     hero: "A franchise that stays with you for the long haul — that’s what caught my
       eye."
@@ -421,6 +589,13 @@ gms:
     country: ""
     flag: ""
     timezone: ""
+    birth_year:
+    city: ""
+    favorite_nhl_team: ""
+    favorite_forward: ""
+    favorite_defenceman: ""
+    favorite_goalie: ""
+    fantasy_strategy: ""
     since:
     hero: "This franchise is waiting for its General Manager."
     warning: false
@@ -434,6 +609,13 @@ gms:
     country: ""
     flag: ""
     timezone: ""
+    birth_year:
+    city: ""
+    favorite_nhl_team: ""
+    favorite_forward: ""
+    favorite_defenceman: ""
+    favorite_goalie: ""
+    fantasy_strategy: ""
     since:
     hero: "This franchise is waiting for its General Manager."
     warning: false
@@ -447,6 +629,13 @@ gms:
     country: "CA"
     flag: "🇨🇦"
     timezone: "PST"
+    birth_year:
+    city: ""
+    favorite_nhl_team: ""
+    favorite_forward: ""
+    favorite_defenceman: ""
+    favorite_goalie: ""
+    fantasy_strategy: ""
     since: 2026
     hero: "New to Yahoo, but ready for an active keeper league and the long haul."
     warning: false
@@ -465,6 +654,13 @@ gms:
     country: ""
     flag: ""
     timezone: ""
+    birth_year:
+    city: ""
+    favorite_nhl_team: ""
+    favorite_forward: ""
+    favorite_defenceman: ""
+    favorite_goalie: ""
+    fantasy_strategy: ""
     since:
     hero: "This franchise is waiting for its General Manager."
     warning: false
@@ -478,6 +674,13 @@ gms:
     country: "CA"
     flag: "🇨🇦"
     timezone: "EDT"
+    birth_year:
+    city: ""
+    favorite_nhl_team: ""
+    favorite_forward: ""
+    favorite_defenceman: ""
+    favorite_goalie: ""
+    fantasy_strategy: ""
     since: 2026
     hero: "20 years of fantasy hockey, long-term team building and a love for finding hidden gems."
     warning: false
@@ -496,6 +699,13 @@ gms:
     country: ""
     flag: ""
     timezone: ""
+    birth_year:
+    city: ""
+    favorite_nhl_team: ""
+    favorite_forward: ""
+    favorite_defenceman: ""
+    favorite_goalie: ""
+    fantasy_strategy: ""
     since:
     hero: "This franchise is waiting for its General Manager."
     warning: false
