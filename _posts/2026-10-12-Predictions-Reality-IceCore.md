@@ -32,7 +32,7 @@ The lesson is simple: projections are a useful reference, not a guarantee. The b
 
 ## Average Fan Points per Player
 
-The tables rank teams within each division by the average of their players’ season averages. Players marked **NA** or carrying an injury/unavailable status (such as **DTD, O, IR, or IR-LT**) are excluded. Bench (**BN**) players are included when present.
+The tables rank teams within each division by the average of their players’ season averages. 
 
 ### West Division
 
