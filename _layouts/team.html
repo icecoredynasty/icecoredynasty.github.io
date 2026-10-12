@@ -197,18 +197,23 @@ layout: default
 
       <div class="gm-card__details">
 
-        {% if current_gm.birth_year %}
-          {% assign gm_age = current_season | minus: current_gm.birth_year %}
+        {% if current_gm %}
           <div class="gm-stat">
             <span>Age</span>
-            <strong>{{ gm_age }}</strong>
+            {% if current_gm.birth_year %}
+              {% assign gm_age = current_season | minus: current_gm.birth_year %}
+              <strong>{{ gm_age }}</strong>
+            {% else %}
+              <strong>—</strong>
+            {% endif %}
           </div>
-        {% endif %}
-
-        {% if current_gm.city %}
           <div class="gm-stat">
             <span>Location</span>
-            <strong>{{ current_gm.city }}{% if current_gm.country %}, {{ current_gm.country }}{% endif %}</strong>
+            {% if current_gm.city %}
+              <strong>{{ current_gm.city }}{% if current_gm.country %}, {{ current_gm.country }}{% endif %}</strong>
+            {% else %}
+              <strong>—</strong>
+            {% endif %}
           </div>
         {% endif %}
 
@@ -231,7 +236,7 @@ layout: default
     </div>
 
 
-    {% if current_gm and (current_gm.favorite_nhl_team or current_gm.favorite_forward or current_gm.favorite_defenceman or current_gm.favorite_goalie or current_gm.fantasy_strategy) %}
+    {% if current_gm and (current_gm.favorite_nhl_team or current_gm.favorite_forward or current_gm.favorite_defenceman or current_gm.favorite_goalie or current_gm.favorite_nhl_legend or current_gm.fantasy_strategy) %}
       <section class="gm-profile">
         <div class="gm-profile__heading">
           <span>GM PROFILE</span>
@@ -249,6 +254,9 @@ layout: default
           {% endif %}
           {% if current_gm.favorite_goalie %}
             <div class="gm-profile__item"><span>Favourite Goalie</span><strong>{{ current_gm.favorite_goalie }}</strong></div>
+          {% endif %}
+          {% if current_gm.favorite_nhl_legend %}
+            <div class="gm-profile__item"><span>Favourite NHL Legend</span><strong>{{ current_gm.favorite_nhl_legend }}</strong></div>
           {% endif %}
           {% if current_gm.fantasy_strategy %}
             <div class="gm-profile__item gm-profile__item--strategy"><span>Fantasy Strategy</span><strong>
@@ -311,20 +319,20 @@ layout: default
   </section>
 
 
-  {% if page.jersey_home or page.jersey_away %}
+  {% if page.jersey_home != blank or page.jersey_away != blank %}
     <section class="team-jerseys">
       <div class="team-section__heading">
         <span class="team-section__label">TEAM IDENTITY</span>
         <h2>Official Team Jerseys</h2>
       </div>
       <div class="team-jerseys__grid">
-        {% if page.jersey_home %}
+        {% if page.jersey_home != blank %}
           <figure class="team-jerseys__item">
             <img src="{{ page.jersey_home | relative_url }}" alt="{{ page.title }} home jersey" loading="lazy">
             <figcaption>HOME</figcaption>
           </figure>
         {% endif %}
-        {% if page.jersey_away %}
+        {% if page.jersey_away != blank %}
           <figure class="team-jerseys__item">
             <img src="{{ page.jersey_away | relative_url }}" alt="{{ page.title }} away jersey" loading="lazy">
             <figcaption>AWAY</figcaption>
