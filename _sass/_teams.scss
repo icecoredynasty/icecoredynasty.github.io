@@ -1713,9 +1713,6 @@
   overflow-wrap: anywhere;
 }
 
-.gm-profile__item--strategy {
-  grid-column: 1 / -1;
-}
 
 /* TEAM JERSEYS */
 .team-jerseys {
@@ -1792,9 +1789,6 @@
     grid-template-columns: 1fr;
   }
 
-  .gm-profile__item--strategy {
-    grid-column: auto;
-  }
 
   .team-jerseys__item img {
     height: 260px;
