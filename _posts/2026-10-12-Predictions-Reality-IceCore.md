@@ -34,7 +34,7 @@ Yahoo’s projections got some matchups right, but Week 2 also delivered a few c
 The lesson is simple: projections are a useful reference, not a guarantee. Cleveland, Cincinnati, New Orleans and Kelowna overturned the expected outcome. Houston and Amarillo turned projected wins into convincing performances, while Saskatoon and Quebec City also delivered as expected.
 ## Average Fan Points per Player
 
-The tables rank teams within each division by the average of their players’ season averages. Players marked **NA** or carrying an injury/unavailable status (such as **DTD, O, IR, or IR-LT**) are excluded. Bench (**BN**) players are included when present.
+The tables rank teams within each division by the average of their players’ season averages. 
 
 ### West Division
 
