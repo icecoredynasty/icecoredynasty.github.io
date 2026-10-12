@@ -16,23 +16,25 @@ title: Predictions, Reality & the People Behind IceCore
 
 ## Week 2: Predictions vs. Reality
 
-Yahoo’s projections got some matchups right, but Week 2 also delivered a few clear surprises. The table below covers the seven matchups for which we have the pre-week projections.
+Yahoo’s projections got some matchups right, but Week 2 also delivered a few clear surprises. The table below compares all ten matchups with the pre-week projections.
 
 | Matchup | Yahoo prediction | Actual result | Quick verdict |
 |---|---:|---:|---|
 | Cleveland Forge – Hartford Arsenal | 542–604 | **654–644** | ❌ Cleveland overturned the projection and won a close one. |
 | Key West Rumrunners – Houston Signals | 585–652 | **557–703** | ✓ Houston won as expected — and by an even bigger margin. |
+| Green Bay Alliance – Saskatoon Prairie Drifters | 484–626 | **487–537** | ✓ Saskatoon won as projected, with both teams finishing below the early estimates. |
 | Roswell Greys – Richmond Union | 569–559 | **585–578** | ✓ Roswell held on in a tight finish. |
 | Omaha Bison – Cincinnati Rivermen | 569–544 | **470–538** | ❌ Cincinnati flipped the prediction and won comfortably. |
 | New Orleans Soul – Charlotte Amalie Corsairs | 426–514 | **555–459** | ❌ New Orleans produced one of the week’s clearest reversals. |
 | Amarillo Downburst – Memphis Riffs | 576–555 | **674–511** | ✓ Amarillo won as projected, with a much stronger performance. |
+| Halifax Privateers – Quebec City Citadels | 531–565 | **416–496** | ✓ Quebec City won as projected, while Halifax fell well short of its projection. |
+| Honolulu Guardians – Salem Ravens | 545–585 | **496–538** | ✓ Salem won as projected, though by a narrower margin than forecast. |
 | Kelowna Vintners – Victoria Cedars | 538–573 | **526–468** | ❌ Kelowna beat the projection despite being the underdog. |
 
-The lesson is simple: projections are a useful reference, not a guarantee. The biggest swings came from Cleveland, Cincinnati, New Orleans and Kelowna, while Houston and Amarillo turned expected wins into convincing performances.
-
+The lesson is simple: projections are a useful reference, not a guarantee. Cleveland, Cincinnati, New Orleans and Kelowna overturned the expected outcome. Houston and Amarillo turned projected wins into convincing performances, while Saskatoon and Quebec City also delivered as expected.
 ## Average Fan Points per Player
 
-The tables rank teams within each division by the average of their players’ season averages. 
+The tables rank teams within each division by the average of their players’ season averages. Players marked **NA** or carrying an injury/unavailable status (such as **DTD, O, IR, or IR-LT**) are excluded. Bench (**BN**) players are included when present.
 
 ### West Division
 
