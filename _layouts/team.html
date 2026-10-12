@@ -209,7 +209,9 @@ layout: default
           </div>
           <div class="gm-stat">
             <span>Location</span>
-            {% if current_gm.city %}
+            {% if current_gm.location %}
+              <strong>{{ current_gm.location }}</strong>
+            {% elsif current_gm.city %}
               <strong>{{ current_gm.city }}{% if current_gm.country %}, {{ current_gm.country }}{% endif %}</strong>
             {% else %}
               <strong>—</strong>
@@ -236,7 +238,7 @@ layout: default
     </div>
 
 
-    {% if current_gm and (current_gm.favorite_nhl_team or current_gm.favorite_forward or current_gm.favorite_defenceman or current_gm.favorite_goalie or current_gm.favorite_nhl_legend or current_gm.fantasy_strategy) %}
+    {% if current_gm and (current_gm.favorite_nhl_team or current_gm.favorite_player_growing_up or current_gm.favorite_player_right_now or current_gm.fantasy_strategy) %}
       <section class="gm-profile">
         <div class="gm-profile__heading">
           <span>GM PROFILE</span>
@@ -244,19 +246,13 @@ layout: default
         </div>
         <div class="gm-profile__grid">
           {% if current_gm.favorite_nhl_team %}
-            <div class="gm-profile__item"><span>Favourite NHL Team</span><strong>{{ current_gm.favorite_nhl_team }}</strong></div>
+            <div class="gm-profile__item"><span>Favourite Pro-Hockey Team</span><strong>{{ current_gm.favorite_nhl_team }}</strong></div>
           {% endif %}
-          {% if current_gm.favorite_forward %}
-            <div class="gm-profile__item"><span>Favourite Forward</span><strong>{{ current_gm.favorite_forward }}</strong></div>
+          {% if current_gm.favorite_player_growing_up %}
+            <div class="gm-profile__item"><span>Favourite Player Growing Up</span><strong>{{ current_gm.favorite_player_growing_up }}</strong></div>
           {% endif %}
-          {% if current_gm.favorite_defenceman %}
-            <div class="gm-profile__item"><span>Favourite Defenceman</span><strong>{{ current_gm.favorite_defenceman }}</strong></div>
-          {% endif %}
-          {% if current_gm.favorite_goalie %}
-            <div class="gm-profile__item"><span>Favourite Goalie</span><strong>{{ current_gm.favorite_goalie }}</strong></div>
-          {% endif %}
-          {% if current_gm.favorite_nhl_legend %}
-            <div class="gm-profile__item"><span>Favourite NHL Legend</span><strong>{{ current_gm.favorite_nhl_legend }}</strong></div>
+          {% if current_gm.favorite_player_right_now %}
+            <div class="gm-profile__item"><span>Favourite Player Right Now</span><strong>{{ current_gm.favorite_player_right_now }}</strong></div>
           {% endif %}
           {% if current_gm.fantasy_strategy %}
             <div class="gm-profile__item gm-profile__item--strategy"><span>Fantasy Strategy</span><strong>
