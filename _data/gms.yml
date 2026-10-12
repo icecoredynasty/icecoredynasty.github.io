@@ -18,13 +18,12 @@ gms:
     country: "US"
     flag: "🇺🇸"
     timezone: "EST"
-    birth_year:
+    birth_year: 1989
     city: ""
-    favorite_nhl_team: ""
-    favorite_forward: ""
-    favorite_defenceman: ""
-    favorite_goalie: ""
-    favorite_nhl_legend: ""
+    location: "Charlotte, NC, USA"
+    favorite_nhl_team: "Carolina Hurricanes"
+    favorite_player_growing_up: "Ryan Miller"
+    favorite_player_right_now: "Seth Jarvis"
     fantasy_strategy: ""
     since: 2026
     hero: "20+ years of fantasy hockey — now ready to see what IceCore can do."
@@ -46,11 +45,10 @@ gms:
     timezone: ""
     birth_year:
     city: ""
+    location: ""
     favorite_nhl_team: ""
-    favorite_forward: ""
-    favorite_defenceman: ""
-    favorite_goalie: ""
-    favorite_nhl_legend: ""
+    favorite_player_growing_up: ""
+    favorite_player_right_now: ""
     fantasy_strategy: ""
     since:
     hero: "This franchise is waiting for its General Manager."
@@ -67,11 +65,10 @@ gms:
     timezone: "CST"
     birth_year:
     city: ""
+    location: ""
     favorite_nhl_team: ""
-    favorite_forward: ""
-    favorite_defenceman: ""
-    favorite_goalie: ""
-    favorite_nhl_legend: ""
+    favorite_player_growing_up: ""
+    favorite_player_right_now: ""
     fantasy_strategy: ""
     since: 2026
     hero: "After 2,500+ hours of Eastside Hockey Manager, I’m ready to run the Corsairs."
@@ -93,11 +90,10 @@ gms:
     timezone: "MDT"
     birth_year:
     city: ""
+    location: ""
     favorite_nhl_team: ""
-    favorite_forward: ""
-    favorite_defenceman: ""
-    favorite_goalie: ""
-    favorite_nhl_legend: ""
+    favorite_player_growing_up: ""
+    favorite_player_right_now: ""
     fantasy_strategy: ""
     since: 2026
     hero: "Years of keeper experience — now ready to build the Rivermen."
@@ -119,11 +115,10 @@ gms:
     timezone: "CET"
     birth_year:
     city: ""
+    location: ""
     favorite_nhl_team: ""
-    favorite_forward: ""
-    favorite_defenceman: ""
-    favorite_goalie: ""
-    favorite_nhl_legend: ""
+    favorite_player_growing_up: ""
+    favorite_player_right_now: ""
     fantasy_strategy: ""
     since: 2026
     hero: "Building IceCore from the ground up — now it’s time to compete."
@@ -145,11 +140,10 @@ gms:
     timezone: "CST"
     birth_year:
     city: ""
+    location: ""
     favorite_nhl_team: ""
-    favorite_forward: ""
-    favorite_defenceman: ""
-    favorite_goalie: ""
-    favorite_nhl_legend: ""
+    favorite_player_growing_up: ""
+    favorite_player_right_now: ""
     fantasy_strategy: ""
     since: 2026
     hero: "Big rosters, big leagues and a dynasty built to last."
@@ -171,11 +165,10 @@ gms:
     timezone: "EST"
     birth_year:
     city: ""
+    location: ""
     favorite_nhl_team: ""
-    favorite_forward: ""
-    favorite_defenceman: ""
-    favorite_goalie: ""
-    favorite_nhl_legend: ""
+    favorite_player_growing_up: ""
+    favorite_player_right_now: ""
     fantasy_strategy: ""
     since: 2026
     hero: "Twenty teams? Sounds like a pretty good challenge."
@@ -195,13 +188,12 @@ gms:
     country: "CZ"
     flag: "🇨🇿"
     timezone: "CET"
-    birth_year:
+    birth_year: 1986
     city: ""
-    favorite_nhl_team: ""
-    favorite_forward: ""
-    favorite_defenceman: ""
-    favorite_goalie: ""
-    favorite_nhl_legend: ""
+    location: "Most, Czech Republic"
+    favorite_nhl_team: "Boston Bruins"
+    favorite_player_growing_up: "David Pastrňák"
+    favorite_player_right_now: "Martin Nečas"
     fantasy_strategy: ""
     since: 2026
     hero: "The long game, the salary cap and a franchise worth building."
@@ -223,11 +215,10 @@ gms:
     timezone: "UTC+3"
     birth_year:
     city: ""
+    location: ""
     favorite_nhl_team: ""
-    favorite_forward: ""
-    favorite_defenceman: ""
-    favorite_goalie: ""
-    favorite_nhl_legend: ""
+    favorite_player_growing_up: ""
+    favorite_player_right_now: ""
     fantasy_strategy: ""
     since: 2026
     hero: "Depth, activity and a league that stays interesting all season."
@@ -249,11 +240,10 @@ gms:
     timezone: "UTC+3"
     birth_year:
     city: ""
+    location: ""
     favorite_nhl_team: ""
-    favorite_forward: ""
-    favorite_defenceman: ""
-    favorite_goalie: ""
-    favorite_nhl_legend: ""
+    favorite_player_growing_up: ""
+    favorite_player_right_now: ""
     fantasy_strategy: ""
     since: 2026
     hero: "After winning before, I’m here for an active league and another run."
@@ -273,13 +263,12 @@ gms:
     country: "CA"
     flag: "🇨🇦"
     timezone: "ET"
-    birth_year:
+    birth_year: 1989
     city: ""
-    favorite_nhl_team: ""
-    favorite_forward: ""
-    favorite_defenceman: ""
-    favorite_goalie: ""
-    favorite_nhl_legend: ""
+    location: "Toronto, Canada"
+    favorite_nhl_team: "Toronto Maple Leafs"
+    favorite_player_growing_up: "Mats Sundin"
+    favorite_player_right_now: "William Nylander"
     fantasy_strategy: ""
     since: 2026
     hero: "Structure, competitiveness and plenty of trading — that’s my kind of league."
@@ -301,11 +290,10 @@ gms:
     timezone: "EDT"
     birth_year:
     city: ""
+    location: ""
     favorite_nhl_team: ""
-    favorite_forward: ""
-    favorite_defenceman: ""
-    favorite_goalie: ""
-    favorite_nhl_legend: ""
+    favorite_player_growing_up: ""
+    favorite_player_right_now: ""
     fantasy_strategy: ""
     since: 2026
     hero: "My league is organized — now I’m ready to come in and steamroll this one."
@@ -327,11 +315,10 @@ gms:
     timezone: ""
     birth_year:
     city: ""
+    location: ""
     favorite_nhl_team: ""
-    favorite_forward: ""
-    favorite_defenceman: ""
-    favorite_goalie: ""
-    favorite_nhl_legend: ""
+    favorite_player_growing_up: ""
+    favorite_player_right_now: ""
     fantasy_strategy: ""
     since:
     hero: "This franchise is waiting for its General Manager."
@@ -346,13 +333,12 @@ gms:
     country: "CA"
     flag: "🇨🇦"
     timezone: "MT"
-    birth_year:
+    birth_year: 1999
     city: ""
-    favorite_nhl_team: ""
-    favorite_forward: ""
-    favorite_defenceman: ""
-    favorite_goalie: ""
-    favorite_nhl_legend: ""
+    location: "Alberta, Canada"
+    favorite_nhl_team: "Edmonton Oilers"
+    favorite_player_growing_up: "Connor McDavid / PK Subban"
+    favorite_player_right_now: "Connor McDavid / David Pastrnak"
     fantasy_strategy: ""
     since: 2026
     hero: "A unique league, a unique point system and a Memphis team — let’s go."
@@ -374,11 +360,10 @@ gms:
     timezone: "EST"
     birth_year:
     city: ""
+    location: ""
     favorite_nhl_team: ""
-    favorite_forward: ""
-    favorite_defenceman: ""
-    favorite_goalie: ""
-    favorite_nhl_legend: ""
+    favorite_player_growing_up: ""
+    favorite_player_right_now: ""
     fantasy_strategy: ""
     since: 2026
     hero: "I like the uniqueness and the simplicity that still creates a massive challenge."
@@ -400,11 +385,10 @@ gms:
     timezone: ""
     birth_year:
     city: ""
+    location: ""
     favorite_nhl_team: ""
-    favorite_forward: ""
-    favorite_defenceman: ""
-    favorite_goalie: ""
-    favorite_nhl_legend: ""
+    favorite_player_growing_up: ""
+    favorite_player_right_now: ""
     fantasy_strategy: ""
     since:
     hero: "This franchise is waiting for its General Manager."
@@ -421,11 +405,10 @@ gms:
     timezone: "PST"
     birth_year:
     city: ""
+    location: ""
     favorite_nhl_team: ""
-    favorite_forward: ""
-    favorite_defenceman: ""
-    favorite_goalie: ""
-    favorite_nhl_legend: ""
+    favorite_player_growing_up: ""
+    favorite_player_right_now: ""
     fantasy_strategy: ""
     since: 2026
     hero: "A hockey dynasty at last — I’m here to build a real franchise."
@@ -447,11 +430,10 @@ gms:
     timezone: "EST"
     birth_year:
     city: ""
+    location: ""
     favorite_nhl_team: ""
-    favorite_forward: ""
-    favorite_defenceman: ""
-    favorite_goalie: ""
-    favorite_nhl_legend: ""
+    favorite_player_growing_up: ""
+    favorite_player_right_now: ""
     fantasy_strategy: ""
     since: 2026
     hero: "Best ball, keeper and salary cap — all in one place."
@@ -473,11 +455,10 @@ gms:
     timezone: ""
     birth_year:
     city: ""
+    location: ""
     favorite_nhl_team: ""
-    favorite_forward: ""
-    favorite_defenceman: ""
-    favorite_goalie: ""
-    favorite_nhl_legend: ""
+    favorite_player_growing_up: ""
+    favorite_player_right_now: ""
     fantasy_strategy: ""
     since:
     hero: "This franchise is waiting for its General Manager."
@@ -494,11 +475,10 @@ gms:
     timezone: ""
     birth_year:
     city: ""
+    location: ""
     favorite_nhl_team: ""
-    favorite_forward: ""
-    favorite_defenceman: ""
-    favorite_goalie: ""
-    favorite_nhl_legend: ""
+    favorite_player_growing_up: ""
+    favorite_player_right_now: ""
     fantasy_strategy: ""
     since:
     hero: "This franchise is waiting for its General Manager."
@@ -515,11 +495,10 @@ gms:
     timezone: "EST"
     birth_year:
     city: ""
+    location: ""
     favorite_nhl_team: ""
-    favorite_forward: ""
-    favorite_defenceman: ""
-    favorite_goalie: ""
-    favorite_nhl_legend: ""
+    favorite_player_growing_up: ""
+    favorite_player_right_now: ""
     fantasy_strategy: ""
     since: 2026
     hero: "Competitive, structured and fair — then build a team that can win for years."
@@ -541,11 +520,10 @@ gms:
     timezone: "PST"
     birth_year:
     city: ""
+    location: ""
     favorite_nhl_team: ""
-    favorite_forward: ""
-    favorite_defenceman: ""
-    favorite_goalie: ""
-    favorite_nhl_legend: ""
+    favorite_player_growing_up: ""
+    favorite_player_right_now: ""
     fantasy_strategy: ""
     since: 2026
     hero: ""
@@ -567,11 +545,10 @@ gms:
     timezone: ""
     birth_year:
     city: ""
+    location: ""
     favorite_nhl_team: ""
-    favorite_forward: ""
-    favorite_defenceman: ""
-    favorite_goalie: ""
-    favorite_nhl_legend: ""
+    favorite_player_growing_up: ""
+    favorite_player_right_now: ""
     fantasy_strategy: ""
     since:
     hero: "This franchise is waiting for its General Manager."
@@ -588,11 +565,10 @@ gms:
     timezone: "PST"
     birth_year:
     city: ""
+    location: ""
     favorite_nhl_team: ""
-    favorite_forward: ""
-    favorite_defenceman: ""
-    favorite_goalie: ""
-    favorite_nhl_legend: ""
+    favorite_player_growing_up: ""
+    favorite_player_right_now: ""
     fantasy_strategy: ""
     since: 2026
     hero: "A franchise that stays with you for the long haul — that’s what caught my
@@ -615,11 +591,10 @@ gms:
     timezone: ""
     birth_year:
     city: ""
+    location: ""
     favorite_nhl_team: ""
-    favorite_forward: ""
-    favorite_defenceman: ""
-    favorite_goalie: ""
-    favorite_nhl_legend: ""
+    favorite_player_growing_up: ""
+    favorite_player_right_now: ""
     fantasy_strategy: ""
     since:
     hero: "This franchise is waiting for its General Manager."
@@ -636,11 +611,10 @@ gms:
     timezone: ""
     birth_year:
     city: ""
+    location: ""
     favorite_nhl_team: ""
-    favorite_forward: ""
-    favorite_defenceman: ""
-    favorite_goalie: ""
-    favorite_nhl_legend: ""
+    favorite_player_growing_up: ""
+    favorite_player_right_now: ""
     fantasy_strategy: ""
     since:
     hero: "This franchise is waiting for its General Manager."
@@ -657,11 +631,10 @@ gms:
     timezone: "PST"
     birth_year:
     city: ""
+    location: ""
     favorite_nhl_team: ""
-    favorite_forward: ""
-    favorite_defenceman: ""
-    favorite_goalie: ""
-    favorite_nhl_legend: ""
+    favorite_player_growing_up: ""
+    favorite_player_right_now: ""
     fantasy_strategy: ""
     since: 2026
     hero: "New to Yahoo, but ready for an active keeper league and the long haul."
@@ -683,11 +656,10 @@ gms:
     timezone: ""
     birth_year:
     city: ""
+    location: ""
     favorite_nhl_team: ""
-    favorite_forward: ""
-    favorite_defenceman: ""
-    favorite_goalie: ""
-    favorite_nhl_legend: ""
+    favorite_player_growing_up: ""
+    favorite_player_right_now: ""
     fantasy_strategy: ""
     since:
     hero: "This franchise is waiting for its General Manager."
@@ -704,11 +676,10 @@ gms:
     timezone: "EDT"
     birth_year:
     city: ""
+    location: ""
     favorite_nhl_team: ""
-    favorite_forward: ""
-    favorite_defenceman: ""
-    favorite_goalie: ""
-    favorite_nhl_legend: ""
+    favorite_player_growing_up: ""
+    favorite_player_right_now: ""
     fantasy_strategy: ""
     since: 2026
     hero: "20 years of fantasy hockey, long-term team building and a love for finding hidden gems."
@@ -730,11 +701,10 @@ gms:
     timezone: ""
     birth_year:
     city: ""
+    location: ""
     favorite_nhl_team: ""
-    favorite_forward: ""
-    favorite_defenceman: ""
-    favorite_goalie: ""
-    favorite_nhl_legend: ""
+    favorite_player_growing_up: ""
+    favorite_player_right_now: ""
     fantasy_strategy: ""
     since:
     hero: "This franchise is waiting for its General Manager."
