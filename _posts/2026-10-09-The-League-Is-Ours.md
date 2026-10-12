@@ -3,7 +3,7 @@ categories:
 - league
 date: "2026-10-09"
 excerpt: "IceCore belongs to its GMs: more shared responsibility, a clearer long-term framework, a new Reddit home for league discussion and plans for the future."
-featured: true
+featured: false
 image: /assets/images/journal/the-league-is-ours.jpg
 label: LEAGUE UPDATE
 league: League 1
