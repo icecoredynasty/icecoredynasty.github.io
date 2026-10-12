@@ -197,19 +197,77 @@ layout: default
 
       <div class="gm-card__details">
 
-        <div class="gm-stat">
-          <span>Time Zone</span>
-          <strong>{{ current_gm.timezone | default: "—" }}</strong>
-        </div>
+        {% if current_gm.birth_year %}
+          {% assign gm_age = current_season | minus: current_gm.birth_year %}
+          <div class="gm-stat">
+            <span>Age</span>
+            <strong>{{ gm_age }}</strong>
+          </div>
+        {% endif %}
 
-        <div class="gm-stat">
-          <span>IceCore Since</span>
-          <strong>{{ current_gm.since | default: "—" }}</strong>
-        </div>
+        {% if current_gm.city %}
+          <div class="gm-stat">
+            <span>Location</span>
+            <strong>{{ current_gm.city }}{% if current_gm.country %}, {{ current_gm.country }}{% endif %}</strong>
+          </div>
+        {% endif %}
+
+        {% if current_gm.timezone %}
+          <div class="gm-stat">
+            <span>Time Zone</span>
+            <strong>{{ current_gm.timezone }}</strong>
+          </div>
+        {% endif %}
+
+        {% if current_gm.since %}
+          <div class="gm-stat">
+            <span>IceCore Since</span>
+            <strong>{{ current_gm.since }}</strong>
+          </div>
+        {% endif %}
 
       </div>
 
     </div>
+
+
+    {% if current_gm and (current_gm.favorite_nhl_team or current_gm.favorite_forward or current_gm.favorite_defenceman or current_gm.favorite_goalie or current_gm.fantasy_strategy) %}
+      <section class="gm-profile">
+        <div class="gm-profile__heading">
+          <span>GM PROFILE</span>
+          <h3>Hockey Favourites</h3>
+        </div>
+        <div class="gm-profile__grid">
+          {% if current_gm.favorite_nhl_team %}
+            <div class="gm-profile__item"><span>Favourite NHL Team</span><strong>{{ current_gm.favorite_nhl_team }}</strong></div>
+          {% endif %}
+          {% if current_gm.favorite_forward %}
+            <div class="gm-profile__item"><span>Favourite Forward</span><strong>{{ current_gm.favorite_forward }}</strong></div>
+          {% endif %}
+          {% if current_gm.favorite_defenceman %}
+            <div class="gm-profile__item"><span>Favourite Defenceman</span><strong>{{ current_gm.favorite_defenceman }}</strong></div>
+          {% endif %}
+          {% if current_gm.favorite_goalie %}
+            <div class="gm-profile__item"><span>Favourite Goalie</span><strong>{{ current_gm.favorite_goalie }}</strong></div>
+          {% endif %}
+          {% if current_gm.fantasy_strategy %}
+            <div class="gm-profile__item gm-profile__item--strategy"><span>Fantasy Strategy</span><strong>
+              {% assign strategy = current_gm.fantasy_strategy %}
+              {% case strategy %}
+                {% when 'prospect_builder' %}Prospect Builder
+                {% when 'win_now' %}Win Now
+                {% when 'balanced' %}Balanced Approach
+                {% when 'trade_strategist' %}Trade Strategist
+                {% when 'value_hunter' %}Value Hunter
+                {% when 'youth_movement' %}Youth Movement
+                {% when 'hybrid' %}Other / Hybrid
+                {% else %}{{ strategy }}
+              {% endcase %}
+            </strong></div>
+          {% endif %}
+        </div>
+      </section>
+    {% endif %}
 
 
     {% if current_gm and current_gm.seasons %}
@@ -239,12 +297,6 @@ layout: default
             <b>{{ season.playoffs }}</b>
           </span>
 
-          {% if season.draft %}
-            <span>
-              Draft
-              <b>{{ season.draft }}</b>
-            </span>
-          {% endif %}
 
         </div>
 
@@ -257,6 +309,30 @@ layout: default
     {% endif %}
 
   </section>
+
+
+  {% if page.jersey_home or page.jersey_away %}
+    <section class="team-jerseys">
+      <div class="team-section__heading">
+        <span class="team-section__label">TEAM IDENTITY</span>
+        <h2>Official Team Jerseys</h2>
+      </div>
+      <div class="team-jerseys__grid">
+        {% if page.jersey_home %}
+          <figure class="team-jerseys__item">
+            <img src="{{ page.jersey_home | relative_url }}" alt="{{ page.title }} home jersey" loading="lazy">
+            <figcaption>HOME</figcaption>
+          </figure>
+        {% endif %}
+        {% if page.jersey_away %}
+          <figure class="team-jerseys__item">
+            <img src="{{ page.jersey_away | relative_url }}" alt="{{ page.title }} away jersey" loading="lazy">
+            <figcaption>AWAY</figcaption>
+          </figure>
+        {% endif %}
+      </div>
+    </section>
+  {% endif %}
 
 
   <!-- =====================================================
