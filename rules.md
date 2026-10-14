@@ -2,7 +2,7 @@
 layout: default
 title: Rules
 permalink: /rules/
-description: "The complete IceCore Dynasty rulebook covering the 20-team format, 500-coin salary cap, keepers, prospects, drafts, scoring and league administration."
+description: "The complete IceCore Dynasty rulebook covering the 20-team format, 500-coin draft budget, in-season salary controls, keepers, prospects, drafts, scoring and league administration."
 ---
 
 <!-- =====================================================
@@ -83,10 +83,10 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
       <article class="ic-quick-card">
         <span>03</span>
-        <h3>500 Coins</h3>
+        <h3>500-Coin Draft Cap</h3>
         <p>
-          Every franchise operates under a 500-coin Salary Cap.
-          Keeper salaries reduce the budget available in the live draft.
+          The Yahoo Live Salary Cap Draft uses a 500-coin budget. From Season 2,
+          the in-season roster salary total must also stay between 250 and 600 Coins.
         </p>
       </article>
 
@@ -257,6 +257,26 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 </header>
 
 
+<div class="ic-rule">
+  <div class="ic-rule__body">
+    <h3>Salary Escalation at a Glance</h3>
+    <div class="ic-faq">
+      <article>
+        <h3>Regular Keeper</h3>
+        <p><strong>Current salary + Base Increase + Value Bonus.</strong> Base starts at +4 and may float between +3 and +5. Value Bonus equals one third of the positive gap between salary and performance-group benchmark.</p>
+      </article>
+      <article>
+        <h3>Development Keeper</h3>
+        <p><strong>Established salary +1 Coin</strong> when protected again as a Development Keeper.</p>
+      </article>
+      <article>
+        <h3>Entry Draft rookie</h3>
+        <p><strong>1 Coin</strong> at selection. Standard escalation applies if later protected as a Regular Keeper; the +1 rule applies if protected as an eligible Development Keeper.</p>
+      </article>
+    </div>
+  </div>
+</div>
+
 <!-- 01 -->
 
 <article class="ic-rule">
@@ -281,6 +301,11 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     <p>
       Yahoo Fantasy is the official platform for scoring, matchups,
       standings, player statistics, transactions and playoffs.
+    </p>
+
+    <p>
+      IceCore has a Co-Commissioner role for oversight and league administration.
+      Murad serves as Co-Commissioner and supports league monitoring and governance.
     </p>
 
   </div>
@@ -314,9 +339,10 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </p>
 
     <p>
-      IceCore uses <strong>no bench positions</strong>.
-      A player who belongs to your active roster contributes whenever
-      he plays for his NHL team.
+      IceCore uses <strong>no intentional bench positions</strong>. A player
+      assigned to the active roster contributes whenever he plays for his NHL team.
+      Yahoo may create a technical BN slot when a roster is temporarily unbalanced;
+      this is a platform limitation, not an additional IceCore roster position.
     </p>
 
     <p>
@@ -406,14 +432,16 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </p>
 
     <p>
-      Regular Keepers may be selected only from players belonging to
-      the franchise's <strong>active roster or IR+</strong> at the end
-      of the previous season.
+      Regular Keepers may be selected from the franchise's <strong>active roster,
+      IR+ or NA farm</strong> at the end of the previous season. A player from NA
+      protected as a Regular Keeper follows the standard Base Increase and Value
+      Bonus escalation, not the Development Keeper escalation.
     </p>
 
     <p>
-      It is possible to keep more than 3 players from the NA farm team, 
-      but only in a regular slot with standard escalation.
+      More than three players from the NA farm may therefore be protected only
+      if the additional players are selected as Regular Keepers. The limit of
+      one to three applies specifically to Development Keepers.
     </p>
 
     <p>
@@ -483,10 +511,11 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </p>
 
     <p>
-      A Development Keeper retains the IceCore salary at which he was acquired.
-      A player acquired from waivers carries a salary of
-      <strong>0 coins</strong>; a player acquired through the Salary Cap Draft
-      carries the winning Salary Cap Draft price.
+      A Development Keeper retains his established IceCore salary. A player
+      acquired through the Salary Cap Draft carries the winning draft price.
+      A player who has never been drafted and has no established IceCore salary
+      enters at <strong>0 coins</strong>; acquiring an already-priced player from
+      waivers does not reset his salary.
     </p>
 
     <p>
@@ -628,13 +657,25 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </div>
 
     <p>
-      Every franchise operates under the same
-      <strong>500-coin annual Salary Cap</strong>.
+      Every franchise has a <strong>500-coin Salary Cap for the Yahoo Live Salary
+      Cap Draft</strong>. Keeper salaries are committed before the draft and reduce
+      the budget available for bidding. This 500-coin draft limit remains unchanged.
     </p>
 
     <p>
-      Salaries of protected players are committed before the Live Salary
-      Cap Draft and reduce the franchise's available draft budget.
+      Beginning with <strong>Season 2</strong>, a separate in-season roster salary
+      rule applies: the total IceCore salaries of players currently on a franchise's
+      roster must not exceed <strong>600 Coins</strong> or fall below the
+      <strong>250-Coin Salary Floor</strong>. This in-season range is separate from
+      the 500-coin Yahoo draft budget.
+    </p>
+
+    <p>
+      The Commissioner will check in-season roster salary totals at least three
+      times per season. If a team is above 600 Coins or below 250 Coins, its GM
+      receives a warning and has <strong>one week</strong> to correct the roster.
+      Repeated violations may lead to further disciplinary action, including removal
+      of the GM. The same salary checks and correction process apply to both limits.
     </p>
 
     <p>
@@ -650,13 +691,12 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </p>
 
     <p>
-      IceCore also uses a <strong>250-coin Salary Floor</strong>. After the keeper
-      deadline, the submitted keeper roster is checked to ensure that each franchise
-      maintains at least 250 coins in protected player salaries. If a franchise falls
-      below the floor, the GM receives a warning and a reasonable correction period.
-      If the problem is not corrected, the franchise's 500-coin Salary Cap is reduced
-      by the amount it remains below 250. Repeated violations may lead to roster or
-      transaction restrictions until the floor is restored.
+      The 250-Coin Salary Floor is also monitored during the season, alongside the
+      600-Coin upper limit, beginning in Season 2. At least three checks are carried
+      out each season. A GM whose roster is outside either limit receives a warning
+      and one week to make the necessary adjustment. Repeated violations may lead to
+      further disciplinary action, including removal of the GM. The draft budget is
+      not automatically reduced because the in-season roster is outside these limits.
     </p>
 
   </div>
@@ -664,7 +704,21 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 </article>
 
 
-<!-- 08 -->
+  <!-- Salary escalation quick reference -->
+
+  <article class="ic-rule ic-rule--feature">
+    <div class="ic-rule__body">
+      <h3>Salary Escalation — Quick Reference</h3>
+      <div class="ic-faq">
+        <article><h3>Regular Keeper</h3><p><strong>Current salary + Base (+3 to +5, normally +4) + Value Bonus.</strong> The Value Bonus is one third of the positive gap between the player's salary and his performance-group benchmark, rounded to the nearest whole Coin.</p></article>
+        <article><h3>Development Keeper</h3><p><strong>Current salary + 1 Coin</strong> for each offseason he is protected again as a Development Keeper.</p></article>
+        <article><h3>Entry Draft Rookie</h3><p><strong>1 Coin</strong> at acquisition. If kept as a Regular Keeper next offseason, standard escalation applies; if eligible and kept as a Development Keeper, the development rule applies.</p></article>
+      </div>
+      <p>There is no fixed salary ceiling or special prospect bonus. Large increases are possible only when the standard formula and the player's benchmark produce them.</p>
+    </div>
+  </article>
+
+  <!-- 08 -->
 
 <article class="ic-rule">
 
@@ -696,7 +750,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
       <strong>Top 20 goaltenders</strong> form two additional groups of ten. In every
       group, the highest and lowest salary are removed before calculating the average of
       the remaining eight players. Rankings are based on final Yahoo Fantasy point
-      totals after the completed regular season.
+      totals after the completed regular season. There is no fixed maximum annual increase; an estimate such as approximately +25 Coins is illustrative, not a separate prospect rule or guaranteed cap.
     </p>
 
     <p>
@@ -767,9 +821,11 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     <h3>Waivers & Existing Salaries</h3>
 
     <p>
-      A player without an established IceCore salary enters from
-      waivers at <strong>0 coins</strong>. If protected for the following season,
-      the normal salary escalation applies.
+      A player who has never been drafted and has no established IceCore salary
+      enters through waivers at <strong>0 coins</strong>. If protected for the following
+      season, the relevant keeper escalation applies. A player who was previously
+      drafted retains that established salary even after being dropped or claimed
+      by another franchise.
     </p>
 
     <div class="ic-rule-tags">
@@ -1002,10 +1058,29 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </p>
 
     <p>
-      Trades are not subject to league voting. The Commissioner retains
-      veto authority only where a transaction presents a credible concern
-      involving collusion, deliberate competitive manipulation or another
-      material threat to league integrity.
+      Trades are subject to a <strong>one-day review/protest period</strong>.
+      During this period, General Managers may vote to veto a trade. A trade is
+      blocked when it receives at least <strong>7 veto votes</strong>. Voting and voter eligibility follow Yahoo Fantasy\'s league-vote rules and the league\'s active Yahoo settings.
+    </p>
+
+    <p>
+      If GMs repeatedly or without reasonable grounds block ordinary, legitimate
+      trades, the Commissioner may change or suspend the veto system. The
+      Commissioner may also reverse a trade or restore the previous roster state,
+      where technically possible, if a questionable transaction that threatens
+      league integrity is not caught by the veto. These powers are intended for
+      collusion, deliberate competitive manipulation or other material threats
+      to league integrity, not ordinary differences of opinion about player value.
+    </p>
+
+    <p>
+      The Commissioner may change the veto system if GMs repeatedly or without
+      reasonable grounds block ordinary trades. The Commissioner may also reverse
+      a trade or restore the previous roster state where technically possible if a
+      questionable transaction that threatens league integrity is not caught by the
+      GM veto process. This authority is intended for collusion, deliberate
+      competitive manipulation or other material threats to league integrity, not
+      ordinary differences of opinion about player value.
     </p>
 
   </div>
@@ -1047,9 +1122,10 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </p>
 
     <p>
-      Regular Keeper selections are limited to eligible active-roster and
-      IR+ players. Development Keeper selections are limited to players
-      held in the franchise's NA farm at the end of the previous season.
+      Regular Keeper selections may include eligible active-roster, IR+ and NA
+      players. A player from NA selected as a Regular Keeper uses standard salary
+      escalation. Development Keeper selections are limited to players held in the
+      franchise's NA farm at the end of the previous season.
     </p>
 
     <p>
@@ -1159,7 +1235,9 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
       prospects and developmental players, but it is not considered legitimate
       franchise management to field a deliberately non-competitive prospect-only
       lineup throughout the regular season or intentionally lose all 23 matchups.
-      Likewise, collusion,
+      A confirmed tanking violation may result in a disciplinary penalty, which
+      could include moving the franchise to Entry Draft pick No. 20, depending on
+      the circumstances. Likewise, collusion,
       coordinated roster dumping, waiver manipulation, artificial or
       knowingly unreasonable salary inflation, or other actions intended
       primarily to distort the competition or benefit another franchise
@@ -1483,7 +1561,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
   <div class="ic-rule__body">
 
-    <h3>GM Experience &amp; Development League</h3>
+    <h3>GM Experience &amp; Selection</h3>
 
     <p>
       IceCore is an <strong>advanced fantasy hockey league</strong> built around
@@ -1502,20 +1580,9 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     </p>
 
     <p>
-      The <strong>IceCore Development League</strong> is intended primarily for
-      fantasy newcomers who need time to learn the platform and the practical
-      aspects of the IceCore format, including drafts, waivers, FAAB, roster
-      management and salary systems. It will be opened when there is sufficient
-      interest to form a meaningful group.
-    </p>
-
-    <p>
-      Development League participation provides an opportunity to demonstrate
-      activity, reliability and strategic thinking, with strong and engaged
-      managers having a path toward future IceCore franchise opportunities.
-      The Commissioner may also use the Development League or Reserved List to
-      assess an applicant's activity, reliability or overall fit with the
-      IceCore community before offering a permanent franchise.
+      Applicants may be assessed on activity, reliability, strategic thinking and
+      overall fit with the IceCore community before being offered a permanent
+      franchise.
     </p>
 
   </div>
@@ -1564,9 +1631,10 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 <article>
   <h3>How does the salary cap work?</h3>
   <p>
-    Every franchise operates under the same 500-coin Salary Cap.
-    Keeper salaries count against the cap before the annual Live Salary
-    Cap Draft.
+    The Yahoo Live Salary Cap Draft uses a 500-coin budget, reduced by keeper
+    salaries. Beginning with Season 2, the total in-season roster salary must also
+    stay between 250 and 600 Coins, with at least three checks per season. If a
+    team falls outside that range, the GM receives a warning and one week to correct it.
   </p>
 </article>
 
@@ -1574,11 +1642,11 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 <article>
   <h3>What is the Salary Floor?</h3>
   <p>
-    Every franchise must maintain at least <strong>250 coins</strong> in protected
-    player salaries after the keeper deadline. A franchise below the floor receives
-    a warning and a reasonable period to correct the roster. If it remains below
-    250, its Salary Cap is reduced by the amount of the shortfall. Repeated
-    violations may lead to roster or transaction restrictions until corrected.
+    Beginning with Season 2, a team's in-season roster salary must not fall below
+    <strong>250 Coins</strong> or exceed <strong>600 Coins</strong>. The Commissioner
+    checks this at least three times per season. A GM outside either limit receives
+    a warning and one week to correct the roster; repeated violations may lead to
+    further disciplinary action, including removal of the GM. The floor and ceiling are both checked at every review: a total below 250 Coins or above 600 Coins triggers the same warning and one-week correction period.
   </p>
 </article>
 
@@ -1605,12 +1673,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
 <article>
   <h3>How does the keeper system work?</h3>
-  <p>
-    Each offseason, franchises protect 11–15 regular players from
-    their active roster or IR+, including exactly one goaltender,
-    together with 1–3 Development Keepers from the previous-season NA farm.
-    All protected players must fit the franchise's active roster position limits.
-  </p>
+  <p>Each offseason, franchises protect 11–15 Regular Keepers, including exactly one goaltender. Regular Keepers may come from the active roster, IR+ or the previous-season NA farm and use standard salary escalation. Franchises also protect 1–3 Development Keepers from the previous-season NA farm, using the separate +1 escalation. All protected players must fit the franchise's active roster position limits.</p>
 </article>
 
 
@@ -1656,15 +1719,14 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 <article>
   <h3>How does salary escalation work?</h3>
   <p>
-    Regular keepers start with a <strong>+4 Base Increase</strong>. The Base may
-    float automatically between <strong>+3 and +5</strong> according to the
-    league-wide salary economy. A regular keeper below his performance-group
-    benchmark receives an additional Value Bonus equal to <strong>one third of
-    the benchmark gap</strong>. The Top 150 skaters are divided into groups of 10
-    and the Top 10 goaltenders form one group; the highest and lowest salary are
-    removed before each benchmark is calculated. Development Keepers use a
-    separate <strong>+1 per offseason</strong> escalation. Full calculations and
-    examples are maintained on the <a href="{{ '/value-board/' | relative_url }}">IceCore Value Board</a>.
+    Regular Keepers start with a <strong>+4 Base Increase</strong>, which may float
+    between <strong>+3 and +5</strong>. A keeper below his performance-group benchmark
+    receives a Value Bonus equal to one third of the positive benchmark gap, rounded
+    to the nearest whole Coin. The <strong>Top 180 skaters</strong> are divided into
+    groups of ten and the <strong>Top 20 goaltenders</strong> form two groups of ten;
+    the highest and lowest salary are removed before each benchmark is calculated.
+    Development Keepers use a separate <strong>+1 per offseason</strong> escalation.
+    See the <a href="{{ '/value-board/' | relative_url }}">IceCore Value Board</a>.
   </p>
 </article>
 
@@ -1758,11 +1820,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
       <article>
         <h3>04 · Trade Review</h3>
-        <p>
-          Trades reviewed by the Commissioner have a
-          <strong>1-day review/protest period</strong>, subject to Yahoo's
-          platform processing.
-        </p>
+        <p>Trades have a <strong>1-day review/protest period</strong>. GMs may veto a trade with at least <strong>7 veto votes</strong>; the Commissioner may intervene under the league-integrity rules.</p>
       </article>
 
     </div>
