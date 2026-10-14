@@ -256,6 +256,27 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
 </header>
 
+
+<div class="ic-rule">
+  <div class="ic-rule__body">
+    <h3>Salary Escalation at a Glance</h3>
+    <div class="ic-faq">
+      <article>
+        <h3>Regular Keeper</h3>
+        <p><strong>Current salary + Base Increase + Value Bonus.</strong> Base starts at +4 and may float between +3 and +5. Value Bonus equals one third of the positive gap between salary and performance-group benchmark.</p>
+      </article>
+      <article>
+        <h3>Development Keeper</h3>
+        <p><strong>Established salary +1 Coin</strong> when protected again as a Development Keeper.</p>
+      </article>
+      <article>
+        <h3>Entry Draft rookie</h3>
+        <p><strong>1 Coin</strong> at selection. Standard escalation applies if later protected as a Regular Keeper; the +1 rule applies if protected as an eligible Development Keeper.</p>
+      </article>
+    </div>
+  </div>
+</div>
+
 <!-- 01 -->
 
 <article class="ic-rule">
@@ -474,8 +495,10 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
     <p>
       If a franchise has no eligible player in its previous-season NA farm,
       the Commissioner will assign an eligible young player from the available
-      player pool to satisfy the minimum one-Development-Keeper requirement.
-      The assigned player carries a salary of <strong>1 coin</strong>.
+      player pool to satisfy the minimum one-Development-Keeper requirement. This
+      fallback prevents a franchise from gaining an advantage by having no eligible
+      NA player and thereby avoiding the minimum. The assigned player carries a salary
+      of <strong>1 coin</strong>.
     </p>
 
     <p>
@@ -584,14 +607,13 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
     <p>
       Entry Draft selections enter their IceCore franchise at a salary of
-      <strong>1 Coin</strong> and are immediately placed on the franchise's
-      keeper list as a mandatory keeper for that offseason.
+      <strong>1 Coin</strong> and are treated as a mandatory keeper during the
+      Entry Draft. After the draft, the GM may release the rookie or move him to NA.
     </p>
 
     <p>
-      The Entry Draft rookie is a mandatory keeper immediately after the draft.
-      After the draft, the GM may release the rookie or move him to an NA position
-      and replace the resulting active-roster position through the normal player market.
+      If the rookie is released or moved to an NA position after the draft, the
+      resulting active-roster position may be filled through the normal player market.
       If the rookie remains protected as a regular keeper for the following offseason,
       the normal salary escalation applies to his 1-coin salary. If he is moved to NA,
       the Development Keeper rules apply instead if he is eligible.
@@ -643,10 +665,10 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 
     <p>
       Beginning with <strong>Season 2</strong>, a separate in-season roster salary
-      rule applies: the total IceCore salaries of players currently on a franchise's
-      roster must not exceed <strong>600 Coins</strong> or fall below the
-      <strong>250-Coin Salary Floor</strong>. This in-season range is separate from
-      the 500-coin Yahoo draft budget.
+      rule applies: the total IceCore salaries of every player on a franchise's
+      roster, including players assigned to IR+ and NA, must not exceed
+      <strong>600 Coins</strong> or fall below the <strong>250-Coin Salary Floor</strong>.
+      This in-season range is separate from the 500-coin Yahoo draft budget.
     </p>
 
     <p>
@@ -669,33 +691,13 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
       followed by the normal offseason escalation.
     </p>
 
-    <p>
-      The 250-Coin Salary Floor is also monitored during the season, alongside the
-      600-Coin upper limit, beginning in Season 2. At least three checks are carried
-      out each season. A GM whose roster is outside either limit receives a warning
-      and one week to make the necessary adjustment. Repeated violations may lead to
-      further disciplinary action, including removal of the GM. The draft budget is
-      not automatically reduced because the in-season roster is outside these limits.
-    </p>
+
 
   </div>
 
 </article>
 
 
-  <!-- Salary escalation quick reference -->
-
-  <article class="ic-rule ic-rule--feature">
-    <div class="ic-rule__body">
-      <h3>Salary Escalation — Quick Reference</h3>
-      <div class="ic-faq">
-        <article><h3>Regular Keeper</h3><p><strong>Current salary + Base (+3 to +5, normally +4) + Value Bonus.</strong> The Value Bonus is one third of the positive gap between the player's salary and his performance-group benchmark, rounded to the nearest whole Coin.</p></article>
-        <article><h3>Development Keeper</h3><p><strong>Current salary + 1 Coin</strong> for each offseason he is protected again as a Development Keeper.</p></article>
-        <article><h3>Entry Draft Rookie</h3><p><strong>1 Coin</strong> at acquisition. If kept as a Regular Keeper next offseason, standard escalation applies; if eligible and kept as a Development Keeper, the development rule applies.</p></article>
-      </div>
-      <p>There is no fixed salary ceiling or special prospect bonus. Large increases are possible only when the standard formula and the player's benchmark produce them.</p>
-    </div>
-  </article>
 
   <!-- 08 -->
 
@@ -1052,15 +1054,7 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
       to league integrity, not ordinary differences of opinion about player value.
     </p>
 
-    <p>
-      The Commissioner may change the veto system if GMs repeatedly or without
-      reasonable grounds block ordinary trades. The Commissioner may also reverse
-      a trade or restore the previous roster state where technically possible if a
-      questionable transaction that threatens league integrity is not caught by the
-      GM veto process. This authority is intended for collusion, deliberate
-      competitive manipulation or other material threats to league integrity, not
-      ordinary differences of opinion about player value.
-    </p>
+
 
   </div>
 
