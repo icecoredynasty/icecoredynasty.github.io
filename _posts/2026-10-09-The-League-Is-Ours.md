@@ -60,9 +60,9 @@ The Co-Commissioner should be someone on a similar wavelength to the Commissione
 
 GMs based in North America who are interested in the role can send a private application during GW3. A short message explaining their interest and how they see the role is enough.
 
-**GW4 — Selection**
+**GW3 — Selection**
 
-During GW4, the Commissioner will select the candidate who seems the best fit for the role and for the direction of IceCore.
+At the end of GW3, the Commissioner will select the candidate who seems the best fit for the role and for the direction of IceCore.
 
 The Co-Commissioner should understand the league’s philosophy, approach key decisions in a similar way and, most importantly, be someone the Commissioner can work with over the long term.
 
@@ -73,8 +73,6 @@ The goal is not to create another boss. It is to add another reliable person to 
 ## League Veto: More Responsibility for GMs
 
 The trade approval system will change in the same direction.
-
-Starting in **GW4**, GMs will have the primary responsibility for trade vetoes.
 
 To block a trade, 7 veto votes will be required — just over one third of the league, a threshold intended to prevent individual disagreements from blocking legitimate trades as a common standard in fantasy leagues.
 
@@ -186,8 +184,7 @@ Winning the first IceCore Dynasty season should be worth remembering — and rea
 
 The next steps are taking shape:
 
-- **GW3:** North American GMs can submit applications for the Co-Commissioner role.
-- **GW4:** The Commissioner selects the Co-Commissioner, and the new 7-vote trade veto system takes effect.
+- **GW3:** North American GMs can submit applications for the Co-Commissioner role and the new 7-vote trade veto system takes effect.
 - **From next season:** the 600-Coin roster limit and salary floor will be introduced, with three salary checks per season.
 
 These changes are intended to give GMs more responsibility while keeping the league stable and competitive.
