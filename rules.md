@@ -257,26 +257,6 @@ description: "The complete IceCore Dynasty rulebook covering the 20-team format,
 </header>
 
 
-<div class="ic-rule">
-  <div class="ic-rule__body">
-    <h3>Salary Escalation at a Glance</h3>
-    <div class="ic-faq">
-      <article>
-        <h3>Regular Keeper</h3>
-        <p><strong>Current salary + Base Increase + Value Bonus.</strong> Base starts at +4 and may float between +3 and +5. Value Bonus equals one third of the positive gap between salary and performance-group benchmark.</p>
-      </article>
-      <article>
-        <h3>Development Keeper</h3>
-        <p><strong>Established salary +1 Coin</strong> when protected again as a Development Keeper.</p>
-      </article>
-      <article>
-        <h3>Entry Draft rookie</h3>
-        <p><strong>1 Coin</strong> at selection. Standard escalation applies if later protected as a Regular Keeper; the +1 rule applies if protected as an eligible Development Keeper.</p>
-      </article>
-    </div>
-  </div>
-</div>
-
 <!-- 01 -->
 
 <article class="ic-rule">
