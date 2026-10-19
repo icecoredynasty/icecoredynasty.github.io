@@ -3,7 +3,7 @@ categories:
 - league
 date: "2026-10-12"
 excerpt: "Week 2 delivered a few surprises, some predictions held up, and IceCore’s growing community is starting to create its own content."
-featured: true
+featured: false
 image: /assets/images/journal/predictions-vs-reality.jpg
 label: WEEKLY REVIEW
 league: League 1
