@@ -16,7 +16,7 @@ title: "Getting to Know the GMs: Rob of Amarillo Downburst"
 
 Five gameweeks are now in the books, and IceCore Dynasty has its first
 team sitting proudly at the top of the standings. Amarillo Downburst,
-managed by Rob Lattuca, has made a perfect 5--0--0 start --- making Rob
+managed by Rob, has made a perfect 5--0--0 start --- making Rob
 a fitting first guest for a new IceCore interview series.
 
 One of the things that makes a dynasty league special is the people
