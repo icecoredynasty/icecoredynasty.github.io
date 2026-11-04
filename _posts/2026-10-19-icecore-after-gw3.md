@@ -7,7 +7,7 @@ section: League News
 league: League 1
 season: "2026–27"
 label: GW3 UPDATE
-featured: true
+featured: false
 image: /assets/images/journal/after-gw3.jpg
 excerpt: "Three gameweeks into the season, IceCore Dynasty has its first standout performances, updated player-value projections and a new Co-Commissioner."
 ---
