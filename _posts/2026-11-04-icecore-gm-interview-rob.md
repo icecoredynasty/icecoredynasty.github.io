@@ -5,7 +5,7 @@ date: 2026-11-04
 excerpt: After a perfect 5-0-0 start, Amarillo Downburst's Rob shares
   his draft-day approach, dynasty strategy, two decades of fantasy
   experience and thoughts on the IceCore community.
-featured: true
+featured: false
 image: /assets/images/journal/gm-interview-rob.jpg
 label: GM INTERVIEW
 league: League 1
