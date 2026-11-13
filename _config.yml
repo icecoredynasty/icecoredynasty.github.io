@@ -103,6 +103,10 @@ footer:
       icon: fab fa-facebook-f
       url: https://www.facebook.com/profile.php?id=61592652304764
 
+    - label: Pick'em
+      icon: fa-solid fa-bullseye
+      url: /pickem/
+
     - label: Contact
       icon: fas fa-envelope
       url: mailto:commissioner@icecoredynasty.com
