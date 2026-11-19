@@ -30,9 +30,17 @@ permalink: /value-board/
 .value-board-page .vb-top5-table th,.value-board-page .vb-top5-table td{padding:7px 6px;font-size:.88rem}
 .value-board-page .vb-top5-table td:nth-child(2),.value-board-page .vb-top5-table td:nth-child(3){white-space:normal}
 .value-board-page .vb-team-bonus-table{width:100%}
+
+.value-board-page .vb-top5-grid{grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+.value-board-page .vb-top5{min-width:0}
+.value-board-page .vb-top5-table{width:100%;table-layout:auto}
+.value-board-page .vb-top5-table th,.value-board-page .vb-top5-table td{padding:7px 6px;font-size:.88rem}
+.value-board-page .vb-top5-table td:nth-child(1),.value-board-page .vb-top5-table td:nth-child(2){white-space:normal}
+.value-board-page .vb-keeper-note{margin-top:14px}
+.value-board-page .vb-fan-points,.value-board-page .vb-salary{font-weight:400}
 </style>
 <section class="vb-intro"><h2>📊 Value, at a glance</h2><p>The <strong>IceCore Value Board</strong> compares each player's current draft salary with the benchmark for their Fan Points ranking group. It shows the projected salary increase, the separate Value Bonus and each player's Fan Points return per Coin.</p><p>This is an <strong>interim snapshot updated 19 November 2026</strong>. The official salary escalation will use completed regular-season rankings and the league's final calculation.</p></section>
-<section class="vb-note" style="margin-top:16px;"><p><strong>📋 Snapshot · 19.11.2026</strong><br/>Rankings use the supplied Yahoo Fan Points lists: skaters 1–100 and 101–180, plus goalies 1–20. Draft salaries come from Draft Results; players not found there are assigned 0 Coins for this snapshot. The Yahoo team shown is the current roster assignment in the supplied ranking export.</p></section>
+
 <section class="vb-groups">
 <div class="vb-group">
 <div class="vb-group-header">
@@ -40,17 +48,17 @@ permalink: /value-board/
 <div class="vb-benchmark"><span>Benchmark</span><strong>89 Coins</strong></div>
 </div>
 <div class="vb-table-wrap"><table class="vb-table">
-<thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Salary</th><th scope="col">Status</th><th scope="col">Increase</th><th scope="col">Value for Coin</th></tr></thead><tbody>
-<tr><td class="vb-rank">1</td><td class="vb-player">Connor McDavid</td><td>Memphis Riffs</td><td class="vb-salary"><strong>109</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>5.55</td></tr>
-<tr><td class="vb-rank">2</td><td class="vb-player">Leon Draisaitl</td><td>Memphis Riffs</td><td class="vb-salary"><strong>92</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>5.46</td></tr>
-<tr><td class="vb-rank">3</td><td class="vb-player">Kirill Kaprizov</td><td>Amarillo Downburst</td><td class="vb-salary"><strong>74</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+9</strong></td><td>5.99</td></tr>
-<tr><td class="vb-rank">4</td><td class="vb-player">Evan Bouchard</td><td>Memphis Riffs</td><td class="vb-salary"><strong>90</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>4.89</td></tr>
-<tr><td class="vb-rank">5</td><td class="vb-player">Brady Tkachuk</td><td>Roswell Greys</td><td class="vb-salary"><strong>76</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+8</strong></td><td>5.32</td></tr>
-<tr><td class="vb-rank">6</td><td class="vb-player">Auston Matthews</td><td>Amarillo Downburst</td><td class="vb-salary"><strong>100</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>4.03</td></tr>
-<tr><td class="vb-rank">7</td><td class="vb-player">Matthew Tkachuk</td><td>Halifax Privateers</td><td class="vb-salary"><strong>69</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+11</strong></td><td>5.67</td></tr>
-<tr><td class="vb-rank">8</td><td class="vb-player">Cutter Gauthier</td><td>Halifax Privateers</td><td class="vb-salary"><strong>72</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+10</strong></td><td>5.38</td></tr>
-<tr><td class="vb-rank">9</td><td class="vb-player">Quinn Hughes</td><td>Richmond Union</td><td class="vb-salary"><strong>102</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>3.75</td></tr>
-<tr><td class="vb-rank">10</td><td class="vb-player">Macklin Celebrini</td><td>Kelowna Vintners</td><td class="vb-salary"><strong>136</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>2.78</td></tr>
+<thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Fan Points</th><th scope="col">Salary</th><th scope="col">Status</th><th scope="col">Increase</th><th scope="col">Value for Coin</th></tr></thead><tbody>
+<tr><td class="vb-rank">1</td><td class="vb-player">Connor McDavid</td><td>Memphis Riffs</td><td class="vb-fan-points">605</td><td class="vb-salary">109</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>5.55</td></tr>
+<tr><td class="vb-rank">2</td><td class="vb-player">Leon Draisaitl</td><td>Memphis Riffs</td><td class="vb-fan-points">502</td><td class="vb-salary">92</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>5.46</td></tr>
+<tr><td class="vb-rank">3</td><td class="vb-player">Kirill Kaprizov</td><td>Amarillo Downburst</td><td class="vb-fan-points">443</td><td class="vb-salary">74</td><td class="vb-status">💎 Below Market</td><td><strong>+9</strong></td><td>5.99</td></tr>
+<tr><td class="vb-rank">4</td><td class="vb-player">Evan Bouchard</td><td>Memphis Riffs</td><td class="vb-fan-points">440</td><td class="vb-salary">90</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>4.89</td></tr>
+<tr><td class="vb-rank">5</td><td class="vb-player">Brady Tkachuk</td><td>Roswell Greys</td><td class="vb-fan-points">404</td><td class="vb-salary">76</td><td class="vb-status">💎 Below Market</td><td><strong>+8</strong></td><td>5.32</td></tr>
+<tr><td class="vb-rank">6</td><td class="vb-player">Auston Matthews</td><td>Amarillo Downburst</td><td class="vb-fan-points">403</td><td class="vb-salary">100</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>4.03</td></tr>
+<tr><td class="vb-rank">7</td><td class="vb-player">Matthew Tkachuk</td><td>Halifax Privateers</td><td class="vb-fan-points">391</td><td class="vb-salary">69</td><td class="vb-status">💎 Below Market</td><td><strong>+11</strong></td><td>5.67</td></tr>
+<tr><td class="vb-rank">8</td><td class="vb-player">Cutter Gauthier</td><td>Halifax Privateers</td><td class="vb-fan-points">387</td><td class="vb-salary">72</td><td class="vb-status">💎 Below Market</td><td><strong>+10</strong></td><td>5.38</td></tr>
+<tr><td class="vb-rank">9</td><td class="vb-player">Quinn Hughes</td><td>Richmond Union</td><td class="vb-fan-points">383</td><td class="vb-salary">102</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>3.75</td></tr>
+<tr><td class="vb-rank">10</td><td class="vb-player">Macklin Celebrini</td><td>Kelowna Vintners</td><td class="vb-fan-points">378</td><td class="vb-salary">136</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>2.78</td></tr>
 </tbody></table></div></div>
 <div class="vb-group">
 <div class="vb-group-header">
@@ -58,17 +66,17 @@ permalink: /value-board/
 <div class="vb-benchmark"><span>Benchmark</span><strong>70 Coins</strong></div>
 </div>
 <div class="vb-table-wrap"><table class="vb-table">
-<thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Salary</th><th scope="col">Status</th><th scope="col">Increase</th><th scope="col">Value for Coin</th></tr></thead><tbody>
-<tr><td class="vb-rank">11</td><td class="vb-player">David Pastrnak</td><td>Salem Ravens</td><td class="vb-salary"><strong>90</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>4.09</td></tr>
-<tr><td class="vb-rank">12</td><td class="vb-player">Clayton Keller</td><td>Cincinnati Rivermen</td><td class="vb-salary"><strong>69</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+4</strong></td><td>5.20</td></tr>
-<tr><td class="vb-rank">13</td><td class="vb-player">Kyle Connor</td><td>Victoria Cedars</td><td class="vb-salary"><strong>71</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>4.99</td></tr>
-<tr><td class="vb-rank">14</td><td class="vb-player">Tim Stutzle</td><td>Richmond Union</td><td class="vb-salary"><strong>80</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>4.41</td></tr>
-<tr><td class="vb-rank">15</td><td class="vb-player">Roman Josi</td><td>Roswell Greys</td><td class="vb-salary"><strong>39</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+14</strong></td><td>9.03</td></tr>
-<tr><td class="vb-rank">16</td><td class="vb-player">Sebastian Aho</td><td>Charlotte Amalie Corsairs</td><td class="vb-salary"><strong>56</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+9</strong></td><td>6.27</td></tr>
-<tr><td class="vb-rank">17</td><td class="vb-player">Jackson LaCombe</td><td>Quebec City Citadels</td><td class="vb-salary"><strong>65</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+6</strong></td><td>5.40</td></tr>
-<tr><td class="vb-rank">18</td><td class="vb-player">Matt Boldy</td><td>New Orleans Soul</td><td class="vb-salary"><strong>93</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>3.77</td></tr>
-<tr><td class="vb-rank">19</td><td class="vb-player">Mikhail Sergachev</td><td>Houston Signals</td><td class="vb-salary"><strong>44</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+13</strong></td><td>7.95</td></tr>
-<tr><td class="vb-rank">20</td><td class="vb-player">Seth Jones</td><td>Green Bay Alliance</td><td class="vb-salary"><strong>20</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+21</strong></td><td>17.50</td></tr>
+<thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Fan Points</th><th scope="col">Salary</th><th scope="col">Status</th><th scope="col">Increase</th><th scope="col">Value for Coin</th></tr></thead><tbody>
+<tr><td class="vb-rank">11</td><td class="vb-player">David Pastrnak</td><td>Salem Ravens</td><td class="vb-fan-points">368</td><td class="vb-salary">90</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>4.09</td></tr>
+<tr><td class="vb-rank">12</td><td class="vb-player">Clayton Keller</td><td>Cincinnati Rivermen</td><td class="vb-fan-points">359</td><td class="vb-salary">69</td><td class="vb-status">💎 Below Market</td><td>+4</td><td>5.20</td></tr>
+<tr><td class="vb-rank">13</td><td class="vb-player">Kyle Connor</td><td>Victoria Cedars</td><td class="vb-fan-points">354</td><td class="vb-salary">71</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>4.99</td></tr>
+<tr><td class="vb-rank">14</td><td class="vb-player">Tim Stutzle</td><td>Richmond Union</td><td class="vb-fan-points">353</td><td class="vb-salary">80</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>4.41</td></tr>
+<tr><td class="vb-rank">15</td><td class="vb-player">Roman Josi</td><td>Roswell Greys</td><td class="vb-fan-points">352</td><td class="vb-salary">39</td><td class="vb-status">💎 Below Market</td><td><strong>+14</strong></td><td>9.03</td></tr>
+<tr><td class="vb-rank">16</td><td class="vb-player">Sebastian Aho</td><td>Charlotte Amalie Corsairs</td><td class="vb-fan-points">351</td><td class="vb-salary">56</td><td class="vb-status">💎 Below Market</td><td><strong>+9</strong></td><td>6.27</td></tr>
+<tr><td class="vb-rank">17</td><td class="vb-player">Jackson LaCombe</td><td>Quebec City Citadels</td><td class="vb-fan-points">351</td><td class="vb-salary">65</td><td class="vb-status">💎 Below Market</td><td><strong>+6</strong></td><td>5.40</td></tr>
+<tr><td class="vb-rank">18</td><td class="vb-player">Matt Boldy</td><td>New Orleans Soul</td><td class="vb-fan-points">351</td><td class="vb-salary">93</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>3.77</td></tr>
+<tr><td class="vb-rank">19</td><td class="vb-player">Mikhail Sergachev</td><td>Houston Signals</td><td class="vb-fan-points">350</td><td class="vb-salary">44</td><td class="vb-status">💎 Below Market</td><td><strong>+13</strong></td><td>7.95</td></tr>
+<tr><td class="vb-rank">20</td><td class="vb-player">Seth Jones</td><td>Green Bay Alliance</td><td class="vb-fan-points">350</td><td class="vb-salary">20</td><td class="vb-status">💎 Below Market</td><td><strong>+21</strong></td><td>17.50</td></tr>
 </tbody></table></div></div>
 <div class="vb-group">
 <div class="vb-group-header">
@@ -76,17 +84,17 @@ permalink: /value-board/
 <div class="vb-benchmark"><span>Benchmark</span><strong>70 Coins</strong></div>
 </div>
 <div class="vb-table-wrap"><table class="vb-table">
-<thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Salary</th><th scope="col">Status</th><th scope="col">Increase</th><th scope="col">Value for Coin</th></tr></thead><tbody>
-<tr><td class="vb-rank">21</td><td class="vb-player">Nathan MacKinnon</td><td>Amarillo Downburst</td><td class="vb-salary"><strong>109</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>3.19</td></tr>
-<tr><td class="vb-rank">22</td><td class="vb-player">Jack Eichel</td><td>Hartford Arsenal</td><td class="vb-salary"><strong>75</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>4.61</td></tr>
-<tr><td class="vb-rank">23</td><td class="vb-player">Nikita Kucherov</td><td>Omaha Bison</td><td class="vb-salary"><strong>101</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>3.40</td></tr>
-<tr><td class="vb-rank">24</td><td class="vb-player">Jack Hughes</td><td>New Orleans Soul</td><td class="vb-salary"><strong>98</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>3.45</td></tr>
-<tr><td class="vb-rank">25</td><td class="vb-player">Adam Fox</td><td>Amarillo Downburst</td><td class="vb-salary"><strong>48</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+11</strong></td><td>7.02</td></tr>
-<tr><td class="vb-rank">26</td><td class="vb-player">Matthew Schaefer</td><td>Quebec City Citadels</td><td class="vb-salary"><strong>85</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>3.95</td></tr>
-<tr><td class="vb-rank">27</td><td class="vb-player">Elias Pettersson</td><td>Honolulu Guardians</td><td class="vb-salary"><strong>33</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+16</strong></td><td>9.91</td></tr>
-<tr><td class="vb-rank">28</td><td class="vb-player">Leo Carlsson</td><td>Salem Ravens</td><td class="vb-salary"><strong>77</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>4.19</td></tr>
-<tr><td class="vb-rank">29</td><td class="vb-player">Mark Scheifele</td><td>Charlotte Amalie Corsairs</td><td class="vb-salary"><strong>52</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+10</strong></td><td>6.13</td></tr>
-<tr><td class="vb-rank">30</td><td class="vb-player">Mitch Marner</td><td>Kelowna Vintners</td><td class="vb-salary"><strong>73</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>4.37</td></tr>
+<thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Fan Points</th><th scope="col">Salary</th><th scope="col">Status</th><th scope="col">Increase</th><th scope="col">Value for Coin</th></tr></thead><tbody>
+<tr><td class="vb-rank">21</td><td class="vb-player">Nathan MacKinnon</td><td>Amarillo Downburst</td><td class="vb-fan-points">348</td><td class="vb-salary">109</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>3.19</td></tr>
+<tr><td class="vb-rank">22</td><td class="vb-player">Jack Eichel</td><td>Hartford Arsenal</td><td class="vb-fan-points">346</td><td class="vb-salary">75</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>4.61</td></tr>
+<tr><td class="vb-rank">23</td><td class="vb-player">Nikita Kucherov</td><td>Omaha Bison</td><td class="vb-fan-points">343</td><td class="vb-salary">101</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>3.40</td></tr>
+<tr><td class="vb-rank">24</td><td class="vb-player">Jack Hughes</td><td>New Orleans Soul</td><td class="vb-fan-points">338</td><td class="vb-salary">98</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>3.45</td></tr>
+<tr><td class="vb-rank">25</td><td class="vb-player">Adam Fox</td><td>Amarillo Downburst</td><td class="vb-fan-points">337</td><td class="vb-salary">48</td><td class="vb-status">💎 Below Market</td><td><strong>+11</strong></td><td>7.02</td></tr>
+<tr><td class="vb-rank">26</td><td class="vb-player">Matthew Schaefer</td><td>Quebec City Citadels</td><td class="vb-fan-points">336</td><td class="vb-salary">85</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>3.95</td></tr>
+<tr><td class="vb-rank">27</td><td class="vb-player">Elias Pettersson</td><td>Honolulu Guardians</td><td class="vb-fan-points">327</td><td class="vb-salary">33</td><td class="vb-status">💎 Below Market</td><td><strong>+16</strong></td><td>9.91</td></tr>
+<tr><td class="vb-rank">28</td><td class="vb-player">Leo Carlsson</td><td>Salem Ravens</td><td class="vb-fan-points">323</td><td class="vb-salary">77</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>4.19</td></tr>
+<tr><td class="vb-rank">29</td><td class="vb-player">Mark Scheifele</td><td>Charlotte Amalie Corsairs</td><td class="vb-fan-points">319</td><td class="vb-salary">52</td><td class="vb-status">💎 Below Market</td><td><strong>+10</strong></td><td>6.13</td></tr>
+<tr><td class="vb-rank">30</td><td class="vb-player">Mitch Marner</td><td>Kelowna Vintners</td><td class="vb-fan-points">319</td><td class="vb-salary">73</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>4.37</td></tr>
 </tbody></table></div></div>
 <div class="vb-group">
 <div class="vb-group-header">
@@ -94,17 +102,17 @@ permalink: /value-board/
 <div class="vb-benchmark"><span>Benchmark</span><strong>54 Coins</strong></div>
 </div>
 <div class="vb-table-wrap"><table class="vb-table">
-<thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Salary</th><th scope="col">Status</th><th scope="col">Increase</th><th scope="col">Value for Coin</th></tr></thead><tbody>
-<tr><td class="vb-rank">31</td><td class="vb-player">Filip Forsberg</td><td>Salem Ravens</td><td class="vb-salary"><strong>68</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>4.68</td></tr>
-<tr><td class="vb-rank">32</td><td class="vb-player">Tage Thompson</td><td>Halifax Privateers</td><td class="vb-salary"><strong>71</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>4.46</td></tr>
-<tr><td class="vb-rank">33</td><td class="vb-player">Beckett Sennecke</td><td>Cincinnati Rivermen</td><td class="vb-salary"><strong>49</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+6</strong></td><td>6.45</td></tr>
-<tr><td class="vb-rank">34</td><td class="vb-player">Brandon Hagel</td><td>Houston Signals</td><td class="vb-salary"><strong>62</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>5.08</td></tr>
-<tr><td class="vb-rank">35</td><td class="vb-player">Jake Guentzel</td><td>Halifax Privateers</td><td class="vb-salary"><strong>67</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>4.70</td></tr>
-<tr><td class="vb-rank">36</td><td class="vb-player">Sam Reinhart</td><td>Honolulu Guardians</td><td class="vb-salary"><strong>55</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>5.71</td></tr>
-<tr><td class="vb-rank">37</td><td class="vb-player">Mikael Granlund</td><td>Honolulu Guardians</td><td class="vb-salary"><strong>5</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+20</strong></td><td>62.80</td></tr>
-<tr><td class="vb-rank">38</td><td class="vb-player">Mark Stone</td><td>Amarillo Downburst</td><td class="vb-salary"><strong>27</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+13</strong></td><td>11.37</td></tr>
-<tr><td class="vb-rank">39</td><td class="vb-player">Jason Robertson</td><td>Richmond Union</td><td class="vb-salary"><strong>93</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>3.29</td></tr>
-<tr><td class="vb-rank">40</td><td class="vb-player">Bo Horvat</td><td>Hartford Arsenal</td><td class="vb-salary"><strong>29</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+12</strong></td><td>10.52</td></tr>
+<thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Fan Points</th><th scope="col">Salary</th><th scope="col">Status</th><th scope="col">Increase</th><th scope="col">Value for Coin</th></tr></thead><tbody>
+<tr><td class="vb-rank">31</td><td class="vb-player">Filip Forsberg</td><td>Salem Ravens</td><td class="vb-fan-points">318</td><td class="vb-salary">68</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>4.68</td></tr>
+<tr><td class="vb-rank">32</td><td class="vb-player">Tage Thompson</td><td>Halifax Privateers</td><td class="vb-fan-points">317</td><td class="vb-salary">71</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>4.46</td></tr>
+<tr><td class="vb-rank">33</td><td class="vb-player">Beckett Sennecke</td><td>Cincinnati Rivermen</td><td class="vb-fan-points">316</td><td class="vb-salary">49</td><td class="vb-status">💎 Below Market</td><td><strong>+6</strong></td><td>6.45</td></tr>
+<tr><td class="vb-rank">34</td><td class="vb-player">Brandon Hagel</td><td>Houston Signals</td><td class="vb-fan-points">315</td><td class="vb-salary">62</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>5.08</td></tr>
+<tr><td class="vb-rank">35</td><td class="vb-player">Jake Guentzel</td><td>Halifax Privateers</td><td class="vb-fan-points">315</td><td class="vb-salary">67</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>4.70</td></tr>
+<tr><td class="vb-rank">36</td><td class="vb-player">Sam Reinhart</td><td>Honolulu Guardians</td><td class="vb-fan-points">314</td><td class="vb-salary">55</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>5.71</td></tr>
+<tr><td class="vb-rank">37</td><td class="vb-player">Mikael Granlund</td><td>Honolulu Guardians</td><td class="vb-fan-points">314</td><td class="vb-salary">5</td><td class="vb-status">💎 Below Market</td><td><strong>+20</strong></td><td>62.80</td></tr>
+<tr><td class="vb-rank">38</td><td class="vb-player">Mark Stone</td><td>Amarillo Downburst</td><td class="vb-fan-points">307</td><td class="vb-salary">27</td><td class="vb-status">💎 Below Market</td><td><strong>+13</strong></td><td>11.37</td></tr>
+<tr><td class="vb-rank">39</td><td class="vb-player">Jason Robertson</td><td>Richmond Union</td><td class="vb-fan-points">306</td><td class="vb-salary">93</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>3.29</td></tr>
+<tr><td class="vb-rank">40</td><td class="vb-player">Bo Horvat</td><td>Hartford Arsenal</td><td class="vb-fan-points">305</td><td class="vb-salary">29</td><td class="vb-status">💎 Below Market</td><td><strong>+12</strong></td><td>10.52</td></tr>
 </tbody></table></div></div>
 <div class="vb-group">
 <div class="vb-group-header">
@@ -112,17 +120,17 @@ permalink: /value-board/
 <div class="vb-benchmark"><span>Benchmark</span><strong>51 Coins</strong></div>
 </div>
 <div class="vb-table-wrap"><table class="vb-table">
-<thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Salary</th><th scope="col">Status</th><th scope="col">Increase</th><th scope="col">Value for Coin</th></tr></thead><tbody>
-<tr><td class="vb-rank">41</td><td class="vb-player">Lane Hutson</td><td>Omaha Bison</td><td class="vb-salary"><strong>90</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>3.38</td></tr>
-<tr><td class="vb-rank">42</td><td class="vb-player">Moritz Seider</td><td>Victoria Cedars</td><td class="vb-salary"><strong>80</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>3.76</td></tr>
-<tr><td class="vb-rank">43</td><td class="vb-player">Joel Eriksson Ek</td><td>Quebec City Citadels</td><td class="vb-salary"><strong>25</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+13</strong></td><td>12.04</td></tr>
-<tr><td class="vb-rank">44</td><td class="vb-player">Vasily Podkolzin</td><td>Memphis Riffs</td><td class="vb-salary"><strong>20</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+14</strong></td><td>15.00</td></tr>
-<tr><td class="vb-rank">45</td><td class="vb-player">Andrei Svechnikov</td><td>Charlotte Amalie Corsairs</td><td class="vb-salary"><strong>42</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+7</strong></td><td>7.14</td></tr>
-<tr><td class="vb-rank">46</td><td class="vb-player">Logan Cooley</td><td>New Orleans Soul</td><td class="vb-salary"><strong>52</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>5.71</td></tr>
-<tr><td class="vb-rank">47</td><td class="vb-player">Steven Stamkos</td><td>Salem Ravens</td><td class="vb-salary"><strong>31</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+11</strong></td><td>9.48</td></tr>
-<tr><td class="vb-rank">48</td><td class="vb-player">Brock Boeser</td><td>Roswell Greys</td><td class="vb-salary"><strong>11</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+17</strong></td><td>26.64</td></tr>
-<tr><td class="vb-rank">49</td><td class="vb-player">Mikko Rantanen</td><td>Green Bay Alliance</td><td class="vb-salary"><strong>71</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>4.13</td></tr>
-<tr><td class="vb-rank">50</td><td class="vb-player">Cale Makar</td><td>Key West Rumrunners</td><td class="vb-salary"><strong>106</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>2.76</td></tr>
+<thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Fan Points</th><th scope="col">Salary</th><th scope="col">Status</th><th scope="col">Increase</th><th scope="col">Value for Coin</th></tr></thead><tbody>
+<tr><td class="vb-rank">41</td><td class="vb-player">Lane Hutson</td><td>Omaha Bison</td><td class="vb-fan-points">304</td><td class="vb-salary">90</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>3.38</td></tr>
+<tr><td class="vb-rank">42</td><td class="vb-player">Moritz Seider</td><td>Victoria Cedars</td><td class="vb-fan-points">301</td><td class="vb-salary">80</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>3.76</td></tr>
+<tr><td class="vb-rank">43</td><td class="vb-player">Joel Eriksson Ek</td><td>Quebec City Citadels</td><td class="vb-fan-points">301</td><td class="vb-salary">25</td><td class="vb-status">💎 Below Market</td><td><strong>+13</strong></td><td>12.04</td></tr>
+<tr><td class="vb-rank">44</td><td class="vb-player">Vasily Podkolzin</td><td>Memphis Riffs</td><td class="vb-fan-points">300</td><td class="vb-salary">20</td><td class="vb-status">💎 Below Market</td><td><strong>+14</strong></td><td>15.00</td></tr>
+<tr><td class="vb-rank">45</td><td class="vb-player">Andrei Svechnikov</td><td>Charlotte Amalie Corsairs</td><td class="vb-fan-points">300</td><td class="vb-salary">42</td><td class="vb-status">💎 Below Market</td><td><strong>+7</strong></td><td>7.14</td></tr>
+<tr><td class="vb-rank">46</td><td class="vb-player">Logan Cooley</td><td>New Orleans Soul</td><td class="vb-fan-points">297</td><td class="vb-salary">52</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>5.71</td></tr>
+<tr><td class="vb-rank">47</td><td class="vb-player">Steven Stamkos</td><td>Salem Ravens</td><td class="vb-fan-points">294</td><td class="vb-salary">31</td><td class="vb-status">💎 Below Market</td><td><strong>+11</strong></td><td>9.48</td></tr>
+<tr><td class="vb-rank">48</td><td class="vb-player">Brock Boeser</td><td>Roswell Greys</td><td class="vb-fan-points">293</td><td class="vb-salary">11</td><td class="vb-status">💎 Below Market</td><td><strong>+17</strong></td><td>26.64</td></tr>
+<tr><td class="vb-rank">49</td><td class="vb-player">Mikko Rantanen</td><td>Green Bay Alliance</td><td class="vb-fan-points">293</td><td class="vb-salary">71</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>4.13</td></tr>
+<tr><td class="vb-rank">50</td><td class="vb-player">Cale Makar</td><td>Key West Rumrunners</td><td class="vb-fan-points">293</td><td class="vb-salary">106</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>2.76</td></tr>
 </tbody></table></div></div>
 <div class="vb-group">
 <div class="vb-group-header">
@@ -130,17 +138,17 @@ permalink: /value-board/
 <div class="vb-benchmark"><span>Benchmark</span><strong>40 Coins</strong></div>
 </div>
 <div class="vb-table-wrap"><table class="vb-table">
-<thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Salary</th><th scope="col">Status</th><th scope="col">Increase</th><th scope="col">Value for Coin</th></tr></thead><tbody>
-<tr><td class="vb-rank">51</td><td class="vb-player">Zach Werenski</td><td>Key West Rumrunners</td><td class="vb-salary"><strong>87</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>3.30</td></tr>
-<tr><td class="vb-rank">52</td><td class="vb-player">Joel Farabee</td><td>Halifax Privateers</td><td class="vb-salary"><strong>2</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+17</strong></td><td>—</td></tr>
-<tr><td class="vb-rank">53</td><td class="vb-player">Tomas Hertl</td><td>Hartford Arsenal</td><td class="vb-salary"><strong>23</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+10</strong></td><td>12.48</td></tr>
-<tr><td class="vb-rank">54</td><td class="vb-player">Martin Necas</td><td>Roswell Greys</td><td class="vb-salary"><strong>80</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>3.56</td></tr>
-<tr><td class="vb-rank">55</td><td class="vb-player">Artturi Lehkonen</td><td>Charlotte Amalie Corsairs</td><td class="vb-salary"><strong>9</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+14</strong></td><td>31.44</td></tr>
-<tr><td class="vb-rank">56</td><td class="vb-player">Mika Zibanejad</td><td>Saskatoon Prairie Drifters</td><td class="vb-salary"><strong>61</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>4.62</td></tr>
-<tr><td class="vb-rank">57</td><td class="vb-player">Lucas Raymond</td><td>Hartford Arsenal</td><td class="vb-salary"><strong>52</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>5.40</td></tr>
-<tr><td class="vb-rank">58</td><td class="vb-player">MacKenzie Weegar</td><td>Key West Rumrunners</td><td class="vb-salary"><strong>45</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>6.24</td></tr>
-<tr><td class="vb-rank">59</td><td class="vb-player">Alexis Lafreniere</td><td>Houston Signals</td><td class="vb-salary"><strong>21</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+10</strong></td><td>13.33</td></tr>
-<tr><td class="vb-rank">60</td><td class="vb-player">Ryan O&#x27;Reilly</td><td>Hartford Arsenal</td><td class="vb-salary"><strong>26</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+9</strong></td><td>10.77</td></tr>
+<thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Fan Points</th><th scope="col">Salary</th><th scope="col">Status</th><th scope="col">Increase</th><th scope="col">Value for Coin</th></tr></thead><tbody>
+<tr><td class="vb-rank">51</td><td class="vb-player">Zach Werenski</td><td>Key West Rumrunners</td><td class="vb-fan-points">287</td><td class="vb-salary">87</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>3.30</td></tr>
+<tr><td class="vb-rank">52</td><td class="vb-player">Joel Farabee</td><td>Halifax Privateers</td><td class="vb-fan-points">287</td><td class="vb-salary">2</td><td class="vb-status">💎 Below Market</td><td><strong>+17</strong></td><td>—</td></tr>
+<tr><td class="vb-rank">53</td><td class="vb-player">Tomas Hertl</td><td>Hartford Arsenal</td><td class="vb-fan-points">287</td><td class="vb-salary">23</td><td class="vb-status">💎 Below Market</td><td><strong>+10</strong></td><td>12.48</td></tr>
+<tr><td class="vb-rank">54</td><td class="vb-player">Martin Necas</td><td>Roswell Greys</td><td class="vb-fan-points">285</td><td class="vb-salary">80</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>3.56</td></tr>
+<tr><td class="vb-rank">55</td><td class="vb-player">Artturi Lehkonen</td><td>Charlotte Amalie Corsairs</td><td class="vb-fan-points">283</td><td class="vb-salary">9</td><td class="vb-status">💎 Below Market</td><td><strong>+14</strong></td><td>31.44</td></tr>
+<tr><td class="vb-rank">56</td><td class="vb-player">Mika Zibanejad</td><td>Saskatoon Prairie Drifters</td><td class="vb-fan-points">282</td><td class="vb-salary">61</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>4.62</td></tr>
+<tr><td class="vb-rank">57</td><td class="vb-player">Lucas Raymond</td><td>Hartford Arsenal</td><td class="vb-fan-points">281</td><td class="vb-salary">52</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>5.40</td></tr>
+<tr><td class="vb-rank">58</td><td class="vb-player">MacKenzie Weegar</td><td>Key West Rumrunners</td><td class="vb-fan-points">281</td><td class="vb-salary">45</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>6.24</td></tr>
+<tr><td class="vb-rank">59</td><td class="vb-player">Alexis Lafreniere</td><td>Houston Signals</td><td class="vb-fan-points">280</td><td class="vb-salary">21</td><td class="vb-status">💎 Below Market</td><td><strong>+10</strong></td><td>13.33</td></tr>
+<tr><td class="vb-rank">60</td><td class="vb-player">Ryan O'Reilly</td><td>Hartford Arsenal</td><td class="vb-fan-points">280</td><td class="vb-salary">26</td><td class="vb-status">💎 Below Market</td><td><strong>+9</strong></td><td>10.77</td></tr>
 </tbody></table></div></div>
 <div class="vb-group">
 <div class="vb-group-header">
@@ -148,17 +156,17 @@ permalink: /value-board/
 <div class="vb-benchmark"><span>Benchmark</span><strong>31 Coins</strong></div>
 </div>
 <div class="vb-table-wrap"><table class="vb-table">
-<thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Salary</th><th scope="col">Status</th><th scope="col">Increase</th><th scope="col">Value for Coin</th></tr></thead><tbody>
-<tr><td class="vb-rank">61</td><td class="vb-player">Cole Perfetti</td><td>Green Bay Alliance</td><td class="vb-salary"><strong>6</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+12</strong></td><td>46.50</td></tr>
-<tr><td class="vb-rank">62</td><td class="vb-player">William Nylander</td><td>Hartford Arsenal</td><td class="vb-salary"><strong>59</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>4.69</td></tr>
-<tr><td class="vb-rank">63</td><td class="vb-player">Drake Batherson</td><td>Roswell Greys</td><td class="vb-salary"><strong>46</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>6.00</td></tr>
-<tr><td class="vb-rank">64</td><td class="vb-player">Filip Hronek</td><td>Saskatoon Prairie Drifters</td><td class="vb-salary"><strong>28</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+5</strong></td><td>9.75</td></tr>
-<tr><td class="vb-rank">65</td><td class="vb-player">Thomas Harley</td><td>Cincinnati Rivermen</td><td class="vb-salary"><strong>34</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>8.00</td></tr>
-<tr><td class="vb-rank">66</td><td class="vb-player">John Carlson</td><td>Green Bay Alliance</td><td class="vb-salary"><strong>31</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>8.74</td></tr>
-<tr><td class="vb-rank">67</td><td class="vb-player">Jesper Bratt</td><td>Saskatoon Prairie Drifters</td><td class="vb-salary"><strong>40</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>6.72</td></tr>
-<tr><td class="vb-rank">68</td><td class="vb-player">Logan Stankoven</td><td>Key West Rumrunners</td><td class="vb-salary"><strong>23</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+7</strong></td><td>11.57</td></tr>
-<tr><td class="vb-rank">69</td><td class="vb-player">Neal Pionk</td><td>Charlotte Amalie Corsairs</td><td class="vb-salary"><strong>5</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+13</strong></td><td>52.60</td></tr>
-<tr><td class="vb-rank">70</td><td class="vb-player">Jack Roslovic</td><td>Omaha Bison</td><td class="vb-salary"><strong>12</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+10</strong></td><td>21.83</td></tr>
+<thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Fan Points</th><th scope="col">Salary</th><th scope="col">Status</th><th scope="col">Increase</th><th scope="col">Value for Coin</th></tr></thead><tbody>
+<tr><td class="vb-rank">61</td><td class="vb-player">Cole Perfetti</td><td>Green Bay Alliance</td><td class="vb-fan-points">279</td><td class="vb-salary">6</td><td class="vb-status">💎 Below Market</td><td><strong>+12</strong></td><td>46.50</td></tr>
+<tr><td class="vb-rank">62</td><td class="vb-player">William Nylander</td><td>Hartford Arsenal</td><td class="vb-fan-points">277</td><td class="vb-salary">59</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>4.69</td></tr>
+<tr><td class="vb-rank">63</td><td class="vb-player">Drake Batherson</td><td>Roswell Greys</td><td class="vb-fan-points">276</td><td class="vb-salary">46</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>6.00</td></tr>
+<tr><td class="vb-rank">64</td><td class="vb-player">Filip Hronek</td><td>Saskatoon Prairie Drifters</td><td class="vb-fan-points">273</td><td class="vb-salary">28</td><td class="vb-status">💎 Below Market</td><td><strong>+5</strong></td><td>9.75</td></tr>
+<tr><td class="vb-rank">65</td><td class="vb-player">Thomas Harley</td><td>Cincinnati Rivermen</td><td class="vb-fan-points">272</td><td class="vb-salary">34</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>8.00</td></tr>
+<tr><td class="vb-rank">66</td><td class="vb-player">John Carlson</td><td>Green Bay Alliance</td><td class="vb-fan-points">271</td><td class="vb-salary">31</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>8.74</td></tr>
+<tr><td class="vb-rank">67</td><td class="vb-player">Jesper Bratt</td><td>Saskatoon Prairie Drifters</td><td class="vb-fan-points">269</td><td class="vb-salary">40</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>6.72</td></tr>
+<tr><td class="vb-rank">68</td><td class="vb-player">Logan Stankoven</td><td>Key West Rumrunners</td><td class="vb-fan-points">266</td><td class="vb-salary">23</td><td class="vb-status">💎 Below Market</td><td><strong>+7</strong></td><td>11.57</td></tr>
+<tr><td class="vb-rank">69</td><td class="vb-player">Neal Pionk</td><td>Charlotte Amalie Corsairs</td><td class="vb-fan-points">263</td><td class="vb-salary">5</td><td class="vb-status">💎 Below Market</td><td><strong>+13</strong></td><td>52.60</td></tr>
+<tr><td class="vb-rank">70</td><td class="vb-player">Jack Roslovic</td><td>Omaha Bison</td><td class="vb-fan-points">262</td><td class="vb-salary">12</td><td class="vb-status">💎 Below Market</td><td><strong>+10</strong></td><td>21.83</td></tr>
 </tbody></table></div></div>
 <div class="vb-group">
 <div class="vb-group-header">
@@ -166,17 +174,17 @@ permalink: /value-board/
 <div class="vb-benchmark"><span>Benchmark</span><strong>31 Coins</strong></div>
 </div>
 <div class="vb-table-wrap"><table class="vb-table">
-<thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Salary</th><th scope="col">Status</th><th scope="col">Increase</th><th scope="col">Value for Coin</th></tr></thead><tbody>
-<tr><td class="vb-rank">71</td><td class="vb-player">Carter Verhaeghe</td><td>Kelowna Vintners</td><td class="vb-salary"><strong>14</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+10</strong></td><td>18.71</td></tr>
-<tr><td class="vb-rank">72</td><td class="vb-player">Shane Pinto</td><td>Houston Signals</td><td class="vb-salary"><strong>13</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+10</strong></td><td>20.08</td></tr>
-<tr><td class="vb-rank">73</td><td class="vb-player">Wyatt Johnston</td><td>Salem Ravens</td><td class="vb-salary"><strong>95</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>2.75</td></tr>
-<tr><td class="vb-rank">74</td><td class="vb-player">Nick Schmaltz</td><td>Cincinnati Rivermen</td><td class="vb-salary"><strong>34</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>7.65</td></tr>
-<tr><td class="vb-rank">75</td><td class="vb-player">Alex DeBrincat</td><td>Saskatoon Prairie Drifters</td><td class="vb-salary"><strong>56</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>4.61</td></tr>
-<tr><td class="vb-rank">76</td><td class="vb-player">Jackson Blake</td><td>Cleveland Forge</td><td class="vb-salary"><strong>20</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+8</strong></td><td>12.85</td></tr>
-<tr><td class="vb-rank">77</td><td class="vb-player">Jakob Chychrun</td><td>New Orleans Soul</td><td class="vb-salary"><strong>47</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>5.47</td></tr>
-<tr><td class="vb-rank">78</td><td class="vb-player">Jack Quinn</td><td>Quebec City Citadels</td><td class="vb-salary"><strong>20</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+8</strong></td><td>12.85</td></tr>
-<tr><td class="vb-rank">79</td><td class="vb-player">Alex Laferriere</td><td>Honolulu Guardians</td><td class="vb-salary"><strong>34</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>7.56</td></tr>
-<tr><td class="vb-rank">80</td><td class="vb-player">Roope Hintz</td><td>Houston Signals</td><td class="vb-salary"><strong>27</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+5</strong></td><td>9.48</td></tr>
+<thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Fan Points</th><th scope="col">Salary</th><th scope="col">Status</th><th scope="col">Increase</th><th scope="col">Value for Coin</th></tr></thead><tbody>
+<tr><td class="vb-rank">71</td><td class="vb-player">Carter Verhaeghe</td><td>Kelowna Vintners</td><td class="vb-fan-points">262</td><td class="vb-salary">14</td><td class="vb-status">💎 Below Market</td><td><strong>+10</strong></td><td>18.71</td></tr>
+<tr><td class="vb-rank">72</td><td class="vb-player">Shane Pinto</td><td>Houston Signals</td><td class="vb-fan-points">261</td><td class="vb-salary">13</td><td class="vb-status">💎 Below Market</td><td><strong>+10</strong></td><td>20.08</td></tr>
+<tr><td class="vb-rank">73</td><td class="vb-player">Wyatt Johnston</td><td>Salem Ravens</td><td class="vb-fan-points">261</td><td class="vb-salary">95</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>2.75</td></tr>
+<tr><td class="vb-rank">74</td><td class="vb-player">Nick Schmaltz</td><td>Cincinnati Rivermen</td><td class="vb-fan-points">260</td><td class="vb-salary">34</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>7.65</td></tr>
+<tr><td class="vb-rank">75</td><td class="vb-player">Alex DeBrincat</td><td>Saskatoon Prairie Drifters</td><td class="vb-fan-points">258</td><td class="vb-salary">56</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>4.61</td></tr>
+<tr><td class="vb-rank">76</td><td class="vb-player">Jackson Blake</td><td>Cleveland Forge</td><td class="vb-fan-points">257</td><td class="vb-salary">20</td><td class="vb-status">💎 Below Market</td><td><strong>+8</strong></td><td>12.85</td></tr>
+<tr><td class="vb-rank">77</td><td class="vb-player">Jakob Chychrun</td><td>New Orleans Soul</td><td class="vb-fan-points">257</td><td class="vb-salary">47</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>5.47</td></tr>
+<tr><td class="vb-rank">78</td><td class="vb-player">Jack Quinn</td><td>Quebec City Citadels</td><td class="vb-fan-points">257</td><td class="vb-salary">20</td><td class="vb-status">💎 Below Market</td><td><strong>+8</strong></td><td>12.85</td></tr>
+<tr><td class="vb-rank">79</td><td class="vb-player">Alex Laferriere</td><td>Honolulu Guardians</td><td class="vb-fan-points">257</td><td class="vb-salary">34</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>7.56</td></tr>
+<tr><td class="vb-rank">80</td><td class="vb-player">Roope Hintz</td><td>Houston Signals</td><td class="vb-fan-points">256</td><td class="vb-salary">27</td><td class="vb-status">💎 Below Market</td><td><strong>+5</strong></td><td>9.48</td></tr>
 </tbody></table></div></div>
 <div class="vb-group">
 <div class="vb-group-header">
@@ -184,17 +192,17 @@ permalink: /value-board/
 <div class="vb-benchmark"><span>Benchmark</span><strong>31 Coins</strong></div>
 </div>
 <div class="vb-table-wrap"><table class="vb-table">
-<thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Salary</th><th scope="col">Status</th><th scope="col">Increase</th><th scope="col">Value for Coin</th></tr></thead><tbody>
-<tr><td class="vb-rank">81</td><td class="vb-player">Cole Caufield</td><td>Kelowna Vintners</td><td class="vb-salary"><strong>90</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>2.82</td></tr>
-<tr><td class="vb-rank">82</td><td class="vb-player">Devon Toews</td><td>Memphis Riffs</td><td class="vb-salary"><strong>6</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+12</strong></td><td>42.17</td></tr>
-<tr><td class="vb-rank">83</td><td class="vb-player">Dylan Holloway</td><td>Green Bay Alliance</td><td class="vb-salary"><strong>38</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>6.63</td></tr>
-<tr><td class="vb-rank">84</td><td class="vb-player">Martin Pospisil</td><td>Richmond Union</td><td class="vb-salary"><strong>0</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+14</strong></td><td>—</td></tr>
-<tr><td class="vb-rank">85</td><td class="vb-player">Will Smith</td><td>Halifax Privateers</td><td class="vb-salary"><strong>50</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>5.00</td></tr>
-<tr><td class="vb-rank">86</td><td class="vb-player">Will Cuylle</td><td>Honolulu Guardians</td><td class="vb-salary"><strong>29</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+5</strong></td><td>8.62</td></tr>
-<tr><td class="vb-rank">87</td><td class="vb-player">Jacob Trouba</td><td>Honolulu Guardians</td><td class="vb-salary"><strong>27</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+5</strong></td><td>9.19</td></tr>
-<tr><td class="vb-rank">88</td><td class="vb-player">Brandt Clarke</td><td>Roswell Greys</td><td class="vb-salary"><strong>50</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>4.96</td></tr>
-<tr><td class="vb-rank">89</td><td class="vb-player">Darren Raddysh</td><td>Kelowna Vintners</td><td class="vb-salary"><strong>46</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>5.37</td></tr>
-<tr><td class="vb-rank">90</td><td class="vb-player">Sean Walker</td><td>Victoria Cedars</td><td class="vb-salary"><strong>18</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+8</strong></td><td>13.72</td></tr>
+<thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Fan Points</th><th scope="col">Salary</th><th scope="col">Status</th><th scope="col">Increase</th><th scope="col">Value for Coin</th></tr></thead><tbody>
+<tr><td class="vb-rank">81</td><td class="vb-player">Cole Caufield</td><td>Kelowna Vintners</td><td class="vb-fan-points">254</td><td class="vb-salary">90</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>2.82</td></tr>
+<tr><td class="vb-rank">82</td><td class="vb-player">Devon Toews</td><td>Memphis Riffs</td><td class="vb-fan-points">253</td><td class="vb-salary">6</td><td class="vb-status">💎 Below Market</td><td><strong>+12</strong></td><td>42.17</td></tr>
+<tr><td class="vb-rank">83</td><td class="vb-player">Dylan Holloway</td><td>Green Bay Alliance</td><td class="vb-fan-points">252</td><td class="vb-salary">38</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>6.63</td></tr>
+<tr><td class="vb-rank">84</td><td class="vb-player">Martin Pospisil</td><td>Richmond Union</td><td class="vb-fan-points">251</td><td class="vb-salary">0</td><td class="vb-status">💎 Below Market</td><td><strong>+14</strong></td><td>—</td></tr>
+<tr><td class="vb-rank">85</td><td class="vb-player">Will Smith</td><td>Halifax Privateers</td><td class="vb-fan-points">250</td><td class="vb-salary">50</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>5.00</td></tr>
+<tr><td class="vb-rank">86</td><td class="vb-player">Will Cuylle</td><td>Honolulu Guardians</td><td class="vb-fan-points">250</td><td class="vb-salary">29</td><td class="vb-status">💎 Below Market</td><td><strong>+5</strong></td><td>8.62</td></tr>
+<tr><td class="vb-rank">87</td><td class="vb-player">Jacob Trouba</td><td>Honolulu Guardians</td><td class="vb-fan-points">248</td><td class="vb-salary">27</td><td class="vb-status">💎 Below Market</td><td><strong>+5</strong></td><td>9.19</td></tr>
+<tr><td class="vb-rank">88</td><td class="vb-player">Brandt Clarke</td><td>Roswell Greys</td><td class="vb-fan-points">248</td><td class="vb-salary">50</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>4.96</td></tr>
+<tr><td class="vb-rank">89</td><td class="vb-player">Darren Raddysh</td><td>Kelowna Vintners</td><td class="vb-fan-points">247</td><td class="vb-salary">46</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>5.37</td></tr>
+<tr><td class="vb-rank">90</td><td class="vb-player">Sean Walker</td><td>Victoria Cedars</td><td class="vb-fan-points">247</td><td class="vb-salary">18</td><td class="vb-status">💎 Below Market</td><td><strong>+8</strong></td><td>13.72</td></tr>
 </tbody></table></div></div>
 <div class="vb-group">
 <div class="vb-group-header">
@@ -202,17 +210,17 @@ permalink: /value-board/
 <div class="vb-benchmark"><span>Benchmark</span><strong>21 Coins</strong></div>
 </div>
 <div class="vb-table-wrap"><table class="vb-table">
-<thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Salary</th><th scope="col">Status</th><th scope="col">Increase</th><th scope="col">Value for Coin</th></tr></thead><tbody>
-<tr><td class="vb-rank">91</td><td class="vb-player">Vincent Trocheck</td><td>Honolulu Guardians</td><td class="vb-salary"><strong>33</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>7.48</td></tr>
-<tr><td class="vb-rank">92</td><td class="vb-player">Michael Brandsegg-Nygård</td><td>Cleveland Forge</td><td class="vb-salary"><strong>1</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+11</strong></td><td>—</td></tr>
-<tr><td class="vb-rank">93</td><td class="vb-player">Nikolaj Ehlers</td><td>Saskatoon Prairie Drifters</td><td class="vb-salary"><strong>35</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>6.91</td></tr>
-<tr><td class="vb-rank">94</td><td class="vb-player">Kiefer Sherwood</td><td>Key West Rumrunners</td><td class="vb-salary"><strong>24</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>10.08</td></tr>
-<tr><td class="vb-rank">95</td><td class="vb-player">Easton Cowan</td><td>Kelowna Vintners</td><td class="vb-salary"><strong>6</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+9</strong></td><td>40.00</td></tr>
-<tr><td class="vb-rank">96</td><td class="vb-player">Travis Sanheim</td><td>Quebec City Citadels</td><td class="vb-salary"><strong>13</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+7</strong></td><td>18.46</td></tr>
-<tr><td class="vb-rank">97</td><td class="vb-player">Timo Meier</td><td>Amarillo Downburst</td><td class="vb-salary"><strong>42</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>5.69</td></tr>
-<tr><td class="vb-rank">98</td><td class="vb-player">Charle-Edouard D&#x27;Astous</td><td>Richmond Union</td><td class="vb-salary"><strong>0</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+11</strong></td><td>—</td></tr>
-<tr><td class="vb-rank">99</td><td class="vb-player">Arseny Gritsyuk</td><td>Memphis Riffs</td><td class="vb-salary"><strong>0</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+11</strong></td><td>—</td></tr>
-<tr><td class="vb-rank">100</td><td class="vb-player">Nazem Kadri</td><td>Green Bay Alliance</td><td class="vb-salary"><strong>13</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+7</strong></td><td>18.08</td></tr>
+<thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Fan Points</th><th scope="col">Salary</th><th scope="col">Status</th><th scope="col">Increase</th><th scope="col">Value for Coin</th></tr></thead><tbody>
+<tr><td class="vb-rank">91</td><td class="vb-player">Vincent Trocheck</td><td>Honolulu Guardians</td><td class="vb-fan-points">247</td><td class="vb-salary">33</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>7.48</td></tr>
+<tr><td class="vb-rank">92</td><td class="vb-player">Michael Brandsegg-Nygård</td><td>Cleveland Forge</td><td class="vb-fan-points">243</td><td class="vb-salary">1</td><td class="vb-status">💎 Below Market</td><td><strong>+11</strong></td><td>—</td></tr>
+<tr><td class="vb-rank">93</td><td class="vb-player">Nikolaj Ehlers</td><td>Saskatoon Prairie Drifters</td><td class="vb-fan-points">242</td><td class="vb-salary">35</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>6.91</td></tr>
+<tr><td class="vb-rank">94</td><td class="vb-player">Kiefer Sherwood</td><td>Key West Rumrunners</td><td class="vb-fan-points">242</td><td class="vb-salary">24</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>10.08</td></tr>
+<tr><td class="vb-rank">95</td><td class="vb-player">Easton Cowan</td><td>Kelowna Vintners</td><td class="vb-fan-points">240</td><td class="vb-salary">6</td><td class="vb-status">💎 Below Market</td><td><strong>+9</strong></td><td>40.00</td></tr>
+<tr><td class="vb-rank">96</td><td class="vb-player">Travis Sanheim</td><td>Quebec City Citadels</td><td class="vb-fan-points">240</td><td class="vb-salary">13</td><td class="vb-status">💎 Below Market</td><td><strong>+7</strong></td><td>18.46</td></tr>
+<tr><td class="vb-rank">97</td><td class="vb-player">Timo Meier</td><td>Amarillo Downburst</td><td class="vb-fan-points">239</td><td class="vb-salary">42</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>5.69</td></tr>
+<tr><td class="vb-rank">98</td><td class="vb-player">Charle-Edouard D'Astous</td><td>Richmond Union</td><td class="vb-fan-points">239</td><td class="vb-salary">0</td><td class="vb-status">💎 Below Market</td><td><strong>+11</strong></td><td>—</td></tr>
+<tr><td class="vb-rank">99</td><td class="vb-player">Arseny Gritsyuk</td><td>Memphis Riffs</td><td class="vb-fan-points">238</td><td class="vb-salary">0</td><td class="vb-status">💎 Below Market</td><td><strong>+11</strong></td><td>—</td></tr>
+<tr><td class="vb-rank">100</td><td class="vb-player">Nazem Kadri</td><td>Green Bay Alliance</td><td class="vb-fan-points">235</td><td class="vb-salary">13</td><td class="vb-status">💎 Below Market</td><td><strong>+7</strong></td><td>18.08</td></tr>
 </tbody></table></div></div>
 <div class="vb-group">
 <div class="vb-group-header">
@@ -220,17 +228,17 @@ permalink: /value-board/
 <div class="vb-benchmark"><span>Benchmark</span><strong>21 Coins</strong></div>
 </div>
 <div class="vb-table-wrap"><table class="vb-table">
-<thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Salary</th><th scope="col">Status</th><th scope="col">Increase</th><th scope="col">Value for Coin</th></tr></thead><tbody>
-<tr><td class="vb-rank">101</td><td class="vb-player">Zach Benson</td><td>Omaha Bison</td><td class="vb-salary"><strong>12</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+7</strong></td><td>19.58</td></tr>
-<tr><td class="vb-rank">102</td><td class="vb-player">Nick Suzuki</td><td>Richmond Union</td><td class="vb-salary"><strong>97</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>2.42</td></tr>
-<tr><td class="vb-rank">103</td><td class="vb-player">Erik Karlsson</td><td>Amarillo Downburst</td><td class="vb-salary"><strong>27</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>8.67</td></tr>
-<tr><td class="vb-rank">104</td><td class="vb-player">Artemi Panarin</td><td>Charlotte Amalie Corsairs</td><td class="vb-salary"><strong>53</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>4.42</td></tr>
-<tr><td class="vb-rank">105</td><td class="vb-player">Kent Johnson</td><td>Kelowna Vintners</td><td class="vb-salary"><strong>3</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+10</strong></td><td>77.67</td></tr>
-<tr><td class="vb-rank">106</td><td class="vb-player">Jonathan Lekkerimäki</td><td>Cincinnati Rivermen</td><td class="vb-salary"><strong>0</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+11</strong></td><td>—</td></tr>
-<tr><td class="vb-rank">107</td><td class="vb-player">Brayden Schenn</td><td>Victoria Cedars</td><td class="vb-salary"><strong>15</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+6</strong></td><td>15.53</td></tr>
-<tr><td class="vb-rank">108</td><td class="vb-player">Mattias Samuelsson</td><td>Honolulu Guardians</td><td class="vb-salary"><strong>25</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>9.32</td></tr>
-<tr><td class="vb-rank">109</td><td class="vb-player">Dmitry Orlov</td><td>Halifax Privateers</td><td class="vb-salary"><strong>6</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+9</strong></td><td>38.67</td></tr>
-<tr><td class="vb-rank">110</td><td class="vb-player">J.T. Miller</td><td>Quebec City Citadels</td><td class="vb-salary"><strong>35</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>6.60</td></tr>
+<thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Fan Points</th><th scope="col">Salary</th><th scope="col">Status</th><th scope="col">Increase</th><th scope="col">Value for Coin</th></tr></thead><tbody>
+<tr><td class="vb-rank">101</td><td class="vb-player">Zach Benson</td><td>Omaha Bison</td><td class="vb-fan-points">235</td><td class="vb-salary">12</td><td class="vb-status">💎 Below Market</td><td><strong>+7</strong></td><td>19.58</td></tr>
+<tr><td class="vb-rank">102</td><td class="vb-player">Nick Suzuki</td><td>Richmond Union</td><td class="vb-fan-points">235</td><td class="vb-salary">97</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>2.42</td></tr>
+<tr><td class="vb-rank">103</td><td class="vb-player">Erik Karlsson</td><td>Amarillo Downburst</td><td class="vb-fan-points">234</td><td class="vb-salary">27</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>8.67</td></tr>
+<tr><td class="vb-rank">104</td><td class="vb-player">Artemi Panarin</td><td>Charlotte Amalie Corsairs</td><td class="vb-fan-points">234</td><td class="vb-salary">53</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>4.42</td></tr>
+<tr><td class="vb-rank">105</td><td class="vb-player">Kent Johnson</td><td>Kelowna Vintners</td><td class="vb-fan-points">233</td><td class="vb-salary">3</td><td class="vb-status">💎 Below Market</td><td><strong>+10</strong></td><td>77.67</td></tr>
+<tr><td class="vb-rank">106</td><td class="vb-player">Jonathan Lekkerimäki</td><td>Cincinnati Rivermen</td><td class="vb-fan-points">233</td><td class="vb-salary">0</td><td class="vb-status">💎 Below Market</td><td><strong>+11</strong></td><td>—</td></tr>
+<tr><td class="vb-rank">107</td><td class="vb-player">Brayden Schenn</td><td>Victoria Cedars</td><td class="vb-fan-points">233</td><td class="vb-salary">15</td><td class="vb-status">💎 Below Market</td><td><strong>+6</strong></td><td>15.53</td></tr>
+<tr><td class="vb-rank">108</td><td class="vb-player">Mattias Samuelsson</td><td>Honolulu Guardians</td><td class="vb-fan-points">233</td><td class="vb-salary">25</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>9.32</td></tr>
+<tr><td class="vb-rank">109</td><td class="vb-player">Dmitry Orlov</td><td>Halifax Privateers</td><td class="vb-fan-points">232</td><td class="vb-salary">6</td><td class="vb-status">💎 Below Market</td><td><strong>+9</strong></td><td>38.67</td></tr>
+<tr><td class="vb-rank">110</td><td class="vb-player">J.T. Miller</td><td>Quebec City Citadels</td><td class="vb-fan-points">231</td><td class="vb-salary">35</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>6.60</td></tr>
 </tbody></table></div></div>
 <div class="vb-group">
 <div class="vb-group-header">
@@ -238,17 +246,17 @@ permalink: /value-board/
 <div class="vb-benchmark"><span>Benchmark</span><strong>21 Coins</strong></div>
 </div>
 <div class="vb-table-wrap"><table class="vb-table">
-<thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Salary</th><th scope="col">Status</th><th scope="col">Increase</th><th scope="col">Value for Coin</th></tr></thead><tbody>
-<tr><td class="vb-rank">111</td><td class="vb-player">Ivan Barbashev</td><td>Victoria Cedars</td><td class="vb-salary"><strong>13</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+7</strong></td><td>17.69</td></tr>
-<tr><td class="vb-rank">112</td><td class="vb-player">Dougie Hamilton</td><td>New Orleans Soul</td><td class="vb-salary"><strong>12</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+7</strong></td><td>19.08</td></tr>
-<tr><td class="vb-rank">113</td><td class="vb-player">Nico Hischier</td><td>Houston Signals</td><td class="vb-salary"><strong>42</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>5.45</td></tr>
-<tr><td class="vb-rank">114</td><td class="vb-player">Blake Coleman</td><td>Green Bay Alliance</td><td class="vb-salary"><strong>5</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+9</strong></td><td>45.60</td></tr>
-<tr><td class="vb-rank">115</td><td class="vb-player">Matvei Michkov</td><td>Victoria Cedars</td><td class="vb-salary"><strong>35</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>6.51</td></tr>
-<tr><td class="vb-rank">116</td><td class="vb-player">Morgan Geekie</td><td>Cleveland Forge</td><td class="vb-salary"><strong>38</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>5.97</td></tr>
-<tr><td class="vb-rank">117</td><td class="vb-player">Philip Broberg</td><td>Green Bay Alliance</td><td class="vb-salary"><strong>15</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+6</strong></td><td>15.13</td></tr>
-<tr><td class="vb-rank">118</td><td class="vb-player">Jamie Drysdale</td><td>Richmond Union</td><td class="vb-salary"><strong>4</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+10</strong></td><td>56.75</td></tr>
-<tr><td class="vb-rank">119</td><td class="vb-player">Juraj Slafkovský</td><td>Charlotte Amalie Corsairs</td><td class="vb-salary"><strong>70</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>3.24</td></tr>
-<tr><td class="vb-rank">120</td><td class="vb-player">Jake Neighbours</td><td>Green Bay Alliance</td><td class="vb-salary"><strong>8</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+8</strong></td><td>28.25</td></tr>
+<thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Fan Points</th><th scope="col">Salary</th><th scope="col">Status</th><th scope="col">Increase</th><th scope="col">Value for Coin</th></tr></thead><tbody>
+<tr><td class="vb-rank">111</td><td class="vb-player">Ivan Barbashev</td><td>Victoria Cedars</td><td class="vb-fan-points">230</td><td class="vb-salary">13</td><td class="vb-status">💎 Below Market</td><td><strong>+7</strong></td><td>17.69</td></tr>
+<tr><td class="vb-rank">112</td><td class="vb-player">Dougie Hamilton</td><td>New Orleans Soul</td><td class="vb-fan-points">229</td><td class="vb-salary">12</td><td class="vb-status">💎 Below Market</td><td><strong>+7</strong></td><td>19.08</td></tr>
+<tr><td class="vb-rank">113</td><td class="vb-player">Nico Hischier</td><td>Houston Signals</td><td class="vb-fan-points">229</td><td class="vb-salary">42</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>5.45</td></tr>
+<tr><td class="vb-rank">114</td><td class="vb-player">Blake Coleman</td><td>Green Bay Alliance</td><td class="vb-fan-points">228</td><td class="vb-salary">5</td><td class="vb-status">💎 Below Market</td><td><strong>+9</strong></td><td>45.60</td></tr>
+<tr><td class="vb-rank">115</td><td class="vb-player">Matvei Michkov</td><td>Victoria Cedars</td><td class="vb-fan-points">228</td><td class="vb-salary">35</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>6.51</td></tr>
+<tr><td class="vb-rank">116</td><td class="vb-player">Morgan Geekie</td><td>Cleveland Forge</td><td class="vb-fan-points">227</td><td class="vb-salary">38</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>5.97</td></tr>
+<tr><td class="vb-rank">117</td><td class="vb-player">Philip Broberg</td><td>Green Bay Alliance</td><td class="vb-fan-points">227</td><td class="vb-salary">15</td><td class="vb-status">💎 Below Market</td><td><strong>+6</strong></td><td>15.13</td></tr>
+<tr><td class="vb-rank">118</td><td class="vb-player">Jamie Drysdale</td><td>Richmond Union</td><td class="vb-fan-points">227</td><td class="vb-salary">4</td><td class="vb-status">💎 Below Market</td><td><strong>+10</strong></td><td>56.75</td></tr>
+<tr><td class="vb-rank">119</td><td class="vb-player">Juraj Slafkovský</td><td>Charlotte Amalie Corsairs</td><td class="vb-fan-points">227</td><td class="vb-salary">70</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>3.24</td></tr>
+<tr><td class="vb-rank">120</td><td class="vb-player">Jake Neighbours</td><td>Green Bay Alliance</td><td class="vb-fan-points">226</td><td class="vb-salary">8</td><td class="vb-status">💎 Below Market</td><td><strong>+8</strong></td><td>28.25</td></tr>
 </tbody></table></div></div>
 <div class="vb-group">
 <div class="vb-group-header">
@@ -256,17 +264,17 @@ permalink: /value-board/
 <div class="vb-benchmark"><span>Benchmark</span><strong>21 Coins</strong></div>
 </div>
 <div class="vb-table-wrap"><table class="vb-table">
-<thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Salary</th><th scope="col">Status</th><th scope="col">Increase</th><th scope="col">Value for Coin</th></tr></thead><tbody>
-<tr><td class="vb-rank">121</td><td class="vb-player">Ryan Leonard</td><td>Houston Signals</td><td class="vb-salary"><strong>28</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>8.07</td></tr>
-<tr><td class="vb-rank">122</td><td class="vb-player">Adam Edstrom</td><td>Roswell Greys</td><td class="vb-salary"><strong>0</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+11</strong></td><td>—</td></tr>
-<tr><td class="vb-rank">123</td><td class="vb-player">Connor Bedard</td><td>Green Bay Alliance</td><td class="vb-salary"><strong>75</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>3.01</td></tr>
-<tr><td class="vb-rank">124</td><td class="vb-player">Michael McCarron</td><td>Houston Signals</td><td class="vb-salary"><strong>0</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+11</strong></td><td>—</td></tr>
-<tr><td class="vb-rank">125</td><td class="vb-player">Alex Tuch</td><td>Quebec City Citadels</td><td class="vb-salary"><strong>44</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>5.05</td></tr>
-<tr><td class="vb-rank">126</td><td class="vb-player">Tye Kartye</td><td>Victoria Cedars</td><td class="vb-salary"><strong>0</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+11</strong></td><td>—</td></tr>
-<tr><td class="vb-rank">127</td><td class="vb-player">Dylan Cozens</td><td>Cleveland Forge</td><td class="vb-salary"><strong>41</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>5.39</td></tr>
-<tr><td class="vb-rank">128</td><td class="vb-player">Trevor Zegras</td><td>Omaha Bison</td><td class="vb-salary"><strong>27</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>8.19</td></tr>
-<tr><td class="vb-rank">129</td><td class="vb-player">Cole Hutson</td><td>Cleveland Forge</td><td class="vb-salary"><strong>50</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>4.42</td></tr>
-<tr><td class="vb-rank">130</td><td class="vb-player">Nick Seeler</td><td>Amarillo Downburst</td><td class="vb-salary"><strong>3</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+10</strong></td><td>73.00</td></tr>
+<thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Fan Points</th><th scope="col">Salary</th><th scope="col">Status</th><th scope="col">Increase</th><th scope="col">Value for Coin</th></tr></thead><tbody>
+<tr><td class="vb-rank">121</td><td class="vb-player">Ryan Leonard</td><td>Houston Signals</td><td class="vb-fan-points">226</td><td class="vb-salary">28</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>8.07</td></tr>
+<tr><td class="vb-rank">122</td><td class="vb-player">Adam Edstrom</td><td>Roswell Greys</td><td class="vb-fan-points">226</td><td class="vb-salary">0</td><td class="vb-status">💎 Below Market</td><td><strong>+11</strong></td><td>—</td></tr>
+<tr><td class="vb-rank">123</td><td class="vb-player">Connor Bedard</td><td>Green Bay Alliance</td><td class="vb-fan-points">226</td><td class="vb-salary">75</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>3.01</td></tr>
+<tr><td class="vb-rank">124</td><td class="vb-player">Michael McCarron</td><td>Houston Signals</td><td class="vb-fan-points">224</td><td class="vb-salary">0</td><td class="vb-status">💎 Below Market</td><td><strong>+11</strong></td><td>—</td></tr>
+<tr><td class="vb-rank">125</td><td class="vb-player">Alex Tuch</td><td>Quebec City Citadels</td><td class="vb-fan-points">222</td><td class="vb-salary">44</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>5.05</td></tr>
+<tr><td class="vb-rank">126</td><td class="vb-player">Tye Kartye</td><td>Victoria Cedars</td><td class="vb-fan-points">222</td><td class="vb-salary">0</td><td class="vb-status">💎 Below Market</td><td><strong>+11</strong></td><td>—</td></tr>
+<tr><td class="vb-rank">127</td><td class="vb-player">Dylan Cozens</td><td>Cleveland Forge</td><td class="vb-fan-points">221</td><td class="vb-salary">41</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>5.39</td></tr>
+<tr><td class="vb-rank">128</td><td class="vb-player">Trevor Zegras</td><td>Omaha Bison</td><td class="vb-fan-points">221</td><td class="vb-salary">27</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>8.19</td></tr>
+<tr><td class="vb-rank">129</td><td class="vb-player">Cole Hutson</td><td>Cleveland Forge</td><td class="vb-fan-points">221</td><td class="vb-salary">50</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>4.42</td></tr>
+<tr><td class="vb-rank">130</td><td class="vb-player">Nick Seeler</td><td>Amarillo Downburst</td><td class="vb-fan-points">219</td><td class="vb-salary">3</td><td class="vb-status">💎 Below Market</td><td><strong>+10</strong></td><td>73.00</td></tr>
 </tbody></table></div></div>
 <div class="vb-group">
 <div class="vb-group-header">
@@ -274,17 +282,17 @@ permalink: /value-board/
 <div class="vb-benchmark"><span>Benchmark</span><strong>14 Coins</strong></div>
 </div>
 <div class="vb-table-wrap"><table class="vb-table">
-<thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Salary</th><th scope="col">Status</th><th scope="col">Increase</th><th scope="col">Value for Coin</th></tr></thead><tbody>
-<tr><td class="vb-rank">131</td><td class="vb-player">Viktor Arvidsson</td><td>Charlotte Amalie Corsairs</td><td class="vb-salary"><strong>7</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+6</strong></td><td>31.29</td></tr>
-<tr><td class="vb-rank">132</td><td class="vb-player">Pavel Zacha</td><td>Hartford Arsenal</td><td class="vb-salary"><strong>13</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+4</strong></td><td>16.85</td></tr>
-<tr><td class="vb-rank">133</td><td class="vb-player">Elias Lindholm</td><td>Key West Rumrunners</td><td class="vb-salary"><strong>2</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+8</strong></td><td>—</td></tr>
-<tr><td class="vb-rank">134</td><td class="vb-player">Rasmus Dahlin</td><td>Omaha Bison</td><td class="vb-salary"><strong>77</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>2.84</td></tr>
-<tr><td class="vb-rank">135</td><td class="vb-player">Shayne Gostisbehere</td><td>Cincinnati Rivermen</td><td class="vb-salary"><strong>20</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>10.90</td></tr>
-<tr><td class="vb-rank">136</td><td class="vb-player">Thomas Chabot</td><td>Charlotte Amalie Corsairs</td><td class="vb-salary"><strong>11</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+5</strong></td><td>19.82</td></tr>
-<tr><td class="vb-rank">137</td><td class="vb-player">Kasperi Kapanen</td><td>Key West Rumrunners</td><td class="vb-salary"><strong>0</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+9</strong></td><td>—</td></tr>
-<tr><td class="vb-rank">138</td><td class="vb-player">Sam Bennett</td><td>Roswell Greys</td><td class="vb-salary"><strong>22</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>9.77</td></tr>
-<tr><td class="vb-rank">139</td><td class="vb-player">Robert Thomas</td><td>Cleveland Forge</td><td class="vb-salary"><strong>35</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>6.06</td></tr>
-<tr><td class="vb-rank">140</td><td class="vb-player">Victor Eklund</td><td>Cleveland Forge</td><td class="vb-salary"><strong>3</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+8</strong></td><td>69.67</td></tr>
+<thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Fan Points</th><th scope="col">Salary</th><th scope="col">Status</th><th scope="col">Increase</th><th scope="col">Value for Coin</th></tr></thead><tbody>
+<tr><td class="vb-rank">131</td><td class="vb-player">Viktor Arvidsson</td><td>Charlotte Amalie Corsairs</td><td class="vb-fan-points">219</td><td class="vb-salary">7</td><td class="vb-status">💎 Below Market</td><td><strong>+6</strong></td><td>31.29</td></tr>
+<tr><td class="vb-rank">132</td><td class="vb-player">Pavel Zacha</td><td>Hartford Arsenal</td><td class="vb-fan-points">219</td><td class="vb-salary">13</td><td class="vb-status">💎 Below Market</td><td>+4</td><td>16.85</td></tr>
+<tr><td class="vb-rank">133</td><td class="vb-player">Elias Lindholm</td><td>Key West Rumrunners</td><td class="vb-fan-points">219</td><td class="vb-salary">2</td><td class="vb-status">💎 Below Market</td><td><strong>+8</strong></td><td>—</td></tr>
+<tr><td class="vb-rank">134</td><td class="vb-player">Rasmus Dahlin</td><td>Omaha Bison</td><td class="vb-fan-points">219</td><td class="vb-salary">77</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>2.84</td></tr>
+<tr><td class="vb-rank">135</td><td class="vb-player">Shayne Gostisbehere</td><td>Cincinnati Rivermen</td><td class="vb-fan-points">218</td><td class="vb-salary">20</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>10.90</td></tr>
+<tr><td class="vb-rank">136</td><td class="vb-player">Thomas Chabot</td><td>Charlotte Amalie Corsairs</td><td class="vb-fan-points">218</td><td class="vb-salary">11</td><td class="vb-status">💎 Below Market</td><td><strong>+5</strong></td><td>19.82</td></tr>
+<tr><td class="vb-rank">137</td><td class="vb-player">Kasperi Kapanen</td><td>Key West Rumrunners</td><td class="vb-fan-points">217</td><td class="vb-salary">0</td><td class="vb-status">💎 Below Market</td><td><strong>+9</strong></td><td>—</td></tr>
+<tr><td class="vb-rank">138</td><td class="vb-player">Sam Bennett</td><td>Roswell Greys</td><td class="vb-fan-points">215</td><td class="vb-salary">22</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>9.77</td></tr>
+<tr><td class="vb-rank">139</td><td class="vb-player">Robert Thomas</td><td>Cleveland Forge</td><td class="vb-fan-points">212</td><td class="vb-salary">35</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>6.06</td></tr>
+<tr><td class="vb-rank">140</td><td class="vb-player">Victor Eklund</td><td>Cleveland Forge</td><td class="vb-fan-points">209</td><td class="vb-salary">3</td><td class="vb-status">💎 Below Market</td><td><strong>+8</strong></td><td>69.67</td></tr>
 </tbody></table></div></div>
 <div class="vb-group">
 <div class="vb-group-header">
@@ -292,17 +300,17 @@ permalink: /value-board/
 <div class="vb-benchmark"><span>Benchmark</span><strong>11 Coins</strong></div>
 </div>
 <div class="vb-table-wrap"><table class="vb-table">
-<thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Salary</th><th scope="col">Status</th><th scope="col">Increase</th><th scope="col">Value for Coin</th></tr></thead><tbody>
-<tr><td class="vb-rank">141</td><td class="vb-player">Fraser Minten</td><td>Kelowna Vintners</td><td class="vb-salary"><strong>7</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+5</strong></td><td>29.71</td></tr>
-<tr><td class="vb-rank">142</td><td class="vb-player">Adrian Kempe</td><td>Key West Rumrunners</td><td class="vb-salary"><strong>66</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>3.15</td></tr>
-<tr><td class="vb-rank">143</td><td class="vb-player">Dylan Strome</td><td>Quebec City Citadels</td><td class="vb-salary"><strong>21</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>9.90</td></tr>
-<tr><td class="vb-rank">144</td><td class="vb-player">Anton Lundell</td><td>Green Bay Alliance</td><td class="vb-salary"><strong>6</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+6</strong></td><td>34.67</td></tr>
-<tr><td class="vb-rank">145</td><td class="vb-player">William Carrier</td><td>Saskatoon Prairie Drifters</td><td class="vb-salary"><strong>0</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+8</strong></td><td>—</td></tr>
-<tr><td class="vb-rank">146</td><td class="vb-player">Brandon Montour</td><td>Houston Signals</td><td class="vb-salary"><strong>18</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>11.50</td></tr>
-<tr><td class="vb-rank">147</td><td class="vb-player">Tristan Luneau</td><td>Salem Ravens</td><td class="vb-salary"><strong>1</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+7</strong></td><td>—</td></tr>
-<tr><td class="vb-rank">148</td><td class="vb-player">Charlie Coyle</td><td>Victoria Cedars</td><td class="vb-salary"><strong>10</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+4</strong></td><td>20.50</td></tr>
-<tr><td class="vb-rank">149</td><td class="vb-player">Brayden McNabb</td><td>Roswell Greys</td><td class="vb-salary"><strong>3</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+7</strong></td><td>68.00</td></tr>
-<tr><td class="vb-rank">150</td><td class="vb-player">Mason Marchment</td><td>Key West Rumrunners</td><td class="vb-salary"><strong>6</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+6</strong></td><td>34.00</td></tr>
+<thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Fan Points</th><th scope="col">Salary</th><th scope="col">Status</th><th scope="col">Increase</th><th scope="col">Value for Coin</th></tr></thead><tbody>
+<tr><td class="vb-rank">141</td><td class="vb-player">Fraser Minten</td><td>Kelowna Vintners</td><td class="vb-fan-points">208</td><td class="vb-salary">7</td><td class="vb-status">💎 Below Market</td><td><strong>+5</strong></td><td>29.71</td></tr>
+<tr><td class="vb-rank">142</td><td class="vb-player">Adrian Kempe</td><td>Key West Rumrunners</td><td class="vb-fan-points">208</td><td class="vb-salary">66</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>3.15</td></tr>
+<tr><td class="vb-rank">143</td><td class="vb-player">Dylan Strome</td><td>Quebec City Citadels</td><td class="vb-fan-points">208</td><td class="vb-salary">21</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>9.90</td></tr>
+<tr><td class="vb-rank">144</td><td class="vb-player">Anton Lundell</td><td>Green Bay Alliance</td><td class="vb-fan-points">208</td><td class="vb-salary">6</td><td class="vb-status">💎 Below Market</td><td><strong>+6</strong></td><td>34.67</td></tr>
+<tr><td class="vb-rank">145</td><td class="vb-player">William Carrier</td><td>Saskatoon Prairie Drifters</td><td class="vb-fan-points">207</td><td class="vb-salary">0</td><td class="vb-status">💎 Below Market</td><td><strong>+8</strong></td><td>—</td></tr>
+<tr><td class="vb-rank">146</td><td class="vb-player">Brandon Montour</td><td>Houston Signals</td><td class="vb-fan-points">207</td><td class="vb-salary">18</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>11.50</td></tr>
+<tr><td class="vb-rank">147</td><td class="vb-player">Tristan Luneau</td><td>Salem Ravens</td><td class="vb-fan-points">205</td><td class="vb-salary">1</td><td class="vb-status">💎 Below Market</td><td><strong>+7</strong></td><td>—</td></tr>
+<tr><td class="vb-rank">148</td><td class="vb-player">Charlie Coyle</td><td>Victoria Cedars</td><td class="vb-fan-points">205</td><td class="vb-salary">10</td><td class="vb-status">💎 Below Market</td><td>+4</td><td>20.50</td></tr>
+<tr><td class="vb-rank">149</td><td class="vb-player">Brayden McNabb</td><td>Roswell Greys</td><td class="vb-fan-points">204</td><td class="vb-salary">3</td><td class="vb-status">💎 Below Market</td><td><strong>+7</strong></td><td>68.00</td></tr>
+<tr><td class="vb-rank">150</td><td class="vb-player">Mason Marchment</td><td>Key West Rumrunners</td><td class="vb-fan-points">204</td><td class="vb-salary">6</td><td class="vb-status">💎 Below Market</td><td><strong>+6</strong></td><td>34.00</td></tr>
 </tbody></table></div></div>
 <div class="vb-group">
 <div class="vb-group-header">
@@ -310,17 +318,17 @@ permalink: /value-board/
 <div class="vb-benchmark"><span>Benchmark</span><strong>11 Coins</strong></div>
 </div>
 <div class="vb-table-wrap"><table class="vb-table">
-<thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Salary</th><th scope="col">Status</th><th scope="col">Increase</th><th scope="col">Value for Coin</th></tr></thead><tbody>
-<tr><td class="vb-rank">151</td><td class="vb-player">Jonas Brodin</td><td>Quebec City Citadels</td><td class="vb-salary"><strong>0</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+8</strong></td><td>—</td></tr>
-<tr><td class="vb-rank">152</td><td class="vb-player">Rickard Rakell</td><td>Saskatoon Prairie Drifters</td><td class="vb-salary"><strong>20</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>10.20</td></tr>
-<tr><td class="vb-rank">153</td><td class="vb-player">Tim Washe</td><td>Honolulu Guardians</td><td class="vb-salary"><strong>0</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+8</strong></td><td>—</td></tr>
-<tr><td class="vb-rank">154</td><td class="vb-player">Tyler Kleven</td><td>Honolulu Guardians</td><td class="vb-salary"><strong>0</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+8</strong></td><td>—</td></tr>
-<tr><td class="vb-rank">155</td><td class="vb-player">Noah Dobson</td><td>Quebec City Citadels</td><td class="vb-salary"><strong>46</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>4.41</td></tr>
-<tr><td class="vb-rank">156</td><td class="vb-player">Matt Coronato</td><td>Memphis Riffs</td><td class="vb-salary"><strong>6</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+6</strong></td><td>33.83</td></tr>
-<tr><td class="vb-rank">157</td><td class="vb-player">Luke Hughes</td><td>Richmond Union</td><td class="vb-salary"><strong>15</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>13.47</td></tr>
-<tr><td class="vb-rank">158</td><td class="vb-player">Jake DeBrusk</td><td>New Orleans Soul</td><td class="vb-salary"><strong>5</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+6</strong></td><td>40.40</td></tr>
-<tr><td class="vb-rank">159</td><td class="vb-player">Jimmy Snuggerud</td><td>Green Bay Alliance</td><td class="vb-salary"><strong>32</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>6.31</td></tr>
-<tr><td class="vb-rank">160</td><td class="vb-player">Judd Caulfield</td><td>Charlotte Amalie Corsairs</td><td class="vb-salary"><strong>0</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+8</strong></td><td>—</td></tr>
+<thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Fan Points</th><th scope="col">Salary</th><th scope="col">Status</th><th scope="col">Increase</th><th scope="col">Value for Coin</th></tr></thead><tbody>
+<tr><td class="vb-rank">151</td><td class="vb-player">Jonas Brodin</td><td>Quebec City Citadels</td><td class="vb-fan-points">204</td><td class="vb-salary">0</td><td class="vb-status">💎 Below Market</td><td><strong>+8</strong></td><td>—</td></tr>
+<tr><td class="vb-rank">152</td><td class="vb-player">Rickard Rakell</td><td>Saskatoon Prairie Drifters</td><td class="vb-fan-points">204</td><td class="vb-salary">20</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>10.20</td></tr>
+<tr><td class="vb-rank">153</td><td class="vb-player">Tim Washe</td><td>Honolulu Guardians</td><td class="vb-fan-points">203</td><td class="vb-salary">0</td><td class="vb-status">💎 Below Market</td><td><strong>+8</strong></td><td>—</td></tr>
+<tr><td class="vb-rank">154</td><td class="vb-player">Tyler Kleven</td><td>Honolulu Guardians</td><td class="vb-fan-points">203</td><td class="vb-salary">0</td><td class="vb-status">💎 Below Market</td><td><strong>+8</strong></td><td>—</td></tr>
+<tr><td class="vb-rank">155</td><td class="vb-player">Noah Dobson</td><td>Quebec City Citadels</td><td class="vb-fan-points">203</td><td class="vb-salary">46</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>4.41</td></tr>
+<tr><td class="vb-rank">156</td><td class="vb-player">Matt Coronato</td><td>Memphis Riffs</td><td class="vb-fan-points">203</td><td class="vb-salary">6</td><td class="vb-status">💎 Below Market</td><td><strong>+6</strong></td><td>33.83</td></tr>
+<tr><td class="vb-rank">157</td><td class="vb-player">Luke Hughes</td><td>Richmond Union</td><td class="vb-fan-points">202</td><td class="vb-salary">15</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>13.47</td></tr>
+<tr><td class="vb-rank">158</td><td class="vb-player">Jake DeBrusk</td><td>New Orleans Soul</td><td class="vb-fan-points">202</td><td class="vb-salary">5</td><td class="vb-status">💎 Below Market</td><td><strong>+6</strong></td><td>40.40</td></tr>
+<tr><td class="vb-rank">159</td><td class="vb-player">Jimmy Snuggerud</td><td>Green Bay Alliance</td><td class="vb-fan-points">202</td><td class="vb-salary">32</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>6.31</td></tr>
+<tr><td class="vb-rank">160</td><td class="vb-player">Judd Caulfield</td><td>Charlotte Amalie Corsairs</td><td class="vb-fan-points">201</td><td class="vb-salary">0</td><td class="vb-status">💎 Below Market</td><td><strong>+8</strong></td><td>—</td></tr>
 </tbody></table></div></div>
 <div class="vb-group">
 <div class="vb-group-header">
@@ -328,17 +336,17 @@ permalink: /value-board/
 <div class="vb-benchmark"><span>Benchmark</span><strong>11 Coins</strong></div>
 </div>
 <div class="vb-table-wrap"><table class="vb-table">
-<thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Salary</th><th scope="col">Status</th><th scope="col">Increase</th><th scope="col">Value for Coin</th></tr></thead><tbody>
-<tr><td class="vb-rank">161</td><td class="vb-player">Tyler Toffoli</td><td>Victoria Cedars</td><td class="vb-salary"><strong>5</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+6</strong></td><td>40.00</td></tr>
-<tr><td class="vb-rank">162</td><td class="vb-player">Evgeni Malkin</td><td>Salem Ravens</td><td class="vb-salary"><strong>19</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>10.53</td></tr>
-<tr><td class="vb-rank">163</td><td class="vb-player">Trevor Connelly</td><td>Cleveland Forge</td><td class="vb-salary"><strong>0</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+8</strong></td><td>—</td></tr>
-<tr><td class="vb-rank">164</td><td class="vb-player">Brayden Point</td><td>Richmond Union</td><td class="vb-salary"><strong>32</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>6.22</td></tr>
-<tr><td class="vb-rank">165</td><td class="vb-player">Mason McTavish</td><td>Cleveland Forge</td><td class="vb-salary"><strong>15</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>13.20</td></tr>
-<tr><td class="vb-rank">166</td><td class="vb-player">JJ Peterka</td><td>Roswell Greys</td><td class="vb-salary"><strong>17</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>11.65</td></tr>
-<tr><td class="vb-rank">167</td><td class="vb-player">Gabriel Landeskog</td><td>Kelowna Vintners</td><td class="vb-salary"><strong>11</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>18.00</td></tr>
-<tr><td class="vb-rank">168</td><td class="vb-player">Ivar Stenberg</td><td>Cleveland Forge</td><td class="vb-salary"><strong>45</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>4.38</td></tr>
-<tr><td class="vb-rank">169</td><td class="vb-player">Adam Klapka</td><td>Houston Signals</td><td class="vb-salary"><strong>0</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+8</strong></td><td>—</td></tr>
-<tr><td class="vb-rank">170</td><td class="vb-player">Justin Faulk</td><td>Omaha Bison</td><td class="vb-salary"><strong>8</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+5</strong></td><td>24.62</td></tr>
+<thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Fan Points</th><th scope="col">Salary</th><th scope="col">Status</th><th scope="col">Increase</th><th scope="col">Value for Coin</th></tr></thead><tbody>
+<tr><td class="vb-rank">161</td><td class="vb-player">Tyler Toffoli</td><td>Victoria Cedars</td><td class="vb-fan-points">200</td><td class="vb-salary">5</td><td class="vb-status">💎 Below Market</td><td><strong>+6</strong></td><td>40.00</td></tr>
+<tr><td class="vb-rank">162</td><td class="vb-player">Evgeni Malkin</td><td>Salem Ravens</td><td class="vb-fan-points">200</td><td class="vb-salary">19</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>10.53</td></tr>
+<tr><td class="vb-rank">163</td><td class="vb-player">Trevor Connelly</td><td>Cleveland Forge</td><td class="vb-fan-points">199</td><td class="vb-salary">0</td><td class="vb-status">💎 Below Market</td><td><strong>+8</strong></td><td>—</td></tr>
+<tr><td class="vb-rank">164</td><td class="vb-player">Brayden Point</td><td>Richmond Union</td><td class="vb-fan-points">199</td><td class="vb-salary">32</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>6.22</td></tr>
+<tr><td class="vb-rank">165</td><td class="vb-player">Mason McTavish</td><td>Cleveland Forge</td><td class="vb-fan-points">198</td><td class="vb-salary">15</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>13.20</td></tr>
+<tr><td class="vb-rank">166</td><td class="vb-player">JJ Peterka</td><td>Roswell Greys</td><td class="vb-fan-points">198</td><td class="vb-salary">17</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>11.65</td></tr>
+<tr><td class="vb-rank">167</td><td class="vb-player">Gabriel Landeskog</td><td>Kelowna Vintners</td><td class="vb-fan-points">198</td><td class="vb-salary">11</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>18.00</td></tr>
+<tr><td class="vb-rank">168</td><td class="vb-player">Ivar Stenberg</td><td>Cleveland Forge</td><td class="vb-fan-points">197</td><td class="vb-salary">45</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>4.38</td></tr>
+<tr><td class="vb-rank">169</td><td class="vb-player">Adam Klapka</td><td>Houston Signals</td><td class="vb-fan-points">197</td><td class="vb-salary">0</td><td class="vb-status">💎 Below Market</td><td><strong>+8</strong></td><td>—</td></tr>
+<tr><td class="vb-rank">170</td><td class="vb-player">Justin Faulk</td><td>Omaha Bison</td><td class="vb-fan-points">197</td><td class="vb-salary">8</td><td class="vb-status">💎 Below Market</td><td><strong>+5</strong></td><td>24.62</td></tr>
 </tbody></table></div></div>
 <div class="vb-group">
 <div class="vb-group-header">
@@ -346,17 +354,17 @@ permalink: /value-board/
 <div class="vb-benchmark"><span>Benchmark</span><strong>7 Coins</strong></div>
 </div>
 <div class="vb-table-wrap"><table class="vb-table">
-<thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Salary</th><th scope="col">Status</th><th scope="col">Increase</th><th scope="col">Value for Coin</th></tr></thead><tbody>
-<tr><td class="vb-rank">171</td><td class="vb-player">Jordan Eberle</td><td>Memphis Riffs</td><td class="vb-salary"><strong>5</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+5</strong></td><td>39.20</td></tr>
-<tr><td class="vb-rank">172</td><td class="vb-player">Simon Holmstrom</td><td>Hartford Arsenal</td><td class="vb-salary"><strong>0</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+6</strong></td><td>—</td></tr>
-<tr><td class="vb-rank">173</td><td class="vb-player">Christian Dvorak</td><td>Charlotte Amalie Corsairs</td><td class="vb-salary"><strong>0</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+6</strong></td><td>—</td></tr>
-<tr><td class="vb-rank">174</td><td class="vb-player">Jack McBain</td><td>Salem Ravens</td><td class="vb-salary"><strong>11</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>17.73</td></tr>
-<tr><td class="vb-rank">175</td><td class="vb-player">Owen Power</td><td>Omaha Bison</td><td class="vb-salary"><strong>13</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>15.00</td></tr>
-<tr><td class="vb-rank">176</td><td class="vb-player">Maxim Shabanov</td><td>Halifax Privateers</td><td class="vb-salary"><strong>0</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+6</strong></td><td>—</td></tr>
-<tr><td class="vb-rank">177</td><td class="vb-player">Gabriel Vilardi</td><td>Omaha Bison</td><td class="vb-salary"><strong>21</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>9.24</td></tr>
-<tr><td class="vb-rank">178</td><td class="vb-player">Jeremy Lauzon</td><td>Memphis Riffs</td><td class="vb-salary"><strong>0</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+6</strong></td><td>—</td></tr>
-<tr><td class="vb-rank">179</td><td class="vb-player">Nikita Zadorov</td><td>Halifax Privateers</td><td class="vb-salary"><strong>9</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>21.44</td></tr>
-<tr><td class="vb-rank">180</td><td class="vb-player">Kirill Marchenko</td><td>Cincinnati Rivermen</td><td class="vb-salary"><strong>46</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>4.20</td></tr>
+<thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Fan Points</th><th scope="col">Salary</th><th scope="col">Status</th><th scope="col">Increase</th><th scope="col">Value for Coin</th></tr></thead><tbody>
+<tr><td class="vb-rank">171</td><td class="vb-player">Jordan Eberle</td><td>Memphis Riffs</td><td class="vb-fan-points">196</td><td class="vb-salary">5</td><td class="vb-status">💎 Below Market</td><td><strong>+5</strong></td><td>39.20</td></tr>
+<tr><td class="vb-rank">172</td><td class="vb-player">Simon Holmstrom</td><td>Hartford Arsenal</td><td class="vb-fan-points">196</td><td class="vb-salary">0</td><td class="vb-status">💎 Below Market</td><td><strong>+6</strong></td><td>—</td></tr>
+<tr><td class="vb-rank">173</td><td class="vb-player">Christian Dvorak</td><td>Charlotte Amalie Corsairs</td><td class="vb-fan-points">195</td><td class="vb-salary">0</td><td class="vb-status">💎 Below Market</td><td><strong>+6</strong></td><td>—</td></tr>
+<tr><td class="vb-rank">174</td><td class="vb-player">Jack McBain</td><td>Salem Ravens</td><td class="vb-fan-points">195</td><td class="vb-salary">11</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>17.73</td></tr>
+<tr><td class="vb-rank">175</td><td class="vb-player">Owen Power</td><td>Omaha Bison</td><td class="vb-fan-points">195</td><td class="vb-salary">13</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>15.00</td></tr>
+<tr><td class="vb-rank">176</td><td class="vb-player">Maxim Shabanov</td><td>Halifax Privateers</td><td class="vb-fan-points">195</td><td class="vb-salary">0</td><td class="vb-status">💎 Below Market</td><td><strong>+6</strong></td><td>—</td></tr>
+<tr><td class="vb-rank">177</td><td class="vb-player">Gabriel Vilardi</td><td>Omaha Bison</td><td class="vb-fan-points">194</td><td class="vb-salary">21</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>9.24</td></tr>
+<tr><td class="vb-rank">178</td><td class="vb-player">Jeremy Lauzon</td><td>Memphis Riffs</td><td class="vb-fan-points">194</td><td class="vb-salary">0</td><td class="vb-status">💎 Below Market</td><td><strong>+6</strong></td><td>—</td></tr>
+<tr><td class="vb-rank">179</td><td class="vb-player">Nikita Zadorov</td><td>Halifax Privateers</td><td class="vb-fan-points">193</td><td class="vb-salary">9</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>21.44</td></tr>
+<tr><td class="vb-rank">180</td><td class="vb-player">Kirill Marchenko</td><td>Cincinnati Rivermen</td><td class="vb-fan-points">193</td><td class="vb-salary">46</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>4.20</td></tr>
 </tbody></table></div></div>
 <div class="vb-group">
 <div class="vb-group-header">
@@ -364,17 +372,17 @@ permalink: /value-board/
 <div class="vb-benchmark"><span>Benchmark</span><strong>41 Coins</strong></div>
 </div>
 <div class="vb-table-wrap"><table class="vb-table">
-<thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Salary</th><th scope="col">Status</th><th scope="col">Increase</th><th scope="col">Value for Coin</th></tr></thead><tbody>
-<tr><td class="vb-rank">1</td><td class="vb-player">Jesper Wallstedt</td><td>New Orleans Soul</td><td class="vb-salary"><strong>43</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>10.30</td></tr>
-<tr><td class="vb-rank">2</td><td class="vb-player">Juuse Saros</td><td>Hartford Arsenal</td><td class="vb-salary"><strong>50</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>7.38</td></tr>
-<tr><td class="vb-rank">3</td><td class="vb-player">Joel Hofer</td><td>Honolulu Guardians</td><td class="vb-salary"><strong>32</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+7</strong></td><td>11.31</td></tr>
-<tr><td class="vb-rank">4</td><td class="vb-player">Jacob Fowler</td><td>Richmond Union</td><td class="vb-salary"><strong>6</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+16</strong></td><td>59.83</td></tr>
-<tr><td class="vb-rank">5</td><td class="vb-player">Mackenzie Blackwood</td><td>Key West Rumrunners</td><td class="vb-salary"><strong>17</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+12</strong></td><td>19.88</td></tr>
-<tr><td class="vb-rank">6</td><td class="vb-player">Ilya Sorokin</td><td>Saskatoon Prairie Drifters</td><td class="vb-salary"><strong>63</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>5.33</td></tr>
-<tr><td class="vb-rank">7</td><td class="vb-player">Jeremy Swayman</td><td>Halifax Privateers</td><td class="vb-salary"><strong>50</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>6.62</td></tr>
-<tr><td class="vb-rank">8</td><td class="vb-player">Jake Oettinger</td><td>Houston Signals</td><td class="vb-salary"><strong>77</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>4.16</td></tr>
-<tr><td class="vb-rank">9</td><td class="vb-player">Spencer Knight</td><td>Houston Signals</td><td class="vb-salary"><strong>41</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>7.29</td></tr>
-<tr><td class="vb-rank">10</td><td class="vb-player">Yaroslav Askarov</td><td>Omaha Bison</td><td class="vb-salary"><strong>32</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+7</strong></td><td>9.16</td></tr>
+<thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Fan Points</th><th scope="col">Salary</th><th scope="col">Status</th><th scope="col">Increase</th><th scope="col">Value for Coin</th></tr></thead><tbody>
+<tr><td class="vb-rank">1</td><td class="vb-player">Jesper Wallstedt</td><td>New Orleans Soul</td><td class="vb-fan-points">443</td><td class="vb-salary">43</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>10.30</td></tr>
+<tr><td class="vb-rank">2</td><td class="vb-player">Juuse Saros</td><td>Hartford Arsenal</td><td class="vb-fan-points">369</td><td class="vb-salary">50</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>7.38</td></tr>
+<tr><td class="vb-rank">3</td><td class="vb-player">Joel Hofer</td><td>Honolulu Guardians</td><td class="vb-fan-points">362</td><td class="vb-salary">32</td><td class="vb-status">💎 Below Market</td><td><strong>+7</strong></td><td>11.31</td></tr>
+<tr><td class="vb-rank">4</td><td class="vb-player">Jacob Fowler</td><td>Richmond Union</td><td class="vb-fan-points">359</td><td class="vb-salary">6</td><td class="vb-status">💎 Below Market</td><td><strong>+16</strong></td><td>59.83</td></tr>
+<tr><td class="vb-rank">5</td><td class="vb-player">Mackenzie Blackwood</td><td>Key West Rumrunners</td><td class="vb-fan-points">338</td><td class="vb-salary">17</td><td class="vb-status">💎 Below Market</td><td><strong>+12</strong></td><td>19.88</td></tr>
+<tr><td class="vb-rank">6</td><td class="vb-player">Ilya Sorokin</td><td>Saskatoon Prairie Drifters</td><td class="vb-fan-points">336</td><td class="vb-salary">63</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>5.33</td></tr>
+<tr><td class="vb-rank">7</td><td class="vb-player">Jeremy Swayman</td><td>Halifax Privateers</td><td class="vb-fan-points">331</td><td class="vb-salary">50</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>6.62</td></tr>
+<tr><td class="vb-rank">8</td><td class="vb-player">Jake Oettinger</td><td>Houston Signals</td><td class="vb-fan-points">320</td><td class="vb-salary">77</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>4.16</td></tr>
+<tr><td class="vb-rank">9</td><td class="vb-player">Spencer Knight</td><td>Houston Signals</td><td class="vb-fan-points">299</td><td class="vb-salary">41</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>7.29</td></tr>
+<tr><td class="vb-rank">10</td><td class="vb-player">Yaroslav Askarov</td><td>Omaha Bison</td><td class="vb-fan-points">293</td><td class="vb-salary">32</td><td class="vb-status">💎 Below Market</td><td><strong>+7</strong></td><td>9.16</td></tr>
 </tbody></table></div></div>
 <div class="vb-group">
 <div class="vb-group-header">
@@ -382,18 +390,18 @@ permalink: /value-board/
 <div class="vb-benchmark"><span>Benchmark</span><strong>20 Coins</strong></div>
 </div>
 <div class="vb-table-wrap"><table class="vb-table">
-<thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Salary</th><th scope="col">Status</th><th scope="col">Increase</th><th scope="col">Value for Coin</th></tr></thead><tbody>
-<tr><td class="vb-rank">11</td><td class="vb-player">Dylan Garand</td><td>Cincinnati Rivermen</td><td class="vb-salary"><strong>0</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+11</strong></td><td>—</td></tr>
-<tr><td class="vb-rank">12</td><td class="vb-player">Andrei Vasilevskiy</td><td>Saskatoon Prairie Drifters</td><td class="vb-salary"><strong>69</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>3.96</td></tr>
-<tr><td class="vb-rank">13</td><td class="vb-player">Pyotr Kochetkov</td><td>Kelowna Vintners</td><td class="vb-salary"><strong>7</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+8</strong></td><td>37.86</td></tr>
-<tr><td class="vb-rank">14</td><td class="vb-player">Leevi Meriläinen</td><td>Victoria Cedars</td><td class="vb-salary"><strong>0</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+11</strong></td><td>—</td></tr>
-<tr><td class="vb-rank">15</td><td class="vb-player">Stuart Skinner</td><td>Salem Ravens</td><td class="vb-salary"><strong>7</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+8</strong></td><td>36.29</td></tr>
-<tr><td class="vb-rank">16</td><td class="vb-player">Devon Levi</td><td>Memphis Riffs</td><td class="vb-salary"><strong>1</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+10</strong></td><td>—</td></tr>
-<tr><td class="vb-rank">17</td><td class="vb-player">Linus Ullmark</td><td>Key West Rumrunners</td><td class="vb-salary"><strong>31</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>7.71</td></tr>
-<tr><td class="vb-rank">18</td><td class="vb-player">Logan Thompson</td><td>Amarillo Downburst</td><td class="vb-salary"><strong>62</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>3.81</td></tr>
-<tr><td class="vb-rank">19</td><td class="vb-player">Karel Vejmelka</td><td>Salem Ravens</td><td class="vb-salary"><strong>54</strong></td><td class="vb-status">⚖️ At / Above Market</td><td><strong>+4</strong></td><td>4.30</td></tr>
-<tr><td class="vb-rank">20</td><td class="vb-player">Tristan Jarry</td><td>Memphis Riffs</td><td class="vb-salary"><strong>0</strong></td><td class="vb-status">💎 Below Market</td><td><strong>+11</strong></td><td>—</td></tr>
-</tbody></table></div></div>
+<thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Fan Points</th><th scope="col">Salary</th><th scope="col">Status</th><th scope="col">Increase</th><th scope="col">Value for Coin</th></tr></thead><tbody>
+<tr><td class="vb-rank">11</td><td class="vb-player">Dylan Garand</td><td>Cincinnati Rivermen</td><td class="vb-fan-points">276</td><td class="vb-salary">0</td><td class="vb-status">💎 Below Market</td><td><strong>+11</strong></td><td>—</td></tr>
+<tr><td class="vb-rank">12</td><td class="vb-player">Andrei Vasilevskiy</td><td>Saskatoon Prairie Drifters</td><td class="vb-fan-points">273</td><td class="vb-salary">69</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>3.96</td></tr>
+<tr><td class="vb-rank">13</td><td class="vb-player">Pyotr Kochetkov</td><td>Kelowna Vintners</td><td class="vb-fan-points">265</td><td class="vb-salary">7</td><td class="vb-status">💎 Below Market</td><td><strong>+8</strong></td><td>37.86</td></tr>
+<tr><td class="vb-rank">14</td><td class="vb-player">Leevi Meriläinen</td><td>Victoria Cedars</td><td class="vb-fan-points">264</td><td class="vb-salary">0</td><td class="vb-status">💎 Below Market</td><td><strong>+11</strong></td><td>—</td></tr>
+<tr><td class="vb-rank">15</td><td class="vb-player">Stuart Skinner</td><td>Salem Ravens</td><td class="vb-fan-points">254</td><td class="vb-salary">7</td><td class="vb-status">💎 Below Market</td><td><strong>+8</strong></td><td>36.29</td></tr>
+<tr><td class="vb-rank">16</td><td class="vb-player">Devon Levi</td><td>Memphis Riffs</td><td class="vb-fan-points">244</td><td class="vb-salary">1</td><td class="vb-status">💎 Below Market</td><td><strong>+10</strong></td><td>—</td></tr>
+<tr><td class="vb-rank">17</td><td class="vb-player">Linus Ullmark</td><td>Key West Rumrunners</td><td class="vb-fan-points">239</td><td class="vb-salary">31</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>7.71</td></tr>
+<tr><td class="vb-rank">18</td><td class="vb-player">Logan Thompson</td><td>Amarillo Downburst</td><td class="vb-fan-points">236</td><td class="vb-salary">62</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>3.81</td></tr>
+<tr><td class="vb-rank">19</td><td class="vb-player">Karel Vejmelka</td><td>Salem Ravens</td><td class="vb-fan-points">232</td><td class="vb-salary">54</td><td class="vb-status">⚖️ Above Market</td><td>+4</td><td>4.30</td></tr>
+<tr><td class="vb-rank">20</td><td class="vb-player">Tristan Jarry</td><td>Memphis Riffs</td><td class="vb-fan-points">230</td><td class="vb-salary">0</td><td class="vb-status">💎 Below Market</td><td><strong>+11</strong></td><td>—</td></tr>
+</tbody></table></div></div><p class="vb-note vb-keeper-note">🏒 All other players outside the Top 200 who a franchise keeps receive the standard +4 Base Increase, with no additional Value Bonus.</p>
 </section>
 <section class="vb-summary"><h2>🏆 Awards &amp; Interesting Stats</h2>
 <p class="vb-awards-intro">Snapshot awards are calculated from the values shown in the tables. Players without a team are excluded from team awards; their salary remains included in the group benchmark calculation. Value for Coin is Fan Points divided by draft salary and is shown only for players with a salary above 2 Coins.</p>
@@ -403,13 +411,13 @@ permalink: /value-board/
 <article class="vb-award"><div class="vb-award-label">🏦 Best Value Franchise</div><div class="vb-award-winner">Charlotte Amalie Corsairs <span>(9 players below benchmark)</span></div><p>Most ranked players below their group benchmark among franchises with at least five ranked players in this snapshot.</p></article>
 <article class="vb-award"><div class="vb-award-label">🧾 Most Above-Market Players</div><div class="vb-award-winner">Saskatoon Prairie Drifters <span>(7 players above benchmark)</span></div><p>Most ranked players whose salary is above their group benchmark, among franchises with at least five ranked players.</p></article>
 <article class="vb-award"><div class="vb-award-label">📈 Biggest Value Bonus Portfolio</div><div class="vb-award-winner">Memphis Riffs <span>(+43 Coins)</span></div><p>Largest sum of Value Bonuses for ranked players assigned to a managed franchise. The +4 Base Increase is excluded.</p></article>
-<article class="vb-award"><div class="vb-award-label">📊 League Market Average</div><div class="vb-award-winner">33 Coins</div><p>Average of the 20 exact, unadjusted group benchmarks: 33.19 Coins, rounded to the nearest whole Coin. This is the comparison value for the Floating Base rule; it is calculated before PAVA.</p></article>
+<article class="vb-award"><div class="vb-award-label">📊 League Market Average</div><div class="vb-award-winner">33 Coins</div><p>Average benchmark across all 20 groups, before PAVA.</p></article>
 </div>
-<div class="vb-award-grid vb-top5-grid"><article class="vb-award vb-top5"><div class="vb-award-label">🚀 Top 5 · Best Value for Coin</div><table class="vb-table vb-top5-table"><thead><tr><th>#</th><th>Player</th><th>Team</th><th>Value for Coin</th></tr></thead><tbody><tr><td>1</td><td class="vb-player">Kent Johnson</td><td>Kelowna Vintners</td><td><strong>77.67</strong></td></tr><tr><td>2</td><td class="vb-player">Nick Seeler</td><td>Amarillo Downburst</td><td><strong>73.00</strong></td></tr><tr><td>3</td><td class="vb-player">Victor Eklund</td><td>Cleveland Forge</td><td><strong>69.67</strong></td></tr><tr><td>4</td><td class="vb-player">Brayden McNabb</td><td>Roswell Greys</td><td><strong>68.00</strong></td></tr><tr><td>5</td><td class="vb-player">Mikael Granlund</td><td>Honolulu Guardians</td><td><strong>62.80</strong></td></tr></tbody></table></article><article class="vb-award vb-top5"><div class="vb-award-label">🧊 Top 5 · Lowest Value for Coin</div><table class="vb-table vb-top5-table"><thead><tr><th>#</th><th>Player</th><th>Team</th><th>Value for Coin</th></tr></thead><tbody><tr><td>1</td><td class="vb-player">Nick Suzuki</td><td>Richmond Union</td><td><strong>2.42</strong></td></tr><tr><td>2</td><td class="vb-player">Wyatt Johnston</td><td>Salem Ravens</td><td><strong>2.75</strong></td></tr><tr><td>3</td><td class="vb-player">Cale Makar</td><td>Key West Rumrunners</td><td><strong>2.76</strong></td></tr><tr><td>4</td><td class="vb-player">Macklin Celebrini</td><td>Kelowna Vintners</td><td><strong>2.78</strong></td></tr><tr><td>5</td><td class="vb-player">Cole Caufield</td><td>Kelowna Vintners</td><td><strong>2.82</strong></td></tr></tbody></table></article></div>
+<div class="vb-award-grid vb-top5-grid"><article class="vb-award vb-top5"><div class="vb-award-label">🚀 Top 7 · Best Value for Coin</div><table class="vb-table vb-top5-table"><thead><tr><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Value for Coin</th></tr></thead><tbody><tr><td>Kent Johnson</td><td>Kelowna Vintners</td><td>77.67</td></tr><tr><td>Nick Seeler</td><td>Amarillo Downburst</td><td>73.00</td></tr><tr><td>Victor Eklund</td><td>Cleveland Forge</td><td>69.67</td></tr><tr><td>Brayden McNabb</td><td>Roswell Greys</td><td>68.00</td></tr><tr><td>Mikael Granlund</td><td>Honolulu Guardians</td><td>62.80</td></tr><tr><td>Jacob Fowler</td><td>Richmond Union</td><td>59.83</td></tr><tr><td>Jamie Drysdale</td><td>Richmond Union</td><td>56.75</td></tr></tbody></table></article><article class="vb-award vb-top5"><div class="vb-award-label">🧊 Top 7 · Lowest Value for Coin</div><table class="vb-table vb-top5-table"><thead><tr><th scope="col">Player</th><th scope="col">Team</th><th scope="col">Value for Coin</th></tr></thead><tbody><tr><td>Nick Suzuki</td><td>Richmond Union</td><td>2.42</td></tr><tr><td>Wyatt Johnston</td><td>Salem Ravens</td><td>2.75</td></tr><tr><td>Cale Makar</td><td>Key West Rumrunners</td><td>2.76</td></tr><tr><td>Macklin Celebrini</td><td>Kelowna Vintners</td><td>2.78</td></tr><tr><td>Cole Caufield</td><td>Kelowna Vintners</td><td>2.82</td></tr><tr><td>Rasmus Dahlin</td><td>Omaha Bison</td><td>2.84</td></tr><tr><td>Connor Bedard</td><td>Green Bay Alliance</td><td>3.01</td></tr></tbody></table></article></div>
 <p class="vb-note vb-small">Value for Coin is a snapshot efficiency ratio, not a salary-escalation formula. Players with salaries of 0, 1 or 2 Coins show an em dash in the main tables and are excluded from the Top 5 lists.</p>
-<h3>Team Value Bonus</h3><p class="vb-awards-intro">Sum of the Value Bonuses for each franchise's ranked players. The +4 Base Increase is excluded. The figures are provisional snapshot values.</p>
+<h3>Team Value Bonus</h3><p class="vb-awards-intro">Value Bonus by franchise, excluding the +4 Base Increase.</p>
 <div class="vb-table-wrap"><table class="vb-table vb-team-bonus-table"><thead><tr><th>Rank</th><th>Franchise</th><th>Total Value Bonus</th></tr></thead><tbody><tr><td>1</td><td>Memphis Riffs</td><td><strong>+43 Coins</strong></td></tr><tr><td>2</td><td>Charlotte Amalie Corsairs</td><td><strong>+42 Coins</strong></td></tr><tr><td>3</td><td>Green Bay Alliance</td><td><strong>+41 Coins</strong></td></tr><tr><td>4</td><td>Honolulu Guardians</td><td><strong>+41 Coins</strong></td></tr><tr><td>5</td><td>Roswell Greys</td><td><strong>+37 Coins</strong></td></tr><tr><td>6</td><td>Richmond Union</td><td><strong>+35 Coins</strong></td></tr><tr><td>7</td><td>Halifax Privateers</td><td><strong>+33 Coins</strong></td></tr><tr><td>8</td><td>Houston Signals</td><td><strong>+33 Coins</strong></td></tr><tr><td>9</td><td>Amarillo Downburst</td><td><strong>+27 Coins</strong></td></tr><tr><td>10</td><td>Victoria Cedars</td><td><strong>+25 Coins</strong></td></tr><tr><td>11</td><td>Kelowna Vintners</td><td><strong>+22 Coins</strong></td></tr><tr><td>12</td><td>Key West Rumrunners</td><td><strong>+22 Coins</strong></td></tr><tr><td>13</td><td>Quebec City Citadels</td><td><strong>+22 Coins</strong></td></tr><tr><td>14</td><td>Hartford Arsenal</td><td><strong>+21 Coins</strong></td></tr><tr><td>15</td><td>Cleveland Forge</td><td><strong>+19 Coins</strong></td></tr><tr><td>16</td><td>Cincinnati Rivermen</td><td><strong>+16 Coins</strong></td></tr><tr><td>17</td><td>Salem Ravens</td><td><strong>+14 Coins</strong></td></tr><tr><td>18</td><td>Omaha Bison</td><td><strong>+13 Coins</strong></td></tr><tr><td>19</td><td>New Orleans Soul</td><td><strong>+5 Coins</strong></td></tr><tr><td>20</td><td>Saskatoon Prairie Drifters</td><td><strong>+5 Coins</strong></td></tr></tbody></table></div>
-<p class="vb-note vb-small"><strong>League total:</strong> +516 Coins in Value Bonuses across 200 listed players. The +4 Base Increase is excluded from this total and from the average Value Bonus of 2.58 Coins per player.</p></section>
+</section>
 <section class="vb-explain vb-faq"><h2>❓ FAQ &amp; Calculation Guide</h2>
 <details><summary>How is each group benchmark calculated?</summary><p>Players are ranked by Yahoo Fan Points. The top 180 skaters are split into 18 groups of 10, and the top 20 goalies into two groups of 10. In each group, one highest salary and one lowest salary are excluded; the remaining eight salaries are averaged.</p><p>After calculating the raw group benchmarks, the Pool Adjacent Violators Algorithm (PAVA) is applied separately to skaters and goalies. It adjusts adjacent group values where necessary so that a lower-ranked group can never have a higher benchmark than the group above it. The displayed benchmark is then rounded to a whole Coin, with .5 rounded upward.</p></details>
 <details><summary>Why are the benchmarks shown only once per group?</summary><p>The benchmark belongs to the entire ten-player performance group, not to an individual row. It is therefore shown once in the group heading rather than repeated for every player.</p></details>
