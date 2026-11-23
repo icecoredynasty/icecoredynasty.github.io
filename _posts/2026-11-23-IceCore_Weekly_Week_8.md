@@ -3,7 +3,7 @@ categories:
 - league
 date: 2026-11-23
 excerpt: Cleveland set a new IceCore scoring benchmark, individual performances shaped all ten matchups, and Week 8 opened an offseason conversation about farm keepers.
-featured: false
+featured: true
 image: /assets/images/journal/icecore-weekly.jpg
 label: RECAP
 league: League 1
@@ -296,66 +296,10 @@ The trade market is clearly active — and these deals will be worth revisiting 
 
 ---
 
-# 🧭 THE ICECORE OFFSEASON — ONE QUESTION TO SETTLE FIRST
-
-IceCore is still in its first season, but in many ways this is also a learning season — a chance to test Yahoo's capabilities, refine the league's processes and build a dynasty format that is both comprehensive and reasonably close to the NHL model.
-
-**There will be no rule changes before the final IceCore matchup.** The priority is to settle the farm-keeper rules early enough for managers to make their keeper decisions correctly after the final game of the season.
-
-### 🌱 The farm-keeper proposal
-
-The current limit of **3 prospects + 1 rookie** was built around the expectation that teams would use the four weekly adds to move players to the farm after the draft, with those adds then available for waiver pickups during the season.
-
-Yahoo surprised us by allowing unlimited adds before Matchup 1. That means managers can move more players to their farm before the season begins — and the IceCore website was designed with the possibility of protecting the entire farm in mind.
-
-The proposal is therefore:
-
-- Keep **the entire farm + one rookie**, up to a maximum of **six protected players**.
-- A young player brought up from the AHL and added to an NHL active roster late in the season could also qualify if he has played fewer than **15 NHL regular-season games**.
-- Protected players would remain associated with their team, be displayed on the IceCore website, and could be reclaimed after the preseason draft by moving them from waivers to the farm or roster.
-- Teams must reclaim protected players by **Matchup 1**. If they do not, the protection rights expire.
-- If another manager mistakenly claims a protected player, the player would be removed from that roster, with no coins refunded.
-- Protected players would not occupy regular roster slots during the preseason draft.
-
-This would give the farm a more meaningful role, better separate prospects from the active roster, and more closely resemble NHL-style prospect management.
-
-Yahoo does not allow us to keep farm players directly in NA slots, so this protection system would be a practical workaround. Protected players would be listed in team cards on the IceCore website and included in the pre-draft summary. A similar system is also used in other dynasty leagues. At the same time, a larger number of players will get a salary, which will be displayed in a column during the resumed season.
-
-### 🏒 Rookie draft idea
-
-We could also make the rookie selection more engaging by running an **offline snake draft in the league chat after the real NHL Rookie Draft**. This is only an idea for discussion, but it could add another event to the offseason.
-
-### ☀️ Other offseason topics
-
-These are not changes for now. We will review them in the summer:
-
-- In-season salary cap setings.
-- LTIR and farm salary relief, following the NHL model.
-- Possible increase in IR+ slots.
-- Minimum salary of 1 coin.
-- A technical BN slot, used strictly for trades involving injured or NA players. After the trade, the player would have to be moved out of BN immediately, leaving the slot empty during matchups. This is an option for discussion.
-
-**Scoring will remain unchanged.** The current system is unique, balanced across positions and has received positive feedback from managers.
-
----
-
-## 🗳️ HAVE YOUR SAY — FARM KEEPERS
-
-The farm-keeper system is the one decision we need to settle ahead of the end of the season, so managers can make their keeper selections with clear rules.
-
-<div data-seagit-form="g-1795435101440-qxikhl"></div>
-<script src="https://votense.com/embed.js" async></script>
-
----
-
 # 🔥 THE ICECORE WEEK 8 VERDICT
 
 Week 8 gave us a record score from Cleveland, a dominant Green Bay performance, and a close Charlotte win that went against the poll consensus.
 
 Memphis and Omaha made emphatic statements. New Orleans showed promise in its first matchup. Amarillo got the result but faces a tough injury stretch. Cincinnati endured the lowest-scoring week, while the trade market continues to reshape several rosters.
 
-And now the league has one important offseason decision to make — how to protect and manage the farm.
-
-The season continues. The rules stay put for now.
-
-But the future of the IceCore farm system is up for discussion.
+The season continues. 
