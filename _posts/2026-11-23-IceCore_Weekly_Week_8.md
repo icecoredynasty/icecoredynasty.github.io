@@ -18,7 +18,7 @@ title: Record Scores, Trade Moves & The Farm Question
 
 Week 8 was not short on stories. Cleveland Forge put up a league-week record **850 fantasy points**, two matchups swung against the poll consensus, and the new GMs in Omaha and New Orleans got their first IceCore chapter underway.
 
-There was also plenty happening beyond the scoreboard: recent trades are beginning to reshape rosters, injuries are testing contenders, and the league has an important farm-keeper decision to make before the season ends.
+There was also plenty happening beyond the scoreboard: recent trades are beginning to reshape rosters, injuries are testing contenders.
 
 <div style="display:flex;flex-wrap:wrap;gap:12px;margin:18px 0;">
 <div style="flex:1;min-width:150px;border:1px solid #60a5fa;border-radius:12px;padding:14px;background:rgba(59,130,246,.08);">
