@@ -254,8 +254,8 @@ The unanimous picks were Hartford and Memphis. Both won, but those are collectiv
 
 | Rank | GM | Correct picks |
 |---|---|---:|
-| 🥇 | Charlotte | 8 |
-| 🥈 | Keaton (Saskatoon) | 7 |
+| 🥇 | Michael | 8 |
+| 🥈 | Keaton | 7 |
 | 🥉 | Stanley | 6 |
 
 Charlotte takes Week 8's tipping honours, followed by Keaton and Stanley.
