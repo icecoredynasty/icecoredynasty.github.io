@@ -9,12 +9,12 @@ label: RECAP
 league: League 1
 season: 2026--27
 section: League News
-title: Record Scores, Trade Moves & The Farm Question
+title: Record Scores & Trade Moves
 ---
 
 # ICECORE WEEKLY — WEEK 8
 
-## Record Scores, Trade Moves & The Farm Question
+## Record Scores & Trade Moves
 
 Week 8 was not short on stories. Cleveland Forge put up a league-week record **850 fantasy points**, two matchups swung against the poll consensus, and the new GMs in Omaha and New Orleans got their first IceCore chapter underway.
 
