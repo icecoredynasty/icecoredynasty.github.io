@@ -3,7 +3,7 @@ categories:
 - league
 date: 2026-11-23
 excerpt: Cleveland set a new IceCore scoring benchmark, individual performances shaped all ten matchups, and Week 8 opened an offseason conversation about farm keepers.
-featured: true
+featured: false
 image: /assets/images/journal/icecore-weekly.jpg
 label: RECAP
 league: League 1
@@ -319,7 +319,7 @@ The proposal is therefore:
 
 This would give the farm a more meaningful role, better separate prospects from the active roster, and more closely resemble NHL-style prospect management.
 
-Yahoo does not allow us to keep farm players directly in NA slots, so this protection system would be a practical workaround. Protected players would be listed in team cards on the IceCore website and included in the pre-draft summary.
+Yahoo does not allow us to keep farm players directly in NA slots, so this protection system would be a practical workaround. Protected players would be listed in team cards on the IceCore website and included in the pre-draft summary. A similar system is also used in other dynasty leagues. At the same time, a larger number of players will get a salary, which will be displayed in a column during the resumed season.
 
 ### 🏒 Rookie draft idea
 
@@ -329,11 +329,11 @@ We could also make the rookie selection more engaging by running an **offline sn
 
 These are not changes for now. We will review them in the summer:
 
-- In-season salary cap — setting the exact amount.
-- LTIR salary relief, following the NHL model.
+- In-season salary cap setings.
+- LTIR and farm salary relief, following the NHL model.
 - Possible increase in IR+ slots.
 - Minimum salary of 1 coin.
-- A technical BN slot, used strictly for trades involving injured or NA players. After the trade, the player would have to be moved out of BN immediately, leaving the slot empty during matchups. This is an option for discussion, not a settled rule.
+- A technical BN slot, used strictly for trades involving injured or NA players. After the trade, the player would have to be moved out of BN immediately, leaving the slot empty during matchups. This is an option for discussion.
 
 **Scoring will remain unchanged.** The current system is unique, balanced across positions and has received positive feedback from managers.
 
