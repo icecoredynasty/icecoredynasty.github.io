@@ -5,7 +5,7 @@ date: 2026-11-28
 excerpt: Standik of Hartford Arsenal shares his win-every-year philosophy,
   approach to trades and league integrity, creative contributions to IceCore,
   and the story behind his franchise.
-featured: false
+featured: true
 image: /assets/images/journal/gm-interview-rob.jpg
 label: GM INTERVIEW
 league: League 1
