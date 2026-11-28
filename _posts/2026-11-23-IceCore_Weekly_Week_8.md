@@ -3,7 +3,7 @@ categories:
 - league
 date: 2026-11-23
 excerpt: Cleveland set a new IceCore scoring benchmark, individual performances shaped all ten matchups.
-featured: true
+featured: false
 image: /assets/images/journal/icecore-weekly.jpg
 label: RECAP
 league: League 1
